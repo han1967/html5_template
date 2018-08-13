@@ -1,0 +1,57 @@
+/**
+ * Changes the font-size of the root HTML element directly based on the width of the viewport.
+ * Especially useful when using the `rem` units for sizing text and other stuff.
+ *
+ * @author Levi Perelman
+ */
+(function () {
+  function init() {
+    // Configuration
+    /**
+     * If the current width of the viewport is equal to, or larger than this value, the font size of the HTML element
+     * will be equal to <code>baseFontSize</code>. If the width of the viewport is smaller than this value, then the
+     * HTML element's font size will be equal to the width of the viewport divided by this value.
+     * @type {number}
+     */
+    var baseWidth = 1000;
+    var baseFontSize = 100;
+    var delayMS = 0/*100*/;
+
+    var doc = document.documentElement;
+    var currentFontSize = NaN;
+    var timeoutId = NaN;
+
+    function scaleFont() {
+      // Calculate new font size
+      var newFontSize = Math.min(doc.offsetWidth/baseWidth, 1)*baseFontSize;
+
+      if (newFontSize !== currentFontSize) {
+        // Set new font size
+        doc.style.fontSize = newFontSize + 'px';
+        currentFontSize = newFontSize;
+      }
+
+      timeoutId = NaN;
+    }
+
+    // Call once to initialize
+    setTimeout(scaleFont, 0);
+
+    window.addEventListener('resize', function () {
+      if (timeoutId) {
+        // Cancel the currently queued re-scale
+        clearTimeout(timeoutId);
+      }
+      // Queue size recalc
+      timeoutId = setTimeout(scaleFont, delayMS);
+    });
+  }
+
+  init();
+
+  if (document.readyState === 'complete') {
+    setTimeout(init);
+  } else {
+    window.addEventListener('load', init);
+  }
+})();
