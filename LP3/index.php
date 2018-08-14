@@ -154,22 +154,20 @@
                 <div class="img_holder"><img src="img/img2.png" alt=""></div>
             </div>
         </div>
-        <form action="http://bcurelaser.co.il/landing/l/1016/taboola/send.php" method="POST" accept-charset="utf-8" onsubmit="return responder_validation(this);">
-            <div class="main_form">
-                <div class="details_holder">
-                    <h3>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</h3>
-                    <div class="form_content">
-                        <ul>
-                            <li><input name="email" type="text" placeholder="Email"></li>
-                            <li><input name="phone" type="text" placeholder=" Phone"></li>
-                            <li><input name="name" type="text" placeholder="Name"></li>
-                            <input name="Leadsourcename" type="hidden" id="hiddenField" value="בלוג">
-                        </ul>
-                    </div>
-                    <div class="btn_holder"><input name="" type="submit" value="Send &gt;&gt;"></div>
+        <div class="main_form">
+            <div class="details_holder">
+                <h3>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</h3>
+                <div class="form_content">
+                    <ul>
+                        <li><input name="email" type="text" placeholder="Email"></li>
+                        <li><input name="phone" type="text" placeholder=" Phone"></li>
+                        <li><input name="name" type="text" placeholder="Name"></li>
+                        <input name="Leadsourcename" type="hidden" id="hiddenField" value="בלוג">
+                    </ul>
                 </div>
+                <div class="btn_holder"><input name="" type="submit" value="Send &gt;&gt;"></div>
             </div>
-        </form>
+        </div>
         <div class="footer">
             <div class="details_holder">
                 <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/footer-logo.png" alt=""></a>
