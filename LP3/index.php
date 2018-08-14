@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bcure3</title>
-    <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/slider.css" rel="stylesheet" type="text/css">
@@ -14,53 +13,41 @@
         <div class="header">
             <div class="details_holder">
                 <div id="new_slides">
-                    <div class="slides_container" style="overflow: hidden; position: relative; display: block;">
-                        <div class="slides_control" style="position: relative; width: 3300px; height: 410px; left: -1100px;"><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: block;">
+                    <div class="slides_container">
+                        <div class="slide_details">
                             <div class="banner_text">
-                                <h1>I didn’t believe it either. </h1>
+                                <h1>I didn’t believe it either.</h1>
                                 <h2>Until I Found Out Eithan <br>Uses It!"</h2>
-                               Nava 38 <br> Teacher
+                                <span>Nava 38, Teacher</span>
                             </div>
                             <div class="banner_img"><img src="img/main-img_03.png" alt=""></div>
-                        </div><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: none;">
+                        </div>
+                        <div class="slide_details">
                             <div class="banner_text">
-                                <h1>I didn’t believe it either.  </h1>
-                                <h2>Until I Found Out Miki<br> Is Using It!"</h2>
-                                Eithan, 72 <br>
+                                <h1>I didn’t believe it either.</h1>
+                                <h2>Until I Found Out Miki <br> Is Using It!"</h2>
+                                Eithan, 72
                             </div>
                             <div class="banner_img"><img src="img/main-img_02.png" alt=""></div>
-                        </div><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: none;">
+                        </div><div class="slide_details">
                             <div class="banner_text">
-                                <h1>I didn’t believe it either. Until I tried it for myself and the pain stopped. </h1>
-                                <h2>Until I tried it for myself and the pain stopped.<br>and the pain stopped.</h2>
-                              Mickey Berkowitz
+                                <h1>I didn’t believe it either.</h1>
+                                <h2>Until I tried it for myself and the pain stopped.</h2>
+                                Mickey Berkowitz
                             </div>
                             <div class="banner_img"><img src="img/main-img.png" alt=""></div>
                         </div></div>
                     </div>
-                    <div class="next_prv_holder">
-                        <div class="next">
-                            <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/next.png" alt="Arrow Next"></a>
-                        </div>
-                        <div class="prev">
-                            <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/prev.png" alt="Arrow Prev"></a>
-                        </div>
-                    </div>
-                    <ul class="pagination">
-                        <li class="current"><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#0">1</a></li>
-                        <li class=""><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#1">2</a></li>
-                        <li class=""><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#2">3</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
-       <form onsubmit="return validateRegisterForm()" autocomplete="off" method="post"  action="../get_registration.asp" class="formCC" style="padding: 10px;">
+        <form onsubmit="return validateRegisterForm()" autocomplete="off" method="post"  action="../get_registration.asp" class="formCC">
             <div class="main_form">
                 <div class="details_holder">
                     <h3>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</h3>
                     <div class="form_content">
                         <ul>
-                           <li><input name="name" type="text" placeholder="Name"></li>
+                            <li><input name="name" type="text" placeholder="Name"></li>
                             <li><input type="tel" name="phone" placeholder=" Phone"></li>
                             <li><input name="email" type="text" placeholder="Email"></li>
                         </ul>
@@ -123,29 +110,35 @@
             <div class="details_holder">
                 <h1>They also didn’t believe it until they tried it for themselves.</h1>
                 <div id="slides">
-                    <div class="slides_container" style="overflow: hidden; position: relative; display: block;">
-                        <div class="slides_control" style="position: relative; width: 3300px; height: 170px; left: -1100px;"><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: none;">
+                    <div class="slides_container">
+                        <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img1.png" alt=""></div>
-                            <div class="slider_content"><strong> Rose Davis (David Molkandoff) from Hull.</strong> <br> 
-"I suffered from knee pain for at least 8-10 years, and I was already a candidate for an operation. Before I started treatment with the B-Cure Laser, I had to go everywhere by car. Now, after the treatment with the B-Cure Laser the operation has been cancelled and I began to walk again.  Today I walk around the neighbourhood for at least half a mile.
+                            <div class="slider_content">
+                                <strong> Rose Davis (David Molkandoff) from Hull.</strong> <br> 
+                                "I suffered from knee pain for at least 8-10 years, and I was already a candidate for an operation. Before I started treatment with the B-Cure Laser, I had to go everywhere by car. Now, after the treatment with the B-Cure Laser the operation has been cancelled and I began to walk again.  Today I walk around the neighbourhood for at least half a mile.
                             </div>
-                        </div><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: block;">
+                        </div>
+                        
+                        <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img2.png" alt=""></div>
                             <div class="slider_content"><strong>Charlie Roberts from London. (Shmuel Ben-Dror).</strong> <br>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”</div>
-                        </div><div class="slide_details" style="position: absolute; top: 0px; left: 1100px; z-index: 0; display: none;">
+                        </div>
+                        
+                        <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img3.png" alt=""></div>
                             <div class="slider_content"><strong>John and Cindy Stevens, Birmingham  (Gal and Tzipi)</strong> <br>“John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces but that did not solve the problem - we bought the device, and within two days he began to feel better."</div>
-                        </div></div>
+                        </div>
                     </div>
+
                     <div class="next_prv_holder">
                         <div class="prev">
-                            <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/prev.png" alt="Arrow Prev"></a>
+                            <a href="#"><img src="img/prev.png" alt="Arrow Prev"></a>
                         </div>
                         <div class="next">
-                            <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/next.png" alt="Arrow Next"></a>
+                            <a href="#"><img src="img/next.png" alt="Arrow Next"></a>
                         </div>
                     </div>
-                <ul class="pagination"><li class=""><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#0">1</a></li><li class="current"><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#1">2</a></li><li class=""><a href="http://bcurelaser.co.il/landing/l/1016/taboola/#2">3</a></li></ul></div>
+                </div>
             </div>
         </div>
         <div class="video_container">
@@ -154,6 +147,7 @@
                 <div class="player">
                     <iframe src="https://www.youtube.com/embed/J0pTReZ6nkg" allowfullscreen></iframe>
                 </div>
+                <div class="img_holder"><img src="img/img2.png" alt=""></div>
             </div>
         </div>
         <form action="http://bcurelaser.co.il/landing/l/1016/taboola/send.php" method="POST" accept-charset="utf-8" onsubmit="return responder_validation(this);">
@@ -181,13 +175,19 @@
             <br>The experience is subject to the regulations.
         </div>
     </div>
-    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="img/jquery.easing.1.3.js.download" type="text/javascript"></script>
-    <script src="img/slides.min.jquery.js.download" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/slides.min.jquery.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(function() {
+            $('#new_slides').slides({
+                play: 3000,
+                pause: 1500,
+                hoverPause: false,
+                navigation: false
+
+            });
             $('#slides').slides({
-                preloadImage: 'images/loading.gif',
                 play: 10000,
                 pause: 3500,
                 hoverPause: false,

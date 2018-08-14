@@ -12,7 +12,7 @@
     }
     /*** HEADER ****/
     .header {
-        background: url(../images/banner-bg.png) no-repeat center bottom;
+        background: url(../img/banner-bg.png) no-repeat center bottom;
         padding: 20px 0 0 0;
     }
     .banner_text {
@@ -55,7 +55,7 @@
         padding: 15px 0;
     }
     .main_content .other_container {
-        background: url(../images/line2.png) no-repeat center 63px;
+        background: url(../img/line2.png) no-repeat center 63px;
         font-size: 20px;
         padding: 20px 0;
     }
@@ -78,7 +78,7 @@
     }
     /*** HEADER ****/
     .header {
-        background: url(../images/banner-bg.png) no-repeat center bottom;
+        background: url(../img/banner-bg.png) no-repeat center bottom;
         padding: 20px 0 0 0;
     }
     .banner_text {
@@ -134,7 +134,7 @@
         font-size: 18px;
     }
     .main_content .other_container {
-        background: url(../images/line2.png) no-repeat center 63px;
+        background: url(../img/line2.png) no-repeat center 63px;
         font-size: 18px;
         padding: 20px 0;
     }
@@ -193,7 +193,7 @@
 (max-width:680px) {
     /*** HEADER ****/
     .header {
-        background: url(../images/banner-bg.png) no-repeat center bottom;
+        background: url(../img/banner-bg.png) no-repeat center bottom;
         padding: 0;
     }
     .banner_text {
