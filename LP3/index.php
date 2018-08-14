@@ -10,6 +10,11 @@
 </head>
 <body>
     <div id="main">
+        <div class="top-header">
+            <div class="details_holder">
+                <img src="img/logo.png" class="logo"/>
+            </div>
+        </div>
         <div class="header">
             <div class="details_holder">
                 <div id="new_slides">
@@ -20,7 +25,7 @@
                                 <h2>Until I Found Out Eithan <br>Uses It!"</h2>
                                 <span>Nava 38, Teacher</span>
                             </div>
-                            <div class="banner_img"><img src="img/main-img_03.png" alt=""></div>
+                            <div class="banner_img"><img src="img/man.png" alt=""></div>
                         </div>
                         <div class="slide_details">
                             <div class="banner_text">

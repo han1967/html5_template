@@ -132,7 +132,7 @@ span.skype_pnh_print_container {
 }
 
 .banner_img img {
-    width: 85%;
+    width: 95%;
 }
 
 .main_form {
@@ -350,7 +350,11 @@ span.skype_pnh_print_container {
     color: #475564;
     font-size: 15px;
 }
-
-#new_slides>div.slides_container>div>div:nth-child(1)>div.banner_img>img {
-    width: 69%;
+.top-header {
+    background:#00855F;
+    text-align:center;
+}
+.top-header .logo {
+    max-width:280px;
+    margin:15px 0;
 }
