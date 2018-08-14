@@ -132,7 +132,7 @@ span.skype_pnh_print_container {
 }
 
 .banner_img img {
-    width: 85%;
+    width: 95%;
 }
 
 .main_form {
@@ -253,6 +253,8 @@ span.skype_pnh_print_container {
 
 .main_content .other_container span {
     color: #00ad7c;
+    background: #fff;
+    display: inline-block;
 }
 
 .main_content .other_container ul li {
@@ -265,6 +267,7 @@ span.skype_pnh_print_container {
     width: 100%;
     float: left;
     padding: 0 0 10px 0;
+    text-align: center;
 }
 
 .main_content .other_container ul li .img_holder img {
@@ -276,6 +279,7 @@ span.skype_pnh_print_container {
     width: 100%;
     float: left;
     padding: 0;
+    text-align:center;
 }
 
 .mobile_image,
@@ -350,7 +354,11 @@ span.skype_pnh_print_container {
     color: #475564;
     font-size: 15px;
 }
-
-#new_slides>div.slides_container>div>div:nth-child(1)>div.banner_img>img {
-    width: 69%;
+.top-header {
+    background:#00855F;
+    text-align:center;
+}
+.top-header .logo {
+    max-width:280px;
+    margin:15px 0;
 }
