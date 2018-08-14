@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 /* RESET */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
@@ -8,26 +8,6 @@ figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, sum
 time, mark, audio, video {margin: 0;padding: 0;} 
 h1, h2, h3, h4, h5, h6 { font-weight: normal;}
 /* END RESET*/
-
-/* FONTS */
-@font-face {
-    font-family: 'almoni_tzar_aaalight';
-    src: url('../fonts/almonitzaraaa-light.woff2') format('woff2'),
-         url('../fonts/almonitzaraaa-light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'almoni_tzar_aaaregular';
-    src: url('../fonts/almonitzaraaa.woff2') format('woff2'),
-         url('../fonts/almonitzaraaa.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/* END FONTS */
-
 /*WAI*/
 a:focus, input:focus, select:focus { outline: 2px solid lime; }
 [aria-hidden="true"] { visibility: hidden; }
@@ -37,19 +17,10 @@ a:focus, input:focus, select:focus { outline: 2px solid lime; }
 
 /*LAYOUT*/
 /*html, body { width: 100%;}*/
-body {direction: rtl;font-family: almoni_tzar_aaalight;font-size: 16px;background: url("../images/bg_clean.jpg") no-repeat top center;color: #fff;background-color: #475564;}
+body {direction: LTR;font-family: almoni_tzar_aaalight;font-size: 16px;background: url("../images/bg_clean.jpg") no-repeat top center;color: #fff;background-color: #475564;}
 /*#top_wrapper {position: relative;height: 100%;}*/
 
-@media screen and (max-width: 1100px) { 
-
-    body {background-size: 1558.4px;}
-    #top_wrapper {transform: scale(0.81);-ms-transform: scale(0.81);}
-/*    img {    backface-visibility: hidden;}    */
-        
-    }
-
-
-#top_wrapper {position: absolute;top: 0;left: 50%;margin-left: -540px;width: 1080px;height: 2360px;transform-origin: top;-ms-transform-origin: top;overflow-x: hidden;}
+#top_wrapper {position: absolute;top: 0;left: 50%;margin-left: -540px;width: 1080px;height: 2360px;transform-origin: top;-ms-transform-origin: top;}
 
 .black {height: 712px;width: 1125px;position: absolute;box-sizing: border-box;left: 50%;margin-left: -545px;}
 .green {height: 912px;position: absolute;box-sizing: border-box;padding-top: 71px;width: 1125px;left: 50%;margin-left: -570px;top: 712px;}
@@ -60,7 +31,7 @@ body {direction: rtl;font-family: almoni_tzar_aaalight;font-size: 16px;backgroun
 .ltr { direction: ltr}
 
 /* HEADER*/
-.first {float: right;position: relative;width: 397px;margin-right: 118px;padding-top: 172px;height: 210px;z-index: 10;}
+.first {float: left;position: relative;width: 397px;margin-right: 118px;padding-top: 172px;height: 210px;z-index: 10;}
 h1 {width: 90%;padding-bottom: 5px;}
 #top_logo {display: block;width: 100%;}
 .first p {font-size: 23px;letter-spacing: 0.1px;line-height: 25px;padding-bottom: 16px;}
@@ -68,7 +39,7 @@ h1 {width: 90%;padding-bottom: 5px;}
 
 #laser {position: absolute;top: 8px;right: 386px;z-index: 0;width: 350px;}
 
-.top-left {float: right;position: relative;margin-right: 208px;width: 300px;}
+.top-left {float: left;position: relative;margin-left: 208px;width: 300px;}
 #stamp {margin-top: 207px;margin-right: 69px;}
 #pros {list-style: none;font-size: 19px;padding-top: 30px;}
 #pros li {}

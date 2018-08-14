@@ -1,15 +1,17 @@
 
 
-<html dir="LTR" lang="en" style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head><body>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
     
     <title>Bcure</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <script src="./Bcure2_files/font-scaling.js.download"></script>
-    <link rel="stylesheet" href="./Bcure2_files/normalize.css">
-    <link rel="stylesheet" href="./Bcure2_files/style_1.css" media="screen and (min-width: 1001px)">
-    <link rel="stylesheet" href="./Bcure2_files/mobile_1.css" media="screen and (max-width: 1000px)">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/mobile2.css">
 
 
    <div id="top_wrapper">
@@ -31,7 +33,7 @@
 
                 <img src="./Bcure2_files/laser2.png" id="laser" alt="מכשיר בי-קיור לייזר">
                 <div class="top-left">
-                    <img src="./images/stamp.png" id="stamp" alt="B-Cure Laser is clinically ">
+                    <img src="./img/stamp.png" id="stamp" alt="B-Cure Laser is clinically ">
                     <ul id="pros">
                         <li id="li_1st"><span>Proven to be effective <br class="mobile"> <span class="two">in reducing chronic pain</span></span>
                         </li>
@@ -43,15 +45,15 @@
             </header>
             <section>
                 	<form onsubmit="return validateRegisterForm()" autocomplete="off" method="post"  action="../get_registration.asp" class="formCC" style="padding: 10px;">
-			<input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
-			<input type="hidden" name="fromWhere" id="fromWhere" value="LP">
-			<input type="hidden" name="ref" id="ref" value="<?=$ref ?>">
-			<input type="hidden" name="coupon" id="coupon" value="<?= $coupon ?>">
-			<input type="hidden" name="game" id="game" value="<?=$game ?>">
-			<input type="hidden" name="aff_id" id="aff_id" value="<?=$aff_id ?>">
-			<input type="hidden" name="aff_key" id="aff_key" value="<?=$aff_key ?>">
-			<input type="hidden" name="affTranID" id="affTranID" value="<?=$affTranID ?>">
-			<input type="hidden" name="lang" id="lang" value="<?=$lang?>">
+                        <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
+                        <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
+                        <input type="hidden" name="ref" id="ref" value="<?=$ref ?>">
+                        <input type="hidden" name="coupon" id="coupon" value="<?= $coupon ?>">
+                        <input type="hidden" name="game" id="game" value="<?=$game ?>">
+                        <input type="hidden" name="aff_id" id="aff_id" value="<?=$aff_id ?>">
+                        <input type="hidden" name="aff_key" id="aff_key" value="<?=$aff_key ?>">
+                        <input type="hidden" name="affTranID" id="affTranID" value="<?=$affTranID ?>">
+                        <input type="hidden" name="lang" id="lang" value="<?=$lang?>">
 
                     <h2 class="form-title">Leave your details and our representative will contact you.</h2>
 
@@ -73,9 +75,6 @@
                         <input type="submit" id="form_submit" value="Submit" title="Submit" aria-label="Submit">
                     </div>
                 </form>
-
-
-            
                 <div class="approved desktop">
                     <h2>Approved by the Ministry of Health</h2>
                     <span>The device does not replace medication as it is recommended by a physician. Refer to the PI before use.</span>
@@ -172,7 +171,6 @@ B-Cure Laser is clinically proven and recommended<br class="mobile">by internati
         </section>
 
     </div>
-  
 
     <script src="./Bcure2_files/jquery-1.11.1.min.js.download"></script>
     <script src="./Bcure2_files/formmanager-0.4.3.min.js.download"></script>

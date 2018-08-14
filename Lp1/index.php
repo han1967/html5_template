@@ -28,7 +28,7 @@ $aff_id = empty($_GET['aff_id']) ? '' : $_GET['aff_id'];
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="./css/main.css" data-minify="1">
+    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bcure1</title>
     <meta property="og:locale" content="en_gb">
@@ -939,7 +939,7 @@ $aff_id = empty($_GET['aff_id']) ? '' : $_GET['aff_id'];
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-text-editor elementor-clearfix">
                                                     <p>
-                                                        Approved by the Ministry of Health A device does not replace medical treatment as recommended by a physician.
+                                                        A device does not replace medical treatment as recommended by a physician.
                                                         The PI sheet should be read before use.
                                                     </p>
                                                     <p dir="LTR"><span lang="EN" style="font-size: 11.5pt; font-family: Arial,sans-serif; color: #475564; letter-spacing: -.4pt;">

@@ -1,37 +1,5 @@
-/* CSS Document */
-/* RESET */
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li, input, select, textarea,
-fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,
-time, mark, audio, video {margin: 0;padding: 0;} 
-h1, h2, h3, h4, h5, h6 { font-weight: normal;}
-/* END RESET*/
-
-/* FONTS */
-@font-face {
-    font-family: 'almoni_tzar_aaalight';
-    src: url('../fonts/almonitzaraaa-light.woff2') format('woff2'),
-         url('../fonts/almonitzaraaa-light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'almoni_tzar_aaaregular';
-    src: url('../fonts/almonitzaraaa.woff2') format('woff2'),
-         url('../fonts/almonitzaraaa.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-/* END FONTS */
-
-/*WAI*/
-a:focus, input:focus, select:focus { outline: 1px solid lime}
-[aria-hidden="true"] { visibility: hidden; }
-
 /*LAYOUT*/
+@media screen and (max-width: 1100px) { 
 .desktop {display: none;}
 html { font-size: 16px}
 body {direction: rtl;font-family: almoni_tzar_aaalight;font-size: 16px;background: url("../images/bgmob.jpg") no-repeat top center;color: #fff;background-size: 100%;/* background-color: #000; */}
@@ -47,11 +15,9 @@ body {direction: rtl;font-family: almoni_tzar_aaalight;font-size: 16px;backgroun
 h1 {width: 94%;padding-bottom: 2.8%;}
 #top_logo {width: 100%;}
 .first p {font-size: 0.5rem;padding-right: 0.4%;letter-spacing: -0.008rem;padding-bottom: 1.4%;line-height: 0.52rem;}
-.orange {}
 
 
 #m_t_1 { word-spacing: 0.04rem; letter-spacing: -0.011rem;}
-#m_t_2 {}
 #m_t_2 span { padding-right: 1.7%;}
 #m_t_3 { letter-spacing: 0.002rem; word-spacing: -0.01rem;}
 .iphone #m_t_1 { word-spacing: initial; letter-spacing: initial;}
@@ -141,6 +107,4 @@ h4.extra-space2 {top: 2.4rem;}
 .approved h4 { font-size: 0.32rem; padding-bottom: 0.9%;}
 .approved h2 {font-family: almoni_tzar_aaaregular;padding-bottom: 0.9%;}
 .approved span { font-size: 0.22rem; word-spacing: 0.004rem;}
-.superfarm {}
-.superfarm img {}
-
+}
