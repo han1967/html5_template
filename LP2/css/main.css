@@ -3364,7 +3364,16 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-widget-image .elementor-image img {
-    vertical-align: middle
+    vertical-align: middle;
+    position:relative;
+}
+.elementor-widget-image .elementor-image span {
+    position: absolute;
+    bottom: 3px;
+    right: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .elementor-widget-image .elementor-image.elementor-image-shape-circle {
@@ -11838,7 +11847,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-6m8m1j9>.elementor-element-populated {
-    padding: 20px 0 40px 0
+    padding: 15px 0 10px 0;
 }
 
 .elementor-978 .elementor-element.elementor-element-c7dt8uq .elementor-text-editor {
@@ -12037,10 +12046,6 @@ ul.elementor-nav-menu--dropdown a:hover {
 
 .elementor-978 .elementor-element.elementor-element-otne0au>.elementor-element-populated>.elementor-background-overlay {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s
-}
-
-.elementor-978 .elementor-element.elementor-element-62plvqd {
-    text-align: right
 }
 
 .elementor-978 .elementor-element.elementor-element-62plvqd .elementor-image img {
