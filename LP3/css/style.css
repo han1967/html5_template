@@ -253,6 +253,8 @@ span.skype_pnh_print_container {
 
 .main_content .other_container span {
     color: #00ad7c;
+    background: #fff;
+    display: inline-block;
 }
 
 .main_content .other_container ul li {
@@ -265,6 +267,7 @@ span.skype_pnh_print_container {
     width: 100%;
     float: left;
     padding: 0 0 10px 0;
+    text-align: center;
 }
 
 .main_content .other_container ul li .img_holder img {
@@ -276,6 +279,7 @@ span.skype_pnh_print_container {
     width: 100%;
     float: left;
     padding: 0;
+    text-align:center;
 }
 
 .mobile_image,

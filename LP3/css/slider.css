@@ -190,7 +190,7 @@
     width: 75%;
     float: left;
     font-size: 20px;
-    text-align: right;
+    /* text-align: right; */
     color: #fff;
 }
 
@@ -323,7 +323,7 @@
     }
     #slides .slider_content {
         font-size: 18px;
-        text-align: ce
+        text-align: center;
     }
     #slides .slide_details .slider_img {
         float: none;

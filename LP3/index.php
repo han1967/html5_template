@@ -82,7 +82,6 @@
                                 <div class="text_holder">Safe for home use</div>
                             </li>
                             <li>
-                                <div class="img_holder"><img src="./Images/mli_2.png" alt=""></div>
                                 <div class="text_holder"><span> Easy to use - 6 minutes, twice a day and you will see that it works!</span></div>
                             </li>
                             <li>

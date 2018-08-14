@@ -1,96 +1,88 @@
-@import "../../../atlanta/assets/css/style.min.css";
-
-/* Your CSS code goes here
-
-
--------------------------------------- */
-
 /* CONTACT FORM7 */
 
+div.wpcf7-validation-errors {
+    border: 1px solid #E8A65A;
+    border-radius: 3px;
+    max-width: 360px;
+    margin: 0 auto;
+}
 
-        div.wpcf7-validation-errors {
-            border: 1px solid #E8A65A;
-            border-radius: 3px;
-            max-width: 360px;
-            margin: 0 auto;
-        }
- 
-        .my_form_wrapper .my_input_field {
-    background-color: rgba(255,255,255,0);
+.my_form_wrapper .my_input_field {
+    background-color: rgba(255, 255, 255, 0);
     border-color: #ffffff;
     border-width: 2px 2px 2px 2px;
-    border-radius: 8px 8px 8px 8px; 
-	font-size: 22px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 22px;
     font-family: "Assistant", Sans-serif;
     line-height: 0.7em;
     letter-spacing: 1px;
-	color:#FFF;   
-    }
- 
-        .my_form_wrapper .my_input_field.my_text_area {
-            resize: none;
-            height: 26px;
-        }
- 
-        .my_form_wrapper .my_submit_button {
-font-size: 26px;
+    color: #FFF;
+}
+
+.my_form_wrapper .my_input_field.my_text_area {
+    resize: none;
+    height: 26px;
+}
+
+.my_form_wrapper .my_submit_button {
+    font-size: 26px;
     font-family: "Assistant", Sans-serif;
     line-height: 2.3em;
     background-color: #01af7a;
     border-radius: 8px 8px 8px 8px;
     padding: 0px 0px 0px 0px;
-	width:100%;
-	color:#FFF;   
-		     }
- 
-        .my_form_wrapper .my_submit_button:hover,
-        .my_form_wrapper .my_submit_button:focus,
-        .my_form_wrapper .my_submit_button:active {
-            color: white !important;
-            outline:none;
-            background: #01af7a !important;
-        }
- 
- 
-        .my_form_wrapper .my_input_field.my_text_area:focus {
-            border-color: #007acc;
-        }
- 
- 
-        div.wpcf7 img.ajax-loader {
-            border: none;
-            vertical-align: middle;
-            margin-left: 0;
-            display: block;
-            margin: 5px auto 0;
-        }
- 
-        .my_form_wrapper {
-            text-align: center;
-			line-height: 0.6em;
-        }
-		
-		::-webkit-input-placeholder {
-   color: #000;
+    width: 100%;
+    color: #FFF;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: #000;  
+.my_form_wrapper .my_submit_button:hover,
+.my_form_wrapper .my_submit_button:focus,
+.my_form_wrapper .my_submit_button:active {
+    color: white !important;
+    outline: none;
+    background: #01af7a !important;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #000;  
+.my_form_wrapper .my_input_field.my_text_area:focus {
+    border-color: #007acc;
 }
 
-:-ms-input-placeholder {  
-   color: #000; 
+div.wpcf7 img.ajax-loader {
+    border: none;
+    vertical-align: middle;
+    margin-left: 0;
+    display: block;
+    margin: 5px auto 0;
+}
+
+.my_form_wrapper {
+    text-align: center;
+    line-height: 0.6em;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+}
+
+:-ms-input-placeholder {
+    color: #000;
 }
 
 
 /* Your CSS code goes here
 
-
 -------------------------------------- */
+
 
 /* FORM 1 */
 
@@ -100,7 +92,7 @@ font-size: 26px;
 #gform_1>div.gform_footer.top_label {
     vertical-align: bottom;
     width: 10%;
-   font-family: "Assistant", Sans-serif;
+    font-family: "Assistant", Sans-serif;
 }
 
 #gform_submit_button_1 {
@@ -111,8 +103,8 @@ font-size: 26px;
     height: 47px;
     width: 263px;
     font-size: large;
-   font-family: "Assistant", Sans-serif;
-   font-size:22px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 22px;
 }
 
 #field_1_1 {
@@ -120,8 +112,7 @@ font-size: 26px;
     border-radius: 5px;
     margin-left: 0!important;
     padding-left: 10px;
-   font-family: "Assistant", Sans-serif;
-
+    font-family: "Assistant", Sans-serif;
 }
 
 #field_1_2 {
@@ -129,14 +120,14 @@ font-size: 26px;
     border-radius: 5px;
     margin-left: 0!important;
     padding-left: 10px;
-   font-family: "Assistant", Sans-serif;
+    font-family: "Assistant", Sans-serif;
 }
 
 #field_1_3 {
     width: 31.9%!important;
     border-radius: 5px;
     padding-left: 0px;
-   font-family: "Assistant", Sans-serif;
+    font-family: "Assistant", Sans-serif;
 }
 
 #input_1_1 {
@@ -145,7 +136,6 @@ font-size: 26px;
     width: 263px;
     font-size: large;
 }
-
 
 #input_1_2 {
     border-radius: 5px;
@@ -170,7 +160,8 @@ font-size: 26px;
     max-width: 100%;
 }
 
-.gform_wrapper form li, .gform_wrapper li {
+.gform_wrapper form li,
+.gform_wrapper li {
     margin-left: 15px!important;
 }
 
@@ -189,7 +180,8 @@ font-size: 26px;
 
 /* Style Error MSG*/
 
-.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {}
+.gform_wrapper li.gfield.gfield_error,
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {}
 
 
 /* Responsive */
@@ -197,17 +189,15 @@ font-size: 26px;
 @media screen and (max-width: 900px) {
     #field_1_1 {
         width: 30%!important;
-	    padding-left: 0px;
-
+        padding-left: 0px;
     }
     #field_1_2 {
         width: 30%!important;
-	    padding-left: 0px;
+        padding-left: 0px;
     }
     #field_1_3 {
         width: 30%!important;
     }
-   
 }
 
 @media screen and (max-width: 650px) {
@@ -216,8 +206,7 @@ font-size: 26px;
     }
     #field_1_1 {
         width: 100%!important;
-	    padding-left: 0px;
-
+        padding-left: 0px;
     }
     #input_1_2 input {
         width: 100%!important;
@@ -228,8 +217,8 @@ font-size: 26px;
     }
     #gform_1>div.gform_footer.top_label {
         width: 100%;
-		padding-top: 0px;
-		padding-left: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
     }
     #input_1_1_container {
         margin-left: 0;
@@ -248,14 +237,14 @@ font-size: 26px;
     }
     #gform_submit_button_1 {
         width: 100%;
-	    height: 72px;
-		font-size:26px;
+        height: 72px;
+        font-size: 26px;
     }
-   
 }
 
 
 /* END FORM1 */
+
 
 /************ 
 
@@ -263,249 +252,305 @@ font-size: 26px;
 
 								*************/
 
-#gform_fields_2 li { width: 100%; padding-left: 0; }
+#gform_fields_2 li {
+    width: 100%;
+    padding-left: 0;
+}
 
-#gform_fields_2 input {border-radius:5px; height: 39px; width: 100%; padding-right: 10px;font-family:"Assistant", Sans-serif;font-size:18px;}
+#gform_fields_2 input {
+    border-radius: 5px;
+    height: 39px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 18px;
+}
 
-#gform_submit_button_2 { color: white; width: 100%; text-align: center!important; background-color: #f26522; border: 0; height: 48px; border-radius: 5px;font-size:24px;font-family:"Assistant", Sans-serif;}
+#gform_submit_button_2 {
+    color: white;
+    width: 100%;
+    text-align: center!important;
+    background-color: #f26522;
+    border: 0;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Assistant", Sans-serif;
+}
 
-.gform_wrapper .gform_footer {padding-top:0px!important;;}
-
+.gform_wrapper .gform_footer {
+    padding-top: 0px!important;
+    ;
+}
 
 @media screen and (min-width: 650px) and (max-width:1200px) {
-
-	/*#gform_fields_2 li { width: 29%; }*/
-
+    /*#gform_fields_2 li { width: 29%; }*/
 }
 
 @media screen and (max-width: 650px) {
-
-	#gform_2 > div.gform_body { width: 100%; }
-
-	#gform_fields_2 li { width: 100%; }
-
-	#gform_2 > div.gform_footer.top_label {padding-left: 0;}
-
-	#gform_submit_button_2 { height: 65px;}
-
-
-
+    #gform_2 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_2 li {
+        width: 100%;
+    }
+    #gform_2 > div.gform_footer.top_label {
+        padding-left: 0;
+    }
+    #gform_submit_button_2 {
+        height: 65px;
+    }
 }
 
-/************ 
+#gform_fields_4 li {
+    width: 100%;
+    padding-left: 0;
+}
 
-				END 2
+#gform_fields_4 input {
+    border-radius: 5px;
+    height: 39px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 18px;
+}
 
-								*************/
-								
+#gform_submit_button_4 {
+    color: white;
+    width: 100%;
+    text-align: center!important;
+    background-color: #f26522;
+    border: 0;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Assistant", Sans-serif;
+}
 
-
-								
-
-							
-
-#gform_fields_4 li { width: 100%; padding-left: 0; }
-
-#gform_fields_4 input {border-radius:5px; height: 39px; width: 100%; padding-right: 10px;font-family:"Assistant", Sans-serif;font-size:18px;}
-
-#gform_submit_button_4 { color: white; width: 100%; text-align: center!important; background-color: #f26522; border: 0; height: 48px; border-radius: 5px;font-size:24px;font-family:"Assistant", Sans-serif;}
-
-.gform_wrapper .gform_footer {padding-top:0px!important;;}
-
+.gform_wrapper .gform_footer {
+    padding-top: 0px!important;
+    ;
+}
 
 @media screen and (min-width: 650px) and (max-width:1200px) {
-
-	/*#gform_fields_2 li { width: 29%; }*/
-
+    /*#gform_fields_2 li { width: 29%; }*/
 }
 
 @media screen and (max-width: 650px) {
-
-	#gform_4 > div.gform_body { width: 100%; }
-
-	#gform_fields_4 li { width: 100%; }
-
-	#gform_4 > div.gform_footer.top_label {padding-left: 0;}
-
-	#gform_submit_button_4 { height: 65px;}
-
-
-
+    #gform_4 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_4 li {
+        width: 100%;
+    }
+    #gform_4 > div.gform_footer.top_label {
+        padding-left: 0;
+    }
+    #gform_submit_button_4 {
+        height: 65px;
+    }
 }
 
-/************ 
+#gform_fields_5 li {
+    width: 100%;
+    padding-left: 0;
+}
 
-				END 4
+#gform_fields_5 input {
+    border-radius: 5px;
+    height: 39px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 18px;
+    text-align: left!important;
+    direction: ltr!important;
+}
 
-								*************/
-		/************ 						
-								
-									FORM 5
+#gform_submit_button_5 {
+    color: white;
+    width: 100%;
+    text-align: center!important;
+    background-color: #f26522;
+    border: 0;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Assistant", Sans-serif;
+}
 
-								*************/
-
-#gform_fields_5 li { width: 100%; padding-left: 0; }
-
-#gform_fields_5 input {border-radius:5px; height: 39px; width: 100%; padding-left: 10px;font-family:"Assistant", Sans-serif;font-size:18px;text-align:left!important;direction:ltr!important; }
-
-#gform_submit_button_5 { color: white; width: 100%; text-align: center!important; background-color: #f26522; border: 0; height: 48px; border-radius: 5px;font-size:24px;font-family:"Assistant", Sans-serif;}
-
-.gform_wrapper .gform_footer {padding-top:0px!important;;}
-
+.gform_wrapper .gform_footer {
+    padding-top: 0px!important;
+    ;
+}
 
 @media screen and (min-width: 650px) and (max-width:1200px) {
-
-	/*#gform_fields_2 li { width: 29%; }*/
-
+    /*#gform_fields_2 li { width: 29%; }*/
 }
 
 @media screen and (max-width: 650px) {
-
-	#gform_5 > div.gform_body { width: 100%; }
-
-	#gform_fields_5 li { width: 100%; }
-
-	#gform_5 > div.gform_footer.top_label {padding-left: 0;}
-
-	#gform_submit_button_5 { height: 65px;}
-
-
-
+    #gform_5 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_5 li {
+        width: 100%;
+    }
+    #gform_5 > div.gform_footer.top_label {
+        padding-left: 0;
+    }
+    #gform_submit_button_5 {
+        height: 65px;
+    }
 }
 
-/************ 
-
-				END 5
-
-								*************/
-								
-								
-								/************ 
-
-				FORM 7
-
-								*************/
-
-#gform_fields_7 li { width: 100%; padding-left: 0; }
-
-#gform_fields_7 input {border-radius:5px; height: 39px; width: 100%; padding-right: 10px;font-family:"Assistant", Sans-serif;font-size:18px;}
-
-#gform_submit_button_7 { color: white; width: 100%; text-align: center!important; background-color: #f26522; border: 0; height: 48px; border-radius: 5px;font-size:24px;font-family:"Assistant", Sans-serif;}
-
-.gform_wrapper .gform_footer {padding-top:0px!important;;}
-
-
-@media screen and (min-width: 650px) and (max-width:1200px) {
-
-	/*#gform_fields_2 li { width: 29%; }*/
-
+#gform_fields_7 li {
+    width: 100%;
+    padding-left: 0;
 }
 
-@media screen and (max-width: 650px) {
-
-	#gform_7 > div.gform_body { width: 100%; }
-
-	#gform_fields_7 li { width: 100%; }
-
-	#gform_7 > div.gform_footer.top_label {padding-left: 0;}
-
-	#gform_submit_button_7 { height: 65px;}
-
-
-
+#gform_fields_7 input {
+    border-radius: 5px;
+    height: 39px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 18px;
 }
 
-/************ 
+#gform_submit_button_7 {
+    color: white;
+    width: 100%;
+    text-align: center!important;
+    background-color: #f26522;
+    border: 0;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Assistant", Sans-serif;
+}
 
-				END 7
-
-								*************/
-								
-								
-								
-								/************ 
-
-				FORM 8
-
-								*************/
-
-#gform_fields_8 li { width: 100%; padding-left: 0; }
-
-#gform_fields_8 input {border-radius:5px; height: 39px; width: 100%; padding-right: 10px;font-family:"Assistant", Sans-serif;font-size:18px;}
-
-#gform_submit_button_8 { color: white; width: 100%; text-align: center!important; background-color: #f26522; border: 0; height: 48px; border-radius: 5px;font-size:24px;font-family:"Assistant", Sans-serif;}
-
-.gform_wrapper .gform_footer {padding-top:0px!important;;}
-
-
-@media screen and (min-width: 650px) and (max-width:1200px) {
-
-	/*#gform_fields_2 li { width: 29%; }*/
-
+.gform_wrapper .gform_footer {
+    padding-top: 0px!important;
+    ;
 }
 
 @media screen and (max-width: 650px) {
-
-	#gform_8 > div.gform_body { width: 100%; }
-
-	#gform_fields_8 li { width: 100%; }
-
-	#gform_8 > div.gform_footer.top_label {padding-left: 0;}
-
-	#gform_submit_button_8 { height: 65px;}
-
-
-
+    #gform_7 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_7 li {
+        width: 100%;
+    }
+    #gform_7 > div.gform_footer.top_label {
+        padding-left: 0;
+    }
+    #gform_submit_button_7 {
+        height: 65px;
+    }
 }
 
-/************ 
+#gform_fields_8 li {
+    width: 100%;
+    padding-left: 0;
+}
 
-				END 8
+#gform_fields_8 input {
+    border-radius: 5px;
+    height: 39px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: "Assistant", Sans-serif;
+    font-size: 18px;
+}
 
+#gform_submit_button_8 {
+    color: white;
+    width: 100%;
+    text-align: center!important;
+    background-color: #f26522;
+    border: 0;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: "Assistant", Sans-serif;
+}
 
-							*************/
-							
-	
-/************ 
-				 9
-			*************/
-													
-							
-#gform_9 > div.gform_body { display: inline-block; width: 74%; vertical-align: top;}
-#gform_9 > div.gform_footer.top_label { display: inline-block; width: 22%; margin-top:12px; }
-#gform_fields_9 li { width: 31%;}
-#gform_fields_9 input {font-size: 22px; font-family: "Open Sans Hebrew", Sans-serif;line-height: 1.8em;width: 100%; border-radius: 20px 20px 20px 20px;}
-#gform_submit_button_9 { color: #000000;
+.gform_wrapper .gform_footer {
+    padding-top: 0px!important;
+    ;
+}
+
+@media screen and (min-width: 650px) and (max-width:1200px) {
+    /*#gform_fields_2 li { width: 29%; }*/
+}
+
+@media screen and (max-width: 650px) {
+    #gform_8 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_8 li {
+        width: 100%;
+    }
+    #gform_8 > div.gform_footer.top_label {
+        padding-left: 0;
+    }
+    #gform_submit_button_8 {
+        height: 65px;
+    }
+}
+
+#gform_9 > div.gform_body {
+    display: inline-block;
+    width: 74%;
+    vertical-align: top;
+}
+
+#gform_9 > div.gform_footer.top_label {
+    display: inline-block;
+    width: 22%;
+    margin-top: 12px;
+}
+
+#gform_fields_9 li {
+    width: 31%;
+}
+
+#gform_fields_9 input {
+    font-size: 22px;
+    font-family: "Open Sans Hebrew", Sans-serif;
+    line-height: 1.8em;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#gform_submit_button_9 {
+    color: #000000;
     font-size: 24px;
     font-family: "Open Sans Hebrew", Sans-serif;
     font-weight: bold;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-	line-height: 2em;
-	text-align:center!important;
-	width:100%;
-	margin-top:14px;
-	background-color: #f78f1e;
+    line-height: 2em;
+    text-align: center!important;
+    width: 100%;
+    margin-top: 14px;
+    background-color: #f78f1e;
     border-radius: 20px 20px 20px 20px;
-    padding: 0px 0px 0px 0px;}
-@media screen and (min-width: 650px) and (max-width:1200px) {
-	
+    padding: 0px 0px 0px 0px;
 }
+
 @media screen and (max-width: 650px) {
-	#gform_9 > div.gform_body { width: 100%; }
-	#gform_fields_9 li { width: 100%; }
-	#gform_9 > div.gform_footer.top_label {width: 100%;}
-	#gform_submit_button_9 { 
-	width:100%;}
-
+    #gform_9 > div.gform_body {
+        width: 100%;
+    }
+    #gform_fields_9 li {
+        width: 100%;
+    }
+    #gform_9 > div.gform_footer.top_label {
+        width: 100%;
+    }
+    #gform_submit_button_9 {
+        width: 100%;
+    }
 }
-
-								
-								
-								
-
-
-								
-								
-								
-								
