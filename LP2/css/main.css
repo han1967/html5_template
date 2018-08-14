@@ -3364,7 +3364,16 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 }
 
 .elementor-widget-image .elementor-image img {
-    vertical-align: middle
+    vertical-align: middle;
+    position:relative;
+}
+.elementor-widget-image .elementor-image span {
+    position: absolute;
+    bottom: 3px;
+    right: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .elementor-widget-image .elementor-image.elementor-image-shape-circle {
