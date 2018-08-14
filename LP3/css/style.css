@@ -356,6 +356,9 @@ span.skype_pnh_print_container {
 }
 .top-header {
     background:#00855F;
+}
+.top-header .details_holder {
+    background:#00855F;
     text-align:center;
 }
 .top-header .logo {

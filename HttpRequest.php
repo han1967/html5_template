@@ -10,7 +10,6 @@ class HttpRequest{
         $this->authentication = base64_encode("Bcure:d1aaf01cc5425ce23fd19baea8472d1267147483");
 
     }
-
     public function sendRequest($url,$request){
             if(is_null($request)){
                 $request = [];
