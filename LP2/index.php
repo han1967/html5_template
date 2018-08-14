@@ -19,6 +19,7 @@
     <meta name="twitter:title" content="BCure Laser">
     <meta name="twitter:image" content="../images/1.jpg">
     <link rel="shortlink" href="http://painlesslife.co.uk/lp1/?sl=1">
+    <?php include_once "../register_assets.php" ?>
 </head>
 
 <body class="ltr page-template page-template-elementor_canvas page page-id-978 pojo-title-bar elementor-default elementor-template-canvas elementor-page elementor-page-978 format-text">
@@ -843,20 +844,6 @@
             </div>
         </div>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.lazy.min.js"></script>
-    <script type="text/javascript">
-        jQuery(document).bind('gform_post_render', function(event, formId, currentPage) {
-            if (formId == 2) {
-                if (typeof Placeholders != 'undefined') {
-                    Placeholders.enable();
-                }
-            }
-        });
-        jQuery(document).ready(function() {
-            jQuery(document).trigger('gform_post_render', [2, 1])
-        });
-    </script>
 </body>
 
 </html>
