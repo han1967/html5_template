@@ -18,10 +18,6 @@ $aff_id = empty($_GET['aff_id']) ? '' : $_GET['aff_id'];
 	if($color == 2){
 		$paymentPage = 'paymentShort2c';
 	}
-	$json = file_get_contents('phone.json');
-	$json = json_decode($json, true);
-
-	$phonePerfix = $json[$country];
 ?>
 <!DOCTYPE html>
 <html dir="LTR" lang="en">
