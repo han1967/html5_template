@@ -32,6 +32,8 @@
 	<link rel="stylesheet" id="photoswipe-skin-css" href="css/default-skin.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="pojo-base-style-css" href="css/style.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="pojo-style-css" href="css/style.css" type="text/css" media="all">
+
+	<?php include_once "../register_assets.php" ?>
 </head>
 <body class="rtl page-template page-template-elementor_canvas page page-id-1137 pojo-title-bar elementor-default elementor-template-canvas elementor-page elementor-page-1137 format-text">
 		<div class="elementor elementor-1137">
@@ -196,44 +198,7 @@
 													<div class="elementor-shortcode">
 														<div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_9">
 															<a id="gf_9" class="gform_anchor"></a>
-															<form method="post" enctype="multipart/form-data" id="gform_9" action="http://bcurelaser.co.il/bc/pro/#gf_9">
-																<div class="gform_body">
-																	<ul id="gform_fields_9" class="gform_fields top_label form_sublabel_below description_below">
-																		<li id="field_9_1" class="gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_1">שם<span class="gfield_required">*</span></label>
-																			<div class="ginput_container ginput_container_text">
-																				<input name="input_1" id="input_9_1" type="text" value="" class="medium" tabindex="1" placeholder="שם*" aria-required="true" aria-invalid="false">
-																			</div>
-																		</li>
-																		<li id="field_9_2" class="gfield gf_middle_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_2">טלפון<span class="gfield_required">*</span></label>
-																			<input id="input_9_2" class="small" tabindex="2" max="2018" name="input_2" step="any" type="tel" value="" aria-required="true" aria-invalid="false" placeholder="טלפון*">
-																		</li>
-																		<li id="field_9_3" class="gfield gf_left_third field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_3">מייל</label>
-																			<input id="input_9_3" class="small" tabindex="3" max="2018" name="input_3" step="any" type="email" value="" aria-required="true" aria-invalid="false" placeholder="מייל">
-																		</li>
-																		<li id="field_9_4" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																			<input name="input_4" id="input_9_4" type="hidden" class="gform_hidden" aria-invalid="false" value="גוגל סוכרת">
-																		</li>
-																		<li id="field_9_5" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																			<input name="input_5" id="input_9_5" type="hidden" class="gform_hidden" aria-invalid="false" value="299999">
-																		</li>
-																	</ul>
-																</div>
-																<div class="gform_footer top_label">
-																	<input type="submit" id="gform_submit_button_9" class="gform_button button" value="שליחה" tabindex="2" onclick="if(window[&quot;gf_submitting_9&quot;]){return false;}  window[&quot;gf_submitting_9&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_9&quot;]){return false;} window[&quot;gf_submitting_9&quot;]=true;  jQuery(&quot;#gform_9&quot;).trigger(&quot;submit&quot;,[true]); }">
-																	<input type="hidden" class="gform_hidden" name="is_submit_9" value="1">
-																	<input type="hidden" class="gform_hidden" name="gform_submit" value="9">
-	
-																	<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-																	<input type="hidden" class="gform_hidden" name="state_9" value="WyJbXSIsImFkYzIyMmJjOWUxMzFiOWIzYmNkMTRiOTg4ZmU5YTE0Il0=">
-																	<input type="hidden" class="gform_hidden" name="gform_target_page_number_9" id="gform_target_page_number_9" value="0">
-																	<input type="hidden" class="gform_hidden" name="gform_source_page_number_9" id="gform_source_page_number_9" value="1">
-																	<input type="hidden" name="gform_field_values" value="">
-	
-																</div>
-															</form>
+															<?php include ("../register_form4.php") ?>
 														</div>
 													</div>
 												</div>
@@ -1018,43 +983,7 @@
 													<div class="elementor-shortcode">
 														<div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_9">
 															<a id="gf_9" class="gform_anchor"></a>
-															<form method="post" enctype="multipart/form-data" id="gform_9" action="http://bcurelaser.co.il/bc/pro/#gf_9">
-																<div class="gform_body">
-																	<ul id="gform_fields_9" class="gform_fields top_label form_sublabel_below description_below">
-																		<li id="field_9_1" class="gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_1">שם<span class="gfield_required">*</span></label>
-																			<div class="ginput_container ginput_container_text">
-																				<input name="input_1" id="input_9_1" type="text" value="" class="medium" tabindex="3" placeholder="שם*" aria-required="true" aria-invalid="false">
-																			</div>
-																		</li>
-																		<li id="field_9_2" class="gfield gf_middle_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_2">טלפון<span class="gfield_required">*</span></label>
-																			<input id="input_9_2" class="small" tabindex="2" max="2018" name="input_2" step="any" type="tel" value="" aria-required="true" aria-invalid="false" placeholder="טלפון*">
-																		</li>
-																		<li id="field_9_3" class="gfield gf_left_third field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
-																			<label class="gfield_label" for="input_9_3">מייל</label>
-																			<input id="input_9_3" class="small" tabindex="3" max="2018" name="input_3" step="any" type="email" value="" aria-required="true" aria-invalid="false" placeholder="מייל">
-																		</li>
-																		<li id="field_9_4" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																			<input name="input_4" id="input_9_4" type="hidden" class="gform_hidden" aria-invalid="false" value="גוגל סוכרת">
-																		</li>
-																		<li id="field_9_5" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																			<input name="input_5" id="input_9_5" type="hidden" class="gform_hidden" aria-invalid="false" value="299999">
-																		</li>
-																	</ul>
-																</div>
-																<div class="gform_footer top_label">
-																	<input type="submit" id="gform_submit_button_9" class="gform_button button" value="שליחה" tabindex="4" onclick="if(window[&quot;gf_submitting_9&quot;]){return false;}  window[&quot;gf_submitting_9&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_9&quot;]){return false;} window[&quot;gf_submitting_9&quot;]=true;  jQuery(&quot;#gform_9&quot;).trigger(&quot;submit&quot;,[true]); }">
-																	<input type="hidden" class="gform_hidden" name="is_submit_9" value="1">
-																	<input type="hidden" class="gform_hidden" name="gform_submit" value="9">
-	
-																	<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-																	<input type="hidden" class="gform_hidden" name="state_9" value="WyJbXSIsImFkYzIyMmJjOWUxMzFiOWIzYmNkMTRiOTg4ZmU5YTE0Il0=">
-																	<input type="hidden" class="gform_hidden" name="gform_target_page_number_9" id="gform_target_page_number_9" value="0">
-																	<input type="hidden" class="gform_hidden" name="gform_source_page_number_9" id="gform_source_page_number_9" value="1">
-																	<input type="hidden" name="gform_field_values" value="">
-																</div>
-															</form>
+															<?php include ("../register_form4.php") ?>
 														</div>
 													</div>
 												</div>
