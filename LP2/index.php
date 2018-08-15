@@ -3,22 +3,10 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bcure1</title>
-    <meta property="og:locale" content="en_gb">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="bCureLaser">
-    <meta property="og:description" content="ENTER NOW">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="Painless Life!">
-    <meta property="og:image" content="../images/1.jpg">
-    <meta property="og:image:width" content="974">
-    <meta property="og:image:height" content="538">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="BCure Laser">
-    <meta name="twitter:image" content="../images/1.jpg">
-    <link rel="shortlink" href="http://painlesslife.co.uk/lp1/?sl=1">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/main.css">
     <?php include_once "../register_assets.php" ?>
 </head>
 
