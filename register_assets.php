@@ -9,7 +9,9 @@
     $lang = empty($_GET['lang']) ? 'en' : $_GET['lang'];
     $color = empty($_GET['color']) ? 'en' : $_GET['color'];
     $mainimage = empty($_GET['i']) ? 'none' : $_GET['i'];
-    $t = empty($_GET['t']) ? 'none' : $_GET['t'];
+    $t = empty($_GET['t']) ? '' : $_GET['t'];
+    $r = empty($_GET['r']) ? '' : $_GET['r'];
+    $a = empty($_GET['a']) ? '' : $_GET['a'];
 
     $paymentPage = 'payshortlpbp';
     $country = isset($_SERVER['HTTP_CF_IPCOUNTRY']) ? $_SERVER['HTTP_CF_IPCOUNTRY']:'';

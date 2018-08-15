@@ -17,6 +17,8 @@ $request['MobilePhone']  = $country.$mobilephone;
 $request['ref']          = !empty($_SESSION['ref']) ? $_SESSION['ref'] : '';
 $request['a']            = !empty($_SESSION['aff_id']) ? $_SESSION['aff_id'] : '';
 $request['t']            = !empty($_POST['t']) ? $_POST['t'] : '';
+$request['r']            = !empty($_POST['r']) ? $_POST['r'] : '';
+$request['a']            = !empty($_POST['a']) ? $_POST['a'] : '';
 
 echo $userData = $http->sendRequest($apiLink.'/api/v1/user/create',$request);
 ?>
