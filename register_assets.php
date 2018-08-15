@@ -26,20 +26,6 @@
 ?>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script>
-// function validateRegisterForm(form){
-//     $.ajax( {
-//         url: "../register_action.php",
-//         type: "post",
-//         dataType: "json",
-//         async:true,
-//         cache:false,
-//         data: form.serialize(),
-//         success: function (res) {
-//             console.log(res);
-//         }
-//     });
-//     return false;
-// }
 $(document).ready(function() {
     $(".formCC").submit(function(e) {
         e.preventDefault();
@@ -56,7 +42,6 @@ $(document).ready(function() {
             success: function (res) {
                 if (res.data) {
                     form.remove();
-                    //var inhtml = "<h2>Thanks</h2>"+res.data.user.id+" is created!</h3>";
                     var inhtml = "<div style='background:#00855F; color:#fff; padding: 10px 20px;'><h2>Thanks</h2><p>Thank you, your request has been received. Our representative will contact you shortly</p></div>";
                     parentDiv.append(inhtml);
                 }

@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bcure3</title>
+    <link href="fonts/font.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/slider.css" rel="stylesheet" type="text/css">
@@ -24,7 +25,7 @@
                             <div class="banner_text">
                                 <h1>I didn’t believe it either.</h1>
                                 <h2>Until I Found Out Eithan <br>Uses It!"</h2>
-                                <span>Nava 38, Teacher</span>
+                                <span>James 38, Gym Teacher</span>
                             </div>
                             <div class="banner_img"><img src="img/man.png" alt=""></div>
                         </div>
@@ -50,8 +51,6 @@
         <?php include ("../register_form3.php") ?>
         <div class="home_container">
             <div class="details_holder">
-                <div class="mobile_image"><img src="img/img2.png" alt=""> *באישור משרד הבריאות</div>
-                <div class="main_image"><img src="img/img1.png" alt=""> *באישור משרד הבריאות</div>
                 <div class="main_content">
                     <h4>B-Cure Laser - It Works.  </h4>
                     <div class="text_holder">
@@ -68,6 +67,7 @@
                                 <div class="text_holder">Safe for home use</div>
                             </li>
                             <li>
+                                <div class="img_holder"><img src="img/ico-img2.png" alt=""></div>
                                 <div class="text_holder"><span> Easy to use - 6 minutes, twice a day and you will see that it works!</span></div>
                             </li>
                             <li>
@@ -94,6 +94,8 @@
                         </ul>
                     </div>
                 </div>
+                <div class="mobile_image"><img src="img/img2.png" alt=""></div>
+                <div class="main_image"><img src="img/img1.png" alt=""></div>
             </div>
         </div>
         <div class="testimonials">
@@ -134,10 +136,10 @@
         <div class="video_container">
             <div class="details_holder">
                 <div class="text_holder">B-Cure Laser is used in national sports centres, in pain clinics and private medical colleges. The following is the professional opinion of the senior consultant on orthopaedic surgery, Mr Roland Scott.</div>
-                <div class="player">
+                <!-- <div class="player">
                     <iframe src="https://www.youtube.com/embed/J0pTReZ6nkg" allowfullscreen></iframe>
                 </div>
-                <div class="img_holder"><img src="img/img2.png" alt=""></div>
+                <div class="img_holder"><img src="img/img2.png" alt=""></div> -->
             </div>
         </div>
         <?php include ("../register_form3.php") ?>
