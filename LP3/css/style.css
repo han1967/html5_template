@@ -112,10 +112,10 @@ span.skype_pnh_print_container {
 }
 
 .banner_text h1 {
-    font-family: 'Poppins-Regular', 'OpenSansHebrew-Regular';
+    font-family: 'Poppins-Bold', 'OpenSansHebrew-Regular';
     font-size: 50px;
-    text-transform: uppercase;
-    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    font-weight:bold;
+    /* text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); */
     color: #e4872c;
 }
 
@@ -234,7 +234,7 @@ span.skype_pnh_print_container {
 .main_content h4 {
     font-size: 50px;
     color: #e4872c;
-    font-family: 'Poppins-Regular', 'OpenSansHebrew-Regular';
+    font-family: 'Poppins-Bold', 'OpenSansHebrew-Regular';
 }
 
 .main_content .text_holder {
