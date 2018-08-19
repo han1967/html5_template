@@ -106,19 +106,19 @@
                         <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img1.png" alt=""></div>
                             <div class="slider_content">
-                                <strong> Rose Davis (David Molkandoff) from Hull.</strong> <br> 
+                                <strong> Rose Davis from Hull.</strong> <br> 
                                 "I suffered from knee pain for at least 8-10 years, and I was already a candidate for an operation. Before I started treatment with the B-Cure Laser, I had to go everywhere by car. Now, after the treatment with the B-Cure Laser the operation has been cancelled and I began to walk again.  Today I walk around the neighbourhood for at least half a mile.
                             </div>
                         </div>
                         
                         <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img2.png" alt=""></div>
-                            <div class="slider_content"><strong>Charlie Roberts from London. (Shmuel Ben-Dror).</strong> <br>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”</div>
+                            <div class="slider_content"><strong>Charlie Roberts from London.</strong> <br>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”</div>
                         </div>
                         
                         <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img3.png" alt=""></div>
-                            <div class="slider_content"><strong>John and Cindy Stevens, Birmingham  (Gal and Tzipi)</strong> <br>“John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces but that did not solve the problem - we bought the device, and within two days he began to feel better."</div>
+                            <div class="slider_content"><strong>John and Cindy Stevens, Birmingham</strong> <br>“John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces but that did not solve the problem - we bought the device, and within two days he began to feel better."</div>
                         </div>
                     </div>
 
@@ -135,11 +135,11 @@
         </div>
         <div class="video_container">
             <div class="details_holder">
-                <div class="text_holder">B-Cure Laser is used in national sports centres, in pain clinics and private medical colleges. The following is the professional opinion of the senior consultant on orthopaedic surgery, Mr Roland Scott.</div>
-                <!-- <div class="player">
-                    <iframe src="https://www.youtube.com/embed/J0pTReZ6nkg" allowfullscreen></iframe>
+                <!-- <div class="text_holder">B-Cure Laser is used in national sports centres, in pain clinics and private medical colleges. The following is the professional opinion of the senior consultant on orthopaedic surgery, Mr Roland Scott.</div> -->
+                <div class="player">
+                    <iframe src="https://www.youtube.com/embed/at4MRUUIJuE" width="640" height="360" allowfullscreen></iframe>
                 </div>
-                <div class="img_holder"><img src="img/img2.png" alt=""></div> -->
+                <!-- <div class="img_holder"><img src="img/img2.png" alt=""></div> -->
             </div>
         </div>
         <?php include ("../register_form3.php") ?>
