@@ -595,10 +595,6 @@
                                     <div class="elementor-widget-wrap">
                                         <div class="elementor-element elementor-element-ju6tk1d elementor-widget elementor-widget-text-editor">
                                             <div class="elementor-widget-container text-center" style="width:100%">
-                                                <p>
-                                                    A device does not replace medical treatment as recommended by a physician.
-                                                    The PI sheet should be read before use.
-                                                </p>
                                                 <p dir="LTR" style='color: #475564;font-size: 17px; font-family: "Poppins-Regular", Sans-serif; line-height:1.3em;'>
                                                     * The device does not replace medical treatment as recommended by a physician.<br/>
                                                     The experience is subject to the regulations.
