@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bcure1</title>
+    <title>Bcure - 1</title>
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/main.css">
     <?php include_once "../register_assets.php" ?>
@@ -521,7 +521,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-image-box-wrapper">
                                                                             <figure class="elementor-image-box-img">
-                                                                                <img width="88" height="88" src="img/shutterstock.jpg" class="attachment-full size-full" alt="">
+                                                                                <img width="88" height="88" src="img/mli_3.png" class="attachment-full size-full" alt="">
                                                                             </figure>
                                                                             <div class="elementor-image-box-content">
                                                                                 <h3 class="elementor-image-box-title">Safe for home use</h3></div>
