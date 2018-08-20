@@ -3375,7 +3375,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     bottom: 3px;
     right: 12px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -11933,7 +11933,8 @@ ul.elementor-nav-menu--dropdown a:hover {
 .elementor-978 .elementor-element.elementor-element-37cgst7 {
     color: #fff;
     font-family: "Anton-Regular", Sans-serif;
-    font-size: 68px;
+    font-size: 60px;
+    font-weight: bold;
     line-height: 82px;
 }
 
