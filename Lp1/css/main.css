@@ -3379,6 +3379,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     font-weight: bold;
     padding: 3px 8px;
     background: #01AF7A;
+    font-family: "Poppins-Regular", Sans-serif;
 }
 
 .elementor-widget-image .elementor-image.elementor-image-shape-circle {
@@ -11841,7 +11842,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-0cz1tmg {
-    background-color: #01af7a;
+    background-color: #f78f1e;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0;
     margin-bottom: 0
@@ -11890,7 +11891,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom .elementor-shape-fill {
-    fill: #01af7a
+    fill: #999
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom svg {
@@ -12199,7 +12200,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-8n11lac {
-    background-color: #01af7a;
+    background-color: #fff;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0;
     margin-bottom: 0;
@@ -12361,7 +12362,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-hcsdg26 p {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Bold", Sans-serif;
     font-size: 30px;
     padding-left:14px;
@@ -12394,7 +12395,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-4xacolq {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Bold", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12423,7 +12424,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-1gl2han {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Bold", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12435,7 +12436,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-dagel4m {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Regular", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12451,7 +12452,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-tmrl8s2 {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Bold", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12463,7 +12464,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-ys6v066 {
-    color: #fff;
+    color: #3E5364;
     font-family: "Poppins-Regular", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -29795,4 +29796,127 @@ img.wp-smiley, img.emoji {
     vertical-align: -0.1em !important;
     background: none !important;
     padding: 0 !important;
+}
+
+/*** custom ***/
+.custom-embed {
+    padding: 50px 30%;
+    background: #999;
+}
+
+.main_form ul li {
+    list-style: none;
+    float: left;
+}
+.details_holder {
+    width: 1100px;
+    margin: 0 auto;
+}
+.main_form {
+    width: 100%;
+    float: left;
+    background: #f78f1e;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.main_form h3 {
+    font-family: 'Poppins-Regular', 'OpenSansHebrew-Regular';
+    font-size: 25px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.main_form .btn_holder {
+    width: 220px;
+    float: left;
+}
+
+.main_form .btn_holder input {
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    color: #fff;
+    background: #475564;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.main_form .btn_holder input:hover {
+    background: #111;
+}
+
+.main_form .btn_holder img {
+    width: 100%;
+}
+
+.main_form .form_content {
+    width: 80%;
+    float: left;
+}
+
+.main_form .form_content ul li {
+    width: 31%;
+    float: left;
+    margin: 0 0 0 2%;
+}
+
+.main_form .form_content ul li input {
+    border: 0;
+    height: 48px;
+    padding: 0 5%;
+    width: 90%;
+    /* text-align: right; */
+    background: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #767676;
+}
+
+.main_form .form_content ul li input:focus {
+    color: #000;
+}
+
+@media only screen and (max-width:960px) {
+    .details_holder {
+        width: 96%;
+        padding: 0 2%;
+        float: left;
+    }
+}
+@media only screen and (max-width:400px) {
+    .main_form h3 {
+        font-size: 20px;
+    }
+    .main_form .btn_holder {
+        width: 100%;
+    }
+    .main_form .form_content {
+        padding: 0;
+    }
+    .main_form .form_content ul li {
+        width: 94%;
+        margin: 0 3% 10px 3%;
+    }
+    .main_form .form_content ul li input {
+        height: 40px;
+    }
+}
+@media only screen and (max-width:680px) {
+    .main_form .form_content {
+        width: 100%;
+    }
+    .main_form .form_content ul li input {
+        width: 93%;
+    }
+    .main_form .btn_holder img {
+        float: left;
+        width: 97%;
+    }
 }

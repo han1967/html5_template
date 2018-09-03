@@ -1,4 +1,4 @@
-﻿<form class="formCC" autocomplete="off" method="post" action="../register_action.php">
+<form class="formCC" autocomplete="off" method="post" action="../register_action.php">
     <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
     <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
     <input type="hidden" name="ref" id="ref" value="<?=$ref ?>">

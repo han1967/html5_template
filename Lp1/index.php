@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bcure - 1</title>
+    <title>Bcure - 2</title>
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/main.css">
     <?php include_once "../register_assets.php" ?>
@@ -77,7 +77,7 @@
                                                                         <div class="elementor-shortcode">
                                                                             <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_2">
                                                                                 <a id="gf_2" class="gform_anchor"></a>
-                                                                                <?php include ("../register_form.php") ?>
+                                                                                <?php include_once "../register_form.php"?>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -147,220 +147,6 @@
                                                                             </figure>
                                                                             <div class="elementor-image-box-content">
                                                                                 <h3 class="elementor-image-box-title">Safe for home use</h3></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="elementor-element elementor-element-8n11lac elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-tablet elementor-hidden-phone elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;arrow&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
-                    <div class="elementor-shape elementor-shape-bottom" data-negative="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
-                            <path class="elementor-shape-fill" d="M360 0L350 9.9 340 0 0 0 0 10 700 10 700 0"></path>
-                        </svg>
-                    </div>
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-row">
-                            <div class="elementor-element elementor-element-7t1e7ro elementor-column elementor-col-100 elementor-top-column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <section class="elementor-element elementor-element-to8f1di elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-o8fiqvb elementor-column elementor-col-100 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-9wq0txu elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">Dr James Craig (Dr Hagai Amir) explains the advantages of B-Cure Laser</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-qphif83 elementor-aspect-ratio-169 elementor-widget elementor-widget-video">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
-                                                                            <div class="embed">
-                                                                                <iframe src="https://www.youtube.com/embed/zzKPlgUH9uA" allowfullscreen></iframe>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-tr6v1gc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-xcjtm94 elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-mbfm3ic elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Mickey Berkowitz</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-fyfx4oj elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap">
-                                                            <div class="elementor-widget-wrap"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-0vbs8xh elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-kmbc9as elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-y7ksabm elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="369" height="251" src="img/facebook_3.png" class="attachment-large size-large">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-wkrrjzv elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-kmve05i elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h2 class="elementor-heading-title elementor-size-default">In the race of life, do not let pain stop you. </h2></div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-uey942b elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">Tens of thousands of patients use B-Cure Laser for the relief of pain from orthopaedic problems and infections, and they have returned to being their old selves.</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-p918yd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-b6xg6w1 elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-hcsdg26 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Patient recommendations</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-hs8drgt elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap">
-                                                            <div class="elementor-widget-wrap"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-6p3pp5v elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-eg9a6gh elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-g4tbsy9 elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="326" height="214" src="img/facebook_4.png" class="attachment-large size-large">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-4xacolq elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">"I suffered from severe knee pain and was a candidate for surgery, but with the B-Cure laser, the pain measurably decreased. The result was a significant improvement in the quality of life, so I cancelled the operation. "</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-28rpdbp elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>
-                                                                                <br class="desktop">
-                                                                                <br class="desktop">
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-drvaakf elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-14kgrao elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="325" height="214" src="img/facebook_5.jpg" class="attachment-large size-large" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-1gl2han elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>I’m back to my own self and going out with friends."
-                                                                                <br>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-dagel4m elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”
-                                                                                <br>I’m back to my own self and going out with friends.”</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-sbca2gd elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-yp0hd2o elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="325" height="214" src="img/shutterstock.jpg" class="attachment-large size-large" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-tmrl8s2 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">“We bought the device, and within two days he began to feel better.”</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-ys6v066 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>"John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces but that did not solve the problem - we bought the device, and within two days he began to feel better."</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -448,7 +234,7 @@
                                                 <div class="elementor-shortcode">
                                                     <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_2">
                                                         <a id="gf_2" class="gform_anchor"></a>
-                                                        <?php include ("../register_form.php") ?>
+                                                        <?php include_once "../register_form.php"?>
                                                     </div>
                                                 </div>
                                             </div>
@@ -460,34 +246,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <section class="elementor-element elementor-element-90ongi1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-850wa8y elementor-column elementor-col-100 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-ee8suo8 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Dr James Craig (Dr Hagai Amir) explains the advantages of B-Cure Laser</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-twbbl3h elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-settings="{&quot;aspect_ratio&quot;:&quot;169&quot;}" data-element_type="video.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
-                                                                            <div class="embed">
-                                                                                <iframe src="https://www.youtube.com/embed/zzKPlgUH9uA?feature=oembed" allowfullscreen></iframe>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
                                         <section class="elementor-element elementor-element-5x94xxc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-section elementor-inner-section">
                                             <div class="elementor-container elementor-column-gap-default">
                                                 <div class="elementor-row">
@@ -559,204 +317,6 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="elementor-element elementor-element-eqwky0s elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-hidden-desktop elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;arrow&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
-                    <div class="elementor-shape elementor-shape-bottom" data-negative="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
-                            <path class="elementor-shape-fill" d="M360 0L350 9.9 340 0 0 0 0 10 700 10 700 0"></path>
-                        </svg>
-                    </div>
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-row">
-                            <div class="elementor-element elementor-element-wn9uby8 elementor-column elementor-col-100 elementor-top-column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <section class="elementor-element elementor-element-46k25kj elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-pm7cil9 elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-6940kmx elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Mickey Berkowitz</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-kl0y06s elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap">
-                                                            <div class="elementor-widget-wrap"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-sd5s8oj elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-tb34zeh elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-a5t8l3v elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="369" height="251" src="img/facebook_2.png" class="attachment-large size-large" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-mxc18z5 elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-kdoqw2w elementor-widget elementor-widget-heading" data-element_type="heading.default">
-                                                                    <div class="elementor-widget-container">
-                                                                        <h2 class="elementor-heading-title elementor-size-default">In the race of life, do not let pain stop you. </h2></div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-jgp0jx4 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Tens of thousands of patients use B-Cure Laser for the relief of pain
-                                                                                <br>from orthopaedic problems and infections, and they have returned
-                                                                                <br>to being their old selves..
-                                                                                <br>
-                                                                                <br>B-Cure Laser is clinically proven and recommended by international professionals
-                                                                                <br>as an effective treatment, natural and non-invasive, with no known side effects.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-dayx877 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-do1v4xr elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-c7t6wz6 elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Patient recommendations</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-9xyt28w elementor-column elementor-col-50 elementor-inner-column">
-                                                        <div class="elementor-column-wrap">
-                                                            <div class="elementor-widget-wrap"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <section class="elementor-element elementor-element-4ztsm9c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-row">
-                                                    <div class="elementor-element elementor-element-lh640hx elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-q847sj5 elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="326" height="214" src="img/facebook_3.png" class="attachment-large size-large"/>                  
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-q4kn4ol elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">"I suffered from severe knee pain and was a candidate for surgery, but with the B-Cure laser, the pain measurably decreased. The result was a significant improvement in the quality of life, so I cancelled the operation. "</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-va9eeta elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>I suffered from severe knee pain and was a candidate for surgery, but with the B-Cure laser, the pain measurably decreased. The result was a significant improvement in the quality of life, so I cancelled the operation.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-2jeze4f elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-279dokd elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="325" height="214" src="img/facebook_4.png">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-xqn343f elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>I’m back to my own self and going out with friends.”
-                                                                                <br>
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-jojin1q elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”I’m back to my own self and going out with friends.</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="elementor-element elementor-element-k9lepn7 elementor-column elementor-col-33 elementor-inner-column">
-                                                        <div class="elementor-column-wrap elementor-element-populated">
-                                                            <div class="elementor-widget-wrap">
-                                                                <div class="elementor-element elementor-element-wiqmxb2 elementor-widget elementor-widget-image">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-image">
-                                                                            <img width="325" height="214" src="img/facebook_5.jpg" class="attachment-large size-large">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-kqnugkr elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>“We bought the device, and within two days he began to feel better.”
-                                                                                <br class="desktop">
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="elementor-element elementor-element-7gsxeuk elementor-widget elementor-widget-text-editor">
-                                                                    <div class="elementor-widget-container">
-                                                                        <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>"John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces
-                                                                                <br class="desktop">br but that did not solve the problem - we bought the device, and within two days he began to feel better."</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="elementor-element elementor-element-frnu8ue elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-row">
                             <div class="elementor-element elementor-element-z5470ai elementor-column elementor-col-100 elementor-top-column">
@@ -785,38 +345,154 @@
                         </div>
                     </div>
                 </section>
-                <section class="elementor-element elementor-element-tua73m7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
+                <section class="elementor-element elementor-element-8n11lac elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;arrow&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+                    <div class="elementor-shape elementor-shape-bottom" data-negative="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
+                            <path class="elementor-shape-fill" d="M360 0L350 9.9 340 0 0 0 0 10 700 10 700 0"></path>
+                        </svg>
+                    </div>
+                    <div class="custom-embed">
+                        <div class="embed">
+                            <iframe src="https://www.youtube.com/embed/jorbtFU_7k0?feature=oembed" allowfullscreen></iframe>
+                        </div>
+                    </div>
                     <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-row">
-                            <div class="elementor-element elementor-element-sumvmnj elementor-column elementor-col-50 elementor-top-column">
+                            <div class="elementor-element elementor-element-7t1e7ro elementor-column elementor-col-100 elementor-top-column">
                                 <div class="elementor-column-wrap elementor-element-populated">
                                     <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-ju6tk1d elementor-widget elementor-widget-text-editor">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>
-                                                        A device does not replace medical treatment as recommended by a physician.
-                                                        The PI sheet should be read before use.
-                                                    </p>
-                                                    <p dir="LTR"><span lang="EN" style="font-size: 11.5pt; font-family: Arial,sans-serif; color: #475564; letter-spacing: -.4pt;">
-                                                * The device does not replace medical treatment as recommended by a physician</span>
-                                                        <span dir="LTR" style="font-size: 11.5pt; font-family: OpenSansHebrew-Regular; color: #475564; letter-spacing: -.4pt;">.&nbsp;<br> </span>
-                                                        <span lang="EN" style="font-size: 11.5pt; font-family: Arial,sans-serif; color: #475564; letter-spacing: -.4pt;">The experience is subject to the regulations</span>.
-                                                    </p>
+                                        <section class="elementor-element elementor-element-p918yd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-row">
+                                                    <div class="elementor-element elementor-element-b6xg6w1 elementor-column elementor-col-50 elementor-inner-column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-hcsdg26 elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                            <p>Patient recommendations</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-hs8drgt elementor-column elementor-col-50 elementor-inner-column">
+                                                        <div class="elementor-column-wrap">
+                                                            <div class="elementor-widget-wrap"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </section>
+                                        <section class="elementor-element elementor-element-6p3pp5v elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-row">
+                                                    <div class="elementor-element elementor-element-eg9a6gh elementor-column elementor-col-33 elementor-inner-column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-g4tbsy9 elementor-widget elementor-widget-image">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image">
+                                                                            <img width="326" height="214" src="img/rec3.png" class="attachment-large size-large">
+                                                                            <span>Alexander Veus From Israel</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-tmrl8s2 elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">“The result was a significant improvement in the quality of life.”</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-ys6v066 elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                            <p>"I suffered from severe knee pain and was a candidate for surgery, but with the B-Cure laser, the pain measurably decreased. The result was a significant improvement in the quality of life, so I cancelled the operation."</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-drvaakf elementor-column elementor-col-33 elementor-inner-column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-14kgrao elementor-widget elementor-widget-image">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image">
+                                                                            <img width="325" height="214" src="img/rec2.png" class="attachment-large size-large" />
+                                                                            <span>Charlie Roberts</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-1gl2han elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                            <p>I’m back to my own self and going out with friends."
+                                                                                <br>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-dagel4m elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                            <p>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”
+                                                                                <br>I’m back to my own self and going out with friends.”</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-sbca2gd elementor-column elementor-col-33 elementor-inner-column">
+                                                        <div class="elementor-column-wrap elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-yp0hd2o elementor-widget elementor-widget-image">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image">
+                                                                            <img width="325" height="214" src="img/rec1.png" class="attachment-large size-large" />
+                                                                            <span>John and Cindy</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-tmrl8s2 elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">“We bought the device, and within two days he began to feel better.”</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-ys6v066 elementor-widget elementor-widget-text-editor">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                                            <p>"John has suffered from ankle pain for many years and tried various treatments - elastic bandages, special shoes, ankle braces but that did not solve the problem - we bought the device, and within two days he began to feel better."</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="elementor-element elementor-element-37w1m0s elementor-column elementor-col-50 elementor-top-column">
+                        </div>
+                    </div>
+                </section>
+                <section class="elementor-element elementor-element-tua73m7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
+                    <?php include ("../register_form3.php") ?>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-element elementor-column elementor-top-column" style="width:100%">
                                 <div class="elementor-column-wrap elementor-element-populated">
                                     <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-lrfkdpp elementor-widget elementor-widget-image">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <img width="187" height="53" src="img/facebook_2.png" class="attachment-large size-large" alt="" />
-                                                </div>
+                                        <div class="elementor-element elementor-element-ju6tk1d elementor-widget elementor-widget-text-editor">
+                                            <div class="elementor-widget-container text-center" style="width:100%">
+                                                <p dir="LTR" style='color: #475564;font-size: 17px; font-family: "Poppins-Regular", Sans-serif; line-height:1.3em;'>
+                                                    * The device does not replace medical treatment as recommended by a physician.<br/>
+                                                    The experience is subject to the regulations.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -829,4 +505,5 @@
         </div>
     </div>
 </body>
+
 </html>
