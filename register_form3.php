@@ -1,4 +1,4 @@
-﻿<form class="formCC" autocomplete="off" method="post" action="../register_action.php">
+<form class="formCC" autocomplete="off" method="post" action="../register_action.php">
     <div class="main_form">
         <div class="details_holder">
             <h3>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</h3>

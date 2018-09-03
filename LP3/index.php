@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -8,7 +7,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/slider.css" rel="stylesheet" type="text/css">
-    <?php include_once "../register_assets.php" ?>
+    <?php include_once "../register_assets.php";?>
 </head>
 <body>
     <div id="main">
@@ -36,14 +35,15 @@
                                 Eithan, 72
                             </div>
                             <div class="banner_img"><img src="img/main-img_02.png" alt=""></div>
-                        </div><div class="slide_details">
+                        </div>
+                        <!-- <div class="slide_details">
                             <div class="banner_text">
                                 <h1>I didn’t believe it either.</h1>
                                 <h2>Until I tried it for myself and the pain stopped.</h2>
                                 Mickey Berkowitz
                             </div>
                             <div class="banner_img"><img src="img/main-img.png" alt=""></div>
-                        </div></div>
+                        </div> -->
                     </div>
                 </div>
             </div>
