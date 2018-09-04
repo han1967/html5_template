@@ -3374,11 +3374,11 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     position: absolute;
     bottom: 0;
     right: 12px;
-    color: #fff;
+    color: #3E5364;
     font-size: 14px;
     font-weight: bold;
     padding: 3px 8px;
-    background: #01AF7A;
+    background: #fff;
     font-family: "Poppins-Regular", Sans-serif;
 }
 
@@ -11891,7 +11891,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom .elementor-shape-fill {
-    fill: #999
+    fill: #f3f3f3;
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom svg {
@@ -12212,7 +12212,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-8n11lac>.elementor-shape-bottom .elementor-shape-fill {
-    fill: #3e5364
+    fill: #F78F1E;
 }
 
 .elementor-978 .elementor-element.elementor-element-to8f1di>.elementor-container {
@@ -29801,7 +29801,7 @@ img.wp-smiley, img.emoji {
 /*** custom ***/
 .custom-embed {
     padding: 50px 30%;
-    background: #999;
+    background: #f3f3f3;
 }
 
 .main_form ul li {
