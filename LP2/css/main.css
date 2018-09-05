@@ -11842,7 +11842,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-0cz1tmg {
-    background-color: #f78f1e;
+    background-color: #00ac7b;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0;
     margin-bottom: 0
@@ -11891,7 +11891,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom .elementor-shape-fill {
-    fill: #f3f3f3;
+    fill: #fff;
 }
 
 .elementor-978 .elementor-element.elementor-element-fwujpqp>.elementor-shape-bottom svg {
@@ -12212,7 +12212,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 
 .elementor-978 .elementor-element.elementor-element-8n11lac>.elementor-shape-bottom .elementor-shape-fill {
-    fill: #F78F1E;
+    fill: #00ac7b;
 }
 
 .elementor-978 .elementor-element.elementor-element-to8f1di>.elementor-container {
@@ -28597,10 +28597,6 @@ div.embed iframe {
     padding-bottom: 0
 }
 
-.custom-embed {
-    line-height: 0
-}
-
 div.custom-embed>iframe {
     width: 100%
 }
@@ -29800,7 +29796,7 @@ img.wp-smiley, img.emoji {
 
 /*** custom ***/
 .custom-embed {
-    padding: 50px 30%;
+    padding: 25px 35%;
     background: #f3f3f3;
 }
 
@@ -29815,7 +29811,7 @@ img.wp-smiley, img.emoji {
 .main_form {
     width: 100%;
     float: left;
-    background: #f78f1e;
+    background: #00ac7b;
     padding: 20px 0;
     color: #fff;
 }
@@ -29918,5 +29914,9 @@ img.wp-smiley, img.emoji {
     .main_form .btn_holder img {
         float: left;
         width: 97%;
+    }
+    .custom-embed {
+        padding: 15px 10%;
+        background: #f3f3f3;
     }
 }

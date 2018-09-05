@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html dir="LTR" lang="en">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -395,7 +394,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-image">
                                                                             <img width="326" height="214" src="img/rec3.png" class="attachment-large size-large">
-                                                                            <span>Alexander Veus From Israel</span>
+                                                                            <span>Alexander Veus</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -505,5 +504,4 @@
         </div>
     </div>
 </body>
-
 </html>
