@@ -29819,6 +29819,7 @@ img.wp-smiley, img.emoji {
 .main_form h3 {
     font-family: 'Poppins-Regular', 'OpenSansHebrew-Regular';
     font-size: 25px;
+    font-weight:bold;
     padding: 0 0 10px 0;
     text-align: center;
 }
