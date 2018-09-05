@@ -22,6 +22,14 @@
                     <div class="slides_container">
                         <div class="slide_details">
                             <div class="banner_text">
+                                <h1>"Until I Found Out James Is Using It!"</h1>
+                                <h2>Until I tried it for myself and the pain stopped.</h2>
+                                <span>Claire 43, Real estate agent</span>
+                            </div>
+                            <div class="banner_img"><img src="img/big-woman.png" alt=""></div>
+                        </div>
+                        <div class="slide_details">
+                            <div class="banner_text">
                                 <h1>I didn’t believe it either.</h1>
                                 <h2>Until I Found Out Eithan <br>Uses It!"</h2>
                                 <span>James 38, Gym Teacher</span>
@@ -30,20 +38,12 @@
                         </div>
                         <div class="slide_details">
                             <div class="banner_text">
-                                <h1>I didn’t believe it either.</h1>
+                                <h1>"Until I Found Out Claire Uses It!"</h1>
                                 <h2>Until I Found Out Miki <br> Is Using It!"</h2>
-                                Eithan, 72
+                                <span>Eithan 72, Factory manager</span>
                             </div>
                             <div class="banner_img"><img src="img/main-img_02.png" alt=""></div>
                         </div>
-                        <!-- <div class="slide_details">
-                            <div class="banner_text">
-                                <h1>I didn’t believe it either.</h1>
-                                <h2>Until I tried it for myself and the pain stopped.</h2>
-                                Mickey Berkowitz
-                            </div>
-                            <div class="banner_img"><img src="img/main-img.png" alt=""></div>
-                        </div> -->
                     </div>
                 </div>
             </div>
