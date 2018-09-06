@@ -12,6 +12,7 @@ $mainimage = empty($_GET['i']) ? 'none' : $_GET['i'];
 $t = empty($_GET['t']) ? '' : $_GET['t'];
 $r = empty($_GET['r']) ? '' : $_GET['r'];
 $a = empty($_GET['a']) ? '' : $_GET['a'];
+$m = empty($_GET['m']) ? '' : $_GET['m'];
 
 $paymentPage = 'payshortlpbp';
 $country = isset($_SERVER['HTTP_CF_IPCOUNTRY']) ? $_SERVER['HTTP_CF_IPCOUNTRY']:'';
@@ -42,6 +43,7 @@ if($color == 2){
     <input type="hidden" name="t" id="t" value="<?=$t?>">
     <input type="hidden" name="r" id="r" value="<?=$r?>">
     <input type="hidden" name="a" id="a" value="<?=$a?>">
+    <input type="hidden" name="m" id="m" value="<?=$m?>">
     <p class="alert"></p>
     <div dir="ltr">
         <div class="custom-cf style-cf-1 clearfix" style="background:#fff; border:1px solid #360;">
