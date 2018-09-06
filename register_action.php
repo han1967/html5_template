@@ -1,5 +1,6 @@
 ﻿<?php
 require_once('/HttpRequest.php'); 
+
 $apiLink = "https://connectapi.lottonetix.io";
 $http = new HttpRequest();
 

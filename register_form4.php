@@ -1,4 +1,5 @@
 ﻿<form class="formCC" autocomplete="off" method="post" action="../register_action.php" id="gform_9">
+    <p class="alert"></p>
     <div class="gform_body">
         <ul id="gform_fields_9" class="gform_fields top_label form_sublabel_below description_below">
             <li id="field_9_1" class="gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">

@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <?php include ("../register_form3.php") ?>
+        <div class="row-fluid"><?php include ("../register_form3.php") ?></div>
         <div class="home_container">
             <div class="details_holder">
                 <div class="main_content">
@@ -142,7 +142,7 @@
                 <!-- <div class="img_holder"><img src="img/img2.png" alt=""></div> -->
             </div>
         </div>
-        <?php include ("../register_form3.php") ?>
+        <div class="row-fluid"><?php include ("../register_form3.php") ?></div>
         <div class="footer">
             <div class="details_holder">
                 <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/footer-logo.png" alt=""></a>
