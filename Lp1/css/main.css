@@ -22843,12 +22843,12 @@ a.thumbnail:focus {
 
 .alert {
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
     border: 1px solid #475564;
     background: #475564;
     border-radius: 4px;
-    color: #C50073;
+    color: #fff;
     display: none;
 }
 .details_holder .alert {
