@@ -142,3 +142,13 @@ button, input[type=submit] {
         line-height: normal;
     }
 }
+.alert {
+    padding: 5px 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border: 1px solid #336600;
+    background: #336600;
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+}
