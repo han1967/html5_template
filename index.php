@@ -1,21 +1,26 @@
 <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bcure Iframe</title>
+    <link href="iframe.css" rel="stylesheet" type="text/css">
+    <?php include_once "register_assets.php";?>
+</head>
 <body>
-<div class="screen-reader-response"></div>
-<form action="/2018/06/13/i-suffered-severe-pain-serious-enough-i-couldnt-work-i-discovered-device/#wpcf7-f6355-p6307-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-    <div style="display: none;">
-        <input type="hidden" name="goto" id="goto" value="">
-        <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
-        <input type="hidden" name="ref" id="ref" value="">
-        <input type="hidden" name="coupon" id="coupon" value="">
-        <input type="hidden" name="game" id="game" value="">
-        <input type="hidden" name="aff_id" id="aff_id" value="">
-        <input type="hidden" name="aff_key" id="aff_key" value="">
-        <input type="hidden" name="affTranID" id="affTranID" value="">
-        <input type="hidden" name="lang" id="lang" value="">
-        <input type="hidden" name="t" id="t" value="">
-        <input type="hidden" name="r" id="r" value="">
-        <input type="hidden" name="a" id="a" value="">
-    </div>
+<form class="formCC" autocomplete="off" method="post" action="../register_action.php">
+    <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
+    <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
+    <input type="hidden" name="ref" id="ref" value="<?=$ref ?>">
+    <input type="hidden" name="coupon" id="coupon" value="<?= $coupon ?>">
+    <input type="hidden" name="game" id="game" value="<?=$game ?>">
+    <input type="hidden" name="aff_id" id="aff_id" value="<?=$aff_id ?>">
+    <input type="hidden" name="aff_key" id="aff_key" value="<?=$aff_key ?>">
+    <input type="hidden" name="affTranID" id="affTranID" value="<?=$affTranID ?>">
+    <input type="hidden" name="lang" id="lang" value="<?=$lang?>">
+    <input type="hidden" name="t" id="t" value="<?=$t?>">
+    <input type="hidden" name="r" id="r" value="<?=$r?>">
+    <input type="hidden" name="a" id="a" value="<?=$a?>">
+    <p class="alert"></p>
     <div dir="ltr">
         <div class="custom-cf style-cf-1 clearfix" style="background:#fff; border:1px solid #360;">
         <div class="custom-cf-title" style="text-align:left;">One of Our Experts Is Waiting for You</div>
