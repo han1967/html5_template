@@ -1,6 +1,6 @@
 ﻿<?php
 require_once('/HttpRequest.php'); 
-$apiLink = "https://dev-api.lottonetix.io";
+$apiLink = "https://connectapi.lottonetix.io";
 $http = new HttpRequest();
 
 $request['IP']           = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR']:'';
