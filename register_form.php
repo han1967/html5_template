@@ -11,6 +11,7 @@
     <input type="hidden" name="t" id="t" value="<?=$t?>">
     <input type="hidden" name="r" id="r" value="<?=$r?>">
     <input type="hidden" name="a" id="a" value="<?=$a?>">
+    <p class="alert"></p>
     <div class="gform_body">
         <ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
             <li id="field_2_1" class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">

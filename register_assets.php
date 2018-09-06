@@ -27,6 +27,7 @@ $(document).ready(function() {
     $(".formCC").submit(function(e) {
         e.preventDefault();
         var form = $(this);
+        form.find('.alert').css('display', 'none');
         var parentDiv = form.parent();
         var url = form.attr('action');
         $.ajax( {
@@ -43,7 +44,8 @@ $(document).ready(function() {
                     parentDiv.append(inhtml);
                 }
                 else {
-                    alert('login failed');
+                    form.find('.alert').css('display', 'block');
+                    form.find('.alert').html(res.status.message);
                 }
             }
         });
