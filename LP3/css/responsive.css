@@ -107,7 +107,7 @@
     }
     .main_form .btn_holder input {
         height: 40px;
-        width: 97%;
+        width: 100%;
         float: left;
     }
     .main_form .form_content ul li {
@@ -198,8 +198,8 @@
     }
     .banner_text {
         width: 100%;
-        font-size: 30px;
-        padding: 10px 0 20px 0;
+        font-size: 18px;
+        padding: 25px 0 0 0;
     }
     .banner_text h1 {
         font-size: 45px;
@@ -211,7 +211,7 @@
         font-family: 'OpenSansHebrew-Bold';
     }
     .banner_img {
-        width: 80%;
+        width: 90%;
     }
     .banner_img img {
         width: 235px;
@@ -240,7 +240,7 @@
     }
     .main_content .text_holder {
         font-size: 18px;
-        text-align: right;
+        text-align: left;
     }
     .main_content .text_holder strong {
         font-family: 'OpenSansHebrew-Regular';
@@ -252,7 +252,7 @@
         padding: 20px 5%;
         background: #364350;
         color: #fff;
-        text-align: right;
+        text-align: left;
         display: block;
     }
     .mobile_container ul li {
@@ -290,7 +290,7 @@
         width: 100%;
     }
     .main_form .form_content ul li input {
-        width: 93%;
+        width: 100%;
     }
     .main_form .btn_holder img {
         float: left;
@@ -313,9 +313,13 @@
     .main_form .form_content {
         padding: 0;
     }
+    .main_form .form_content ul {
+        padding:0;
+        margin:0;
+    }
     .main_form .form_content ul li {
-        width: 94%;
-        margin: 0 3% 10px 3%;
+        width: 100%;
+        margin: 0 0 10px;
     }
     .main_form .form_content ul li input {
         height: 40px;
@@ -323,7 +327,7 @@
     .mobile_image {
         width: 100%;
         float: left;
-        display: block;
+        display: none;
         padding: 0 0 10px 0;
     }
     .mobile_image img {
@@ -400,10 +404,11 @@
         height: 380px!important;
     }
     .banner_text h1 {
-        font-size: 35px;
+        font-size: 28px;
+        line-height:32px;
     }
     .banner_text h2 {
-        font-size: 25px;
+        font-size: 24px;
         line-height: 28px;
     }
     #new_slides>div.slides_container>div>div:nth-child(1)>div.banner_img>img {
@@ -415,7 +420,7 @@
         padding-left: 25%;
     }
     #new_slides>div.slides_container>div>div:nth-child(3)>div.banner_img>img {
-        width: 85%;
-        padding-left: 25%;
+        width: 90%;
+        padding-left: 5%;
     }
 }
