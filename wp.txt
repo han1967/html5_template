@@ -1,0 +1,15 @@
+[insert_php]
+$aff_id = empty($_GET['a']) ? 'na' : $_GET['a'];
+$aff_key = empty($_GET['aff_key']) ? '' : $_GET['aff_key'];
+$affTranID = empty($_GET['t']) ? 'nt' : $_GET['t'];
+$g = empty($_GET['game']) ? '' : $_GET['game'];
+$coupon = empty($_GET['coupon']) ? '' : $_GET['coupon'];
+$ref = empty($_GET['r']) ? '' : $_GET['r'];
+[/insert_php]
+<iframe width="100%" height="260px" src="http://bcure.bwelltime.com/index.php?a=[insert_php]
+echo $aff_id;
+[/insert_php]&t=[insert_php]
+echo $affTranID;
+[/insert_php]&r=[insert_php]
+echo $ref;
+[/insert_php]" style="border:none; overflow:hidden;min-height:260px"></iframe>

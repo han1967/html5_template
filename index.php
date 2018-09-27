@@ -28,6 +28,32 @@ if($color == 2){
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bcure Iframe</title>
     <link href="iframe.css" rel="stylesheet" type="text/css">
+	<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1150032});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1150032/tfa.js',
+  'tb_tfa_script');
+</script>
+<noscript>
+  <img src='//trc.taboola.com/1150032/log/3/unip?en=page_view'
+      width='0' height='0' style='display:none'/>
+</noscript>
+<script data-obct type="text/javascript">
+  /** DO NOT MODIFY THIS CODE**/
+  !function(_window, _document) {
+    var OB_ADV_ID='009ba77e9147ff5ebef1e50937b61dd077';
+    if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
+    var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
+obApi('track', 'PAGE_VIEW');
+</script>
+
+
 </head>
 <body>
 <form class="formCC" autocomplete="off" method="post" action="register_action.php">
@@ -90,6 +116,8 @@ $(document).ready(function() {
                     form.remove();
                     var inhtml = "<div style='background:#00855F; color:#fff; padding: 10px 20px;'><h2>Thanks</h2><p>Thank you, your request has been received. Our representative will contact you shortly</p></div>";
                     parentDiv.append(inhtml);
+					obApi('track', 'Leads New');
+					 _tfa.push({notify: 'event', name: 'lead', id: 1150032});
                 }
                 else {
                     form.find('.alert').css('display', 'block');
