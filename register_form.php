@@ -17,16 +17,16 @@
             <li id="field_2_1" class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
                 <label class="gfield_label" for="first_name">Name<span class="gfield_required">*</span></label>
                 <div class="ginput_container ginput_container_text">
-                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="Name*" aria-required="true">
+                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="Name*" aria-required="true" required>
                 </div>
             </li>
             <li id="field_2_2" class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
                 <label class="gfield_label" for="MobilePhone">Phone<span class="gfield_required">*</span></label>
-                <input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*">
+                <input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required>
             </li>
             <li id="field_2_3" class="gfield field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
                 <label class="gfield_label" for="email">Email</label>
-                <input id="email" class="small" name="email" type="email" value="" aria-required="true" placeholder="Email">
+                <input id="email" class="small" name="email" type="email" value="" aria-required="true" placeholder="Email" required>
             </li>
         </ul>
     </div>

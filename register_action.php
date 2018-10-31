@@ -11,8 +11,8 @@ $request['surname']      = !empty($_POST['last_name']) ? $_POST['last_name']:'';
 $request['email']        = !empty($_POST['email']) ? $_POST['email']:'';
 $request['initialPass']  = !empty($_POST['password']) ? $_POST['password']:'';
 
-$country  = !empty($_POST['country']) ? $_POST['country']:'';
-$mobilephone  = !empty($_POST['MobilePhone']) ? $_POST['MobilePhone']:'';
+$country                 = !empty($_POST['country']) ? $_POST['country']:'';
+$mobilephone             = !empty($_POST['MobilePhone']) ? $_POST['MobilePhone']:'';
 $request['MobilePhone']  = $country.$mobilephone;
 
 $request['ref']          = !empty($_SESSION['ref']) ? $_SESSION['ref'] : '';
