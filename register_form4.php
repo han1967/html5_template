@@ -6,7 +6,7 @@
                 <label class="gfield_label" for="first_name">שם<span class="gfield_required">*</span></label>
                 <div class="ginput_container ginput_container_text">
                     <!-- <input name="input_1" id="input_9_1" type="text" value="" class="medium" tabindex="1" placeholder="שם*" aria-required="true" aria-invalid="false"> -->
-                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="Name*" aria-required="true">
+                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="First & Last Name" aria-required="true">
                 </div>
             </li>
             <li id="field_9_2" class="gfield gf_middle_third gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
