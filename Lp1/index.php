@@ -118,7 +118,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-image-box-wrapper">
                                                                             <figure class="elementor-image-box-img">
-                                                                                <img width="88" height="88" src="./img/mli_1.png" class="attachment-full size-full lazyloaded">
+                                                                                <img width="88" height="88" src="img/mli_1.png" class="attachment-full size-full lazyloaded">
                                                                             </figure>
                                                                             <div class="elementor-image-box-content">
                                                                                 <h3 class="elementor-image-box-title">Proven success in reducing pain</h3>

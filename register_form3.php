@@ -6,10 +6,10 @@
             <div class="form_content">
                 <ul>
                     <li>
-                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="Name*" aria-required="true">
+                    <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="Name*" aria-required="true" required>
                     </li>
-                    <li><input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*"></li>
-                    <li><input id="email" class="small" name="email" type="email" value="" aria-required="true" placeholder="Email"></li>
+                    <li><input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required></li>
+                    <li><input id="email" class="small" name="email" type="email" value="" aria-required="true" placeholder="Email" required></li>
                 </ul>
                 <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">  
                 <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
