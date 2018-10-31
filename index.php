@@ -95,26 +95,27 @@ obApi('track', 'PAGE_VIEW');
     <p class="alert"></p>
     <div dir="ltr">
         <div class="custom-cf style-cf-1 clearfix" style="background:#fff; border:1px solid #360;">
-        <div class="custom-cf-title" style="text-align:left;">One of Our Experts Is Waiting for You</div>
-        <p></p>
-        <div class="cf-input-wrap clearfix">
-        <div class="cf-item">
-            <span class="wpcf7-form-control-wrap name">
-                <input type="text" name="first_name" id="first_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="name">
-            </span>
+            <div class="custom-cf-title" style="text-align:left;">One of Our Experts Is Waiting for You</div>
+            <p></p>
+                <div class="cf-input-wrap clearfix">
+                    <div class="cf-item">
+                        <span class="wpcf7-form-control-wrap name">
+                            <input type="text" name="first_name" id="first_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First & Last Name">
+                        </span>
+                    </div>
+                    <div class="cf-item">
+                        <span class="wpcf7-form-control-wrap phone"><input type="text" name="MobilePhone" id="MobilePhone" value="" size="40" maxlength="11" minlength="9" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="phone number"></span>
+                    </div>
+                    <div class="cf-item">
+                        <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email"></span>
+                    </div>
+                </div>
+                <div class="cf-button-wrap contact-green-button">
+                    <input type="submit" value="Contact me for details" class="wpcf7-form-control wpcf7-submit">
+                </div>
+            <p>
+            </p>
         </div>
-        <div class="cf-item">
-            <span class="wpcf7-form-control-wrap phone"><input type="text" name="MobilePhone" id="MobilePhone" value="" size="40" maxlength="11" minlength="9" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="phone number"></span>
-        </div>
-        <div class="cf-item">
-            <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="email"></span>
-        </div>
-        </div>
-        <div class="cf-button-wrap contact-green-button">
-            <input type="submit" value="Contact me for details" class="wpcf7-form-control wpcf7-submit">
-        </div>
-        <p>
-        </p>
     </div>
 </form>
 <script src="LP1/js/jquery-3.3.1.min.js"></script>
