@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/main.css">
     <?php include_once "../register_assets.php" ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120830425-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120830425-1');
+</script>
+
 </head>
 <body class="ltr page-template page-template-elementor_canvas page page-id-978 pojo-title-bar elementor-default elementor-template-canvas elementor-page elementor-page-978 format-text">
     <div class="elementor elementor-978">

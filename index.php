@@ -52,6 +52,28 @@ if($color == 2){
     var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
 obApi('track', 'PAGE_VIEW');
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120830425-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120830425-1');
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 800598159 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-800598159"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-800598159');
+</script>
+
 
 
 </head>
@@ -118,6 +140,17 @@ $(document).ready(function() {
                     parentDiv.append(inhtml);
 					obApi('track', 'Leads New');
 					 _tfa.push({notify: 'event', name: 'lead', id: 1150032});
+					
+					 gtag('event', 'Lead', {
+  'event_category': 'Registration',
+  'event_label': '',
+  'value': 1
+});
+
+  gtag('event', 'conversion', {'send_to': 'AW-800598159/p_y_CLmd4IoBEI_R4P0C'});
+
+
+
                 }
                 else {
                     form.find('.alert').css('display', 'block');
