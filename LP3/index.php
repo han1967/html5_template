@@ -158,7 +158,7 @@
     <script type="text/javascript">
         $(function() {
             $('#new_slides').slides({
-                play: 3000,
+                play: 6000,
                 pause: 1500,
                 hoverPause: false,
                 navigation: false
