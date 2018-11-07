@@ -29816,7 +29816,7 @@ img.wp-smiley, img.emoji {
     float: left;
 }
 .details_holder {
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
 }
 .main_form {
@@ -29836,7 +29836,7 @@ img.wp-smiley, img.emoji {
 }
 
 .main_form .btn_holder {
-    width: 220px;
+    width: 20%;
     float: left;
 }
 
@@ -29863,7 +29863,7 @@ img.wp-smiley, img.emoji {
 }
 
 .main_form .form_content {
-    width: 80%;
+    width: 75%;
     float: left;
 }
 
@@ -29897,6 +29897,7 @@ img.wp-smiley, img.emoji {
         padding: 0 2%;
         float: left;
     }
+
 }
 @media only screen and (max-width:400px) {
     .main_form h3 {
@@ -29909,7 +29910,7 @@ img.wp-smiley, img.emoji {
         padding: 0;
     }
     .main_form .form_content ul li {
-        width: 94%;
+        width: 94% !important;
         margin: 0 3% 10px 3%;
     }
     .main_form .form_content ul li input {
@@ -29924,8 +29925,16 @@ img.wp-smiley, img.emoji {
         padding:0;
         margin:0;
     }
+    .main_form .form_content ul li {
+        width: 94%;
+        margin: 0 3% 10px 3%;
+    }
     .main_form .form_content ul li input {
-        width: 100%;
+        width: 100% !important;
+    }
+    .main_form .btn_holder {
+        width: 94%;
+        margin: 0 3% 10px 3%;
     }
     .main_form .btn_holder img {
         float: left;
