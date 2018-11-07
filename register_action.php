@@ -5,13 +5,13 @@ $apiLink = "https://connectapi.lottonetix.io";
 $http = new HttpRequest();
 
 $request['IP']           = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR']:'';
-$request['Country']      = isset($_SERVER["HTTP_CF_IPCOUNTRY"]) ? $_SERVER["HTTP_CF_IPCOUNTRY"]:'';
+$request['Country']      = !empty($_POST['Country']) ? $_POST['Country']:$_SERVER["HTTP_CF_IPCOUNTRY"];
 $request['name']         = !empty($_POST['first_name']) ? $_POST['first_name']:'';
 $request['surname']      = !empty($_POST['last_name']) ? $_POST['last_name']:'';
 $request['email']        = !empty($_POST['email']) ? $_POST['email']:'';
 $request['initialPass']  = !empty($_POST['password']) ? $_POST['password']:'';
 
-$country                 = !empty($_POST['country']) ? $_POST['country']:'';
+$country                 = !empty($_POST['Country']) ? $_POST['Country']:'';
 $mobilephone             = !empty($_POST['MobilePhone']) ? $_POST['MobilePhone']:'';
 $request['MobilePhone']  = $country.$mobilephone;
 
