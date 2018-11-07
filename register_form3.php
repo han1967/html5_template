@@ -8,7 +8,7 @@
                     <li>
                     <input name="first_name" id="first_name" type="text" value="" class="medium" placeholder="First & Last Name" aria-required="true" required>
                     </li>
-                    <li><input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required></li>
+                    <li><input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required pattern="\d{9,}" title="Must be digit and length is 9"></li>
                     <li><input id="email" class="small" name="email" type="email" value="" aria-required="true" placeholder="Email" required></li>
                 </ul>
                 <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">  
