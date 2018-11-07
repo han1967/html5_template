@@ -50,8 +50,8 @@
                     <div class="slides_container">
                         <div class="slide_details">
                             <div class="banner_text">
-                                <h1>"Until I Found Out James Is Using It!"</h1>
-                                <h2>Until I tried it for myself and the pain stopped.</h2>
+                                <h1>I Found Out James Is Using It!</h1>
+                                <h2>then I tried it for myself and the pain stopped</h2>
                                 <span>Claire 43, Real estate agent</span>
                             </div>
                             <div class="banner_img"><img src="img/big-woman.png" alt=""></div>
@@ -59,15 +59,15 @@
                         <div class="slide_details">
                             <div class="banner_text">
                                 <h1>I didn’t believe it either.</h1>
-                                <h2>Until I Found Out Eithan <br>Uses It!"</h2>
+                                <h2>Until I Found Out Eithan <br>Uses It!</h2>
                                 <span>James 38, Gym Teacher</span>
                             </div>
                             <div class="banner_img"><img src="img/man.png" alt=""></div>
                         </div>
                         <div class="slide_details">
                             <div class="banner_text">
-                                <h1>"Until I Found Out Claire Uses It!"</h1>
-                                <h2>Until I Found Out Miki <br> Is Using It!"</h2>
+                                <h1>I did not believe it will work </h1>
+                                <h2>but I tried it anyway and the pain stopped after two days</h2>
                                 <span>Eithan 72, Factory manager</span>
                             </div>
                             <div class="banner_img"><img src="img/main-img_02.png" alt=""></div>
@@ -86,7 +86,7 @@
                         <br>
                         for the treatment of pain, orthopaedic problems and muscular inflammation. Return to being your old self:
                         <br>
-                        Active, independent and useful and leading a healthy life without pain!</b>
+                        Active, independent, leading a healthy life without pain!</b>
                     </div>
                     <div class="other_container">
                         <ul>
@@ -104,7 +104,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="text_holder">Recommended by medical experts around the world as a natural, effective and non-invasive treatment with no cumulative damage or known side effects.  The most effective treatment for back pain, knee pain, neck pain, tennis elbow, carpal tunnel syndrome, sciatica, arthritis.</div>
+                    <div class="text_holder">Recommended by medical experts around the world as a natural, effective and non-invasive treatment with no known side effects.  The most effective treatment for back pain, knee pain, neck pain, tennis elbow, carpal tunnel syndrome, sciatica, arthritis.</div>
                     <div class="mobile_container">
                         <ul>
                             <li>
@@ -176,8 +176,8 @@
                 <a href="http://bcurelaser.co.il/landing/l/1016/taboola/#"><img src="img/footer-logo.png" alt=""></a>
             </div>
         </div>
-        <div class="copyright">* The device does not replace medical handled as it was recommended by a physician. Refer to the PI before use.
-            <br>The experience is subject to the regulations.
+        <div class="copyright">* The device does not replace medical treatment as recommended by a physician.
+            <br><BR>
         </div>
     </div>
     <script src="js/jquery.min.js" type="text/javascript"></script>

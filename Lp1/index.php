@@ -50,7 +50,7 @@
                                         <div class="elementor-element elementor-element-c7dt8uq elementor-widget elementor-widget-text-editor">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Do you suffer from back pain, knee pain, sciatica? </p>
+                                                    <p>Suffering from back pain, knee pain or sciatica? </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -96,7 +96,7 @@
                                                                 <div class="elementor-element elementor-element-itsfwns elementor-widget elementor-widget-text-editor">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-text-editor elementor-clearfix">
-                                                                            <p>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</p>
+                                                                            <p>Do you also want to try the B-Cure Laser with 30 days money back guarantee? Fill in your details:</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -204,7 +204,7 @@
                                         <div class="elementor-element elementor-element-xtmmylq elementor-widget elementor-widget-text-editor">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Do you suffer from back pain, knee pain, sciatica? </p>
+                                                    <p>Suffering from back pain, knee pain or sciatica? </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -253,7 +253,7 @@
                                         <div class="elementor-element elementor-element-f2b540e elementor-widget elementor-widget-text-editor">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</p>
+                                                    <p>Do you also want to try the B-Cure Laser comfortably at your own home and find out that it works?</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -353,7 +353,7 @@
                                         <div class="elementor-element elementor-element-hvjkrql elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-text-editor">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Leave Your Details Here:</p>
+                                                    <p>Fill in your details:</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -519,7 +519,7 @@
                                             <div class="elementor-widget-container text-center" style="width:100%">
                                                 <p dir="LTR" style='color: #475564;font-size: 17px; font-family: "Poppins-Regular", Sans-serif; line-height:1.3em;'>
                                                     * The device does not replace medical treatment as recommended by a physician.<br/>
-                                                    The experience is subject to the regulations.
+                                                   <BR>
                                                 </p>
                                             </div>
                                         </div>

@@ -1,7 +1,7 @@
 <form class="formCC" autocomplete="off" method="post" action="../register_action.php">
     <div class="main_form">
         <div class="details_holder">
-            <h3>Do you also want to try the B-Cure Laser at home for 30 days and find out that it works? Leave your details!</h3>
+            <h3>Do you also want to try out the B-Cure Laser comfortably at your own home and find out that it works?</h3>
             <p class="alert"></p>
             <div class="form_content">
                 <ul>
