@@ -22,7 +22,7 @@
             </li>
             <li id="field_2_2" class="gfield gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
                 <label class="gfield_label" for="MobilePhone">Phone<span class="gfield_required">*</span></label>
-                <input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required>
+                <input id="MobilePhone" class="small" name="MobilePhone" type="tel" value="" aria-required="true" placeholder="Phone*" required pattern="\d{9,}" title="Must be digit and length is 9" >
             </li>
             <li id="field_2_3" class="gfield field_sublabel_below field_description_below hidden_label gfield_visibility_visible">
                 <label class="gfield_label" for="email">Email</label>
