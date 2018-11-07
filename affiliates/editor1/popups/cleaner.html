@@ -1,0 +1,270 @@
+<HTML>
+<head>
+</head>
+
+<body bgcolor="#CCCCCC" text="#000000" link="#000000" vlink="#000000" alink="#3366CC" leftmargin="5" topmargin="5" marginwidth="5" marginheight="5">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+<tr>
+<td>
+When you copy text from Microsoft Word or Exel you copy a lot of "garbage" with this text.<P>
+In this window you can clean the text you have copyied from Microsoft Word or Exel. 
+
+<TABLE style="display: none"><TR>
+<TD id=temporary></TD>
+</TR></TABLE>
+<a href="#" style="display: none" id=labelQuery></a>
+<a href="cleaner.html?" style="display: none" id=query></a>
+<a href="/" style="display: none" id=rootQuery></a>
+<a href="" style="display: none" id=defaultQuery></a>
+
+<TABLE border=0 cellspacing=0 cellpadding=0 align="center">
+<form name=ChangeForm id=ChangeForm onsubmit="return false">
+<TR>
+<TD nowrap align="center">
+<input type=radio name=ChangeTList value=0 id=ChTListNone style="display:none;">
+<input type=radio name=ChangeTList value=1 id=ChTList checked onclick="if(doc['ChAListOnly'].checked){doc['ChTListNone'].checked=true}" style="display:none;">
+<input type=radio name=ChangeAList value=0 style="display:none;">
+<input type=radio name=ChangeAList id=ChAListAll value=1 checked style="display:none;">
+<input type=radio name=ChangeAList id=ChAListOnly value=2 onclick="doc['ChTListNone'].checked=true" style="display:none;">
+<SELECT name=TagList size=1 multiple id=TList style="display:none; width: 2px; color: blue"></SELECT>
+<SELECT name=AttributeList size=1 multiple id=AList style="display:none; width: 2px; color: red"></SELECT>
+<input type=checkbox id=BadSpacer checked style="display:none;">
+<input type=checkbox id=emptyTags checked style="display:none;">
+<div id=InfoArea style="color: red; margin-left: 5px; margin-top: 3px; font-weight: bold"></div><br>
+</TD>
+</TR>
+<TR>
+<TD align=center>
+<input type=button value="Clean text" id=CleanButton onclick="TgCleanOBJ.TagCleaner()" disabled>
+<input type=button value="Cancel" onclick="window.returnValue=false; window.close();">
+</TD>
+</TR>
+</form>
+</TABLE>
+
+<SCRIPT language=JavaScript>
+var Locked = true;
+doc = document.all;
+var TgCleanOBJ = new Object();
+
+//CONFIGURATION
+TgCleanOBJ.BedTagsRegExp = new RegExp("xml:|o:p|font|span", "i"); //BED TAGS
+TgCleanOBJ.BedAttribRegExp = new RegExp("name|lang|size|face|style|class|width|height|bordercolor", "i"); //BED ATTRIBUTES
+TgCleanOBJ.clearEmptyTags = new RegExp("span|div|font|a|p|b|i", "i"); //Remove empty tags
+//--
+
+TgCleanOBJ.TList = doc["TList"];
+TgCleanOBJ.AList = doc["AList"];
+TgCleanOBJ.ChTList = doc["ChTList"];
+TgCleanOBJ.ChAListAll = doc["ChAListAll"];
+TgCleanOBJ.ChAListOnly = doc["ChAListOnly"];
+TgCleanOBJ.temporary = doc["temporary"];
+TgCleanOBJ.BadSpacer = doc["BadSpacer"];
+TgCleanOBJ.emptyTags = doc["emptyTags"];
+
+if(window.dialogArguments){
+	TgCleanOBJ.temporary.innerHTML=window.dialogArguments.value;}
+	else{
+	doc["InfoArea"].outerHTML="No Data";
+	}
+
+//FUNCTION TagAnalizer
+TgCleanOBJ.TagAnalizer = function(){
+
+TgCleanOBJ.DATA = TgCleanOBJ.temporary.innerHTML.replace(/\s/g, "  ");
+TgCleanOBJ.DATA = TgCleanOBJ.DATA.replace(/  /g, " ");
+TgCleanOBJ.Val =TgCleanOBJ.DATA;
+
+TgCleanOBJ.Val = TgCleanOBJ.Val.replace(/>/ig, ">\n"); 
+TgCleanOBJ.TagList_arr = TgCleanOBJ.Val.match(/<.*>/ig);
+
+if(TgCleanOBJ.TagList_arr){
+	TgCleanOBJ.TagList_arr.sort();
+	TgCleanOBJ.UniqueTagList = "";
+	TgCleanOBJ.oldValue= TgCleanOBJ.newValue = "";
+
+	for(i=0; i<TgCleanOBJ.TagList_arr.length; i++){
+	TgCleanOBJ.newValue = TgCleanOBJ.TagList_arr[i].toUpperCase();
+		if(TgCleanOBJ.newValue!=TgCleanOBJ.oldValue){
+			TgCleanOBJ.UniqueTagList+=TgCleanOBJ.newValue;
+			TgCleanOBJ.oldValue = TgCleanOBJ.newValue;
+			}
+	}
+
+	TgCleanOBJ.oldValue= TgCleanOBJ.newValue = "";
+	TgCleanOBJ.UniqueTagList_arr = TgCleanOBJ.UniqueTagList.split(">");
+	for(i=0; i<TgCleanOBJ.UniqueTagList_arr.length; i++){
+		TgCleanOBJ.newValue = TgCleanOBJ.UniqueTagList_arr[i].replace(/\//,"");
+		if(TgCleanOBJ.newValue.indexOf(" ")!=-1){
+			TgCleanOBJ.newValue = TgCleanOBJ.newValue.substring(0, TgCleanOBJ.newValue.indexOf(" "));
+			}
+		if(TgCleanOBJ.newValue){
+			TgCleanOBJ.UniqueTagList_arr[i] = TgCleanOBJ.newValue;
+			}
+	}
+	TgCleanOBJ.UniqueTagList_arr.sort();
+
+	TgCleanOBJ.oldValue= TgCleanOBJ.newValue = "";
+	for(i=0; i<TgCleanOBJ.UniqueTagList_arr.length; i++){
+		TgCleanOBJ.newValue = TgCleanOBJ.UniqueTagList_arr[i];
+		if(TgCleanOBJ.newValue!=TgCleanOBJ.oldValue){
+			TgCleanOBJ.oOpt = document.createElement("OPTION");
+			TgCleanOBJ.oOpt.text = TgCleanOBJ.newValue+">";
+			if(TgCleanOBJ.newValue.search(TgCleanOBJ.BedTagsRegExp)!=-1){
+				TgCleanOBJ.oOpt.style.color="#008080";
+				TgCleanOBJ.oOpt.selected=true;
+				}
+		TgCleanOBJ.TList.add(TgCleanOBJ.oOpt);
+		TgCleanOBJ.oldValue = TgCleanOBJ.newValue;
+		}
+	}
+TgCleanOBJ.UniqueAttribList_arr=TgCleanOBJ.UniqueTagList.match(/[a-z]{2,20}=/ig);
+doc["CleanButton"].disabled=false;
+}else{
+doc["InfoArea"].innerHTML="In Data no tag's!!!";
+}
+
+
+if(TgCleanOBJ.UniqueAttribList_arr){
+	TgCleanOBJ.UniqueAttribList_arr.sort();
+	TgCleanOBJ.oldValue= TgCleanOBJ.newValue = "";
+	for(i=0; i<TgCleanOBJ.UniqueAttribList_arr.length; i++){
+		TgCleanOBJ.newValue = TgCleanOBJ.UniqueAttribList_arr[i];
+			if(TgCleanOBJ.newValue!=TgCleanOBJ.oldValue){
+			TgCleanOBJ.oOpt = document.createElement("OPTION");
+			TgCleanOBJ.oOpt.text = TgCleanOBJ.newValue.replace(/=/g,"");
+			if(TgCleanOBJ.newValue.search(TgCleanOBJ.BedAttribRegExp)!=-1){
+				TgCleanOBJ.oOpt.style.color="#008080";
+				TgCleanOBJ.oOpt.selected=true;
+				}
+			TgCleanOBJ.AList.add(TgCleanOBJ.oOpt);
+			TgCleanOBJ.oldValue = TgCleanOBJ.newValue;
+			}
+		}
+	}
+}
+
+
+//FUNCTION TagCleaner
+TgCleanOBJ.TagCleaner = function(){
+	doc["CleanButton"].disabled=true;
+	TgCleanOBJ.selectedTags = TgCleanOBJ.separator = TgCleanOBJ.freeSelectedTags = "";
+	if(TgCleanOBJ.UniqueTagList){
+	TgCleanOBJ.ReplaceList = TgCleanOBJ.UniqueTagList.split(">");
+		for(i=0; i<TgCleanOBJ.TList.length; i++){
+			oOpt = TgCleanOBJ.TList.options[i];
+			if(oOpt.selected){
+				startOpt = oOpt.text.replace(/>/,"");
+				endOpt = startOpt.replace(/</,"</");
+				TgCleanOBJ.freeSelectedTags+=TgCleanOBJ.separator+oOpt.text.replace(/([<])|([>])|([</])/g,"");
+				TgCleanOBJ.selectedTags+=TgCleanOBJ.separator+"("+startOpt+")|("+endOpt+")";
+				TgCleanOBJ.separator="|";
+				}
+			}
+	}
+if(TgCleanOBJ.selectedTags){
+	TgCleanOBJ.RegExpSelectedTags = new RegExp(TgCleanOBJ.selectedTags, "ig");
+	TgCleanOBJ.RegExpReplaceList = TgCleanOBJ.separator = "";
+	for(i=0; i<TgCleanOBJ.ReplaceList.length; i++){
+		if(TgCleanOBJ.ReplaceList[i].search(TgCleanOBJ.RegExpSelectedTags)!=-1){
+			TgCleanOBJ.RegExpReplaceList+=TgCleanOBJ.separator+TgCleanOBJ.ReplaceList[i]+">";
+			TgCleanOBJ.separator="|";
+			}
+		}
+	}
+
+if((TgCleanOBJ.RegExpReplaceList)&&(TgCleanOBJ.ChTList.checked)){
+	TgCleanOBJ.RXRL = TgCleanOBJ.RegExpReplaceList.replace(/[?]/g,"\\?");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[\^]/g,"\\^");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[$]/g,"\\$");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[*]/g,"\\*");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[+]/g,"\\+");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[\(]/g,"\\(");
+	TgCleanOBJ.RXRL = TgCleanOBJ.RXRL.replace(/[\)]/g,"\\)");
+	TgCleanOBJ.RegExpReplaceList = new RegExp(TgCleanOBJ.RXRL, "ig");
+	TgCleanOBJ.DATA = TgCleanOBJ.DATA.replace(TgCleanOBJ.RegExpReplaceList,"");
+	temporary.innerHTML= TgCleanOBJ.DATA.replace(/  /g, "\n");
+	}else{ temporary.innerHTML= TgCleanOBJ.DATA; }
+	
+	TgCleanOBJ.selectedAttrib = TgCleanOBJ.separator = "";
+	for(i=0; i<TgCleanOBJ.AList.length; i++){
+		oOpt = TgCleanOBJ.AList.options[i];
+		if(oOpt.selected){
+		TgCleanOBJ.attr = oOpt.text.toLowerCase()
+		if(TgCleanOBJ.attr=="class"){ TgCleanOBJ.attr="className"; }
+		TgCleanOBJ.selectedAttrib+=TgCleanOBJ.separator+TgCleanOBJ.attr;
+			TgCleanOBJ.separator="|";
+			}
+		}
+if(TgCleanOBJ.ChAListAll.checked){
+	if(TgCleanOBJ.selectedAttrib){
+		TgCleanOBJ.selectedAttrib_arr = TgCleanOBJ.selectedAttrib.split("|");
+		for(i=0; i<TgCleanOBJ.temporary.all.length; i++){
+			for(a=0; a<TgCleanOBJ.selectedAttrib_arr.length; a++){
+				TgCleanOBJ.temporary.all[i].removeAttribute(TgCleanOBJ.selectedAttrib_arr[a], 0);
+				}
+			}
+		}
+	}
+
+if((TgCleanOBJ.ChAListOnly.checked)&&(TgCleanOBJ.freeSelectedTags)&&(TgCleanOBJ.selectedAttrib)){
+	TgCleanOBJ.selectedAttrib_arr = TgCleanOBJ.selectedAttrib.split("|");
+	TgCleanOBJ.freeSelectedTags_arr = TgCleanOBJ.freeSelectedTags.split("|");
+		for(i=0; i<TgCleanOBJ.freeSelectedTags_arr.length; i++){
+		TgCleanOBJ.Tgs = TgCleanOBJ.temporary.all.tags(TgCleanOBJ.freeSelectedTags_arr[i]);
+			for(t=0; t <TgCleanOBJ.Tgs.length; t++){
+				for(a=0; a<TgCleanOBJ.selectedAttrib_arr.length; a++){
+				TgCleanOBJ.Tgs[t].removeAttribute(TgCleanOBJ.selectedAttrib_arr[a], 0);
+				}
+			}
+		}
+	
+	}
+if(TgCleanOBJ.BadSpacer.checked){
+	TgCleanOBJ.temporary.innerHTML=TgCleanOBJ.temporary.innerHTML.replace(/(  )|(\&nbsp;)/g, " ");
+	}
+if(TgCleanOBJ.emptyTags.checked){
+		for(i=0; i<TgCleanOBJ.temporary.all.length; i++){
+		if(TgCleanOBJ.temporary.all[i].tagName.search(TgCleanOBJ.clearEmptyTags) != -1){
+			if(TgCleanOBJ.temporary.all[i].innerHTML.length==0){
+				TgCleanOBJ.temporary.all[i].removeNode(true);
+				}
+			}
+		}
+	}
+
+var val = TgCleanOBJ.temporary.innerHTML;
+rgExp = new RegExp(defaultQuery,"ig");
+	val = val.replace(rgExp, "");
+rgExp = new RegExp(labelQuery,"ig");
+	val = val.replace(rgExp, "#");
+rgExp = new RegExp(query.href,"ig");
+	val = val.replace(rgExp, "/");
+rgExp = new RegExp(rootQuery.href,"ig");
+	val = val.replace(rgExp, "/");
+rgExp = new RegExp(defaultQuery.href,"ig");
+	val = val.replace(rgExp, "/");
+
+val = val.replace(/cellPadding=0/gi, "cellPadding=3");
+val = val.replace(/table/gi, "table width=100%");
+val = val.replace(/template.cleaner.all.phtml/gi, "");
+
+//alert ('Временная проверка для тестирования\n(через 5 минут это сообщение появляться не будет)\n\n'+val);
+
+window.returnValue=val;
+	Locked = false;
+		window.close();
+}
+
+if(window.dialogArguments){
+	TgCleanOBJ.TagAnalizer();
+	}
+
+</SCRIPT>
+
+
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>
