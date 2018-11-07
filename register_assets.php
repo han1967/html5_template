@@ -73,7 +73,19 @@ if($color == 2){
 
   gtag('config', 'AW-800598159');
 </script>
-
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '115173512735053');
+  fbq('track', 'PageView');
+</script>
 
 <script>
 $(document).ready(function() {
@@ -95,6 +107,7 @@ $(document).ready(function() {
                     form.remove();
                     var inhtml = "<div style='background:#00855F; color:#fff; padding: 10px 20px;'><h2>Thanks</h2><p>Thank you, your request has been received. Our representative will contact you shortly</p></div>";
   parentDiv.append(inhtml);
+  fbq('track', 'Lead');
   obApi('track', 'Leads New');
   _tfa.push({notify: 'event', name: 'lead', id: 1150032});
   // alert('Thank You')
