@@ -59,16 +59,16 @@
                         <div class="slide_details">
                             <div class="banner_text">
                                 <h1>I didn’t believe it either.</h1>
-                                <h2>Until I Found Out Eithan <br>Uses It!</h2>
+                                <h2>Until I found out Eithan <br>was using It!</h2>
                                 <span>James 38, Gym Teacher</span>
                             </div>
                             <div class="banner_img"><img src="img/man.png" alt=""></div>
                         </div>
                         <div class="slide_details">
                             <div class="banner_text">
-                                <h1>I did not believe it will work </h1>
+                                <h1>I did not believe it would work </h1>
                                 <h2>but I tried it anyway and the pain stopped after two days</h2>
-                                <span>Eithan 72, Factory manager</span>
+                                <span>Eithan 52, Factory manager</span>
                             </div>
                             <div class="banner_img"><img src="img/main-img_02.png" alt=""></div>
                         </div>
@@ -82,9 +82,9 @@
                 <div class="main_content">
                     <h4>B-Cure Laser - It Works.  </h4>
                     <div class="text_holder">
-                        <b>Tens of thousands of patient around the world use B-Cure Laser 
+                        <b>Tens of thousands of patients around the world use B-Cure Laser 
                         <br>
-                        for the treatment of pain, orthopaedic problems and muscular inflammation. Return to being your old self:
+                        to treat of pain, orthopaedic problems and muscular inflammation. Get back to feeling like your old self:
                         <br>
                         Active, independent, leading a healthy life without pain!</b>
                     </div>
@@ -141,7 +141,7 @@
                         
                         <div class="slide_details">
                             <div class="slider_img"><img src="img/testimonials-img2.png" alt=""></div>
-                            <div class="slider_content"><strong>Charlie Roberts from London.</strong> <br>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, and to my amazement, not only did the pain decrease, but the problem itself disappeared.”</div>
+                            <div class="slider_content"><strong>Charlie Roberts from London.</strong> <br>"A health professional recommended B-Cure Laser, and I treated myself at home several times a day, to my amazement, not only did the pain decrease, but the problem itself disappeared.”</div>
                         </div>
                         
                         <div class="slide_details">
