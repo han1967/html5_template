@@ -104,7 +104,10 @@
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-5ob94ao elementor-headline--style-highlight animated animated-slow elementor-widget elementor-widget-global elementor-global-151 elementor-widget-animated-headline fadeIn" data-settings="{&quot;highlighted_text&quot;:&quot;\u05e2\u05db\u05e9\u05d9\u05d5 \u05d1\u05de\u05d1\u05e6\u05e2 \u05de\u05d9\u05d5\u05d7\u05d3&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;headline_style&quot;:&quot;highlight&quot;,&quot;marker&quot;:&quot;circle&quot;}" data-element_type="animated-headline.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <h3 class="elementor-headline"> <span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"><span class="elementor-headline-dynamic-text elementor-headline-text-active">Enjoy a special offer now</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M325,18C228.7-8.3,118.5,8.3,78,21C22.4,38.4,4.6,54.6,5.6,77.6c1.4,32.4,52.2,54,142.6,63.7 c66.2,7.1,212.2,7.5,273.5-8.3c64.4-16.6,104.3-57.6,33.8-98.2C386.7-4.9,179.4-1.4,126.3,20.7"></path></svg></span></h3></div>
+                                                                        <h3 class="elementor-headline">
+                                                                        <span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper"><span class="elementor-headline-dynamic-text elementor-headline-text-active">Enjoy a special offer now</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M325,18C228.7-8.3,118.5,8.3,78,21C22.4,38.4,4.6,54.6,5.6,77.6c1.4,32.4,52.2,54,142.6,63.7 c66.2,7.1,212.2,7.5,273.5-8.3c64.4-16.6,104.3-57.6,33.8-98.2C386.7-4.9,179.4-1.4,126.3,20.7"></path></svg></span>
+                                                                        </h3>
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-itsfwns elementor-widget elementor-widget-text-editor">
                                                                     <div class="elementor-widget-container">
@@ -708,7 +711,7 @@
 			</div>
 		</div>
 		<!-- end of call popu window-->
-		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="right: calc(4% + 40px) !important; bottom: calc(22% + 40px) !important;">
+		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="display: none; right: calc(4% + 40px) !important; bottom: calc(22% + 40px) !important;">
 			<div class="cp-tooltip cp-button-tooltip cp-button-section__tooltip" data-test="button-tooltip" data-ignore-important-opacity="" x-placement="top" style="display: none !important; position: absolute !important; top: auto !important; left: 1511px !important; will-change: transform !important; bottom: 100% !important;">
 				<button type="button" class="cp-close-btn cp-tooltip__close-btn cp-close-btn--round cp-close-btn--offset cp-close-btn--mobile-friendly" data-test="tooltip-close-btn">
 					<svg viewBox="2115.656 4371.656 11.054 11.054" class="cp-close-btn__img">
@@ -803,6 +806,15 @@ $(document).ready(function() {
             $('.cp-message__inner').fadeIn(600);
         }
     });
+    setTimeout(function(){ 
+        $("#cp-button").addClass('cp-animated');
+        $("#cp-button").addClass('v-enter-to');
+        $("#cp-button").addClass('cp-bounce-in-up');
+        $("#cp-button").css('display', 'block');
+        t = setTimeout(function(){ 
+            $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
+        }, 600);
+    }, 1000);
 });
 $(document).mouseup(function(e)
 {
@@ -813,7 +825,6 @@ $(document).mouseup(function(e)
         close_cp_window();
     }
 });
-
 </script>
 <!-- end of call copup -->
 </body>
