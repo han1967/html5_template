@@ -708,7 +708,7 @@
 			</div>
 		</div>
 		<!-- end of call popu window-->
-		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="right: calc(4% + 40px) !important; bottom: calc(22% + 40px) !important;">
+		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="display: none; right: calc(4% + 40px) !important; bottom: calc(22% + 40px) !important;">
 			<div class="cp-tooltip cp-button-tooltip cp-button-section__tooltip" data-test="button-tooltip" data-ignore-important-opacity="" x-placement="top" style="display: none !important; position: absolute !important; top: auto !important; left: 1511px !important; will-change: transform !important; bottom: 100% !important;">
 				<button type="button" class="cp-close-btn cp-tooltip__close-btn cp-close-btn--round cp-close-btn--offset cp-close-btn--mobile-friendly" data-test="tooltip-close-btn">
 					<svg viewBox="2115.656 4371.656 11.054 11.054" class="cp-close-btn__img">
@@ -803,6 +803,15 @@ $(document).ready(function() {
             $('.cp-message__inner').fadeIn(600);
         }
     });
+    setTimeout(function(){ 
+        $("#cp-button").addClass('cp-animated');
+        $("#cp-button").addClass('v-enter-to');
+        $("#cp-button").addClass('cp-bounce-in-up');
+        $("#cp-button").css('display', 'block');
+        t = setTimeout(function(){ 
+            $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
+        }, 600);
+    }, 1000);
 });
 $(document).mouseup(function(e)
 {
