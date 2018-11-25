@@ -737,6 +737,20 @@
 </div>
 <script>
 var t;
+function play_beep() {
+    if ($("#beep").length<1)
+    {
+        var e = document.createElement("audio");
+        e.setAttribute('id', "beep");
+        e.setAttribute('src', "sound/ring.wav");
+        document.getElementById('callpageWrapper').appendChild(e);
+        e.play();
+        setTimeout(function(){ 
+            document.getElementById('callpageWrapper').removeChild(e);
+        }, 1000);
+    }
+}
+
 function close_cp_window() {
     clearTimeout(t);
     $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
@@ -773,6 +787,7 @@ function collaspe_call_btn()
     }
     else {
         clearTimeout(t);
+        play_beep();
         $('#callpage').removeClass('cp-callpage--widget-opened').addClass('cp-callpage--widget-opened');
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
         $("#cp-callback-widget").removeClass('cp-bounce-in-up').addClass('cp-bounce-in-up');
