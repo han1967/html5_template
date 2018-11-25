@@ -565,7 +565,36 @@
 						</g>
 					</svg>
 				</a>
-				<div class="cp-fade-height cp-fade-height--flexbox">
+                <!-- first screen -->
+                <div class="cp-fade-height cp-fade-height--flexbox" id="screen-0" style="display:block">
+                    <div tabindex="0" class="cp-form-submit-helper cp-departments cp-callback-widget__state">
+                        <div class="cp-company-logo cp-departments__company-logo">
+                            <img src="https://cdn-s3.callpage.io/uploads/public/5a9/ead/cd1/5a9eadcd17144147838248.png" class="cp-company-logo__img">
+                        </div>
+                        <p class="cp-departments__heading cp-h1"><span>Do you want us to call you back in <span place="seconds">28</span> seconds for free?</span>
+                        </p>
+                        <p class="cp-departments__text cp-text-subheading">Choose your department</p>
+                        <div class="cp-grid cp-grid--form cp-form" style="position: relative !important;">
+                            <div class="cp-grid__item">
+                                <div class="cp-form-control cp-form-control--show-arrow">
+                                    <select tabindex="0" data-form-control="" data-brand-color="border:focus | &amp;:focus + fill" class="cp-form-control__control cp-form-simple-control cp-form-simple-control--select">
+                                        <option value="label" disabled="disabled">Choose Department</option>
+                                        <option value="1266">Sales and Info</option>
+                                        <option value="1267">Customer Service</option>
+                                    </select>
+                                    <svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow">
+                                        <path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cp-grid__item">
+                                <button data-brand-color="background" class="cp-btn cp-btn--brand" id="open-screen-btn">Call me now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of first screen -->
+				<div class="cp-fade-height cp-fade-height--flexbox" id="screen-1" style="display:none">
 					<div class="cp-contact-type cp-callback-widget__state" tabindex="0">
 						<ul class="cp-segmented-bar cp-contact-type__tabs">
 							<li id="cp-schedule__inner" class="cp-segmented-bar__segment cp-segmented-bar__segment--active">
@@ -750,7 +779,6 @@ function play_beep() {
         }, 1000);
     }
 }
-
 function close_cp_window() {
     clearTimeout(t);
     $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
@@ -779,6 +807,7 @@ function collaspe_call_btn()
         $("#cp-button").removeClass('cp-bounce-in-up').addClass('cp-bounce-in-up');
         $(".cp-callpage__bg").fadeOut(500);
         $("#cp-button").css('display', 'block');
+        play_beep();
         t = setTimeout(function(){ 
             $("#cp-callback-widget").removeClass('cp-animated').removeClass('cp-bounce-out-down').removeClass('v-leave-to');
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
@@ -788,6 +817,8 @@ function collaspe_call_btn()
     else {
         clearTimeout(t);
         play_beep();
+        $('#screen-0').css('display', 'block');
+        $('#screen-1').css('display', 'none');
         $('#callpage').removeClass('cp-callpage--widget-opened').addClass('cp-callpage--widget-opened');
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
         $("#cp-callback-widget").removeClass('cp-bounce-in-up').addClass('cp-bounce-in-up');
@@ -807,6 +838,11 @@ $(document).ready(function() {
     $("#cp-button").click(function(e) {
         collaspe_call_btn();
     });
+    $("#open-screen-btn").click(function(e) {
+        $('#screen-0').css('display', 'none');
+        $('#screen-1').fadeIn(600);
+    });
+    
     $('.cp-segmented-bar__segment').click(function(e) {
         $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
         $(this).addClass('cp-segmented-bar__segment--active');
@@ -826,10 +862,11 @@ $(document).ready(function() {
         $("#cp-button").addClass('v-enter-to');
         $("#cp-button").addClass('cp-bounce-in-up');
         $("#cp-button").css('display', 'block');
+        play_beep();
         t = setTimeout(function(){ 
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
         }, 600);
-    }, 1000);
+    }, 2000);
 });
 $(document).mouseup(function(e)
 {
