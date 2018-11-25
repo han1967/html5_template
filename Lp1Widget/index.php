@@ -577,7 +577,7 @@
                             <div class="cp-grid__item">
                                 <div class="cp-form-control cp-form-control--show-arrow">
                                     <select id="department-select" data-brand-color="border:focus | &amp;:focus + fill" class="cp-form-control__control cp-form-simple-control cp-form-simple-control--select">
-                                        <option value="label" disabled="disabled">Choose Department</option>
+                                        <option value="label" disabled="disabled" selected>Choose Department</option>
                                         <option value="1266">Sales and Info</option>
                                         <option value="1267">Customer Service</option>
                                     </select>
@@ -610,7 +610,7 @@
           c-0.7-8.1-4.9-15.2-11.2-19.6V53.6C183.8,45.2,176.9,38.3,168.4,38.3L168.4,38.3z M168.4,179.9c-6.3,0-11.5-5.2-11.5-11.5
           c0-6.3,5.2-11.5,11.5-11.5c6.4,0,11.5,5.1,11.5,11.5C179.9,174.8,174.8,179.9,168.4,179.9L168.4,179.9z M168.4,179.9"></path>
 									</g>
-								</svg> <span class="cp-segmented-bar__text">Call me later</span>
+								</svg> <span class="cp-segmented-bar__text">Call me Now</span>
 							</li>
 							<li id="cp-message__inner" class="cp-segmented-bar__segment">
 								<svg x="0px" y="0px" viewBox="0 0 335.3 308.1" class="cp-chat-icon cp-segmented-bar__icon" data-brand-color="fill">
@@ -682,7 +682,7 @@
 													<svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon">
 														<path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path>
 													</svg>
-													<input data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567">
+													<input type="number" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567">
 													<!---->
 												</div>
 											</div>
@@ -707,22 +707,22 @@
                                                 <div class="cp-chars-limit cp-chars-limit--kill-offset cp-custom-text-color">
                                                 1000
                                                 </div>
-                                        <textarea data-brand-color="border:focus" data-form-control="" placeholder="Type your message here" class="cp-form-simple-control" data-test="message-to-manager"></textarea>
+                                        <textarea id="message-to-manager" data-brand-color="border:focus" data-form-control="" placeholder="Type your message here" class="cp-form-simple-control" data-test="message-to-manager"></textarea>
                                     </div>
                                     <div class="cp-grid__item">
-                                        <input data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control" type="email" placeholder="Your email" data-test="email">
+                                        <input id="email" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your email">
                                         </div>
                                         <div class="cp-grid__item">
                                             <div class="cp-vuetel cp-vuetel--no-flags">
                                                 <svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon">
                                                     <path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path>
                                                 </svg>
-                                                <input data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567">
+                                                <input type="number" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567">
                                                     <!---->
                                                 </div>
                                             </div>
                                             <div class="cp-grid__item">
-                                                <button data-brand-color="background" class="cp-btn cp-btn--brand" data-test="leave-message-btn">Submit</button>
+                                                <button id="leave-message-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="leave-message-btn">Submit</button>
                                             </div>
                                             <!---->
                                             <div class="cp-grid__item">
@@ -821,6 +821,17 @@ function collaspe_call_btn()
         $("#open-screen-btn").css('display', 'none');
         $('#screen-0').css('display', 'block');
         $('#screen-1').css('display', 'none');
+        
+        init_message_box();
+        $('.cp-message__inner').css('display', 'none');
+        $('.cp-schedule__inner').css('display', 'block');
+        $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
+        $('#cp-schedule__inner').addClass('cp-segmented-bar__segment--active');
+
+        $('#department-select option').prop('selected', function() {
+            return this.defaultSelected;
+        });
+        
         $('#callpage').removeClass('cp-callpage--widget-opened').addClass('cp-callpage--widget-opened');
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
         $("#cp-callback-widget").removeClass('cp-bounce-in-up').addClass('cp-bounce-in-up');
@@ -836,6 +847,18 @@ function collaspe_call_btn()
         }, 600);
     }
 }
+function init_message_box() {
+    var inHtml='<div class="cp-message__inner" style=""> <p class="cp-h1 cp-call__heading cp-content-container">Leave your message and we will contact you as soon as possible</p><div class="cp-form cp-message__form"> <div class="cp-grid cp-grid--form"> <div class="cp-grid__item"> <div class="cp-chars-limit cp-chars-limit--kill-offset cp-custom-text-color"> 1000 </div><textarea id="message-to-manager" data-brand-color="border:focus" data-form-control="" placeholder="Type your message here" class="cp-form-simple-control" data-test="message-to-manager"></textarea> </div><div class="cp-grid__item"> <input id="email" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your email"> </div><div class="cp-grid__item"> <div class="cp-vuetel cp-vuetel--no-flags"> <svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon"> <path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path> </svg> <input type="number" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567"> </div></div><div class="cp-grid__item"> <button id="leave-message-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="leave-message-btn">Submit</button> </div><div class="cp-grid__item"> <p class="cp-processed-calls-text">You are already the 3rd person who has left a message</p></div></div></div></div>';
+    $('.cp-message__inner').html(inHtml);
+    $("#leave-message-btn").click(function(e) {
+        console.log('test');
+        var message = $('#message-to-manager').val();
+        var email = $('#email').val();
+        var inHtml='<div class="cp-message__inner" style=""> <p class="cp-h1 cp-call__heading cp-content-container">Success!</p><div class="cp-form cp-message__form"> <div class="cp-grid cp-grid--form"> <div class="cp-grid__item"><p>'
+        +message+'</p></div><div class="cp-grid__item"><p><strong>'+email+'</strong></p></div></div></div></div>';
+        $('.cp-message__inner').html(inHtml);
+    });
+}
 $(document).ready(function() {
     $("#cp-button").click(function(e) {
         collaspe_call_btn();
@@ -844,6 +867,14 @@ $(document).ready(function() {
         $('#screen-0').css('display', 'none');
         $('#screen-1').fadeIn(600);
     });
+    $("#leave-message-btn").click(function(e) {
+        console.log('test');
+        var message = $('#message-to-manager').val();
+        var email = $('#email').val();
+        var inHtml='<div class="cp-message__inner" style=""> <p class="cp-h1 cp-call__heading cp-content-container">Success!</p><div class="cp-form cp-message__form"> <div class="cp-grid cp-grid--form"> <div class="cp-grid__item"><p>'
+        +message+'</p></div><div class="cp-grid__item"><p><strong>'+email+'</strong></p></div></div></div></div>';
+        $('.cp-message__inner').html(inHtml);
+    });
     $('#department-select').on('change', function (e) {
         $("#open-screen-btn").css('display', 'block');
     });
@@ -851,6 +882,7 @@ $(document).ready(function() {
     $('.cp-segmented-bar__segment').click(function(e) {
         $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
         $(this).addClass('cp-segmented-bar__segment--active');
+
         var tabID = $(this).attr('id');
         if (tabID == 'cp-schedule__inner')
         {
@@ -862,12 +894,12 @@ $(document).ready(function() {
             $('.cp-message__inner').fadeIn(600);
         }
     });
-    setTimeout(function(){ 
+    setTimeout(function(){
+        play_beep();
         $("#cp-button").addClass('cp-animated');
         $("#cp-button").addClass('v-enter-to');
         $("#cp-button").addClass('cp-bounce-in-up');
         $("#cp-button").css('display', 'block');
-        play_beep();
         t = setTimeout(function(){ 
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
         }, 600);
