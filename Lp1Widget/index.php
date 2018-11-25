@@ -30,7 +30,7 @@
   fbq('init', '115173512735053');
   fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
+<noscript><img height="1" width="1" style="display: none;"
   src="https://www.facebook.com/tr?id=115173512735053&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
@@ -568,16 +568,15 @@
                 <!-- first screen -->
                 <div class="cp-fade-height cp-fade-height--flexbox" id="screen-0" style="display:block">
                     <div tabindex="0" class="cp-form-submit-helper cp-departments cp-callback-widget__state">
-                        <div class="cp-company-logo cp-departments__company-logo">
-                            <img src="https://cdn-s3.callpage.io/uploads/public/5a9/ead/cd1/5a9eadcd17144147838248.png" class="cp-company-logo__img">
-                        </div>
+                        <br><br><br>
                         <p class="cp-departments__heading cp-h1"><span>Do you want us to call you back in <span place="seconds">28</span> seconds for free?</span>
                         </p>
+                        <br><br>
                         <p class="cp-departments__text cp-text-subheading">Choose your department</p>
                         <div class="cp-grid cp-grid--form cp-form" style="position: relative !important;">
                             <div class="cp-grid__item">
                                 <div class="cp-form-control cp-form-control--show-arrow">
-                                    <select tabindex="0" data-form-control="" data-brand-color="border:focus | &amp;:focus + fill" class="cp-form-control__control cp-form-simple-control cp-form-simple-control--select">
+                                    <select id="department-select" data-brand-color="border:focus | &amp;:focus + fill" class="cp-form-control__control cp-form-simple-control cp-form-simple-control--select">
                                         <option value="label" disabled="disabled">Choose Department</option>
                                         <option value="1266">Sales and Info</option>
                                         <option value="1267">Customer Service</option>
@@ -588,13 +587,14 @@
                                 </div>
                             </div>
                             <div class="cp-grid__item">
-                                <button data-brand-color="background" class="cp-btn cp-btn--brand" id="open-screen-btn">Call me now</button>
+                                <br>
+                                <button data-brand-color="background" class="cp-btn cp-btn--brand" id="open-screen-btn" style="display: none;">Call me now</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- end of first screen -->
-				<div class="cp-fade-height cp-fade-height--flexbox" id="screen-1" style="display:none">
+				<div class="cp-fade-height cp-fade-height--flexbox" id="screen-1" style="display: none;">
 					<div class="cp-contact-type cp-callback-widget__state" tabindex="0">
 						<ul class="cp-segmented-bar cp-contact-type__tabs">
 							<li id="cp-schedule__inner" class="cp-segmented-bar__segment cp-segmented-bar__segment--active">
@@ -755,6 +755,7 @@
 			</div>
 			<!---->
 			<div data-test="widget-button" class="cp-widget-button">
+                <div data-ignore-important-width="" data-ignore-important-height="" data-ignore-important-opacity="" class="cp-widget-button__underlay" style="background-color: rgb(225, 181, 40) !important;"></div>
 				<div data-brand-color="background" class="cp-widget-button__inner">
 					<svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-widget-button__icon">
 						<path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path>
@@ -781,6 +782,7 @@ function play_beep() {
 }
 function close_cp_window() {
     clearTimeout(t);
+    play_beep();
     $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
     $("#cp-callback-widget").removeClass('cp-bounce-out-down').addClass('cp-bounce-out-down');
     $("#cp-callback-widget").removeClass('v-leave-to').addClass('v-leave-to');
@@ -799,6 +801,7 @@ function collaspe_call_btn()
 {
     if ($("#cp-button").css('display')=='none') {
         clearTimeout(t);
+        play_beep();
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
         $("#cp-callback-widget").removeClass('cp-bounce-out-down').addClass('cp-bounce-out-down');
         $("#cp-callback-widget").removeClass('v-leave-to').addClass('v-leave-to');
@@ -807,7 +810,6 @@ function collaspe_call_btn()
         $("#cp-button").removeClass('cp-bounce-in-up').addClass('cp-bounce-in-up');
         $(".cp-callpage__bg").fadeOut(500);
         $("#cp-button").css('display', 'block');
-        play_beep();
         t = setTimeout(function(){ 
             $("#cp-callback-widget").removeClass('cp-animated').removeClass('cp-bounce-out-down').removeClass('v-leave-to');
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
@@ -816,7 +818,7 @@ function collaspe_call_btn()
     }
     else {
         clearTimeout(t);
-        play_beep();
+        $("#open-screen-btn").css('display', 'none');
         $('#screen-0').css('display', 'block');
         $('#screen-1').css('display', 'none');
         $('#callpage').removeClass('cp-callpage--widget-opened').addClass('cp-callpage--widget-opened');
@@ -841,6 +843,9 @@ $(document).ready(function() {
     $("#open-screen-btn").click(function(e) {
         $('#screen-0').css('display', 'none');
         $('#screen-1').fadeIn(600);
+    });
+    $('#department-select').on('change', function (e) {
+        $("#open-screen-btn").css('display', 'block');
     });
     
     $('.cp-segmented-bar__segment').click(function(e) {
