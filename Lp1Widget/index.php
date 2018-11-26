@@ -667,7 +667,9 @@
 					<svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-widget-button__icon">
 						<path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path>
 					</svg>
-				</div> <span class="cp-widget-button__close-btn-hover"></span>
+				</div>
+                <span class="cp-widget-button__close-btn-hover"></span>
+                <span id="notifications" class="cp-pill cp-macp cp-widget-button__pill cp-pill--danger">2</span>
 			</div>
 		</div>
 	</div>
@@ -702,7 +704,13 @@ function close_cp_window() {
         $("#cp-callback-widget").removeClass('cp-animated').removeClass('cp-bounce-out-down').removeClass('v-leave-to');
         $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
         $('#callpage').removeClass('cp-callpage--widget-opened');
+        init_notification();
     }, 600);
+}
+function init_notification()
+{
+    var n = Math.floor(Math.random() * 9);
+    $('#notifications').html(n);
 }
 function collaspe_call_btn()
 {
@@ -721,6 +729,7 @@ function collaspe_call_btn()
             $("#cp-callback-widget").removeClass('cp-animated').removeClass('cp-bounce-out-down').removeClass('v-leave-to');
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
             $('#callpage').removeClass('cp-callpage--widget-opened');
+            init_notification();
         }, 600);
     }
     else {
@@ -811,6 +820,7 @@ $(document).ready(function() {
         $("#cp-button").css('display', 'block');
         t = setTimeout(function(){ 
             $("#cp-button").removeClass('cp-animated').removeClass('v-enter-to').removeClass('cp-bounce-in-up');
+            init_notification();
         }, 600);
     }, 2000);
 });
