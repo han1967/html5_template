@@ -718,7 +718,6 @@ var session = '<?=isset($_SESSION['user']['email']) ? $_SESSION['user']['email']
 var now = '<?=date('H:i',strtotime('+2 Hours'))?>';
 var nowDay = '<?=date('d F')?>';
 var mobileSession = '<?=isset($_SESSION['m']) && !empty($_SESSION['m']) ? $_SESSION['m'] : ''?>';
-console.log(mobileSession)
 
 var t;
 function play_beep() {
@@ -761,6 +760,7 @@ function collaspe_call_btn()
 {
     play_beep();
     if ($("#cp-button").css('display')=='none') {
+        //close popup window
         clearTimeout(t);
 //        play_beep();
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
@@ -783,6 +783,7 @@ function collaspe_call_btn()
         $('#cp-schedule__inner').css('display', 'none');
     }
     else {
+        //open popup window
         clearTimeout(t);
         $("#open-screen-btn").css('display', 'none');
         $('#screen-0').css('display', 'block');
@@ -792,8 +793,8 @@ function collaspe_call_btn()
             $('.cp-schedule__inner').css('display', 'block');
             $('#cp-schedule__inner').css('display', 'block');
             $('.cp-message__inner').css('display', 'none');
-            $('#cp-schedule__inner').addClass('cp-segmented-bar__segment--active');
             $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
+            $('#cp-schedule__inner').addClass('cp-segmented-bar__segment--active');
             init_schedule_box();
             init_message_box();
         }else{
@@ -801,13 +802,9 @@ function collaspe_call_btn()
             $('#cp-schedule__inner').css('display', 'none');
             $('.cp-message__inner').css('display', 'block');
             init_message_box();
+            $('#screen-0').css('display', 'none');
+            $('#screen-1').css('display', 'block');
         }
-
-        console.log(session)
-
-
-
-
 
         $('#department-select option').prop('selected', function() {
             return this.defaultSelected;
