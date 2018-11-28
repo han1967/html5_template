@@ -708,7 +708,7 @@ $sel .="</select>";
 					</svg>
 				</div>
                 <span class="cp-widget-button__close-btn-hover"></span>
-                <span id="notifications" class="cp-pill cp-macp cp-widget-button__pill cp-pill--danger">2</span>
+                <span id="notifications" class="cp-pill cp-macp cp-widget-button__pill cp-pill--danger">1</span>
 			</div>
 		</div>
 	</div>
@@ -754,7 +754,7 @@ function close_cp_window() {
 function init_notification()
 {
     var n = Math.floor(Math.random() * 9);
-    $('#notifications').html(n);
+    $('#notifications').html(1);
 }
 function collaspe_call_btn()
 {
