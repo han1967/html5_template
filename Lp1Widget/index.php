@@ -780,17 +780,23 @@ function collaspe_call_btn()
         $('#screen-1').css('display', 'none');
 
         if(session == ''){
-            init_schedule_box();
-            $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
-            $('#cp-schedule__inner').addClass('cp-segmented-bar__segment--active');
-
-            $('.cp-message__inner').css('display', 'none');
             $('.cp-schedule__inner').css('display', 'block');
             $('#cp-schedule__inner').css('display', 'block');
-//            init_message_box();
+            $('.cp-message__inner').css('display', 'none');
+            $('#cp-schedule__inner').addClass('cp-segmented-bar__segment--active');
+            $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
+            init_schedule_box();
+            init_message_box();
         }else{
+            $('.cp-schedule__inner').css('display', 'none !important');
+            $('#cp-schedule__inner').css('display', 'none !important');
+            $('.cp-message__inner').css('display', 'block');
             init_message_box();
         }
+
+        console.log(session)
+
+
 
 
 
@@ -814,14 +820,12 @@ function collaspe_call_btn()
     }
 }
 
-
 function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
 
 function init_message_box() {
-    $('.cp-schedule__inner').css('display', 'none !important');
     var inHtml='<p class="cp-h1 cp-call__heading cp-content-container">Leave your message and we will contact you as soon as possible</p><div class="cp-form cp-message__form"> <div class="cp-grid cp-grid--form"> <div class="cp-grid__item"> ' +
         '<div class="cp-grid__item"><input id="name" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your name"> <label for="name" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label></div>' +
         '<div class="cp-grid__item"><input id="email1" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your email"><label for="email1" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label> </div>';
@@ -950,14 +954,9 @@ function init_schedule_box() {
     });
 }
 $(document).ready(function() {
-
     $("#cp-button").click(function(e) {
         collaspe_call_btn();
     });
-
-    $('#cp-message__inner').click(function () {
-        init_message_box();
-    })
     $("#open-screen-btn").click(function(e) {
         $('#screen-0').css('display', 'none');
         $('#screen-1').fadeIn(600);
