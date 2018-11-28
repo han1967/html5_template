@@ -769,9 +769,9 @@ function collaspe_call_btn()
             init_notification();
         }, 600);
 
-        $('.cp-message__inner').css('display', 'none !important');
-        $('.cp-schedule__inner').css('display', 'none !important');
-        $('#cp-schedule__inner').css('display', 'none !important');
+        $('.cp-message__inner').css('display', 'none');
+        $('.cp-schedule__inner').css('display', 'none');
+        $('#cp-schedule__inner').css('display', 'none');
     }
     else {
         clearTimeout(t);
@@ -788,8 +788,8 @@ function collaspe_call_btn()
             init_schedule_box();
             init_message_box();
         }else{
-            $('.cp-schedule__inner').css('display', 'none !important');
-            $('#cp-schedule__inner').css('display', 'none !important');
+            $('.cp-schedule__inner').css('display', 'none');
+            $('#cp-schedule__inner').css('display', 'none');
             $('.cp-message__inner').css('display', 'block');
             init_message_box();
         }
@@ -971,11 +971,11 @@ $(document).ready(function() {
         var tabID = $(this).attr('id');
         if (tabID == 'cp-schedule__inner')
         {
-            $('.cp-message__inner').css('display', 'none !important');
+            $('.cp-message__inner').css('display', 'none');
             $('.cp-schedule__inner').fadeIn(600);
         }
         else {
-            $('.cp-schedule__inner').css('display', 'none !important');
+            $('.cp-schedule__inner').css('display', 'none');
             $('.cp-message__inner').fadeIn(600);
         }
     });
