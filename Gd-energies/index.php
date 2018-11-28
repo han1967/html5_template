@@ -72,8 +72,6 @@
 	<link rel="stylesheet" id="ultimate-animate-css" href="css/animate.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="ultimate-modal-css" href="css/modal.min.css" type="text/css" media="all">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
 	<!--
 	<script type="text/javascript" src="js/custom.js"></script>
 	<script type="text/javascript" src="js/placeholders.jquery.min.js"></script>
@@ -472,16 +470,16 @@
 															<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 585px; overflow: visible;">
 																<!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
 																<div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="margin-top: 0px; margin-bottom: 0px; height: 585px;" data-version="5.4.7.4" data-slideactive="rs-26">
-																	<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 998px; height: 100%; max-height: none; left: 0px;">
+																	<ul class="tp-revslider-mainul" style="display: block; overflow: hidden; width: 998px; height: 100%; max-height: none; left: 0px;">
 																		<!-- SLIDE  -->
-																		<li data-index="rs-24" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+																		<li data-index="rs-24" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: inherit; opacity: 0; background-color: rgba(255, 255, 255, 0);">
 																			<!-- MAIN IMAGE -->
 																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
 																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/eng.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng.jpg"></div>
 																			</div>
 																			<!-- LAYERS -->
 																			<!-- LAYER NR. 1 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 24px; top: 0px; z-index: 5;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-24-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
@@ -489,7 +487,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 2 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 30px; z-index: 6;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -499,7 +497,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 3 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 102px; z-index: 7;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Proven Efficacy</div>
@@ -507,7 +505,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 4 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 146px; z-index: 8;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -517,7 +515,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 5 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 220px; z-index: 9;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6 minutes twice daily</div>
@@ -525,7 +523,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 6 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 261px; z-index: 10;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -535,7 +533,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 7 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 333px; z-index: 11;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Easy and Safe</div>
@@ -544,14 +542,14 @@
 																			</div>
 																		</li>
 																		<!-- SLIDE  -->
-																		<li data-index="rs-25" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+																		<li data-index="rs-25" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: inherit; opacity: 0; background-color: rgba(255, 255, 255, 0);">
 																			<!-- MAIN IMAGE -->
 																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
 																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/eng.png'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng.png"></div>
 																			</div>
 																			<!-- LAYERS -->
 																			<!-- LAYER NR. 8 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 24px; top: 0px; z-index: 5;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-25-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
@@ -559,7 +557,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 9 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 30px; z-index: 6;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -569,7 +567,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 10 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 102px; z-index: 7;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Reduces Pain</div>
@@ -577,7 +575,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 11 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 146px; z-index: 8;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -587,7 +585,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 12 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 220px; z-index: 9;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6-8 Min. twice daily</div>
@@ -595,7 +593,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 13 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 261px; z-index: 10;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -605,7 +603,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 14 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 333px; z-index: 11;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Enhanced Efficacy</div>
@@ -613,7 +611,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 15 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 378px; z-index: 12;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 47px; top: 378px; z-index: 12;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-17" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;378&#39;,&#39;378&#39;,&#39;378&#39;,&#39;378&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
@@ -623,7 +621,7 @@
 																				</div>
 																			</div>
 																			<!-- LAYER NR. 16 -->
-																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 450px; z-index: 13;">
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; left: 39px; top: 450px; z-index: 13;">
 																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-18" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;450&#39;,&#39;450&#39;,&#39;450&#39;,&#39;450&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Faster Healing</div>
@@ -632,7 +630,7 @@
 																			</div>
 																		</li>
 																		<!-- SLIDE  -->
-																		<li data-index="rs-26" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng1-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+																		<li data-index="rs-26" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
 																			<!-- MAIN IMAGE -->
 																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
 																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;img/eng1.png&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng1.png"></div>
@@ -720,91 +718,7 @@
 																			</div>
 																		</li>
 																	</ul>
-																	<div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 74.4889%; transform: translate3d(0px, 0px, 0px);"></div>
-																	<div class="tp-loader spinner0" style="display: none;">
-																		<div class="dot1"></div>
-																		<div class="dot2"></div>
-																		<div class="bounce1"></div>
-																		<div class="bounce2"></div>
-																		<div class="bounce3"></div>
-																	</div>
-																	<div class="tp-leftarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px;"></div>
-																	<div class="tp-rightarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%;"></div>
 																</div>
-																<script type="text/javascript">
-																	if (setREVStartSize!==undefined) setREVStartSize(
-																			{c: '#rev_slider_1_1', responsiveLevels: [1240,1024,1024,1024], gridwidth: [950,950,950,950], gridheight: [585,585,585,585], sliderLayout: 'auto'});
-																					
-																		var revapi1,
-																			tpj;	
-																		(function() {			
-																			if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
-																			function onLoad() {				
-																				if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
-																			if(tpj("#rev_slider_1_1").revolution == undefined){
-																				revslider_showDoubleJqueryError("#rev_slider_1_1");
-																			}else{
-																				revapi1 = tpj("#rev_slider_1_1").show().revolution({
-																					sliderType:"standard",
-																					jsFileLocation:"//gd-energies.com/wp-content/plugins/revslider/public/assets/js/",
-																					sliderLayout:"auto",
-																					dottedOverlay:"none",
-																					delay:9000,
-																					navigation: {
-																						keyboardNavigation:"off",
-																						keyboard_direction: "horizontal",
-																						mouseScrollNavigation:"off",
-																		 							mouseScrollReverse:"default",
-																						onHoverStop:"off",
-																						arrows: {
-																							style:"hesperiden",
-																							enable:true,
-																							hide_onmobile:false,
-																							hide_onleave:false,
-																							tmp:'',
-																							left: {
-																								h_align:"left",
-																								v_align:"center",
-																								h_offset:20,
-																								v_offset:0
-																							},
-																							right: {
-																								h_align:"right",
-																								v_align:"center",
-																								h_offset:20,
-																								v_offset:0
-																							}
-																						}
-																					},
-																					responsiveLevels:[1240,1024,1024,1024],
-																					visibilityLevels:[1240,1024,1024,1024],
-																					gridwidth:[950,950,950,950],
-																					gridheight:[585,585,585,585],
-																					lazyType:"none",
-																					shadow:0,
-																					spinner:"spinner0",
-																					stopLoop:"off",
-																					stopAfterLoops:-1,
-																					stopAtSlide:-1,
-																					shuffle:"off",
-																					autoHeight:"off",
-																					disableProgressBar:"on",
-																					hideThumbsOnMobile:"off",
-																					hideSliderAtLimit:0,
-																					hideCaptionAtLimit:0,
-																					hideAllCaptionAtLilmit:0,
-																					debugMode:false,
-																					fallbacks: {
-																						simplifyAll:"off",
-																						nextSlideOnWindowFocus:"off",
-																						disableFocusListener:false,
-																					}
-																				});
-																			}; /* END OF revapi call */
-																			
-																		 }; /* END OF ON LOAD FUNCTION */
-																		}()); /* END OF WRAPPING FUNCTION */
-																</script>
 															</div>
 															<!-- END REVOLUTION SLIDER -->
 														</div>
@@ -991,11 +905,7 @@
 																recommendations</b>
 															</h3>
 													<div class="w-grid type_carousel layout_1785" id="us_grid_1">
-														<style id="us_grid_1_css"></style>
-														<style>
-															#us_grid_1 .w-grid-item-h{}#us_grid_1 .usg_post_content_1{font-size:14px;line-height:1.7}#us_grid_1 .usg_hwrapper_1{}#us_grid_1 .usg_post_image_1{width:4rem; flex-shrink:0}#us_grid_1 .usg_vwrapper_1{}#us_grid_1 .usg_post_custom_field_1{font-weight:bold}#us_grid_1 .usg_post_custom_field_2{font-size:0.9rem;color:#999999}#us_grid_1 .usg_vwrapper_2{border-radius:0.3rem;border-color:#ebebeb}#us_grid_1 .usg_vwrapper_2{transition-duration:0.3s;transform:scale(1) translate(0%,0%)}#us_grid_1 .w-grid-item-h:hover .usg_vwrapper_2{transform:scale(1) translate(0%,0%);opacity:1;border-color:#f9a02c}#us_grid_1 .usg_hwrapper_1{margin-top:1rem}#us_grid_1 .usg_post_image_1{margin-right:1rem}#us_grid_1 .usg_post_custom_field_1{margin-bottom:0}#us_grid_1 .usg_vwrapper_2{border-style:solid; border-width:0;border-width:2px;padding:2rem}
-														</style>
-														<div class="w-grid-list owl-carousel owl-loaded owl-drag" data-breakpoint_1_width="1200" data-breakpoint_1_cols="3" data-breakpoint_1_autoplay="1" data-breakpoint_2_width="900" data-breakpoint_2_cols="2" data-breakpoint_2_autoplay="1" data-breakpoint_3_width="600" data-breakpoint_3_cols="1" data-breakpoint_3_autoplay="1" data-items="1" data-nav="0" data-dots="0" data-center="0" data-autoplay="1" data-timeout="3000" data-autoheight="1" data-slideby="1">
+														<div class="w-grid-list owl-carousel owl-loaded owl-drag">
 															<div class="owl-stage-outer owl-height" style="height: 145px;">
 																<div class="owl-stage" style="transform: translate3d(-1132px, 0px, 0px); transition: all 0.25s ease 0s; width: 3113px;">
 																	<div class="owl-item cloned" style="width: 283px;">
