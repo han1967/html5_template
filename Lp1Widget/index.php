@@ -2,7 +2,7 @@
 if(!isset($_SESSION)){
     session_start();
 }
-
+//echo date('Y-m-d H:i:s',strtotime('+2 Hours'));
 if(isset($_GET['a'])){
     $_SESSION['a'] = $_GET['a'];
 }
@@ -18,7 +18,7 @@ $date = strtotime(date('Y/m/d'));
 $sevenPlus = '';
 $dateArr = [];
 $today = date('Y/m/d');
-for ($i=1;$i<= 7;$i++){
+for ($i=0;$i<= 6;$i++){
     $sevenPlus = date('Y/m/d',strtotime('+'.$i.' days',strtotime($today)));
     $sevenPlus = date('d F ', strtotime($sevenPlus));
     array_push($dateArr,$sevenPlus);
@@ -711,7 +711,10 @@ $sel .="</select>";
 </div>
 <script>
 var session = '<?=isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : '' ?>';
-console.log(session)
+var now = '<?=date('H:i',strtotime('+2 Hours'))?>';
+var nowDay = '<?=date('d F')?>';
+console.log(now)
+console.log(nowDay)
 var t;
 function play_beep() {
     if ($("#beep").length<1)
@@ -751,9 +754,10 @@ function init_notification()
 }
 function collaspe_call_btn()
 {
+    play_beep();
     if ($("#cp-button").css('display')=='none') {
         clearTimeout(t);
-        play_beep();
+//        play_beep();
         $("#cp-callback-widget").removeClass('cp-animated').addClass('cp-animated');
         $("#cp-callback-widget").removeClass('cp-bounce-out-down').addClass('cp-bounce-out-down');
         $("#cp-callback-widget").removeClass('v-leave-to').addClass('v-leave-to');
@@ -844,7 +848,7 @@ function init_message_box() {
         var email= $("#email1").val();
         var monthday= $("#month-day option:selected").text();
         var hour= $("#hour option:selected").text();
-
+        var mob = $('#MobilePhone1').val()
 //        if(message == ''){
 //            alert('Please add message!');
 //            return false;
@@ -867,7 +871,7 @@ function init_message_box() {
             url: "ajax/register.php",
             type: "post",
             dataType: "json",
-            data: {'message': message,'action':'update','name':name,'email':email,'monthday':monthday,'hour':hour},
+            data: {'message': message,'action':'update','name':name,'email':email,'monthday':monthday,'hour':hour,'mob':mob},
             success: function (data) {
                 console.log(data)
                 if (data.success != undefined) {
@@ -875,6 +879,7 @@ function init_message_box() {
                     var inHtml = '<div class="cp-message__inner" style=""> <p class="cp-h1 cp-call__heading cp-content-container">Success!</p><div class="cp-form cp-message__form"> <div class="cp-grid cp-grid--form"> <div class="cp-grid__item"><p>'
                         + message + '</p></div><div class="cp-grid__item"><p><strong>' + email + '</strong></p></div></div></div></div>';
                     $('.cp-message__inner').html(inHtml);
+                    close_cp_window();
                 } else {
                     alert(data.error)
                 }
@@ -891,6 +896,7 @@ function init_schedule_box() {
         '<div class="cp-form-control cp-form-control--show-arrow cp-schedule__select">' +
         '<?=$sel?>' +
         '<svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div><div class="cp-grid__item cp-col-6 cp-schedule__select-item"><div class="cp-form-control cp-form-control--show-arrow cp-schedule__select"><select tabindex="0" data-form-control="" data-brand-color="border:focus | &amp;:focus + fill" class="cp-form-control__control cp-form-simple-control cp-form-simple-control--select" id="hour">' +
+        '<option value="1543221000000">'+now+'</option>' +
         '<option value="1543221000000">08:00</option>' +
         '<option value="1543222800000">08:30</option>' +
         '<option value="1543224600000">09:00</option>' +
@@ -914,7 +920,7 @@ function init_schedule_box() {
         '<option value="1543242600000">18:00</option>' +
         '<option value="1543242600000">18:30</option>' +
         '<option value="1543242600000">19:00</option>' +
-        '</select><svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div><div class="cp-grid__item"><div class="cp-vuetel cp-vuetel--no-flags"><svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon"><path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path></svg><input type="number" name="MobilePhone" id="MobilePhone" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567" value=""></div></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me later</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
+        '</select><svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div><div class="cp-grid__item"><div class="cp-vuetel cp-vuetel--no-flags"><svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon"><path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path></svg><input type="number" name="MobilePhone" id="MobilePhone" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567" value=""></div></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
     $('.cp-schedule__inner').html(inHtml);
     $("#schedule-call-btn").click(function(e) {
         var mobile = $('#callpage[dir=ltr] .cp-vuetel__input').val();
@@ -980,7 +986,7 @@ $(document).ready(function() {
         }
     });
     setTimeout(function(){
-        play_beep();
+//        play_beep();
         $("#cp-button").addClass('cp-animated');
         $("#cp-button").addClass('v-enter-to');
         $("#cp-button").addClass('cp-bounce-in-up');
@@ -990,6 +996,19 @@ $(document).ready(function() {
             init_notification();
         }, 600);
     }, 2000);
+
+    $(document).on('change','#month-day',function(){
+        date = $(this).find('option:selected').text();
+        now1 = $('#hour').find('option:selected').text();
+        console.log(now1)
+        console.log(nowDay)
+        if(date.trim() == nowDay.trim() &&  now1.trim() == now.trim()){
+            $('#schedule-call-btn').text('Call me now');
+        }else{
+            console.log('yes')
+            $('#schedule-call-btn').text('Call me later');
+        }
+    })
 });
 $(document).mouseup(function(e)
 {
