@@ -22,10 +22,10 @@
 	<meta property="og:title" content="Home">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://gd-energies.com/">
-	<link rel="stylesheet" id="breadcrumb_style-css" href="css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" type="text/css" media="all">
-	<link rel="stylesheet" id="rs-plugin-settings-css" href="css/settings.css" type="text/css" media="all">
-	<style id="rs-plugin-settings-inline-css" type="text/css">
+	<link rel="stylesheet" href="css/breadcrumb_style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/contact-form.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/rs-plugin-settings.css" type="text/css" media="all">
+	<style type="text/css">
 		.hesperiden.tparrows {
 			cursor:pointer;
 			background:rgba(0,0,0,0.5);
@@ -72,15 +72,15 @@
 	<link rel="stylesheet" id="ultimate-animate-css" href="css/animate.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="ultimate-modal-css" href="css/modal.min.css" type="text/css" media="all">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
 	<!--
-	<script type="text/javascript" src="css/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="css/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="css/custom.js"></script>
-	<script type="text/javascript" src="css/placeholders.jquery.min.js"></script>
-	<script type="text/javascript" src="css/ultimate-params.min.js"></script>
-	<script type="text/javascript" src="css/custom.min.js"></script>
-	<script type="text/javascript" src="css/modernizr-custom.min.js"></script>
-	<script type="text/javascript" src="css/modal-all.min.js"></script> -->
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript" src="js/placeholders.jquery.min.js"></script>
+	<script type="text/javascript" src="js/ultimate-params.min.js"></script>
+	<script type="text/javascript" src="js/custom.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-custom.min.js"></script>
+	<script type="text/javascript" src="js/modal-all.min.js"></script> -->
 	<style>
 		form.example button {
 		   background: #f78f1e none repeat scroll 0 0;
@@ -200,25 +200,25 @@
 	<div class="bcure-mainheader-full">
 		<div class="bcure-mainheader">
 			<div class="bcure-header-logo">
-				<a href="https://gd-energies.com/">
-					<img src="css/to-home_en.png">
+				<a href="#">
+					<img src="img/to-home_en.png">
 				</a>
 			</div>
 			<div class="bcure-header-logo-mobile">
-				<a href="https://gd-energies.com/">
-					<img src="css/logo.png">
+				<a href="#">
+					<img src="img/logo.png">
 				</a>
 			</div>
 			<div class="header-language">
 				<div class="dropdown">
 					<button onclick="myFunction()" class="dropbtn"><i class="fas fa-caret-down"></i>&nbsp;&nbsp;&nbsp; Change Language</button>
 					<div id="myDropdown" class="dropdown-content">
-						<a href="http://gd-energies.co.il/">
-							<img src="css/israel.png">&nbsp;&nbsp;&nbsp;&nbsp; עברית</a>
-						<a href="https://gd-energies.com/">
-							<img src="css/usa.png">&nbsp;&nbsp;&nbsp;&nbsp; English</a>
-						<a href="http://ru.gd-energies.co.il/">
-							<img src="css/rus.png">&nbsp;&nbsp;&nbsp;&nbsp; Русский</a>
+						<a href="#">
+							<img src="img/israel.png">&nbsp;&nbsp;&nbsp;&nbsp; עברית</a>
+						<a href="#">
+							<img src="img/usa.png">&nbsp;&nbsp;&nbsp;&nbsp; English</a>
+						<a href="#">
+							<img src="img/rus.png">&nbsp;&nbsp;&nbsp;&nbsp; Русский</a>
 					</div>
 				</div>
 			</div>
@@ -244,8 +244,7 @@
 				  }
 				}
 			</script>
-			<div class="header-social">
-				<a href="https://www.facebook.com/bcure.laser/?fref=ts"><i class="fab fa-facebook-f"></i></a>
+			<div class="header-social">	<a href="https://www.facebook.com/bcure.laser/?fref=ts"><i class="fab fa-facebook-f"></i></a>
 				<a href="https://www.linkedin.com/company/2897909?trk=tyah&amp;trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A2897909%2Cidx%3A3-4-9%2C"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 		</div>
@@ -266,7 +265,7 @@
 		}
 	</style>
 	<style type="text/css" data-type="vc_shortcodes-custom-css">
-		.vc_custom_1532499731044{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1536827833513{padding-right: 15px !important;padding-bottom: 10px !important;padding-left: 15px !important;}.vc_custom_1529605666725{margin-bottom: 0px !important;}.vc_custom_1532496230282{padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1529583316293{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1532501288513{margin-top: -70px !important;padding-top: 0px !important;padding-right: 25px !important;padding-bottom: 0px !important;padding-left: 25px !important;}.vc_custom_1530614523648{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(https://gd-energies.com/wp-content/uploads/2018/07/קלאסי.png?id=2021) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530613989829{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(https://gd-energies.com/wp-content/uploads/2018/07/sport_0.png?id=2019) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530614929158{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(https://gd-energies.com/wp-content/uploads/2018/07/דנטל-לייזר_0.png?id=2020) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530599273304{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1529585080570{margin-bottom: 0px !important;}.vc_custom_1530611664450{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529594035923{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758464029{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529594779716{margin-bottom: 0px !important;}.vc_custom_1530612026347{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1530599262851{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758490931{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529597272843{margin-bottom: 0px !important;}.vc_custom_1530612032533{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529597244659{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758518446{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529600811692{padding-top: 12.5px !important;padding-bottom: 12.5px !important;background-color: #eceeef !important;}.vc_custom_1529597815041{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758586957{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1536148972378{border-right-width: 1px !important;border-left-width: 1px !important;padding-top: 0px !important;border-left-color: #e0e0e0 !important;border-left-style: solid !important;border-right-color: #e0e0e0 !important;border-right-style: solid !important;}.vc_custom_1529607170168{margin-bottom: 0px !important;}.vc_custom_1529607210896{margin-bottom: 0px !important;}.vc_custom_1529607221356{margin-bottom: 0px !important;}.vc_custom_1534921074676{margin-bottom: 0px !important;padding-bottom: 10px !important;}
+		.vc_custom_1532499731044{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1536827833513{padding-right: 15px !important;padding-bottom: 10px !important;padding-left: 15px !important;}.vc_custom_1529605666725{margin-bottom: 0px !important;}.vc_custom_1532496230282{padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1529583316293{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1532501288513{margin-top: -70px !important;padding-top: 0px !important;padding-right: 25px !important;padding-bottom: 0px !important;padding-left: 25px !important;}.vc_custom_1530614523648{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(img/logo.png) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530613989829{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(img/sport_0.png) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530614929158{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-image: url(img/logo.png) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1530599273304{padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}.vc_custom_1529585080570{margin-bottom: 0px !important;}.vc_custom_1530611664450{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529594035923{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758464029{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529594779716{margin-bottom: 0px !important;}.vc_custom_1530612026347{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1530599262851{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758490931{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529597272843{margin-bottom: 0px !important;}.vc_custom_1530612032533{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529597244659{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758518446{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1529600811692{padding-top: 12.5px !important;padding-bottom: 12.5px !important;background-color: #eceeef !important;}.vc_custom_1529597815041{padding-right: 10px !important;padding-left: 10px !important;}.vc_custom_1529758586957{margin-right: 10px !important;margin-bottom: 10px !important;}.vc_custom_1536148972378{border-right-width: 1px !important;border-left-width: 1px !important;padding-top: 0px !important;border-left-color: #e0e0e0 !important;border-left-style: solid !important;border-right-color: #e0e0e0 !important;border-right-style: solid !important;}.vc_custom_1529607170168{margin-bottom: 0px !important;}.vc_custom_1529607210896{margin-bottom: 0px !important;}.vc_custom_1529607221356{margin-bottom: 0px !important;}.vc_custom_1534921074676{margin-bottom: 0px !important;padding-bottom: 10px !important;}
 	</style>
 	<noscript>
 		<style type="text/css">
@@ -414,7 +413,7 @@
 														<div class="wpb_wrapper">
 															<div class="w-image align_center home-form-img">
 																<div class="w-image-h">
-																	<img width="214" height="79" src="css/logo.png" class="attachment-full size-full" alt="">
+																	<img width="214" height="79" src="img/logo.png" class="attachment-full size-full" alt="">
 																</div>
 															</div>
 															<h6 style="font-size: 13px;text-align: left" class="vc_custom_heading vc_custom_1529605666725"><b>For further information please leave your contact details here</b></h6>
@@ -429,25 +428,13 @@
 																			<div class="gform_body">
 																				<ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
 																					<li id="field_2_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-																						<label class="gfield_label gfield_label_before_complex" for="input_2_1_3"></label>
-																						<div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gfield_trigger_change" id="input_2_1"> <span id="input_2_1_3_container" class="name_first">
-                                                    <input type="text" name="input_1.3" id="input_2_1_3" value="" aria-label="First name" aria-invalid="false" placeholder="Name">
-                                                    <label for="input_2_1_3">First</label>
-                                                </span>
-																						</div>
+																						<input type="text" class="medium" id="input_2_1_3" name="user_name" value="" placeholder="Name" aria-label="First name" aria-invalid="false">
 																					</li>
 																					<li id="field_2_2" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-																						<label class="gfield_label" for="input_2_2"></label>
-																						<input id="input_2_2" class="medium" tabindex="6" name="input_2" step="any" type="tel" value="" placeholder="Phone" aria-required="true" aria-invalid="false">
+																						<input type="tel" class="medium" id="input_2_2" name="user_phone" value="" placeholder="Phone" aria-required="true" aria-invalid="false">
 																					</li>
 																					<li id="field_2_3" class="gfield slide_margin field_sublabel_below field_description_below gfield_visibility_visible">
-																						<label class="gfield_label" for="input_2_3"></label>
-																						<div class="ginput_container ginput_container_email">
-																							<input name="input_3" id="input_2_3" type="text" value="" class="medium" placeholder="Email" aria-invalid="false">
-																						</div>
-																					</li>
-																					<li id="field_2_4" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																						<input name="input_4" id="input_2_4" type="hidden" class="gform_hidden" aria-invalid="false" value="אתר אנגלית">
+																						<input type="text" class="medium" id="input_2_3" name="user_email" value="" placeholder="Email" aria-required="true" aria-invalid="false">
 																					</li>
 																				</ul>
 																			</div>
@@ -461,314 +448,291 @@
 																				<input type="hidden" class="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" value="1">
 																				<input type="hidden" name="gform_field_values" value="">
 																			</div>
-																		</form>
-																	</div>
-																	<script type="text/javascript">
-																		jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+																	</form>
+																</div>
+																<script type="text/javascript">
+																	jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
 																		                        Placeholders.enable();
 																		                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );
-																	</script>
-																	<script type="text/javascript">
-																		jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } );
-																	</script>
-																</div>
+																</script>
+																<script type="text/javascript">
+																	jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } );
+																</script>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="g-cols wpb_row type_default valign_top vc_inner home-slider ">
-												<div class="vc_col-sm-12 wpb_column vc_column_container">
-													<div class="vc_column-inner  vc_custom_1532496230282">
-														<div class="wpb_wrapper">
-															<div class="wpb_revslider_element wpb_content_element">
-																<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 585px; overflow: visible;">
-																	<!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
-																	<div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="margin-top: 0px; margin-bottom: 0px; height: 585px;" data-version="5.4.7.4" data-slideactive="rs-26">
-																		<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 998px; height: 100%; max-height: none; left: 0px;">
-																			<!-- SLIDE  -->
-																			<li data-index="rs-24" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/eng-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
-																				<!-- MAIN IMAGE -->
-																				<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																					<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/eng.jpg" alt="" title="eng" width="950" height="585" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																					<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/eng.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/eng.jpg"></div>
+										</div>
+										<div class="g-cols wpb_row type_default valign_top vc_inner home-slider ">
+											<div class="vc_col-sm-12 wpb_column vc_column_container">
+												<div class="vc_column-inner  vc_custom_1532496230282">
+													<div class="wpb_wrapper">
+														<div class="wpb_revslider_element wpb_content_element">
+															<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin: 0px auto; background: transparent; padding: 0px; height: 585px; overflow: visible;">
+																<!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
+																<div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="margin-top: 0px; margin-bottom: 0px; height: 585px;" data-version="5.4.7.4" data-slideactive="rs-26">
+																	<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 998px; height: 100%; max-height: none; left: 0px;">
+																		<!-- SLIDE  -->
+																		<li data-index="rs-24" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+																			<!-- MAIN IMAGE -->
+																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/eng.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng.jpg"></div>
+																			</div>
+																			<!-- LAYERS -->
+																			<!-- LAYER NR. 1 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-24-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
+																					</div>
 																				</div>
-																				<!-- LAYERS -->
-																				<!-- LAYER NR. 1 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-24-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
+																			</div>
+																			<!-- LAYER NR. 2 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon3_3_1.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 2 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon3_3_1.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
+																			</div>
+																			<!-- LAYER NR. 3 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Proven Efficacy</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 4 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon3_2_4.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 3 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Proven Efficacy</div>
+																			</div>
+																			<!-- LAYER NR. 5 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6 minutes twice daily</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 6 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon3_1_4.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 4 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon3_2_4.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
+																			</div>
+																			<!-- LAYER NR. 7 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-24-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Easy and Safe</div>
+																					</div>
+																				</div>
+																			</div>
+																		</li>
+																		<!-- SLIDE  -->
+																		<li data-index="rs-25" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+																			<!-- MAIN IMAGE -->
+																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/eng.png'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng.png"></div>
+																			</div>
+																			<!-- LAYERS -->
+																			<!-- LAYER NR. 8 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-25-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 9 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon2_1_2.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 5 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6 minutes twice daily</div>
+																			</div>
+																			<!-- LAYER NR. 10 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Reduces Pain</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 11 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon2_2_0_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 6 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon3_1_4.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="65" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
+																			</div>
+																			<!-- LAYER NR. 12 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6-8 Min. twice daily</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 13 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon2_4_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 7 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-24-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Easy and Safe</div>
+																			</div>
+																			<!-- LAYER NR. 14 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Enhanced Efficacy</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 15 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 378px; z-index: 12;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-17" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;378&#39;,&#39;378&#39;,&#39;378&#39;,&#39;378&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon2_3_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																			</li>
-																			<!-- SLIDE  -->
-																			<li data-index="rs-25" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/eng-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
-																				<!-- MAIN IMAGE -->
-																				<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																					<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/eng.png" alt="" title="eng" width="950" height="585" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																					<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/eng.png&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/eng.png"></div>
+																			</div>
+																			<!-- LAYER NR. 16 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 450px; z-index: 13;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-25-layer-18" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;450&#39;,&#39;450&#39;,&#39;450&#39;,&#39;450&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Faster Healing</div>
+																					</div>
 																				</div>
-																				<!-- LAYERS -->
-																				<!-- LAYER NR. 8 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 24px; top: 0px; z-index: 5;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-25-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
+																			</div>
+																		</li>
+																		<!-- SLIDE  -->
+																		<li data-index="rs-26" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/eng1-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+																			<!-- MAIN IMAGE -->
+																			<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+																				<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;img/eng1.png&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/eng1.png"></div>
+																			</div>
+																			<!-- LAYERS -->
+																			<!-- LAYER NR. 17 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 24px; top: 0px; z-index: 5;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-26-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 18 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 30px; z-index: 6;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon1_2_1.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="68" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 9 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 30px; z-index: 6;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon2_1_2.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
+																			</div>
+																			<!-- LAYER NR. 19 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 102px; z-index: 7;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Treats Inflammation</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 20 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 146px; z-index: 8;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon1_3_3.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 10 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 102px; z-index: 7;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Reduces Pain</div>
+																			</div>
+																			<!-- LAYER NR. 21 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 220px; z-index: 9;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Reduces Pain</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 22 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 261px; z-index: 10;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon1_1_3.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 11 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 146px; z-index: 8;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon2_2_0_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
+																			</div>
+																			<!-- LAYER NR. 23 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 333px; z-index: 11;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Faster Healing</div>
+																					</div>
+																				</div>
+																			</div>
+																			<!-- LAYER NR. 24 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 378px; z-index: 12;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-17" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;378&#39;,&#39;378&#39;,&#39;378&#39;,&#39;378&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																							<img src="img/icon015_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="68" height="68" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																						</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 12 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 220px; z-index: 9;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">6-8 Min. twice daily</div>
-																						</div>
+																			</div>
+																			<!-- LAYER NR. 25 -->
+																			<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 450px; z-index: 13;">
+																				<div class="tp-loop-wrap" style="position:absolute;display:block;;">
+																					<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
+																						<div class="tp-caption   tp-resizeme" id="slide-26-layer-18" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;450&#39;,&#39;450&#39;,&#39;450&#39;,&#39;450&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Enhanced Efficacy</div>
 																					</div>
 																				</div>
-																				<!-- LAYER NR. 13 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 261px; z-index: 10;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon2_4_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 14 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 333px; z-index: 11;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Enhanced Efficacy</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 15 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 47px; top: 378px; z-index: 12;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-17" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;378&#39;,&#39;378&#39;,&#39;378&#39;,&#39;378&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon2_3_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="65" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 16 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: hidden; left: 39px; top: 450px; z-index: 13;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-25-layer-18" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;450&#39;,&#39;450&#39;,&#39;450&#39;,&#39;450&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Faster Healing</div>
-																						</div>
-																					</div>
-																				</div>
-																			</li>
-																			<!-- SLIDE  -->
-																			<li data-index="rs-26" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/eng1-100x50.png" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
-																				<!-- MAIN IMAGE -->
-																				<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																					<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/eng1.png" alt="" title="eng1" width="950" height="585" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																					<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/eng1.png&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/eng1.png"></div>
-																				</div>
-																				<!-- LAYERS -->
-																				<!-- LAYER NR. 17 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 24px; top: 0px; z-index: 5;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" id="slide-26-layer-15" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;0&#39;,&#39;0&#39;,&#39;0&#39;,&#39;0&#39;]" data-width="110" data-height="585" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[,,,]" data-paddingright="[,,,]" data-paddingbottom="[,,,]" data-paddingleft="[,,,]" style="z-index: 5; background-color: rgba(251, 251, 251, 0.8); visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 28px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 585px; min-width: 110px; max-height: 585px; max-width: 110px; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;"></div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 18 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 30px; z-index: 6;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-5" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;30&#39;,&#39;30&#39;,&#39;30&#39;,&#39;30&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon1_2_1.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="68" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 19 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 102px; z-index: 7;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-6" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;102&#39;,&#39;102&#39;,&#39;102&#39;,&#39;102&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Treats Inflammation</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 20 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 146px; z-index: 8;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-9" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;146&#39;,&#39;146&#39;,&#39;146&#39;,&#39;146&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon1_3_3.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 21 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 220px; z-index: 9;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-11" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;220&#39;,&#39;220&#39;,&#39;220&#39;,&#39;220&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Reduces Pain</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 22 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 261px; z-index: 10;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-12" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;261&#39;,&#39;261&#39;,&#39;261&#39;,&#39;261&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon1_1_3.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="67" height="67" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 23 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 333px; z-index: 11;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-13" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;333&#39;,&#39;333&#39;,&#39;333&#39;,&#39;333&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Faster Healing</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 24 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 47px; top: 378px; z-index: 12;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-17" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;23&#39;,&#39;23&#39;,&#39;23&#39;,&#39;23&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;378&#39;,&#39;378&#39;,&#39;378&#39;,&#39;378&#39;]" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;,&#39;inherit&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																								<img src="css/icon015_0.png" alt="" data-ww="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" data-hh="[&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;,&#39;65px&#39;]" width="68" height="68" data-no-retina="" style="width: 65px; height: 65px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																				<!-- LAYER NR. 25 -->
-																				<div class="tp-parallax-wrap" style="position: absolute; display: block; visibility: visible; left: 39px; top: 450px; z-index: 13;">
-																					<div class="tp-loop-wrap" style="position:absolute;display:block;;">
-																						<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
-																							<div class="tp-caption   tp-resizeme" id="slide-26-layer-18" data-x="[&#39;left&#39;,&#39;left&#39;,&#39;left&#39;,&#39;left&#39;]" data-hoffset="[&#39;15&#39;,&#39;15&#39;,&#39;15&#39;,&#39;15&#39;]" data-y="[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]" data-voffset="[&#39;450&#39;,&#39;450&#39;,&#39;450&#39;,&#39;450&#39;]" data-width="80" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="[&#39;center&#39;,&#39;center&#39;,&#39;center&#39;,&#39;center&#39;]" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; min-width: 80px; max-width: 80px; white-space: normal; font-size: 14px; line-height: 18px; font-weight: 400; color: rgb(71, 85, 100); letter-spacing: 0px; font-family: &quot;Open Sans&quot;; visibility: inherit; transition: none 0s ease 0s; text-align: center; border-width: 0px; margin: 0px; padding: 0px; min-height: 0px; max-height: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">Enhanced Efficacy</div>
-																						</div>
-																					</div>
-																				</div>
-																			</li>
-																		</ul>
-																		<script>
-																			var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
-																									if(htmlDiv) {
-																										htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-																									}else{
-																										var htmlDiv = document.createElement("div");
-																										htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-																										document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-																									}
-																		</script>
-																		<div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 74.4889%; transform: translate3d(0px, 0px, 0px);"></div>
-																		<div class="tp-loader spinner0" style="display: none;">
-																			<div class="dot1"></div>
-																			<div class="dot2"></div>
-																			<div class="bounce1"></div>
-																			<div class="bounce2"></div>
-																			<div class="bounce3"></div>
-																		</div>
-																		<div class="tp-leftarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px;"></div>
-																		<div class="tp-rightarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%;"></div>
+																			</div>
+																		</li>
+																	</ul>
+																	<div class="tp-bannertimer tp-bottom" style="visibility: hidden; width: 74.4889%; transform: translate3d(0px, 0px, 0px);"></div>
+																	<div class="tp-loader spinner0" style="display: none;">
+																		<div class="dot1"></div>
+																		<div class="dot2"></div>
+																		<div class="bounce1"></div>
+																		<div class="bounce2"></div>
+																		<div class="bounce3"></div>
 																	</div>
-																	<script>
-																		var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
-																						if(htmlDiv) {
-																							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-																						}else{
-																							var htmlDiv = document.createElement("div");
-																							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
-																							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
-																						}
-																	</script>
-																	<script type="text/javascript">
-																		if (setREVStartSize!==undefined) setREVStartSize(
+																	<div class="tp-leftarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px;"></div>
+																	<div class="tp-rightarrow tparrows hesperiden" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%;"></div>
+																</div>
+																<script type="text/javascript">
+																	if (setREVStartSize!==undefined) setREVStartSize(
 																			{c: '#rev_slider_1_1', responsiveLevels: [1240,1024,1024,1024], gridwidth: [950,950,950,950], gridheight: [585,585,585,585], sliderLayout: 'auto'});
 																					
 																		var revapi1,
@@ -840,22 +804,9 @@
 																			
 																		 }; /* END OF ON LOAD FUNCTION */
 																		}()); /* END OF WRAPPING FUNCTION */
-																	</script>
-																	<script>
-																		var htmlDivCss = unescape(".hesperiden.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%7D%0A.hesperiden.tparrows%3Ahover%20%7B%0A%09background%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A.hesperiden.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A20px%3B%0A%09color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.hesperiden.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82c%22%3B%0A%20%20%20%20margin-left%3A-3px%3B%0A%7D%0A.hesperiden.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82d%22%3B%0A%20%20%20%20margin-right%3A-3px%3B%0A%7D%0A");
-																		var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
-																		if(htmlDiv) {
-																			htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
-																		}
-																		else{
-																			var htmlDiv = document.createElement('div');
-																			htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
-																			document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
-																		}
-																	</script>
-																</div>
-																<!-- END REVOLUTION SLIDER -->
+																</script>
 															</div>
+															<!-- END REVOLUTION SLIDER -->
 														</div>
 													</div>
 												</div>
@@ -865,416 +816,415 @@
 								</div>
 							</div>
 						</div>
-					</section>
-					<section class="l-section wpb_row height_auto with_overlay home-color">
-						<div class="l-section-overlay" style="background-color: #eceeef"></div>
-						<div class="l-section-h i-cf">
-							<div class="g-cols vc_row type_default valign_top">
-								<div class="vc_col-sm-12 wpb_column vc_column_container home-boxes">
-									<div class="vc_column-inner  vc_custom_1529583316293 color_custom" style="color:#ffffff;">
-										<div class="wpb_wrapper">
-											<div class="g-cols wpb_row type_default valign_top vc_inner  vc_custom_1532501288513">
-												<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-orange" id="home-color-box">
-													<div class="vc_column-inner  vc_custom_1530614523648 color_custom" style="color:#ffffff;">
-														<div class="wpb_wrapper">
-															<div class="ult-content-box-container ">
-																<div class="ult-content-box" style="background-color: rgb(247, 143, 30); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#f78f1e" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
-																	<div class="w-image align_center vc_custom_1529585080570">
-																		<div class="w-image-h">
-																			<img width="237" height="54" src="css/logo1_0.png" class="attachment-full size-full" alt="">
-																		</div>
-																	</div>
-																	<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530611664450"><a href="https://gd-energies.com/#"><b>B-Cure Laser Classic</b></a></h2>
-																	<div class="wpb_text_column  vc_custom_1529594035923">
-																		<div class="wpb_wrapper">
-																			<p><a>Home device for orthopedic and pain problems </a>
-																			</p>
-																		</div>
-																	</div>
-																	<div class="ult-spacer spacer-5bfdde087ca30" data-id="5bfdde087ca30" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-																	<div class=" vc_custom_1529758464029 ubtn-ctn-right ">
-																		<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/classic/" target="_blank" rel="noopener">
-																			<button type="button" id="ubtn-4015" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087cb96" data-hover="#f78f1e" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-4015" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
-																			</button>
-																		</a>
-																	</div>
+			</div>
+			</section>
+			<section class="l-section wpb_row height_auto with_overlay home-color">
+				<div class="l-section-overlay" style="background-color: #eceeef"></div>
+				<div class="l-section-h i-cf">
+					<div class="g-cols vc_row type_default valign_top">
+						<div class="vc_col-sm-12 wpb_column vc_column_container home-boxes">
+							<div class="vc_column-inner  vc_custom_1529583316293 color_custom" style="color:#ffffff;">
+								<div class="wpb_wrapper">
+									<div class="g-cols wpb_row type_default valign_top vc_inner  vc_custom_1532501288513">
+										<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-orange" id="home-color-box">
+											<div class="vc_column-inner  vc_custom_1530614523648 color_custom" style="color:#ffffff;">
+												<div class="wpb_wrapper">
+													<div class="ult-content-box-container ">
+														<div class="ult-content-box" style="background-color: rgb(247, 143, 30); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#f78f1e" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+															<div class="w-image align_center vc_custom_1529585080570">
+																<div class="w-image-h">
+																	<img width="237" height="54" src="img/logo1_0.png" class="attachment-full size-full" alt="">
 																</div>
 															</div>
-														</div>
-													</div>
-												</div>
-												<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-red" id="home-color-box">
-													<div class="vc_column-inner  vc_custom_1530613989829">
-														<div class="wpb_wrapper">
-															<div class="ult-content-box-container ">
-																<div class="ult-content-box" style="background-color: rgb(239, 65, 53); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#ef4135" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
-																	<div class="w-image align_center vc_custom_1529594779716">
-																		<div class="w-image-h">
-																			<img width="237" height="54" src="css/sport_logo.png" class="attachment-full size-full" alt="">
-																		</div>
-																	</div>
-																	<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530612026347"><a href="https://gd-energies.com/#"><b>B-Cure Laser Sport</b></a></h2>
-																	<div class="wpb_text_column  vc_custom_1530599262851">
-																		<div class="wpb_wrapper">
-																			<p><a>LLLT for acute and chronic sports injuries</a>
-																			</p>
-																		</div>
-																	</div>
-																	<div class="ult-spacer spacer-5bfdde087db22" data-id="5bfdde087db22" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-																	<div class=" vc_custom_1529758490931 ubtn-ctn-right ">
-																		<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/sports/" target="_blank" rel="noopener">
-																			<button type="button" id="ubtn-3289" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087dc69" data-hover="#ef4135" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-3289" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
-																			</button>
-																		</a>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-green" id="home-color-box">
-													<div class="vc_column-inner  vc_custom_1530614929158">
-														<div class="wpb_wrapper">
-															<div class="ult-content-box-container ">
-																<div class="ult-content-box" style="background-color: rgb(0, 172, 123); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#00ac7b" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
-																	<div class="w-image align_center vc_custom_1529597272843">
-																		<div class="w-image-h">
-																			<img width="237" height="54" src="css/dental-laser_logo_0.png" class="attachment-full size-full" alt="">
-																		</div>
-																	</div>
-																	<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530612032533"><a href="https://gd-energies.com/#"><b>B-Cure Dental Laser</b></a></h2>
-																	<div class="wpb_text_column  vc_custom_1529597244659">
-																		<div class="wpb_wrapper">
-																			<p><a>Brakethrough treatment for gum problems</a>
-																			</p>
-																		</div>
-																	</div>
-																	<div class="ult-spacer spacer-5bfdde087ec2e" data-id="5bfdde087ec2e" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-																	<div class=" vc_custom_1529758518446 ubtn-ctn-right ">
-																		<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/dental-laser/" target="_blank" rel="noopener">
-																			<button type="button" id="ubtn-5124" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087ed77" data-hover="#00ac7b" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5124" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
-																			</button>
-																		</a>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="vc_col-sm-3 wpb_column vc_column_container home-black">
-													<div class="vc_column-inner  vc_custom_1530599273304">
-														<div class="wpb_wrapper">
-															<div class="wpb_text_column ">
+															<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530611664450"><a href="https://gd-energies.com/#"><b>B-Cure Laser Classic</b></a></h2>
+															<div class="wpb_text_column  vc_custom_1529594035923">
 																<div class="wpb_wrapper">
-																	<div class="views-field views-field-field-doctors-list">
-																		<div class="field-content">
-																			<div class="item-list"></div>
-																		</div>
-																	</div>
+																	<p><a>Home device for orthopedic and pain problems </a>
+																	</p>
 																</div>
 															</div>
-															<div class="ult-content-box-container ">
-																<div class="ult-content-box" style="background-color: rgb(71, 85, 100); padding-bottom: 3px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#475564" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
-																	<h5 style="color: #475564;text-align: center" class="vc_custom_heading vc_custom_1529600811692"><b>Professional Devices</b></h5>
-																	<div class="wpb_text_column  vc_custom_1529597815041">
-																		<div class="wpb_wrapper">
-																			<ul>
-																				<li class="first"><a href="https://gd-energies.com/#">Sports medicine</a>
-																				</li>
-																				<li class="last"><a href="https://gd-energies.com/#">Mouth and Jaw</a>
-																				</li>
-																			</ul>
-																		</div>
-																	</div>
-																	<div class="ult-spacer spacer-5bfdde087f810" data-id="5bfdde087f810" data-height="35" data-height-mobile="" data-height-tab="45" data-height-tab-portrait="62" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-																	<div class=" vc_custom_1529758586957 ubtn-ctn-right ">
-																		<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/dental-pro/" target="_blank" rel="noopener">
-																			<button type="button" id="ubtn-5179" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087f957" data-hover="#475564" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5179" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
-																			</button>
-																		</a>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="l-section wpb_row height_medium home-video">
-						<div class="l-section-h i-cf">
-							<div class="g-cols vc_row type_default valign_top">
-								<div class="vc_col-sm-12 wpb_column vc_column_container">
-									<div class="vc_column-inner">
-										<div class="wpb_wrapper">
-											<div class="g-cols wpb_row type_default valign_top vc_inner ">
-												<div class="vc_col-sm-4 wpb_column vc_column_container home-respo-border-bottom">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper">
-															<div class="w-video ratio_16x9">
-																<div class="w-video-h">
-																	<iframe src="https://www.youtube.com/embed/jorbtFU_7k0?feature=oembed" allowfullscreen></iframe>
-																</div>
-															</div>
-															<h4 style="font-size: 14px;color: #f78f1e;line-height: 18px;text-align: left" class="vc_custom_heading"><b>Olympic team about B-Cure Laser</b></h4>
-															<div class="ult-spacer spacer-5bfdde0880939" data-id="5bfdde0880939" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-															<div class=" vc_custom_1529607170168 ubtn-ctn-center ">
-																<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
-																	<button type="button" id="ubtn-4668" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde0880a85" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#f77f00" data-border-hover="#f78f1e" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-4668" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(247, 127, 0);"></span><span class="ubtn-data ubtn-text ">More Movies</span>
+															<div class="ult-spacer spacer-5bfdde087ca30" data-id="5bfdde087ca30" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+															<div class=" vc_custom_1529758464029 ubtn-ctn-right ">
+																<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/classic/" target="_blank" rel="noopener">
+																	<button type="button" id="ubtn-4015" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087cb96" data-hover="#f78f1e" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-4015" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
 																	</button>
 																</a>
 															</div>
 														</div>
 													</div>
 												</div>
-												<div class="vc_col-sm-4 wpb_column vc_column_container has-fill home-reviews home-respo-border-bottom">
-													<div class="vc_column-inner  vc_custom_1536148972378">
+											</div>
+										</div>
+										<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-red" id="home-color-box">
+											<div class="vc_column-inner  vc_custom_1530613989829">
+												<div class="wpb_wrapper">
+													<div class="ult-content-box-container ">
+														<div class="ult-content-box" style="background-color: rgb(239, 65, 53); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#ef4135" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+															<div class="w-image align_center vc_custom_1529594779716">
+																<div class="w-image-h">
+																	<img width="237" height="54" src="img/sport_logo.png" class="attachment-full size-full" alt="">
+																</div>
+															</div>
+															<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530612026347"><a href="https://gd-energies.com/#"><b>B-Cure Laser Sport</b></a></h2>
+															<div class="wpb_text_column  vc_custom_1530599262851">
+																<div class="wpb_wrapper">
+																	<p><a>LLLT for acute and chronic sports injuries</a>
+																	</p>
+																</div>
+															</div>
+															<div class="ult-spacer spacer-5bfdde087db22" data-id="5bfdde087db22" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+															<div class=" vc_custom_1529758490931 ubtn-ctn-right ">
+																<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/sports/" target="_blank" rel="noopener">
+																	<button type="button" id="ubtn-3289" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087dc69" data-hover="#ef4135" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-3289" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
+																	</button>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="vc_col-sm-3 wpb_column vc_column_container has-fill home-green" id="home-color-box">
+											<div class="vc_column-inner  vc_custom_1530614929158">
+												<div class="wpb_wrapper">
+													<div class="ult-content-box-container ">
+														<div class="ult-content-box" style="background-color: rgb(0, 172, 123); padding-bottom: 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#00ac7b" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+															<div class="w-image align_center vc_custom_1529597272843">
+																<div class="w-image-h">
+																	<img width="237" height="54" src="img/dental-laser_logo_0.png" class="attachment-full size-full" alt="">
+																</div>
+															</div>
+															<h2 style="font-size: 20px;color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1530612032533"><a href="https://gd-energies.com/#"><b>B-Cure Dental Laser</b></a></h2>
+															<div class="wpb_text_column  vc_custom_1529597244659">
+																<div class="wpb_wrapper">
+																	<p><a>Brakethrough treatment for gum problems</a>
+																	</p>
+																</div>
+															</div>
+															<div class="ult-spacer spacer-5bfdde087ec2e" data-id="5bfdde087ec2e" data-height="0" data-height-mobile="" data-height-tab="10" data-height-tab-portrait="36" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+															<div class=" vc_custom_1529758518446 ubtn-ctn-right ">
+																<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/dental-laser/" target="_blank" rel="noopener">
+																	<button type="button" id="ubtn-5124" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087ed77" data-hover="#00ac7b" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5124" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
+																	</button>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="vc_col-sm-3 wpb_column vc_column_container home-black">
+											<div class="vc_column-inner  vc_custom_1530599273304">
+												<div class="wpb_wrapper">
+													<div class="wpb_text_column ">
 														<div class="wpb_wrapper">
-															<h3 style="font-size: 18px;color: #00ac7b;text-align: left" class="vc_custom_heading">
+															<div class="views-field views-field-field-doctors-list">
+																<div class="field-content">
+																	<div class="item-list"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="ult-content-box-container ">
+														<div class="ult-content-box" style="background-color: rgb(71, 85, 100); padding-bottom: 3px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent; box-shadow: none;" data-hover_box_shadow="none" data-bg="#475564" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+															<h5 style="color: #475564;text-align: center" class="vc_custom_heading vc_custom_1529600811692"><b>Professional Devices</b></h5>
+															<div class="wpb_text_column  vc_custom_1529597815041">
+																<div class="wpb_wrapper">
+																	<ul>
+																		<li class="first"><a href="https://gd-energies.com/#">Sports medicine</a>
+																		</li>
+																		<li class="last"><a href="https://gd-energies.com/#">Mouth and Jaw</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<div class="ult-spacer spacer-5bfdde087f810" data-id="5bfdde087f810" data-height="35" data-height-mobile="" data-height-tab="45" data-height-tab-portrait="62" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+															<div class=" vc_custom_1529758586957 ubtn-ctn-right ">
+																<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/dental-pro/" target="_blank" rel="noopener">
+																	<button type="button" id="ubtn-5179" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-right   tooltip-5bfdde087f957" data-hover="#475564" data-border-color="#ffffff" data-bg="" data-hover-bg="#ffffff" data-border-hover="#ffffff" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5179" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:12px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:135px;min-height:28px;padding:px px;border-radius:0px;border-width:1px;border-color:#ffffff;border-style:solid;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(255, 255, 255);"></span><span class="ubtn-data ubtn-text ">Read More</span>
+																	</button>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="l-section wpb_row height_medium home-video">
+				<div class="l-section-h i-cf">
+					<div class="g-cols vc_row type_default valign_top">
+						<div class="vc_col-sm-12 wpb_column vc_column_container">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div class="g-cols wpb_row type_default valign_top vc_inner ">
+										<div class="vc_col-sm-4 wpb_column vc_column_container home-respo-border-bottom">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div class="w-video ratio_16x9">
+														<div class="w-video-h">
+															<iframe src="https://www.youtube.com/embed/jorbtFU_7k0?feature=oembed" allowfullscreen></iframe>
+														</div>
+													</div>
+													<h4 style="font-size: 14px;color: #f78f1e;line-height: 18px;text-align: left" class="vc_custom_heading"><b>Olympic team about B-Cure Laser</b></h4>
+													<div class="ult-spacer spacer-5bfdde0880939" data-id="5bfdde0880939" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+													<div class=" vc_custom_1529607170168 ubtn-ctn-center ">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
+															<button type="button" id="ubtn-4668" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde0880a85" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#f77f00" data-border-hover="#f78f1e" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-4668" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(247, 127, 0);"></span><span class="ubtn-data ubtn-text ">More Movies</span>
+															</button>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="vc_col-sm-4 wpb_column vc_column_container has-fill home-reviews home-respo-border-bottom">
+											<div class="vc_column-inner  vc_custom_1536148972378">
+												<div class="wpb_wrapper">
+													<h3 style="font-size: 18px;color: #00ac7b;text-align: left" class="vc_custom_heading">
 																<b>Doctors<br>
 																recommendations</b>
 															</h3>
-															<div class="w-grid type_carousel layout_1785" id="us_grid_1">
-																<style id="us_grid_1_css"></style>
-																<style>
-																	#us_grid_1 .w-grid-item-h{}#us_grid_1 .usg_post_content_1{font-size:14px;line-height:1.7}#us_grid_1 .usg_hwrapper_1{}#us_grid_1 .usg_post_image_1{width:4rem; flex-shrink:0}#us_grid_1 .usg_vwrapper_1{}#us_grid_1 .usg_post_custom_field_1{font-weight:bold}#us_grid_1 .usg_post_custom_field_2{font-size:0.9rem;color:#999999}#us_grid_1 .usg_vwrapper_2{border-radius:0.3rem;border-color:#ebebeb}#us_grid_1 .usg_vwrapper_2{transition-duration:0.3s;transform:scale(1) translate(0%,0%)}#us_grid_1 .w-grid-item-h:hover .usg_vwrapper_2{transform:scale(1) translate(0%,0%);opacity:1;border-color:#f9a02c}#us_grid_1 .usg_hwrapper_1{margin-top:1rem}#us_grid_1 .usg_post_image_1{margin-right:1rem}#us_grid_1 .usg_post_custom_field_1{margin-bottom:0}#us_grid_1 .usg_vwrapper_2{border-style:solid; border-width:0;border-width:2px;padding:2rem}
-																</style>
-																<div class="w-grid-list owl-carousel owl-loaded owl-drag" data-breakpoint_1_width="1200" data-breakpoint_1_cols="3" data-breakpoint_1_autoplay="1" data-breakpoint_2_width="900" data-breakpoint_2_cols="2" data-breakpoint_2_autoplay="1" data-breakpoint_3_width="600" data-breakpoint_3_cols="1" data-breakpoint_3_autoplay="1" data-items="1" data-nav="0" data-dots="0" data-center="0" data-autoplay="1" data-timeout="3000" data-autoheight="1" data-slideby="1">
-																	<div class="owl-stage-outer owl-height" style="height: 145px;">
-																		<div class="owl-stage" style="transform: translate3d(-1132px, 0px, 0px); transition: all 0.25s ease 0s; width: 3113px;">
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
+													<div class="w-grid type_carousel layout_1785" id="us_grid_1">
+														<style id="us_grid_1_css"></style>
+														<style>
+															#us_grid_1 .w-grid-item-h{}#us_grid_1 .usg_post_content_1{font-size:14px;line-height:1.7}#us_grid_1 .usg_hwrapper_1{}#us_grid_1 .usg_post_image_1{width:4rem; flex-shrink:0}#us_grid_1 .usg_vwrapper_1{}#us_grid_1 .usg_post_custom_field_1{font-weight:bold}#us_grid_1 .usg_post_custom_field_2{font-size:0.9rem;color:#999999}#us_grid_1 .usg_vwrapper_2{border-radius:0.3rem;border-color:#ebebeb}#us_grid_1 .usg_vwrapper_2{transition-duration:0.3s;transform:scale(1) translate(0%,0%)}#us_grid_1 .w-grid-item-h:hover .usg_vwrapper_2{transform:scale(1) translate(0%,0%);opacity:1;border-color:#f9a02c}#us_grid_1 .usg_hwrapper_1{margin-top:1rem}#us_grid_1 .usg_post_image_1{margin-right:1rem}#us_grid_1 .usg_post_custom_field_1{margin-bottom:0}#us_grid_1 .usg_vwrapper_2{border-style:solid; border-width:0;border-width:2px;padding:2rem}
+														</style>
+														<div class="w-grid-list owl-carousel owl-loaded owl-drag" data-breakpoint_1_width="1200" data-breakpoint_1_cols="3" data-breakpoint_1_autoplay="1" data-breakpoint_2_width="900" data-breakpoint_2_cols="2" data-breakpoint_2_autoplay="1" data-breakpoint_3_width="600" data-breakpoint_3_cols="1" data-breakpoint_3_autoplay="1" data-items="1" data-nav="0" data-dots="0" data-center="0" data-autoplay="1" data-timeout="3000" data-autoheight="1" data-slideby="1">
+															<div class="owl-stage-outer owl-height" style="height: 145px;">
+																<div class="owl-stage" style="transform: translate3d(-1132px, 0px, 0px); transition: all 0.25s ease 0s; width: 3113px;">
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
 																						</div>
 																					</div>
-																				</article>
+																				</div>
 																			</div>
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1599 us_testimonial type-us_testimonial status-publish hentry" data-id="1599">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“The pain in my legs are gone and only on very rare occasion they return. Then I use the device and once again the pain disappears”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Sara and David Rosenzweig</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1591 us_testimonial type-us_testimonial status-publish hentry" data-id="1591">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“I would like to note the remarkable results from treating with the B-Cure Laser, dealing with pain syndromes from different sources:</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Dr. Eduard Dvorkin</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1607 us_testimonial type-us_testimonial status-publish hentry" data-id="1607">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“Although the pain hasn’t disappeared it is much improved and sometimes I go for several days pain-free”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Harry Shuman</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item active" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1606 us_testimonial type-us_testimonial status-publish hentry" data-id="1606">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“In 5 cases we have treated pains in the joints of the hand. The improvement was nearly maximal.”
-																									<br>&nbsp;</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Ahuva Dermon, Chief Nurse</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1599 us_testimonial type-us_testimonial status-publish hentry" data-id="1599">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“The pain in my legs are gone and only on very rare occasion they return. Then I use the device and once again the pain disappears”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Sara and David Rosenzweig</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1591 us_testimonial type-us_testimonial status-publish hentry" data-id="1591">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“I would like to note the remarkable results from treating with the B-Cure Laser, dealing with pain syndromes from different sources:</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Dr. Eduard Dvorkin</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1607 us_testimonial type-us_testimonial status-publish hentry" data-id="1607">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“Although the pain hasn’t disappeared it is much improved and sometimes I go for several days pain-free”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Harry Shuman</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1606 us_testimonial type-us_testimonial status-publish hentry" data-id="1606">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“In 5 cases we have treated pains in the joints of the hand. The improvement was nearly maximal.”
-																									<br>&nbsp;</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Ahuva Dermon, Chief Nurse</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																			<div class="owl-item cloned" style="width: 283px;">
-																				<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
-																					<div class="w-grid-item-h">
-																						<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
-																							<div class="w-grid-item-elm usg_post_content_1  post_content">
-																								<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
-																							</div>
-																							<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
-																								<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
-																									<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
-																									<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</article>
-																			</div>
-																		</div>
+																		</article>
 																	</div>
-																	<div class="owl-nav disabled">
-																		<button role="presentation" class="owl-prev"><span aria-label="prev">‹</span>
-																		</button>
-																		<button role="presentation" class="owl-next"><span aria-label="next">›</span>
-																		</button>
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1599 us_testimonial type-us_testimonial status-publish hentry" data-id="1599">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“The pain in my legs are gone and only on very rare occasion they return. Then I use the device and once again the pain disappears”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Sara and David Rosenzweig</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
 																	</div>
-																	<div class="owl-dots disabled"></div>
-																</div>
-																<div class="g-preloader type_1">
-																	<div></div>
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1591 us_testimonial type-us_testimonial status-publish hentry" data-id="1591">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“I would like to note the remarkable results from treating with the B-Cure Laser, dealing with pain syndromes from different sources:</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Dr. Eduard Dvorkin</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1607 us_testimonial type-us_testimonial status-publish hentry" data-id="1607">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“Although the pain hasn’t disappeared it is much improved and sometimes I go for several days pain-free”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Harry Shuman</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item active" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1606 us_testimonial type-us_testimonial status-publish hentry" data-id="1606">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“In 5 cases we have treated pains in the joints of the hand. The improvement was nearly maximal.”
+																							<br>&nbsp;</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Ahuva Dermon, Chief Nurse</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1599 us_testimonial type-us_testimonial status-publish hentry" data-id="1599">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“The pain in my legs are gone and only on very rare occasion they return. Then I use the device and once again the pain disappears”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Sara and David Rosenzweig</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1591 us_testimonial type-us_testimonial status-publish hentry" data-id="1591">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“I would like to note the remarkable results from treating with the B-Cure Laser, dealing with pain syndromes from different sources:</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Dr. Eduard Dvorkin</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1607 us_testimonial type-us_testimonial status-publish hentry" data-id="1607">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“Although the pain hasn’t disappeared it is much improved and sometimes I go for several days pain-free”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Harry Shuman</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1606 us_testimonial type-us_testimonial status-publish hentry" data-id="1606">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“In 5 cases we have treated pains in the joints of the hand. The improvement was nearly maximal.”
+																							<br>&nbsp;</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Ahuva Dermon, Chief Nurse</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
+																	<div class="owl-item cloned" style="width: 283px;">
+																		<article class="w-grid-item ratio_1x1 post-1600 us_testimonial type-us_testimonial status-publish hentry" data-id="1600">
+																			<div class="w-grid-item-h">
+																				<div class="w-vwrapper usg_vwrapper_2 align_left valign_top ">
+																					<div class="w-grid-item-elm usg_post_content_1  post_content">
+																						<p>“I used the device on the inner side of the knee and there was a big difference within a month or two. All the pain is gone”</p>
+																					</div>
+																					<div class="w-hwrapper usg_hwrapper_1 align_left valign_middle ">
+																						<div class="w-vwrapper usg_vwrapper_1 align_left valign_top ">
+																							<div class="w-grid-item-elm usg_post_custom_field_1  post_custom_field type_text">Noga Einfeld</div>
+																							<div class="w-grid-item-elm usg_post_custom_field_2 color_link_inherit with_text_color  post_custom_field type_text"></div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</article>
+																	</div>
 																</div>
 															</div>
-															<div class="ult-spacer spacer-5bfdde088bfab" data-id="5bfdde088bfab" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-															<div class=" vc_custom_1529607210896 ubtn-ctn-center ">
-																<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
-																	<button type="button" id="ubtn-5580" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde088c0df" data-hover="#ffffff" data-border-color="#00ac7b" data-bg="#00ac7b" data-hover-bg="#00ac7b" data-border-hover="#00ac7b" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5580" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#00ac7b;border-style:solid;background: #00ac7b;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(0, 172, 123);"></span><span class="ubtn-data ubtn-text ">More Recomendations</span>
-																	</button>
-																</a>
+															<div class="owl-nav disabled">
+																<button role="presentation" class="owl-prev"><span aria-label="prev">‹</span>
+																</button>
+																<button role="presentation" class="owl-next"><span aria-label="next">›</span>
+																</button>
 															</div>
+															<div class="owl-dots disabled"></div>
+														</div>
+														<div class="g-preloader type_1">
+															<div></div>
 														</div>
 													</div>
+													<div class="ult-spacer spacer-5bfdde088bfab" data-id="5bfdde088bfab" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+													<div class=" vc_custom_1529607210896 ubtn-ctn-center ">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
+															<button type="button" id="ubtn-5580" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde088c0df" data-hover="#ffffff" data-border-color="#00ac7b" data-bg="#00ac7b" data-hover-bg="#00ac7b" data-border-hover="#00ac7b" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5580" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#00ac7b;border-style:solid;background: #00ac7b;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(0, 172, 123);"></span><span class="ubtn-data ubtn-text ">More Recomendations</span>
+															</button>
+														</a>
+													</div>
 												</div>
-												<div class="vc_col-sm-4 wpb_column vc_column_container home-respo-border-bottom">
-													<div class="vc_column-inner">
-														<div class="wpb_wrapper">
-															<div class="w-image align_center">
-																<div class="w-image-h">
-																	<img width="257" height="151" src="css/medica_2016_inv_V4_Alon_0.jpg" class="attachment-full size-full" alt="">
-																</div>
-															</div>
-															<div class="ult-spacer spacer-5bfdde088cc0d" data-id="5bfdde088cc0d" data-height="63" data-height-mobile="63" data-height-tab="63" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-															<div class=" vc_custom_1529607221356 ubtn-ctn-center ">
-																<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
-																	<button type="button" id="ubtn-1184" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde088cd6d" data-hover="#ffffff" data-border-color="#475564" data-bg="#475564" data-hover-bg="#475564" data-border-hover="#475564" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-1184" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#475564;border-style:solid;background: #475564;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(71, 85, 100);"></span><span class="ubtn-data ubtn-text ">Visit us at</span>
-																	</button>
-																</a>
-															</div>
+											</div>
+										</div>
+										<div class="vc_col-sm-4 wpb_column vc_column_container home-respo-border-bottom">
+											<div class="vc_column-inner">
+												<div class="wpb_wrapper">
+													<div class="w-image align_center">
+														<div class="w-image-h">
+															<img width="257" height="151" src="img/medica.jpg" class="attachment-full size-full" alt="">
 														</div>
+													</div>
+													<div class="ult-spacer spacer-5bfdde088cc0d" data-id="5bfdde088cc0d" data-height="63" data-height-mobile="63" data-height-tab="63" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+													<div class=" vc_custom_1529607221356 ubtn-ctn-center ">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-center ubtn-custom " href="https://gd-energies.com/#" target="_blank" rel="noopener">
+															<button type="button" id="ubtn-1184" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-sep-icon ubtn-sep-icon-at-right  ubtn-center   tooltip-5bfdde088cd6d" data-hover="#ffffff" data-border-color="#475564" data-bg="#475564" data-hover-bg="#475564" data-border-hover="#475564" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-1184" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:14px;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:bold;width:300px;min-height:40px;padding:px px;border-radius:1px;border-width:1px;border-color:#475564;border-style:solid;background: #475564;color: #ffffff;"><span class="ubtn-data ubtn-icon"><i class="Defaults-angle-double-right" style="font-size:20px;color:;"></i></span><span class="ubtn-hover" style="background: rgb(71, 85, 100);"></span><span class="ubtn-data ubtn-text ">Visit us at</span>
+															</button>
+														</a>
 													</div>
 												</div>
 											</div>
@@ -1283,103 +1233,105 @@
 								</div>
 							</div>
 						</div>
-					</section>
-					<section class="l-section wpb_row height_medium home-form-bottom ">
-						<div class="l-section-h i-cf">
-							<div class="g-cols vc_row type_default valign_top">
-								<div class="vc_col-sm-4 wpb_column vc_column_container">
-									<div class="vc_column-inner">
-										<div class="wpb_wrapper"></div>
-									</div>
-								</div>
-								<div class="vc_col-sm-4 wpb_column vc_column_container">
-									<div class="vc_column-inner">
+					</div>
+				</div>
+			</section>
+			<section class="l-section wpb_row height_medium home-form-bottom ">
+				<div class="l-section-h i-cf">
+					<div class="g-cols vc_row type_default valign_top">
+						<div class="vc_col-sm-4 wpb_column vc_column_container">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper"></div>
+							</div>
+						</div>
+						<div class="vc_col-sm-4 wpb_column vc_column_container">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<h6 style="font-size: 13px;text-align: left" class="vc_custom_heading vc_custom_1534921074676"><b>For further information please leave your contact details here</b></h6>
+									<div class="wpb_text_column ">
 										<div class="wpb_wrapper">
-											<h6 style="font-size: 13px;text-align: left" class="vc_custom_heading vc_custom_1534921074676"><b>For further information please leave your contact details here</b></h6>
-											<div class="wpb_text_column ">
-												<div class="wpb_wrapper">
-													<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-														<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="https://gd-energies.com/">
-															<div class="gform_heading">
-																<h3 class="gform_title">Slider-Form</h3>
-																<span class="gform_description"></span>
-															</div>
-															<div class="gform_body">
-																<ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
-																	<li id="field_2_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-																		<label class="gfield_label gfield_label_before_complex" for="input_2_1_3"></label>
-																		<div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gfield_trigger_change" id="input_2_1"> <span id="input_2_1_3_container" class="name_first">
+											<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
+												<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="https://gd-energies.com/">
+													<div class="gform_heading">
+														<h3 class="gform_title">Slider-Form</h3>
+														<span class="gform_description"></span>
+													</div>
+													<div class="gform_body">
+														<ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
+															<li id="field_2_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
+																<label class="gfield_label gfield_label_before_complex" for="input_2_1_3"></label>
+																<div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gfield_trigger_change" id="input_2_1"> <span id="input_2_1_3_container" class="name_first">
                                                     <input type="text" name="input_1.3" id="input_2_1_3" value="" aria-label="First name" aria-invalid="false" placeholder="Name">
                                                     <label for="input_2_1_3">First</label>
                                                 </span>
-																		</div>
-																	</li>
-																	<li id="field_2_2" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-																		<label class="gfield_label" for="input_2_2"></label>
-																		<input id="input_2_2" class="medium" tabindex="6" name="input_2" step="any" type="tel" value="" placeholder="Phone" aria-required="true" aria-invalid="false">
-																	</li>
-																	<li id="field_2_3" class="gfield slide_margin field_sublabel_below field_description_below gfield_visibility_visible">
-																		<label class="gfield_label" for="input_2_3"></label>
-																		<div class="ginput_container ginput_container_email">
-																			<input name="input_3" id="input_2_3" type="text" value="" class="medium" placeholder="Email" aria-invalid="false">
-																		</div>
-																	</li>
-																	<li id="field_2_4" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-																		<input name="input_4" id="input_2_4" type="hidden" class="gform_hidden" aria-invalid="false" value="אתר אנגלית">
-																	</li>
-																</ul>
-															</div>
-															<div class="gform_footer top_label">
-																<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
-																<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
-																<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
-																<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-																<input type="hidden" class="gform_hidden" name="state_2" value="WyJbXSIsImZiMTQwOWFhYWY0NDQzZWNjNGMwYzgwMzEyYTVlNjc0Il0=">
-																<input type="hidden" class="gform_hidden" name="gform_target_page_number_2" id="gform_target_page_number_2" value="0">
-																<input type="hidden" class="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" value="1">
-																<input type="hidden" name="gform_field_values" value="">
-															</div>
-														</form>
+																</div>
+															</li>
+															<li id="field_2_2" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
+																<label class="gfield_label" for="input_2_2"></label>
+																<input id="input_2_2" class="medium"  name="input_2" step="any" type="tel" value="" placeholder="Phone" aria-required="true" aria-invalid="false">
+															</li>
+															<li id="field_2_3" class="gfield slide_margin field_sublabel_below field_description_below gfield_visibility_visible">
+																<label class="gfield_label" for="input_2_3"></label>
+																<div class="ginput_container ginput_container_email">
+																	<input name="input_3" id="input_2_3" type="text" value="" class="medium" placeholder="Email" aria-invalid="false">
+																</div>
+															</li>
+															<li id="field_2_4" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
+																<input name="input_4" id="input_2_4" type="hidden" class="gform_hidden" aria-invalid="false" value="אתר אנגלית">
+															</li>
+														</ul>
 													</div>
-													<script type="text/javascript">
-														jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+													<div class="gform_footer top_label">
+														<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+														<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
+														<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
+														<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+														<input type="hidden" class="gform_hidden" name="state_2" value="WyJbXSIsImZiMTQwOWFhYWY0NDQzZWNjNGMwYzgwMzEyYTVlNjc0Il0=">
+														<input type="hidden" class="gform_hidden" name="gform_target_page_number_2" id="gform_target_page_number_2" value="0">
+														<input type="hidden" class="gform_hidden" name="gform_source_page_number_2" id="gform_source_page_number_2" value="1">
+														<input type="hidden" name="gform_field_values" value="">
+													</div>
+												</form>
+											</div>
+											<script type="text/javascript">
+												jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
 														                        Placeholders.enable();
 														                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );
-													</script>
-													<script type="text/javascript">
-														jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } );
-													</script>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="vc_col-sm-4 wpb_column vc_column_container">
-									<div class="vc_column-inner">
-										<div class="wpb_wrapper"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<section class="l-section wpb_row height_auto pageload-popup" style="padding-top: 0px !important;padding-bottom: 0px !important;">
-						<div class="l-section-h i-cf">
-							<div class="g-cols vc_row type_default valign_top">
-								<div class="vc_col-sm-12 wpb_column vc_column_container">
-									<div class="vc_column-inner">
-										<div class="wpb_wrapper">
-											<div id="modal-trg-txt-wrap-6083" class="ult-modal-input-wrapper ult-adjust-bottom-margin   ult_hide_modal_value " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-												<div data-class-id="content-5bfdde088f7208-97507826" class="ult-onload overlay-show " data-overlay-class="overlay-zoomin" data-onload-delay="60"></div>
-											</div>
+											</script>
+											<script type="text/javascript">
+												jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } );
+											</script>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</section>
-				</main>
-			</div>
+						<div class="vc_col-sm-4 wpb_column vc_column_container">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="l-section wpb_row height_auto pageload-popup" style="padding-top: 0px !important;padding-bottom: 0px !important;">
+				<div class="l-section-h i-cf">
+					<div class="g-cols vc_row type_default valign_top">
+						<div class="vc_col-sm-12 wpb_column vc_column_container">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper">
+									<div id="modal-trg-txt-wrap-6083" class="ult-modal-input-wrapper ult-adjust-bottom-margin   ult_hide_modal_value " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
+										<div data-class-id="content-5bfdde088f7208-97507826" class="ult-onload overlay-show " data-overlay-class="overlay-zoomin" data-onload-delay="60"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			</main>
 		</div>
+	</div>
 	</div>
 	<footer class="l-footer" itemscope="" itemtype="https://schema.org/WPFooter">
 		<style type="text/css" data-type="vc_shortcodes-custom-css">
@@ -1394,7 +1346,7 @@
 							<div class="wpb_wrapper">
 								<div class="w-image align_center">
 									<div class="w-image-h">
-										<img width="168" height="49" src="css/good-energies.png" class="attachment-full size-full" alt="">
+										<img width="168" height="49" src="img/good-energies.png" class="attachment-full size-full" alt="">
 									</div>
 								</div>
 							</div>
@@ -1464,7 +1416,7 @@
 						<div class="vc_column-inner">
 							<div class="wpb_wrapper">
 								<div id="modal-trg-txt-wrap-3142" class="ult-modal-input-wrapper ult-adjust-bottom-margin slide-popup-close   " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-									<img src="css/email-icon.png" alt="null" data-class-id="content-5bfdde08985776-80286925" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
+									<img src="img/email-icon.png" alt="null" data-class-id="content-5bfdde08985776-80286925" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
 								</div>
 							</div>
 						</div>
@@ -1473,33 +1425,9 @@
 			</div>
 		</section>
 	</footer>
-	<a class="w-toplink pos_right active" href="https://gd-energies.com/#" title="Back to top" aria-hidden="true"></a>
+	<a class="w-toplink pos_right active" href="#" title="Back to top" aria-hidden="true"></a>
 	<a class="w-header-show" href="javascript:void(0);"><span>Menu</span></a>
 	<div class="w-header-overlay"></div>
-	<script>
-		// Store some global theme options used in JS
-		if (window.$us === undefined) window.$us = {};
-		$us.canvasOptions = ($us.canvasOptions || {});
-		$us.canvasOptions.disableEffectsWidth = 1025;
-		$us.canvasOptions.responsive = true;
-		$us.canvasOptions.backToTopDisplay = 100;
-		$us.canvasOptions.scrollDuration = 1000;
-	
-		$us.langOptions = ($us.langOptions || {});
-		$us.langOptions.magnificPopup = ($us.langOptions.magnificPopup || {});
-		$us.langOptions.magnificPopup.tPrev = 'Previous (Left arrow key)';
-		$us.langOptions.magnificPopup.tNext = 'Next (Right arrow key)';
-		$us.langOptions.magnificPopup.tCounter = '%curr% of %total%';
-	
-		$us.navOptions = ($us.navOptions || {});
-		$us.navOptions.mobileWidth = 800;
-		$us.navOptions.togglable = true;
-		$us.ajaxLoadJs = true;
-		$us.templateDirectoryUri = 'https://gd-energies.com/wp-content/themes/Impreza';
-	</script>
-	<script>
-		$us.headerSettings = {"default":{"options":{"breakpoint":900,"orientation":"hor","sticky":false,"scroll_breakpoint":100,"transparent":"0","width":300,"elm_align":"center","shadow":"thin","top_show":0,"top_height":60,"top_sticky_height":0,"top_fullwidth":"0","middle_height":0,"middle_sticky_height":"60","middle_fullwidth":"0","elm_valign":"top","bg_img":"","bg_img_wrapper_start":"","bg_img_size":"cover","bg_img_repeat":"repeat","bg_img_position":"top left","bg_img_attachment":1,"bgimage_wrapper_end":"","bottom_show":1,"bottom_height":54,"bottom_sticky_height":40,"bottom_fullwidth":"0"},"layout":{"top_left":[],"top_center":[],"top_right":[],"middle_left":["image:1"],"middle_center":[],"middle_right":[],"bottom_left":["menu:1"],"bottom_center":[],"bottom_right":["search:1","cart:1"],"hidden":["text:1","text:2","text:3"]}},"tablets":{"options":{"breakpoint":900,"orientation":"hor","sticky":true,"scroll_breakpoint":100,"transparent":0,"width":300,"elm_align":"center","shadow":"thin","top_show":0,"top_height":40,"top_sticky_height":40,"top_fullwidth":0,"middle_height":50,"middle_sticky_height":50,"middle_fullwidth":0,"elm_valign":"top","bg_img":"","bg_img_wrapper_start":"","bg_img_size":"cover","bg_img_repeat":"repeat","bg_img_position":"top left","bg_img_attachment":1,"bgimage_wrapper_end":"","bottom_show":1,"bottom_height":50,"bottom_sticky_height":50,"bottom_fullwidth":0},"layout":{"top_left":[],"top_center":[],"top_right":[],"middle_left":[],"middle_center":["image:1"],"middle_right":[],"bottom_left":["menu:1"],"bottom_center":[],"bottom_right":["search:1","cart:1"],"hidden":["text:2","text:3","text:1"]}},"mobiles":{"options":{"breakpoint":600,"orientation":"hor","sticky":true,"scroll_breakpoint":50,"transparent":0,"width":300,"elm_align":"center","shadow":"thin","top_show":0,"top_height":40,"top_sticky_height":40,"top_fullwidth":0,"middle_height":50,"middle_sticky_height":0,"middle_fullwidth":0,"elm_valign":"top","bg_img":"","bg_img_wrapper_start":"","bg_img_size":"cover","bg_img_repeat":"repeat","bg_img_position":"top left","bg_img_attachment":1,"bgimage_wrapper_end":"","bottom_show":1,"bottom_height":50,"bottom_sticky_height":50,"bottom_fullwidth":0},"layout":{"top_left":[],"top_center":[],"top_right":[],"middle_left":[],"middle_center":["image:1"],"middle_right":[],"bottom_left":["menu:1"],"bottom_center":[],"bottom_right":["search:1","cart:1"],"hidden":["text:2","text:3","text:1"]}}};
-	</script>
 </body>
 
 </html>

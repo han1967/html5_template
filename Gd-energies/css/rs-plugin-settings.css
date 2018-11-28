@@ -80,11 +80,10 @@ website:   	http://www.themepunch.com
 .rtl {	direction: rtl;}
 @font-face {
   font-family: 'revicons';
-  src: url('../fonts/revicons/revicons.eot?5510888');
-  src: url('../fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'),
-       url('../fonts/revicons/revicons.woff?5510888') format('woff'),
-       url('../fonts/revicons/revicons.ttf?5510888') format('truetype'),
-       url('../fonts/revicons/revicons.svg?5510888#revicons') format('svg');
+  src: url('../fonts/revicons.eot');
+  src: url('../fonts/revicons.eot') format('embedded-opentype'),
+       url('../fonts/revicons.woff') format('woff'),
+       url('../fonts/revicons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -1093,7 +1092,7 @@ img.tp-slider-alternative-image	{
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
-	background-image:url(../assets/loader.gif);
+	background-image:url(../img/loader.gif);
 	background-repeat:no-repeat;
 	background-position: center center;
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);	
