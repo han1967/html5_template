@@ -27,7 +27,7 @@ for ($i=0;$i<= 6;$i++){
     $sevenPlus = date('d F ', strtotime($sevenPlus));
     array_push($dateArr,$sevenPlus);
 }
-$sel = "<select tabindex=\"0\" data-form-control=\"\" data-brand-color=\"border:focus | &amp;:focus + fill\" class=\"cp-form-control__control cp-form-simple-control cp-form-simple-control--select\" id=\"month-day\">";
+$sel = "<select data-form-control=\"\" data-brand-color=\"border:focus | &amp;:focus + fill\" class=\"cp-form-control__control cp-form-simple-control cp-form-simple-control--select\" id=\"month-day\">";
 foreach ($dateArr as $value){
     $sel .= "<option>".$value."</option>";
 }
@@ -937,6 +937,25 @@ function init_schedule_box() {
          }
     inHtml += '</div></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
     $('.cp-schedule__inner').html(inHtml);
+
+    $('#month-day').on('change', function (e) {
+        var date1 = $(this).find('option:selected').text();
+        var now1 = $('#hour').find('option:selected').text();
+        if(date1.trim() == nowDay.trim() &&  now1.trim() == now.trim()){
+            $('#schedule-call-btn').text('Call me now');
+        }else{
+            $('#schedule-call-btn').text('Call me later');
+        }
+    });
+    $('#hour').on('change', function (e) {
+        var date1 = $('#month-day').find('option:selected').text();
+        var now1 = $(this).find('option:selected').text();
+        if(date1.trim() == nowDay.trim() &&  now1.trim() == now.trim()){
+            $('#schedule-call-btn').text('Call me now');
+        }else{
+            $('#schedule-call-btn').text('Call me later');
+        }
+    });
     $("#schedule-call-btn").click(function(e) {
         var mobile = $('#callpage[dir=ltr] .cp-vuetel__input').val();
         if(mobileSession != ''){
@@ -1014,19 +1033,6 @@ $(document).ready(function() {
             init_notification();
         }, 600);
     }, 2000);
-
-    $(document).on('change','#month-day',function(){
-        date = $(this).find('option:selected').text();
-        now1 = $('#hour').find('option:selected').text();
-        console.log(now1)
-        console.log(nowDay)
-        if(date.trim() == nowDay.trim() &&  now1.trim() == now.trim()){
-            $('#schedule-call-btn').text('Call me now');
-        }else{
-            console.log('yes')
-            $('#schedule-call-btn').text('Call me later');
-        }
-    })
 });
 $(document).mouseup(function(e)
 {
