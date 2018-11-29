@@ -29873,7 +29873,7 @@ img.wp-smiley, img.emoji {
 }
 
 .main_form .form_content ul li {
-    width: 45%;
+    width: 31%;
     float: left;
     margin: 0 0 0 2%;
 }
@@ -29948,4 +29948,8 @@ img.wp-smiley, img.emoji {
     .custom-embed {
         padding: 20px 25px;
     }
+}
+
+.cp-schedule__select-item {
+    display:none !important;
 }
