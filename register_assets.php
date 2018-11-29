@@ -16,7 +16,7 @@ $a = empty($_GET['a']) ? '' : $_GET['a'];
 $paymentPage = 'payshortlpbp';
 $country = isset($_SERVER['HTTP_CF_IPCOUNTRY']) ? $_SERVER['HTTP_CF_IPCOUNTRY']:'';
 $countryLower = strtolower($country);
-$m = empty($_GET['m']) ? '000' : $_GET['m'];
+$m = empty($_GET['m']) ? '' : $_GET['m'];
 if($color == 2){
     $paymentPage = 'paymentShort2c';
 }
