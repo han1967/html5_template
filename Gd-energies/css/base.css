@@ -1657,3 +1657,20 @@ button {
         display: none
     }
 }
+.w-grid-item-elm.post_image {
+    overflow: hidden;
+    position: relative;
+}
+#us_grid_2 .usg_post_image_1 {
+    margin-bottom: 1rem;
+}
+#us_grid_2 .usg_post_title_1 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+}
+#us_grid_2 .usg_post_title_1 {
+    margin-bottom: .5rem;
+}
+#us_grid_2 .w-grid-item-elm.post_title {
+    font-size: 14px;
+}

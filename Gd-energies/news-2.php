@@ -1,7 +1,8 @@
+<?php 
+    $page_title="News";
+?>
 <!DOCTYPE html>
-<!-- saved from url=(0024)https://gd-energies.com/ -->
-<html class="js csstransitions js csstransitions no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" style="overflow: auto;">
-
+<html class="js csstransitions js csstransitions no-touch" lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Home - B-cure</title>
@@ -10,18 +11,18 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<meta property="og:site_name" content="B-cure">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-	<link rel="dns-prefetch" href="https://s.w.org/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="https://gd-energies.com/feed/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="https://gd-energies.com/comments/feed/">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com.php">
+	<link rel="dns-prefetch" href="https://s.w.org.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="feed.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="comments/feed.php">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<meta name="theme-color" content="#f6f6f6">
 	<meta property="og:title" content="Home">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
@@ -505,7 +506,7 @@
 														<div class="wpb_text_column ">
 															<div class="wpb_wrapper">
 																<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us/">
+																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us.php">
 																		<div class="gform_heading">
 																			<h3 class="gform_title">Slider-Form</h3>
 																			<span class="gform_description"></span>
@@ -573,7 +574,7 @@
 											<div class="vc_col-sm-6 wpb_column vc_column_container about-orange">
 												<div class="vc_column-inner  vc_custom_1530349867517">
 													<div class="wpb_wrapper">
-														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902">About</h3>
+														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902"><?=$page_title?></h3>
 													</div>
 												</div>
 											</div>
@@ -609,7 +610,9 @@
 																	<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
 																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
 																		</li>
-																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="About Us" href="#">About Us</a><span class="separator">»</span>
+																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                                                            <span class="separator">»</span>
+                                                                            <a itemprop="item" title="About Us" href="#"><?=$page_title?></a><span class="separator">»</span>
 																		</li>
 																	</ul>
 																</div>
@@ -629,73 +632,121 @@
 					<div class="l-section-overlay" style="background-color: #f6f6f6"></div>
 					<div class="l-section-h i-cf">
 						<div class="g-cols vc_row type_default valign_top">
-							<div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
-								<div class="vc_column-inner  vc_custom_1529649865704">
-									<div class="wpb_wrapper">
-										<div class="g-cols wpb_row type_default valign_top vc_inner ">
-											<div class="vc_col-sm-3 wpb_column vc_column_container tab-row-menu">
-												<div class="vc_column-inner  vc_custom_1532501591619">
-													<div class="wpb_wrapper">
-														<div class="vc_wp_custommenu  layout_ver align_left">
-															<div class="widget widget_nav_menu">
-																<div class="menu-baisc-menu-container">
-																	<ul id="menu-baisc-menu" class="menu">
-																		<li id="menu-item-1178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1178 current-menu-item current_page_item"><a href="about-us.php">About Us</a>
-																		</li>
-																		<li id="menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1180"><a href="visions-and-values.php">Vision and Values</a>
-																		</li>
-																		<li id="menu-item-1179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1179"><a href="company-growth.php">Company Growth</a>
-																		</li>
-																		<select>
-																			<option selected="selected" value="">Please select another study</option>
-																			<option value="about-us.php">About Us</option>
-																			<option value="visions-and-values.php">Vision and Values</option>
-																			<option value="company-growth.php">Company Growth</option>
-																		</select>
-																	</ul>
-																</div>
-															</div>
-														</div>
-														<div class="ult-spacer spacer-5bffe514ae208" data-id="5bffe514ae208" data-height="10" data-height-mobile="25" data-height-tab="" data-height-tab-portrait="" data-height-mobile-landscape="25" style="clear:both;display:block;"></div>
-													</div>
-												</div>
-											</div>
-											<div class="vc_col-sm-9 wpb_column vc_column_container tab-row-contant">
-												<div class="vc_column-inner  vc_custom_1530596471283">
-													<div class="wpb_wrapper">
-														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651919631"><b>About Us</b></h4>
-														<div class="wpb_text_column ">
-															<div class="wpb_wrapper">
-																<p style="text-align: justify;">Erika Carmel Ltd. is an international company, headquartered in Israel, which markets and distributes the B-Cure Laser products, a series of revolutionary devices for treating pain, orthopedic disorders, wounds and inflammation, using a patented Israeli development.
-																	<br>The B-Cure Laser is based on the Soft Laser Technology and has the same healing power as the expensive stationary machines in clinics and pain treatment centers, all in portable, light devices designed for daily domestic use.
-																	<br>High professional standards, strict monitoring and inspection and advanced technology, position the Company and its products as leaders in the Israeli market for medical equipment designated for home use. As such, B-Cure Laser was awarded the prize for Innovative Product at the Israeli pavilion at MEDICA 2014, the international medical convention.
-																	<br>Tens of thousands of patients in Israel and many other countries across the globe use the B-Cure Laser devices to treat orthopedic disorders, pain, inflammation, wounds, and sports injuries and to facilitate and speed up recovery from dental procedures. B-Cure Laser products are recommended by leading doctors worldwide, who rely on these devices as an important medical option, broadening the range of treatment offered to their patients.</p>
-															</div>
-														</div>
-														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651948918"><b>Our Products</b></h4>
-														<div class="wpb_text_column ">
-															<div class="wpb_wrapper">
-																<p style="text-align: justify;">B-Cure Laser products are approved for use by the European Community CE0197, Israeli Ministry of Health and the Ministries of Health in Italy, France, South Africa, Australia, Russia, Singapore and Kazakhstan.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Classic</strong>
-																	<br>A home device designed for the treatment of chronic and acute orthopedic problems such as: back ache, knee pain, arthritis, osteoarthritis (degeneration of the cartilage), tennis elbow, heel spurs, Achilles tendon inflammation, wrist inflammation etc. B-Cure Laser also supports and accelerates healing of wounds and hard healing wounds, acne, herpes, infections, scars etc.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Sport</strong>
-																	<br>A medical device for the self treatment of acute and chronic sports injuries. This portable device has increased power to assist in the treatment of injuries and acute pain, which may result from strenuous physical activity, such as: strains or torn muscles, ankle injuries and inflammations.</p>
-																<p style="text-align: justify;"><strong>B-Cure Dental Laser</strong>
-																	<br>B-Cure Dental Laser has been clinically proven to significantly reduce (over 60%) the layer of bacteria that attacks gum sockets and causes chronic gum inflammation (Periodontitis). B-Cure Dental Laser treatment reduces both the inflammation and the symptoms and reduces the dangers of gingival recession and tooth loss which accompany periodontitis.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Dental Pro</strong>
-																	<br>B-Cure Laser Dental Pro, high powered at 5 Joules per minute, assists in healing complex post dental procedures such as surgical extractions, periodontal surgery, implants and root treatments which may often be accompanied by swelling, pain, bleeding and infections during prolonged healing. The use of B-Cure Laser Dental Pro in dental clinics and at home assists in accelerating the process of healing, reducing pain, swelling and discomfort and ensures a fast return to a regular routine. B-Cure Laser Dental Pro has been shown through research, to reduce TMJ pain (jaw joint disorder) by 50%.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Sport Pro</strong>
-																	<br>B-Cure Laser Sport Pro, high powered at 5 Joules per minute, is designed for the use of doctors and care givers who treat patients suffering from common sports injuries and pain resulting from strain and highly intensive training such as sprains, torn ligaments, muscle pain etc.</p>
-															</div>
-														</div>
-														<div class="w-separator type_invisible size_small"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
+                                <div class="vc_column-inner  vc_custom_1529671483015">
+                                    <div class="wpb_wrapper">
+                                        <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                            <div class="vc_col-sm-3 wpb_column vc_column_container">
+                                                <div class="vc_column-inner  vc_custom_1534231856427">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="vc_wp_custommenu  layout_ver align_left">
+                                                            <div class="widget widget_nav_menu">
+                                                                <div class="menu-news-container">
+                                                                    <ul id="menu-news" class="menu">
+                                                                        <li id="menu-item-1701" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1126 current_page_item menu-item-1701"><a href="news-2.php">News</a>
+                                                                        </li>
+                                                                        <li id="menu-item-1522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1522"><a href="videos.php">Videos</a>
+                                                                        </li>
+                                                                        <select>
+                                                                            <option selected="selected" value="">Please select another study</option>
+                                                                            <option value="news-2.php">News</option>
+                                                                            <option value="videos.php">Videos</option>
+                                                                        </select>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ult-spacer spacer-5c0010717dd86" data-id="5c0010717dd86" data-height="22" data-height-mobile="22" data-height-tab="22" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                                        <div class="ult-content-box-container news-form">
+                                                            <div class="ult-content-box" style="background-color: rgb(236, 238, 239); border-style: solid; border-width: 1px; border-radius: 5px; border-color: rgb(236, 238, 239); padding: 15px 15px 0px; transition: all 700ms ease 0s; margin: 0px; box-shadow: none;" data-hover_box_shadow="none" data-bg="#eceeef" data-border_color="#eceeef" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+                                                                <div class="w-image align_center">
+                                                                    <div class="w-image-h">
+                                                                        <img width="214" height="79" src="img/logo.png" class="attachment-full size-full" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <h6 style="font-size: 13px;text-align: left" class="vc_custom_heading resp-mt-top-from-hedin vc_custom_1535712938090"><b>For further information please leave your contact details here</b></h6>
+                                                                <div class="wpb_text_column ">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div role="form" class="wpcf7" id="wpcf7-f1088-p1126-o1" lang="en-US" dir="ltr">
+                                                                            <div class="screen-reader-response"></div>
+                                                                            <form action="/news-2/#wpcf7-f1088-p1126-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                                                <div style="display: none;">
+                                                                                    <input type="hidden" name="_wpcf7" value="1088">
+                                                                                    <input type="hidden" name="_wpcf7_version" value="5.0.5">
+                                                                                    <input type="hidden" name="_wpcf7_locale" value="en_US">
+                                                                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1088-p1126-o1">
+                                                                                    <input type="hidden" name="_wpcf7_container_post" value="1126">
+                                                                                </div>
+                                                                                <p><span class="wpcf7-form-control-wrap text-11"><input type="text" name="text-11" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name" aria-required="true" aria-invalid="false" placeholder="Name:"></span>
+                                                                                </p>
+                                                                                <p><span class="wpcf7-form-control-wrap tel-709"><input type="tel" name="tel-709" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="mobile" aria-required="true" aria-invalid="false" placeholder="Phone:"></span>
+                                                                                </p>
+                                                                                <p><span class="wpcf7-form-control-wrap email-647"><input type="email" name="email-647" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" id="email" aria-invalid="false" placeholder="Email:"></span>
+                                                                                </p>
+                                                                                <p>
+                                                                                    <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+                                                                                </p>
+                                                                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                                            </form>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_col-sm-9 wpb_column vc_column_container news-section" id="tab-row-contant">
+                                                <div class="vc_column-inner  vc_custom_1534231163639">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="w-separator type_invisible size_small"></div>
+                                                        <div class="w-grid type_masonry layout_1757 cols_2 with_pagination news-section with_isotope" id="us_grid_2">
+                                                            <div class="w-grid-list" style="position: relative; height: 666.75px;">
+                                                                <article class="w-grid-item ratio_1x1 post-1525 post type-post status-publish format-standard has-post-thumbnail hentry category-news" data-id="1525" style="position: absolute; left: 0px; top: 0px;">
+                                                                    <div class="w-grid-item-h">
+                                                                        <div class="w-grid-item-elm usg_post_image_1  post_image">
+                                                                            <a href="the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
+                                                                                <img width="120" height="120" src="img/news1.jpg" class="attachment-full size-full wp-post-image" alt="">
+                                                                            </a>
+                                                                        </div>
+                                                                        <h2 class="w-grid-item-elm usg_post_title_1 color_link_inherit  post_title entry-title"><a href="the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark">The mechanism of pain reduction with B-Cure Laser</a></h2>
+                                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_top wrap ">
+                                                                            <time class="w-grid-item-elm usg_post_date_1  post_date entry-date published" datetime="2015-12-21 09:30:48"><i class="far fa-clock"></i> December 21, 2015</time>
+                                                                            <div class="w-grid-item-elm usg_post_author_1 color_link_inherit  post_author vcard author"><i class="far fa-user"></i>  <a class="fn" href="author/gdenergies.php">gdenergies</a>
+                                                                            </div>
+                                                                            <div class="w-grid-item-elm usg_post_comments_1 color_link_inherit  post_comments with_word"><i class="far fa-comments"></i>  <a href="the-mechanism-of-pain-reduction-with-b-cure-laser/#respond">No Comments</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="w-grid-item-elm usg_post_content_1  post_content">B-Cure Laser, a medical device for domestic use, succeeds in significantly reducing pain while treating source of the problem. What do doctors and specialists say? It works and is clinically proven The direction that a person’s body takes when there is damage that doesn’t heal completely and then becomes chronic, is one of continuous decline…</div>
+                                                                    </div>
+                                                                </article>
+                                                                <article class="w-grid-item ratio_1x1 post-1528 post type-post status-publish format-standard has-post-thumbnail hentry category-news" data-id="1528" style="position: absolute; left: 352.75px; top: 0px;">
+                                                                    <div class="w-grid-item-h">
+                                                                        <div class="w-grid-item-elm usg_post_image_1  post_image">
+                                                                            <a href="new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
+                                                                                <img width="120" height="120" src="img/news2.jpg" class="attachment-full size-full wp-post-image" alt="">
+                                                                            </a>
+                                                                        </div>
+                                                                        <h2 class="w-grid-item-elm usg_post_title_1 color_link_inherit  post_title entry-title"><a href="new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark">New trial shows dramatic efficacy for B-Cure Laser</a></h2>
+                                                                        <div class="w-hwrapper usg_hwrapper_1 align_left valign_top wrap ">
+                                                                            <time class="w-grid-item-elm usg_post_date_1  post_date entry-date published" datetime="2015-12-14 09:34:27"><i class="far fa-clock"></i> December 14, 2015</time>
+                                                                            <div class="w-grid-item-elm usg_post_author_1 color_link_inherit  post_author vcard author"><i class="far fa-user"></i>  <a class="fn" href="author/gdenergies.php">gdenergies</a>
+                                                                            </div>
+                                                                            <div class="w-grid-item-elm usg_post_comments_1 color_link_inherit  post_comments with_word"><i class="far fa-comments"></i>  <a href="new-trial-shows-dramatic-efficacy-for-b-cure-laser/#respond">No Comments</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="w-grid-item-elm usg_post_content_1  post_content">A recent study conducted at an important institute for Sports medicine proves – drastic reduction of pain levels within 7 days of treatment of knee injuries. Do you engage in Sports as a means for maintaining a fit, healthy and shapely body? All doctors will support and encourage you to do so. However, in many…</div>
+                                                                    </div>
+                                                                </article>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</section>
@@ -783,7 +834,7 @@
 					<div class="vc_column-inner">
 						<div class="wpb_wrapper">
 							<div id="modal-trg-txt-wrap-3618" class="ult-modal-input-wrapper ult-adjust-bottom-margin slide-popup-close   " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-								<img src="https://gd-energies.com/wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
+								<img src="wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
 							</div>
 						</div>
 					</div>

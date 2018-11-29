@@ -1,7 +1,8 @@
+<?php 
+    $page_title="Orthopedics";
+?>
 <!DOCTYPE html>
-<!-- saved from url=(0024)https://gd-energies.com/ -->
-<html class="js csstransitions js csstransitions no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" style="overflow: auto;">
-
+<html class="js csstransitions js csstransitions no-touch" lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Home - B-cure</title>
@@ -10,18 +11,18 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<meta property="og:site_name" content="B-cure">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-	<link rel="dns-prefetch" href="https://s.w.org/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="https://gd-energies.com/feed/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="https://gd-energies.com/comments/feed/">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com.php">
+	<link rel="dns-prefetch" href="https://s.w.org.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="feed.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="comments/feed.php">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<meta name="theme-color" content="#f6f6f6">
 	<meta property="og:title" content="Home">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
@@ -505,7 +506,7 @@
 														<div class="wpb_text_column ">
 															<div class="wpb_wrapper">
 																<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us/">
+																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us.php">
 																		<div class="gform_heading">
 																			<h3 class="gform_title">Slider-Form</h3>
 																			<span class="gform_description"></span>
@@ -573,7 +574,7 @@
 											<div class="vc_col-sm-6 wpb_column vc_column_container about-orange">
 												<div class="vc_column-inner  vc_custom_1530349867517">
 													<div class="wpb_wrapper">
-														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902">About</h3>
+														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902"><?=$page_title?></h3>
 													</div>
 												</div>
 											</div>
@@ -609,7 +610,9 @@
 																	<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
 																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
 																		</li>
-																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="About Us" href="#">About Us</a><span class="separator">»</span>
+																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                                                            <span class="separator">»</span>
+                                                                            <a itemprop="item" title="About Us" href="#"><?=$page_title?></a><span class="separator">»</span>
 																		</li>
 																	</ul>
 																</div>
@@ -640,11 +643,11 @@
 															<div class="widget widget_nav_menu">
 																<div class="menu-baisc-menu-container">
 																	<ul id="menu-baisc-menu" class="menu">
-																		<li id="menu-item-1178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1178 current-menu-item current_page_item"><a href="about-us.php">About Us</a>
+																		<li id="menu-item-1178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1178"><a href="about-us.php">About Us</a>
 																		</li>
 																		<li id="menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1180"><a href="visions-and-values.php">Vision and Values</a>
 																		</li>
-																		<li id="menu-item-1179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1179"><a href="company-growth.php">Company Growth</a>
+																		<li id="menu-item-1179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1179 current-menu-item current_page_item"><a href="company-growth.php">Company Growth</a>
 																		</li>
 																		<select>
 																			<option selected="selected" value="">Please select another study</option>
@@ -663,7 +666,7 @@
 											<div class="vc_col-sm-9 wpb_column vc_column_container tab-row-contant">
 												<div class="vc_column-inner  vc_custom_1530596471283">
 													<div class="wpb_wrapper">
-														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651919631"><b>About Us</b></h4>
+														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651919631"><b><?=$page_title?></b></h4>
 														<div class="wpb_text_column ">
 															<div class="wpb_wrapper">
 																<p style="text-align: justify;">Erika Carmel Ltd. is an international company, headquartered in Israel, which markets and distributes the B-Cure Laser products, a series of revolutionary devices for treating pain, orthopedic disorders, wounds and inflammation, using a patented Israeli development.
@@ -783,7 +786,7 @@
 					<div class="vc_column-inner">
 						<div class="wpb_wrapper">
 							<div id="modal-trg-txt-wrap-3618" class="ult-modal-input-wrapper ult-adjust-bottom-margin slide-popup-close   " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-								<img src="https://gd-energies.com/wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
+								<img src="wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
 							</div>
 						</div>
 					</div>

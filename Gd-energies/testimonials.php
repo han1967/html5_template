@@ -1,7 +1,8 @@
+<?php 
+    $page_title="Testimonials";
+?>
 <!DOCTYPE html>
-<!-- saved from url=(0024)https://gd-energies.com/ -->
-<html class="js csstransitions js csstransitions no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" style="overflow: auto;">
-
+<html class="js csstransitions js csstransitions no-touch" lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Home - B-cure</title>
@@ -10,18 +11,18 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<meta property="og:site_name" content="B-cure">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-	<link rel="dns-prefetch" href="https://s.w.org/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="https://gd-energies.com/feed/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="https://gd-energies.com/comments/feed/">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com.php">
+	<link rel="dns-prefetch" href="https://s.w.org.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="feed.php">
+	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="comments/feed.php">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<meta name="theme-color" content="#f6f6f6">
 	<meta property="og:title" content="Home">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://gd-energies.com/">
+	<meta property="og:url" content="">
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
@@ -505,7 +506,7 @@
 														<div class="wpb_text_column ">
 															<div class="wpb_wrapper">
 																<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us/">
+																	<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/about-us.php">
 																		<div class="gform_heading">
 																			<h3 class="gform_title">Slider-Form</h3>
 																			<span class="gform_description"></span>
@@ -573,7 +574,7 @@
 											<div class="vc_col-sm-6 wpb_column vc_column_container about-orange">
 												<div class="vc_column-inner  vc_custom_1530349867517">
 													<div class="wpb_wrapper">
-														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902">About</h3>
+														<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1535531659902"><?=$page_title?></h3>
 													</div>
 												</div>
 											</div>
@@ -609,7 +610,9 @@
 																	<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
 																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
 																		</li>
-																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="About Us" href="#">About Us</a><span class="separator">»</span>
+																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                                                            <span class="separator">»</span>
+                                                                            <a itemprop="item" title="About Us" href="#"><?=$page_title?></a><span class="separator">»</span>
 																		</li>
 																	</ul>
 																</div>
@@ -630,72 +633,176 @@
 					<div class="l-section-h i-cf">
 						<div class="g-cols vc_row type_default valign_top">
 							<div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
-								<div class="vc_column-inner  vc_custom_1529649865704">
-									<div class="wpb_wrapper">
-										<div class="g-cols wpb_row type_default valign_top vc_inner ">
-											<div class="vc_col-sm-3 wpb_column vc_column_container tab-row-menu">
-												<div class="vc_column-inner  vc_custom_1532501591619">
-													<div class="wpb_wrapper">
-														<div class="vc_wp_custommenu  layout_ver align_left">
-															<div class="widget widget_nav_menu">
-																<div class="menu-baisc-menu-container">
-																	<ul id="menu-baisc-menu" class="menu">
-																		<li id="menu-item-1178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1178 current-menu-item current_page_item"><a href="about-us.php">About Us</a>
-																		</li>
-																		<li id="menu-item-1180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1180"><a href="visions-and-values.php">Vision and Values</a>
-																		</li>
-																		<li id="menu-item-1179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1179"><a href="company-growth.php">Company Growth</a>
-																		</li>
-																		<select>
-																			<option selected="selected" value="">Please select another study</option>
-																			<option value="about-us.php">About Us</option>
-																			<option value="visions-and-values.php">Vision and Values</option>
-																			<option value="company-growth.php">Company Growth</option>
-																		</select>
-																	</ul>
-																</div>
-															</div>
-														</div>
-														<div class="ult-spacer spacer-5bffe514ae208" data-id="5bffe514ae208" data-height="10" data-height-mobile="25" data-height-tab="" data-height-tab-portrait="" data-height-mobile-landscape="25" style="clear:both;display:block;"></div>
-													</div>
-												</div>
-											</div>
-											<div class="vc_col-sm-9 wpb_column vc_column_container tab-row-contant">
-												<div class="vc_column-inner  vc_custom_1530596471283">
-													<div class="wpb_wrapper">
-														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651919631"><b>About Us</b></h4>
-														<div class="wpb_text_column ">
-															<div class="wpb_wrapper">
-																<p style="text-align: justify;">Erika Carmel Ltd. is an international company, headquartered in Israel, which markets and distributes the B-Cure Laser products, a series of revolutionary devices for treating pain, orthopedic disorders, wounds and inflammation, using a patented Israeli development.
-																	<br>The B-Cure Laser is based on the Soft Laser Technology and has the same healing power as the expensive stationary machines in clinics and pain treatment centers, all in portable, light devices designed for daily domestic use.
-																	<br>High professional standards, strict monitoring and inspection and advanced technology, position the Company and its products as leaders in the Israeli market for medical equipment designated for home use. As such, B-Cure Laser was awarded the prize for Innovative Product at the Israeli pavilion at MEDICA 2014, the international medical convention.
-																	<br>Tens of thousands of patients in Israel and many other countries across the globe use the B-Cure Laser devices to treat orthopedic disorders, pain, inflammation, wounds, and sports injuries and to facilitate and speed up recovery from dental procedures. B-Cure Laser products are recommended by leading doctors worldwide, who rely on these devices as an important medical option, broadening the range of treatment offered to their patients.</p>
-															</div>
-														</div>
-														<h4 style="color: #00ac7b;text-align: left" class="vc_custom_heading vc_custom_1529651948918"><b>Our Products</b></h4>
-														<div class="wpb_text_column ">
-															<div class="wpb_wrapper">
-																<p style="text-align: justify;">B-Cure Laser products are approved for use by the European Community CE0197, Israeli Ministry of Health and the Ministries of Health in Italy, France, South Africa, Australia, Russia, Singapore and Kazakhstan.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Classic</strong>
-																	<br>A home device designed for the treatment of chronic and acute orthopedic problems such as: back ache, knee pain, arthritis, osteoarthritis (degeneration of the cartilage), tennis elbow, heel spurs, Achilles tendon inflammation, wrist inflammation etc. B-Cure Laser also supports and accelerates healing of wounds and hard healing wounds, acne, herpes, infections, scars etc.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Sport</strong>
-																	<br>A medical device for the self treatment of acute and chronic sports injuries. This portable device has increased power to assist in the treatment of injuries and acute pain, which may result from strenuous physical activity, such as: strains or torn muscles, ankle injuries and inflammations.</p>
-																<p style="text-align: justify;"><strong>B-Cure Dental Laser</strong>
-																	<br>B-Cure Dental Laser has been clinically proven to significantly reduce (over 60%) the layer of bacteria that attacks gum sockets and causes chronic gum inflammation (Periodontitis). B-Cure Dental Laser treatment reduces both the inflammation and the symptoms and reduces the dangers of gingival recession and tooth loss which accompany periodontitis.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Dental Pro</strong>
-																	<br>B-Cure Laser Dental Pro, high powered at 5 Joules per minute, assists in healing complex post dental procedures such as surgical extractions, periodontal surgery, implants and root treatments which may often be accompanied by swelling, pain, bleeding and infections during prolonged healing. The use of B-Cure Laser Dental Pro in dental clinics and at home assists in accelerating the process of healing, reducing pain, swelling and discomfort and ensures a fast return to a regular routine. B-Cure Laser Dental Pro has been shown through research, to reduce TMJ pain (jaw joint disorder) by 50%.</p>
-																<p style="text-align: justify;"><strong>B-Cure Laser Sport Pro</strong>
-																	<br>B-Cure Laser Sport Pro, high powered at 5 Joules per minute, is designed for the use of doctors and care givers who treat patients suffering from common sports injuries and pain resulting from strain and highly intensive training such as sprains, torn ligaments, muscle pain etc.</p>
-															</div>
-														</div>
-														<div class="w-separator type_invisible size_small"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                                <div class="vc_column-inner" style="background:#fff">
+                                    <div class="wpb_wrapper">
+                                        <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                                <div class="vc_column-inner  vc_custom_1529671182474">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="w-gallery type_default cols_4 with_indents drrns style_simple link_file">
+                                                            <div class="w-gallery-list">
+                                                                <a class="w-gallery-item order_1" href="https://gd-energies.com/wp-content/uploads/2018/07/Simon.jpg" title="Simon">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Simon-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Simon-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Simon-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Simon</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_2" href="https://gd-energies.com/wp-content/uploads/2018/07/Hadas.jpg" title="Hadas">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Hadas-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Hadas-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Hadas-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Hadas</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_3" href="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof.jpg" title="Mollakandof">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Mollakandof</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_4" href="https://gd-energies.com/wp-content/uploads/2018/07/Norma.jpg" title="Norma">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Norma-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Norma-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Norma-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Norma</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_5" href="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin.jpg" title="Mirkin">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Mirkin</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_6" href="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak.jpg" title="Pasternak">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Pasternak</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_7" href="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert.jpg" title="Dan Akert">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Dan Akert</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_8" href="https://gd-energies.com/wp-content/uploads/2018/07/Alamos.jpg" title="Alamos">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Alamos-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Alamos-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Alamos-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Alamos</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_9" href="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg" title="Rachel Yehoshua">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="596" height="577" src="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg 596w, https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua-500x484.jpg 500w" sizes="(max-width: 596px) 100vw, 596px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Rachel Yehoshua</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_10" href="https://gd-energies.com/wp-content/uploads/2018/07/Capture.jpg" title="Capture">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Capture-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Capture-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Capture-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Capture</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_11" href="https://gd-energies.com/wp-content/uploads/2018/07/Miller.jpg" title="Miller">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Miller-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Miller-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Miller-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Miller</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_12" href="https://gd-energies.com/wp-content/uploads/2018/07/Shuman.jpg" title="Shuman">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Shuman-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Shuman-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Shuman-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Shuman</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_13" href="https://gd-energies.com/wp-content/uploads/2018/07/Aynfeld.jpg" title="Aynfeld">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="589" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Aynfeld-589x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Aynfeld</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_14" href="https://gd-energies.com/wp-content/uploads/2018/07/Harari.jpg" title="Harari">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Harari-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Harari-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Harari-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Harari</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_15" href="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig.jpg" title="Rosenzweig">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Rosenzweig</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_16" href="https://gd-energies.com/wp-content/uploads/2018/07/Siva-shani.jpg" title="Siva shani">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="595" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Siva-shani-595x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Siva shani</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_17" href="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal.jpg" title="Blumenthal">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Blumenthal</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_18" href="https://gd-energies.com/wp-content/uploads/2018/07/Adar.jpg" title="Adar">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="481" src="https://gd-energies.com/wp-content/uploads/2018/07/Adar-600x481.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Adar</div>
+                                                                    </div>
+                                                                </a>
+                                                                <a class="w-gallery-item order_19" href="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut.jpg" title="Chfrut">
+                                                                    <div class="w-gallery-item-img">
+                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    </div>
+                                                                    <div class="w-gallery-item-meta">
+                                                                        <div class="w-gallery-item-title">Chfrut</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</section>
@@ -783,7 +890,7 @@
 					<div class="vc_column-inner">
 						<div class="wpb_wrapper">
 							<div id="modal-trg-txt-wrap-3618" class="ult-modal-input-wrapper ult-adjust-bottom-margin slide-popup-close   " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-								<img src="https://gd-energies.com/wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
+								<img src="wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
 							</div>
 						</div>
 					</div>
