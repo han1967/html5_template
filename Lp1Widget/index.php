@@ -573,7 +573,7 @@ $sel .="</select>";
                                             <div class="elementor-widget-container text-center" style="width:100%">
                                                 <p dir="LTR" style='color: #475564;font-size: 17px; font-family: "Poppins-Regular", Sans-serif; line-height:1.3em;'>
                                                     * The device does not replace medical treatment as recommended by a physician.<br/>
-                                                   <BR>
+                                                   <BR>  <BR>  <BR>
                                                 </p>
                                             </div>
                                         </div>
@@ -687,7 +687,7 @@ $sel .="</select>";
 			</div>
 		</div>
 		<!-- end of call popu window-->
-		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="display: none; right: calc(2% + 40px) !important; bottom: calc(5% + 40px) !important;">
+		<div data-test="widget-button-section" id="cp-button" class="cp-button-section cp-callpage__button" style="display: none; right: calc(2% + 20px) !important; bottom: calc(2% + 20px) !important;">
 			<div class="cp-tooltip cp-button-tooltip cp-button-section__tooltip" data-test="button-tooltip" data-ignore-important-opacity="" x-placement="top" style="display: none !important; position: absolute !important; top: auto !important; left: 1511px !important; will-change: transform !important; bottom: 100% !important;">
 				<button type="button" class="cp-close-btn cp-tooltip__close-btn cp-close-btn--round cp-close-btn--offset cp-close-btn--mobile-friendly" data-test="tooltip-close-btn">
 					<svg viewBox="2115.656 4371.656 11.054 11.054" class="cp-close-btn__img">
@@ -731,7 +731,7 @@ function play_beep() {
         e.play();
         setTimeout(function(){ 
             document.getElementById('callpageWrapper').removeChild(e);
-        }, 1000);
+        }, 2000);
     }
 }
 function close_cp_window() {
