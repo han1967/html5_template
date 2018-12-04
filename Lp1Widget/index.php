@@ -866,7 +866,7 @@ function init_message_box() {
             return false;
         }
         if(email == '' || !validateEmail(email)){
-            alert('Please add email!');
+            alert('Please add correct email!');
             return false;
         }
         $("#leave-message-btn").prop('disabled',true);

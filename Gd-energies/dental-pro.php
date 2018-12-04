@@ -1,6 +1,5 @@
 <?php 
-	$page_title="Orthopedics";
-	$menu_item=1;
+    $page_title="Technical spec's";
 ?>
 <!DOCTYPE html>
 <html class="js csstransitions js csstransitions no-touch" lang="en-US">
@@ -55,7 +54,7 @@
 	<div class="l-main-h i-cf">
 		<main class="l-content" itemprop="mainContentOfPage">
 			<section class="l-section wpb_row height_auto with_img sub-bg">
-				<div class="l-section-img loaded" style="background-image: url(img/banner_pnim-1.png);background-repeat: no-repeat;" data-img-width="1342" data-img-height="314"></div>
+				<div class="l-section-img loaded" style="background-image: url(img/dental_pro.png);background-repeat: no-repeat;" data-img-width="1342" data-img-height="314"></div>
 				<div class="l-section-h i-cf">
 					<div class="g-cols vc_row type_default valign_top">
 						<div class="vc_col-sm-12 wpb_column vc_column_container">
@@ -91,7 +90,7 @@
 													<div class="wpb_text_column ">
 														<div class="wpb_wrapper">
 															<div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-																<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="case-studies.php">
+																<form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="dental-pro.php">
 																	<div class="gform_heading">
 																		<h3 class="gform_title">Slider-Form</h3>
 																		<span class="gform_description"></span>
@@ -160,7 +159,7 @@
 										<div class="vc_col-sm-6 wpb_column vc_column_container about-orange">
 											<div class="vc_column-inner  vc_custom_1530520647022">
 												<div class="wpb_wrapper">
-													<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1529659905301"><?=$page_title?></h3>
+													<h3 style="color: #ffffff;text-align: left" class="vc_custom_heading vc_custom_1529659905301">B-Cure Laser Dental Pro </h3>
 												</div>
 											</div>
 										</div>
@@ -197,7 +196,7 @@
 																<ul itemscope="">
 																	<li itemprop="itemListElement"><a itemprop="item" title="Home" href="">Home</a>
 																	</li>
-																	<li itemprop="itemListElement"><span class="separator">»</span><a itemprop="item" title="Sports injuries" href="#"><?=$page_title?></a><span class="separator">»</span>
+																	<li itemprop="itemListElement"><span class="separator">»</span><a itemprop="item" title="Dental Pro" href="#">Dental Pro</a><span class="separator">»</span>
 																	</li>
 																</ul>
 															</div>
@@ -226,28 +225,28 @@
 												<div class="wpb_wrapper">
 													<div class="vc_wp_custommenu  layout_ver align_left">
 														<div class="widget widget_nav_menu">
-															<div class="menu-case-studies-menu-container">
-																<ul id="menu-case-studies-menu" class="menu">
-																	<li id="menu-item-1262" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='1') echo 'current-menu-item page_item current_page_item';?>"><a href="orthopedics.php">Orthopedics</a>
+															<div class="menu-dental-pro-menu-container">
+																<ul id="menu-dental-pro-menu" class="menu">
+																	<li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263"><a href="classic.php">Classic</a>
 																	</li>
-																	<li id="menu-item-1263" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='2') echo 'current-menu-item page_item current_page_item';?>"><a href="sports-injuries.php">Sports injuries</a>
+																	<li id="menu-item-1267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1267"><a href="sports.php">Sports</a>
 																	</li>
-																	<li id="menu-item-1267" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='3') echo 'current-menu-item page_item current_page_item';?>"><a href="sports-injuries-2.php">Mouth and jaw</a>
+																	<li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1264"><a href="dental-laser.php">Dental Laser</a>
 																	</li>
-																	<li id="menu-item-1264" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='4') echo 'current-menu-item page_item current_page_item';?>"><a href="skin-conditions.php">Skin conditions</a>
+																	<li id="menu-item-1265" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1105 current_page_item menu-item-1265"><a href="dental-pro.php">Dental Pro</a>
 																	</li>
-																	<li id="menu-item-1265" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='5') echo 'current-menu-item page_item current_page_item';?>"><a href="case-studies.php">Case studies</a>
+																	<li id="menu-item-1266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1266"><a href="sport-pro.php">Sport Pro</a>
 																	</li>
-																	<li id="menu-item-1266" class="menu-item menu-item-type-post_type menu-item-object-page <?php if ($menu_item=='6') echo 'current-menu-item page_item current_page_item';?>"><a href="reviews.php">Reviews</a>
+																	<li id="menu-item-1262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1262"><a href="b-cure-stand.php">B-CURE STAND</a>
 																	</li>
 																	<select>
 																		<option selected="selected" value="">Please select another study</option>
-																		<option value="sports-injuries.php">Sports injuries</option>
-																		<option value="sports-injuries-2.php">Mouth and jaw</option>
-																		<option value="skin-conditions.php">Skin conditions</option>
-																		<option value="case-studies.php">Case studies</option>
-																		<option value="reviews.php">Reviews</option>
-																		<option value="orthopedics.php">Orthopedics</option>
+																		<option value="classic.php">Classic</option>
+																		<option value="sports.php">Sports</option>
+																		<option value="dental-laser.php">Dental Laser</option>
+																		<option value="dental-pro.php">Dental Pro</option>
+																		<option value="sport-pro.php">Sport Pro</option>
+																		<option value="b-cure-stand.php">B-CURE STAND</option>
 																	</select>
 																</ul>
 															</div>
@@ -258,67 +257,83 @@
 											</div>
 										</div>
 										<div class="vc_col-sm-10 wpb_column vc_column_container tab-row-contant">
-											<div class="vc_column-inner  vc_custom_1530534321556">
+											<div class="vc_column-inner  vc_custom_1530525287962">
 												<div class="wpb_wrapper">
+													<h4 style="color: #008080;text-align: center" class="vc_custom_heading"><b>B-Cure Laser Dental Pro</b></h4>
 													<div class="wpb_text_column ">
 														<div class="wpb_wrapper">
-															<p><strong>Analytical report: a pilot study to evaluate the effectiveness and safety of B-Cure Laser for athletes</strong>
-																<br>A study conducted at the (FMBA) Russian Federal Medical and Biological Institute of Sports Medicine examined the efficacy of B-Cure Laser SPORT in treating professional athletes’ knee injuries and osteoarthritis – resulting from strain and erosion. The study found that the B-Cure Laser SPORT was highly effective in almost complete elimination of symptoms of knee pain in the athletes who participated in the study.</p>
+															<div dir="ltr">B-Cure Laser Dental Pro is a new solution that puts a simple, safe and mobile device in the hands of the dentist thus helping patients during the post-treatment recuperation process by reducing pain and swelling and getting them back to their normal lives quicker.</div>
+															<div dir="ltr">The B-Cure Laser Dental Pro provides improved clinical efficacy, reduces significantly healing process and rehabilitation period.</div>
 														</div>
 													</div>
-													<div class=" vc_custom_1529907958310 ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/FMBA-summery_1.pdf" target="_blank" rel="noopener">
-															<button type="button" id="ubtn-9942" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c069deb9a37d" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-9942" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight: bold; width: 165px; min-height: 40px; border-radius: 0px; border-width: 1px; border-color: rgb(247, 143, 30); border-style: solid; background: rgb(247, 143, 30); color: rgb(255, 255, 255);"><span class="ubtn-hover" style="background: rgb(198, 114, 24);"></span><span class="ubtn-data ubtn-text ">Read More</span>
-															</button>
-														</a>
-													</div>
-													<div class="w-separator type_default size_small thick_1 style_dashed color_custom align_center" style="border-color:#f78f1e;color:#f78f1e;">
-														<div class="w-separator-h"></div>
-													</div>
+													<h6 style="color: #008080;text-align: left" class="vc_custom_heading"><b>Clinical Applications and Results in Dental Practice</b></h6>
 													<div class="wpb_text_column ">
 														<div class="wpb_wrapper">
-															<p><strong>Effect of 830 nm low-level laser therapy applied before highintensity exercises on skeletal muscle recovery in athletes</strong>
-																<br>This study examined the levels of CK (Creatine Kinase) in the blood after supervised high intensity training (at the Wingate Institute). The study found that Soft Laser treatment before the Wingate testing, accelerated elimination of lactic acid without affecting the athletes’ performance, and also found that the Soft Laser has a positive effect on recovery after training.</p>
+															<ul>
+																<li dir="ltr">Crown preparation and implants: post-operative muscle relaxation and joint flexibility pain reduction, minimized swelling and infection around the implants</li>
+																<li dir="ltr">Endodontics: decreased pain and inflammation</li>
+																<li dir="ltr">Guided Bone Regeneration (GBR) technique: decreased inflammation, minimized pain, accelerated healing</li>
+																<li dir="ltr">Soft tissue lesions – accelerated healing, minimized pain</li>
+																<li dir="ltr">Deep Scaling – reduced post-procedure pain and discomfort</li>
+																<li dir="ltr">Gingivitis treatment and periodontitis treatment such as open flap surgery: decreased inflammation, minimized pain, accelerated healing</li>
+																<li dir="ltr">Differential diagnosis of hyperemic pulp: decreased inflammation, minimized pain</li>
+																<li dir="ltr">Facial Pain: decreased pain, muscle relaxation</li>
+																<li dir="ltr">Reduced TMJ pain: neuralgic pain or neural trauma</li>
+															</ul>
 														</div>
 													</div>
-													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/Sport_0.pdf" target="_blank" rel="noopener">
-															<button type="button" id="ubtn-3009" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c069deb9a91e" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-3009" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
-															</button>
-														</a>
+													<div class="w-image">
+														<div class="w-image-h">
+															<img width="522" height="425" src="img/image3.png" class="attachment-full size-full" alt="" srcset="img/image3.png 522w, img/image3-500x407.png 500w" sizes="(max-width: 522px) 100vw, 522px">
+														</div>
 													</div>
-													<div class="w-separator type_default size_small thick_1 style_dashed color_custom align_center" style="border-color:#f78f1e;color:#f78f1e;">
-														<div class="w-separator-h"></div>
-													</div>
+													<h6 style="color: #008080;text-align: left" class="vc_custom_heading res-mar-top vc_custom_1535712149834"><b>Clinical trials prove B-Cure Laser efficacy:</b></h6>
 													<div class="wpb_text_column ">
 														<div class="wpb_wrapper">
-															<p><strong>Effects of low-level laser therapy and eccentric exercises in the treatment of recreational athletes with chronic achilles tendinopathy</strong>
-																<br>This study examined the influence of integrating Soft Laser therapy with eccentric resistance exercise in the treatment of Achilles tendon. The study found that the Soft Laser accelerated healing of the inflamed tendon, since the patients who were given Soft Laser treatment gained relief after four weeks, while the control group, which was only treated with eccentric exercising, achieved the same results only after twelve weeks.</p>
+															<div><strong>The “at-home LLLT” in temporo-mandibular disorders pain control: a pilot study</strong>
+															</div>
+															<div>Fornaini C (1), Pelosi A (1), Queirolo V (1), Vescovi P (1) and Merigo E (1)</div>
+															<div>1) Department of Biomedical, Biotechnological and Translational Sciences (S.Bi.Bi.T.),</div>
+															<div>University of Parma, Italy</div>
+															<div></div>
+															<div><strong>Results:</strong>
+															</div>
+															<div>The patient’s pain evaluation was expressed in the two study groups before the treatment, 1 week and two weeks after the treatment. The differences between the two groups result extremely significant with p&lt;0.0001 for the comparison of VAS value after 1 and 2 weeks.</div>
+															<div><strong>Conclusions:</strong>
+															</div>
+															<div>This study, even if it may be considered such a pilot study due to its limits (number of patients, number of data recorded, subjective evaluations), investigated a new way to control the pain in the emporomandibular diseases by a at home self administered laser device. Results are encouraging but they will have to be confirmed by more enlarged studies.</div>
 														</div>
 													</div>
-													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/achilles1_1.pdf" target="_blank" rel="noopener">
-															<button type="button" id="ubtn-5817" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c069deb9ad44" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5817" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
-															</button>
-														</a>
+													<div class="w-image">
+														<div class="w-image-h">
+															<img width="535" height="325" src="img/image4.png" class="attachment-full size-full" alt="" srcset="img/image4.png 535w, img/image4-500x304.png 500w" sizes="(max-width: 535px) 100vw, 535px">
+														</div>
 													</div>
-													<div class="w-separator type_default size_small thick_1 style_dashed color_custom align_center" style="border-color:#f78f1e;color:#f78f1e;">
-														<div class="w-separator-h"></div>
-													</div>
-													<div class="wpb_text_column ">
+													<div class="wpb_text_column  res-mar-top">
 														<div class="wpb_wrapper">
-															<p><strong>Wound healing of animal and human body sport and traffic accident injuries using low-level laser therapy treatment: a randomized clinical study of seventy-four patients with control group.</strong>
-																<br>The study examines the effect of Soft Laser on the healing of wounds after accidents and injuries. The research examined 74 patients who were divided into two groups. The first group was given treated with active Soft Laser treatment and the second was given a placebo. The results show an improvement of 25-30% accelerated recovery from wounds in the group treated with the Soft Laser. In addition, the level of pain in this group was significantly lower than that of the control group.</p>
+															<div><strong>Effect of Photodynamic Therapy using B-Cure® Laser on an in vitro model of dental plaque</strong>
+															</div>
+															<div>Prof. Lior Shapira, Chair, Department of Periodontology</div>
+															<div>Hebrew University, Hadassah, Faculty of Dental Medicine, 7/3/2015</div>
+															<div></div>
+															<div><strong>Results</strong>:</div>
+															<div>1. Part A</div>
+															<div>Effect of B-Cure® Laser with and without Indocyanin green – kinetics:</div>
+															<div>We screened different exposure time intervals of exposure to the B-Cure® Laser, either alone or in conjunction with indocyanin green pre-treatment. This was done in order to single out the most effective</div>
+															<div>time point for further experiments. 1a. Short-term Kinetics: Time points included 30 seconds, 60 seconds and 120 seconds. Control group was not exposed to B-Cure® Laser at all.</div>
+															<div>Results of this experiment revealed that the optimum exposure time for visible effect is 120 seconds (Figure 3). Also, the ICS group at 120 seconds exposure showed significant elevation in bacterial death</div>
+															<div>compared with the other groups.</div>
+															<div></div>
 														</div>
 													</div>
-													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/Wound-healing.pdf" target="_blank" rel="noopener">
-															<button type="button" id="ubtn-5902" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c069deb9b122" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-5902" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
-															</button>
-														</a>
+													<div class="w-image">
+														<div class="w-image-h">
+															<img width="486" height="400" src="img/image5.png" class="attachment-full size-full" alt="">
+														</div>
 													</div>
-													<div class="w-separator type_default size_small thick_1 style_dashed color_custom align_center" style="border-color:#f78f1e;color:#f78f1e;">
-														<div class="w-separator-h"></div>
+													<div class=" ubtn-ctn-left res-mar-top">
+														<button type="button" id="ubtn-9763" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-left res-mar-top  tooltip-5c0697c729f9d" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-9763" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" style="font-weight:normal;width:290px;min-height:30px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Clinical evidence</span>
+														</button>
 													</div>
 												</div>
 											</div>
