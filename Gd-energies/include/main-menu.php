@@ -1,4 +1,4 @@
-<header class="l-header pos_static bg_solid shadow_thin" itemscope="" itemtype="https://schema.org/WPHeader">
+<header class="l-header pos_static bg_solid shadow_thin">
 		<div class="l-subheader at_middle">
 			<div class="l-subheader-h">
 				<div class="l-subheader-cell at_left">

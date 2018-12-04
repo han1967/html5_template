@@ -1,5 +1,5 @@
 <?php 
-    $page_title="Testimonials";
+    $page_title="Videos";
 ?>
 <!DOCTYPE html>
 <html class="js csstransitions js csstransitions no-touch" lang="en-US">
@@ -28,6 +28,7 @@
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
     <link rel="stylesheet" id="bsf-Defaults-css" href="css/Defaults.css" type="text/css" media="all">
     <link rel="stylesheet" id="base.css" href="css/base.css" type="text/css" media="all">
+
 
 	<style> 
 	.spacer-5d { height:346px } 
@@ -628,184 +629,215 @@
 						</div>
 					</div>
 				</section>
-				<section class="l-section wpb_row height_small with_overlay tab-row">
-					<div class="l-section-overlay" style="background-color: #f6f6f6"></div>
-					<div class="l-section-h i-cf">
-						<div class="g-cols vc_row type_default valign_top">
-							<div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
-                                <div class="vc_column-inner" style="background:#fff">
-                                    <div class="wpb_wrapper">
-                                        <div class="g-cols wpb_row type_default valign_top vc_inner ">
-                                            <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                                <div class="vc_column-inner  vc_custom_1529671182474">
+				<section class="l-section wpb_row height_small with_overlay">
+                <div class="l-section-overlay" style="background-color: #f6f6f6"></div>
+                <div class="l-section-h i-cf">
+                <div class="g-cols vc_row type_default valign_top">
+                    <div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
+                        <div class="vc_column-inner  vc_custom_1529574960446">
+                            <div class="wpb_wrapper">
+                                <div class="ult-spacer spacer-5c06a25e1d36a" data-id="5c06a25e1d36a" data-height="25" data-height-mobile="25" data-height-tab="25" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594815898">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
                                                     <div class="wpb_wrapper">
-                                                        <div class="w-gallery type_default cols_4 with_indents drrns style_simple link_file">
-                                                            <div class="w-gallery-list">
-                                                                <a class="w-gallery-item order_1" href="https://gd-energies.com/wp-content/uploads/2018/07/Simon.jpg" title="Simon">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Simon-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Simon-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Simon-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Simon</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_2" href="https://gd-energies.com/wp-content/uploads/2018/07/Hadas.jpg" title="Hadas">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Hadas-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Hadas-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Hadas-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Hadas</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_3" href="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof.jpg" title="Mollakandof">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Mollakandof-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Mollakandof</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_4" href="https://gd-energies.com/wp-content/uploads/2018/07/Norma.jpg" title="Norma">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Norma-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Norma-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Norma-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Norma</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_5" href="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin.jpg" title="Mirkin">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Mirkin-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Mirkin</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_6" href="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak.jpg" title="Pasternak">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Pasternak-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Pasternak</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_7" href="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert.jpg" title="Dan Akert">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Dan-Akert-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Dan Akert</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_8" href="https://gd-energies.com/wp-content/uploads/2018/07/Alamos.jpg" title="Alamos">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Alamos-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Alamos-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Alamos-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Alamos</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_9" href="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg" title="Rachel Yehoshua">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="596" height="577" src="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua.jpg 596w, https://gd-energies.com/wp-content/uploads/2018/07/Rachel-Yehoshua-500x484.jpg 500w" sizes="(max-width: 596px) 100vw, 596px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Rachel Yehoshua</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_10" href="https://gd-energies.com/wp-content/uploads/2018/07/Capture.jpg" title="Capture">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Capture-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Capture-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Capture-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Capture</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_11" href="https://gd-energies.com/wp-content/uploads/2018/07/Miller.jpg" title="Miller">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Miller-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Miller-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Miller-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Miller</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_12" href="https://gd-energies.com/wp-content/uploads/2018/07/Shuman.jpg" title="Shuman">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Shuman-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Shuman-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Shuman-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Shuman</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_13" href="https://gd-energies.com/wp-content/uploads/2018/07/Aynfeld.jpg" title="Aynfeld">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="589" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Aynfeld-589x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Aynfeld</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_14" href="https://gd-energies.com/wp-content/uploads/2018/07/Harari.jpg" title="Harari">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Harari-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Harari-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Harari-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Harari</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_15" href="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig.jpg" title="Rosenzweig">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Rosenzweig-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Rosenzweig</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_16" href="https://gd-energies.com/wp-content/uploads/2018/07/Siva-shani.jpg" title="Siva shani">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="595" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Siva-shani-595x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Siva shani</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_17" href="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal.jpg" title="Blumenthal">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Blumenthal-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Blumenthal</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_18" href="https://gd-energies.com/wp-content/uploads/2018/07/Adar.jpg" title="Adar">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="481" src="https://gd-energies.com/wp-content/uploads/2018/07/Adar-600x481.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Adar</div>
-                                                                    </div>
-                                                                </a>
-                                                                <a class="w-gallery-item order_19" href="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut.jpg" title="Chfrut">
-                                                                    <div class="w-gallery-item-img">
-                                                                        <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Chfrut-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
-                                                                    </div>
-                                                                    <div class="w-gallery-item-meta">
-                                                                        <div class="w-gallery-item-title">Chfrut</div>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/at4MRUUIJuE?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529574845448">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">Prof’ Daniel Reis about B-Cure Laser</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594822285">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/dY_-5MNGhBw?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529574922838">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">Olympic athlets testemonial on B-Cure Laser Sport Pro</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="ult-spacer spacer-5c06a25e22847" data-id="5c06a25e22847" data-height="25" data-height-mobile="25" data-height-tab="25" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594861952">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/7VSDta0hWgQ?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575023453">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">DR. Avi Reyhanian explains the medical and clinics’ benefits from using B-Cure Laser Dental Pro</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594872026">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/3_ecoas-eLA?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575068752">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">B-cure Laser for Veterinary medicine</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ult-spacer spacer-5c06a25e23707" data-id="5c06a25e23707" data-height="25" data-height-mobile="25" data-height-tab="25" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594881824">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/aXJb7IL0rdo?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575199714">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">B- Cure Laser at Medica 2012</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594890425">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/3_ecoas-eLA?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575211742">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">How to use the B-cure laser – Part 1</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ult-spacer spacer-5c06a25e241c1" data-id="5c06a25e241c1" data-height="25" data-height-mobile="25" data-height-tab="25" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594897868">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/MiZo14sFf0s?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575291182">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">How to use the B-cure laser- Part 2</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594904870">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/zzmcy6EQuTU?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575326129">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">Dermatology treatment with B-cure laser</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ult-spacer spacer-5c06a25e24ca7" data-id="5c06a25e24ca7" data-height="25" data-height-mobile="25" data-height-tab="25" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                <div class="g-cols wpb_row type_default valign_top vc_inner ">
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594912868">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/uN-cKKfujCE?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575435152">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">B- Cure laser demonstration Carpal tunnel syndrome treatment</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_col-sm-6 wpb_column vc_column_container">
+                                        <div class="vc_column-inner  vc_custom_1530594920480">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="video">
+                                                            <iframe class="gallery-video" width="100%" height="100%" src="https://www.youtube.com/embed/PHSBoNwA_ZE?autoplay=0&amp;rel=0&amp;&amp;loop=1&amp;&amp;mute=1&amp;showinfo=0" allowfullscreen=""></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="wpb_text_column  vc_custom_1529575446875">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: center;">B- cure laser demonstration: Tennis Golf elbow treatment</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ult-spacer spacer-5c06a25e2577c" data-id="5c06a25e2577c" data-height="50" data-height-mobile="50" data-height-tab="50" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
                             </div>
-						</div>
-					</div>
-				</section>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </section>
 			</main>
 		</div>
 	</div>

@@ -27,7 +27,8 @@
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
     <link rel="stylesheet" id="bsf-Defaults-css" href="css/Defaults.css" type="text/css" media="all">
-    <link rel="stylesheet" id="base.css" href="css/base.css" type="text/css" media="all">
+	<link rel="stylesheet" id="base.css" href="css/base.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/products.css" type="text/css" media="all">
 
 	<style> 
 	.spacer-5d { height:346px } 
@@ -939,11 +940,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="g-cols wpb_row type_default valign_top vc_inner c-info">
+                                    <div class="g-cols wpb_row type_default valign_top vc_inner c-info" style="background:#ececec;">
                                         <div class="vc_col-sm-4 wpb_column vc_column_container has-fill">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    <div class="ult-spacer" style="height:21px"></div>
                                                     <div class="aio-icon-component  vc_custom_1530596059518  c-info-1 style_1">
                                                         <div id="Info-box-wrap-8923" class="aio-icon-box left-icon" style="">
                                                             <div class="aio-icon-left">
@@ -970,7 +970,6 @@
                                         <div class="vc_col-sm-4 wpb_column vc_column_container has-fill">
                                             <div class="vc_column-inner  vc_custom_1529392051097">
                                                 <div class="wpb_wrapper">
-                                                    <div class="ult-spacer spacer-5c00125919165" data-id="5c00125919165" data-height="15" data-height-mobile="15" data-height-tab="15" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
                                                     <div class="aio-icon-component  vc_custom_1529733923586   style_1">
                                                         <div id="Info-box-wrap-3773" class="aio-icon-box left-icon" style="">
                                                             <div class="aio-icon-left">
@@ -998,7 +997,6 @@
                                         <div class="vc_col-sm-4 wpb_column vc_column_container has-fill">
                                             <div class="vc_column-inner  vc_custom_1529392061013">
                                                 <div class="wpb_wrapper">
-                                                    <div class="ult-spacer spacer-5c00125919760" data-id="5c00125919760" data-height="15" data-height-mobile="15" data-height-tab="15" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
                                                     <div class="aio-icon-component  vc_custom_1529733930922   style_1">
                                                         <div id="Info-box-wrap-7675" class="aio-icon-box left-icon" style="">
                                                             <div class="aio-icon-left">
@@ -1033,96 +1031,7 @@
 		</div>
 	</div>
 </div>
-<footer class="l-footer" itemscope="" itemtype="https://schema.org/WPFooter">
-	<section class="l-section wpb_row height_auto with_overlay footer-top">
-		<div class="l-section-overlay" style="background-color: #475564"></div>
-		<div class="l-section-h i-cf">
-			<div class="g-cols vc_row type_default valign_top">
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner  vc_custom_1529326170779">
-						<div class="wpb_wrapper">
-							<div class="w-image align_center">
-								<div class="w-image-h">
-									<img width="168" height="49" src="img/good-energies.png" class="attachment-full size-full" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper"></div>
-					</div>
-				</div>
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper"></div>
-					</div>
-				</div>
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper"></div>
-					</div>
-				</div>
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper"></div>
-					</div>
-				</div>
-				<div class="vc_col-sm-2 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="l-section wpb_row height_auto color_footer-bottom footer-bottom" style="padding-top: 15px !important;padding-bottom: 15px !important;">
-		<div class="l-section-h i-cf">
-			<div class="g-cols vc_row type_default valign_top">
-				<div class="vc_col-sm-6 wpb_column vc_column_container">
-					<div class="vc_column-inner  vc_custom_1529607451522 color_custom" style="color:#475564;">
-						<div class="wpb_wrapper">
-							<div class="wpb_text_column ">
-								<div class="wpb_wrapper">
-									<p><a href="http://www.conceptsite.co.il">Site by Concept</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="vc_col-sm-6 wpb_column vc_column_container">
-					<div class="vc_column-inner  vc_custom_1529607458643 color_custom" style="color:#475564;">
-						<div class="wpb_wrapper">
-							<div class="wpb_text_column ">
-								<div class="wpb_wrapper">
-									<p style="text-align: right;">© Erika Carmel Ltd</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="l-section wpb_row height_auto pageload-popup" style="padding-top: 0px !important;padding-bottom: 0px !important;">
-		<div class="l-section-h i-cf">
-			<div class="g-cols vc_row type_default valign_top">
-				<div class="vc_col-sm-12 wpb_column vc_column_container">
-					<div class="vc_column-inner">
-						<div class="wpb_wrapper">
-							<div id="modal-trg-txt-wrap-3618" class="ult-modal-input-wrapper ult-adjust-bottom-margin slide-popup-close   " data-keypress-control="keypress-control-enable" data-overlay-control="overlay-control-enable">
-								<img src="wp-content/uploads/2018/08/email-icon.png" alt="null" data-class-id="content-5bffe514b56879-51531707" class="ult-modal-img overlay-show slide-popup-image  ult-align-right ult-modal-image-slide-popup" data-overlay-class="overlay-slideleft">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</footer>
-<a class="w-toplink pos_right active" href="#" title="Back to top" aria-hidden="true"></a>
+<?php include "include/footer.php";?>
 </body>
 
 </html>

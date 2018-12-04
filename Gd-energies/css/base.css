@@ -1674,3 +1674,26 @@ button {
 #us_grid_2 .w-grid-item-elm.post_title {
     font-size: 14px;
 }
+.breadcrumb-container {
+	font-size: 16px  !important;
+}
+.breadcrumb-container li a{
+	color: #475564  !important;
+	font-size: 16px  !important;
+	line-height: 16px  !important;
+}
+
+.breadcrumb-container li .separator {
+	color: #475564  !important;
+	font-size: 16px  !important;
+}
+.breadcrumb-container.theme1 li {
+	margin: 0;
+	padding: 0;
+}							
+.breadcrumb-container.theme1 a {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
