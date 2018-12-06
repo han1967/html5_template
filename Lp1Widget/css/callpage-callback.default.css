@@ -107,8 +107,11 @@
     padding-left:10px;
     font-size:11px;
   }
-  #callpage #MobilePhone0, #callpage #MobilePhone1 {
+  /* #callpage #MobilePhone0, #callpage #MobilePhone1 {
     padding-left: 95px !important;
+  } */
+  #callpage #MobilePhone0 {
+    padding-left: 45px !important;
   }
   #callpage .intl-tel-input.separate-dial-code .selected-dial-code {
     padding-left:12px !important;
