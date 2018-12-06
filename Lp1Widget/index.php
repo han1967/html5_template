@@ -887,12 +887,12 @@ function init_message_box() {
         var telInput = $("#MobilePhone1");
         if ($.trim(mobile)) {
             if (telInput.intlTelInput("isValidNumber")) {
-                $('.m_warnning').html('Please input invalid phone number!');
+                $('.m_warnning').html('Please input Valid phone number!');
                 return false;
             }
         }
         if (mobile && mobile.length<5) {
-            $('.m_warnning').html('Please input invalid phone number!');
+            $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
 
@@ -1011,12 +1011,12 @@ function init_schedule_box() {
         var telInput = $("#MobilePhone0");
         if ($.trim(mobile)) {
             if (telInput.intlTelInput("isValidNumber")) {
-                $('.m_warnning').html('Please input invalid phone number!');
+                $('.m_warnning').html('Please input Valid phone number!');
                 return false;
             }
         }
         if (mobile && mobile.length<5) {
-            $('.m_warnning').html('Please input invalid phone number!');
+            $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
 
