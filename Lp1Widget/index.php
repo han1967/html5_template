@@ -1044,7 +1044,7 @@ function init_schedule_box() {
                     $('.cp-message__inner').css('display', 'block');
                     $('.cp-schedule__inner').css('display', 'none');
                     $('#m_warnning').html('');
-                    $("#leave-message-btn").prop('disabled',false);
+                    $("#schedule-call-btn").prop('disabled',false);
                     $("#schedule-call-btn").text('Call me now');
                     $("#schedule-call-btn").removeClass('wait-class');
                     $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
@@ -1052,7 +1052,7 @@ function init_schedule_box() {
                     init_message_box();
                 }else{
                     $('#m_warnning').html('');
-                    $("#leave-message-btn").prop('disabled',false);
+                    $("#schedule-call-btn").prop('disabled',false);
                     $("#schedule-call-btn").text('Call me now');
                     $("#schedule-call-btn").removeClass('wait-class');
                     alert(data.error);
