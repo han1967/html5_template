@@ -722,19 +722,19 @@ var session = '<?=isset($_SESSION['user']['email']) ? $_SESSION['user']['email']
 var now = '<?=date('H:i',strtotime('+2 Hours'))?>';
 var nowDay = '<?=date('d F')?>';
 var mobileSession = '<?=isset($_SESSION['m']) && !empty($_SESSION['m']) ? $_SESSION['m'] : ''?>';
-if (mobileSession==''){
-    $("#MobilePhone").intlTelInput({
-        separateDialCode: true,
-        initialCountry: "auto",
-        utilsScript: "js/utils.js",
-        geoIpLookup: function(callback) {
-            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-                var countryCode = (resp && resp.country) ? resp.country : "";
-                callback(countryCode);
-            });
-        },
-    });
-}
+// if (mobileSession==''){
+//     $("#MobilePhone").intlTelInput({
+//         separateDialCode: true,
+//         initialCountry: "auto",
+//         utilsScript: "js/utils.js",
+//         geoIpLookup: function(callback) {
+//             $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+//                 var countryCode = (resp && resp.country) ? resp.country : "";
+//                 callback(countryCode);
+//             });
+//         },
+//     });
+// }
 var t;
 function play_beep() {
     if ($("#beep").length<1)
@@ -855,7 +855,7 @@ function init_message_box() {
             inHtml += '<div class="cp-grid__item"><input id="MobilePhone1" value="'+mobileSession+'" class="cp-form-simple-control" type="tel" placeholder="Your phone"><label for="email1" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label> </div>';
         }
 
-    inHtml += '<div class="cp-chars-limit cp-chars-limit--kill-offset cp-custom-text-color"> 1000 </div>' +
+    inHtml += '<div class="m_warnning"></div><div class="cp-chars-limit cp-chars-limit--kill-offset cp-custom-text-color"> 1000 </div>' +
         '<textarea id="message-to-manager" data-brand-color="border:focus" data-form-control="" placeholder="Type your message here" class="cp-form-simple-control" data-test="message-to-manager"></textarea> </div>'+
         '<div class="cp-grid__item"> <div class="cp-grid__item"> <button id="leave-message-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="leave-message-btn">Submit</button> </div>' +
         '<div class="cp-grid__item"> <p class="cp-processed-calls-text">You are already the 3rd person who has left a message</p></div></div></div>';
@@ -878,9 +878,22 @@ function init_message_box() {
         var monthday= $("#month-day option:selected").text();
         var hour= $("#hour option:selected").text();
 
-        var mob = $('#MobilePhone1').val()
-        if(mobileSession != ''){
-            mob = mobileSession;
+        var mobile = $("#MobilePhone1").val();
+
+        if(mobile == ''){
+            $('.m_warnning').html('Please add your phone number!');
+            return false;
+        }
+        var telInput = $("#MobilePhone1");
+        if ($.trim(mobile)) {
+            if (telInput.intlTelInput("isValidNumber")) {
+                $('.m_warnning').html('Please input invalid phone number!');
+                return false;
+            }
+        }
+        if (mobile.length<5) {
+            $('.m_warnning').html('Please input invalid phone number!');
+            return false;
         }
 
 //        if(message == ''){
@@ -958,7 +971,7 @@ function init_schedule_box() {
     inHtml += '<svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div>';
     inHtml += '<div class="cp-grid__item">';
     inHtml += '<input type="tel" name="MobilePhone0" id="MobilePhone0" value="'+mobileSession+'" class="cp-form-simple-control">';
-    inHtml += '</div><div id="m_warnning"></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
+    inHtml += '</div><div class="m_warnning"></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
     $('.cp-schedule__inner').html(inHtml);
     $("#MobilePhone0").intlTelInput({
         separateDialCode: true,
@@ -992,15 +1005,19 @@ function init_schedule_box() {
     $("#schedule-call-btn").click(function(e) {
         var mobile = $("#MobilePhone0").val();
         if(mobile == ''){
-            $('#m_warnning').html('Please add your phone number!');
+            $('.m_warnning').html('Please add your phone number!');
             return false;
         }
         var telInput = $("#MobilePhone0");
         if ($.trim(mobile)) {
             if (telInput.intlTelInput("isValidNumber")) {
-                $('#m_warnning').html('Please input invalid phone number!');
+                $('.m_warnning').html('Please input invalid phone number!');
                 return false;
             }
+        }
+        if (mobile.length<5) {
+            $('.m_warnning').html('Please input invalid phone number!');
+            return false;
         }
 
         var monthday= $("#month-day option:selected").text();
