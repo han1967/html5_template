@@ -44,8 +44,9 @@ $sel .="</select>";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bcure - 2</title>
     <link rel="stylesheet" href="fonts/font.css">
-    <link rel="stylesheet" href="css/main.css?v=2">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/callpage-callback.default.css">
+    <link rel="stylesheet" href="js/tel/build/css/intlTelInput.css">
     <?php include_once "../register_assets.php" ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120830425-1"></script>
@@ -714,12 +715,26 @@ $sel .="</select>";
 		</div>
 	</div>
 </div>
+<script src="js/tel/build/js/intlTelInput.js"></script>
 <script>
+    
 var session = '<?=isset($_SESSION['user']['email']) ? $_SESSION['user']['email'] : '' ?>';
 var now = '<?=date('H:i',strtotime('+2 Hours'))?>';
 var nowDay = '<?=date('d F')?>';
 var mobileSession = '<?=isset($_SESSION['m']) && !empty($_SESSION['m']) ? $_SESSION['m'] : ''?>';
-
+if (mobileSession==''){
+    $("#MobilePhone").intlTelInput({
+        separateDialCode: true,
+        initialCountry: "auto",
+        utilsScript: "js/utils.js",
+        geoIpLookup: function(callback) {
+            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
+    });
+}
 var t;
 function play_beep() {
     if ($("#beep").length<1)
@@ -837,7 +852,7 @@ function init_message_box() {
         '<div class="cp-grid__item"><input id="name" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your name"> <label for="name" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label></div>' +
         '<div class="cp-grid__item"><input id="email1" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="text" placeholder="Your email"><label for="email1" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label> </div>';
         if(session == '' && mobileSession == ''){
-            inHtml += '<div class="cp-grid__item"><input id="MobilePhone1" data-brand-color="border:focus" data-form-control="" data-input="" class="cp-form-simple-control" type="number" placeholder="Your phone"><label for="email1" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label> </div>';
+            inHtml += '<div class="cp-grid__item"><input id="MobilePhone1" value="'+mobileSession+'" class="cp-form-simple-control" type="tel" placeholder="Your phone"><label for="email1" style="color: red !important;position: absolute !important;top: 0px !important;right: -5px !important;">*</label> </div>';
         }
 
     inHtml += '<div class="cp-chars-limit cp-chars-limit--kill-offset cp-custom-text-color"> 1000 </div>' +
@@ -845,6 +860,17 @@ function init_message_box() {
         '<div class="cp-grid__item"> <div class="cp-grid__item"> <button id="leave-message-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="leave-message-btn">Submit</button> </div>' +
         '<div class="cp-grid__item"> <p class="cp-processed-calls-text">You are already the 3rd person who has left a message</p></div></div></div>';
     $('.cp-message__inner').html(inHtml);
+    $("#MobilePhone1").intlTelInput({
+        separateDialCode: true,
+        initialCountry: "auto",
+        utilsScript: "js/utils.js",
+        geoIpLookup: function(callback) {
+            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
+    });
     $("#leave-message-btn").click(function(e) {
         var message = $("#message-to-manager").val();
         var name= $("#name").val();
@@ -929,16 +955,22 @@ function init_schedule_box() {
         '<option value="1543242600000">19:00</option>' +
         '</select>';
 
-    inHtml += '<svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div><div class="cp-grid__item"><div class="cp-vuetel cp-vuetel--no-flags"><svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-vuetel__phone-icon"><path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path></svg>';
-    if(mobileSession == ''){
-        inHtml += '<input type="number" name="MobilePhone" id="MobilePhone" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567" value="">';
-    }
-    else {
-        inHtml += '<input type="number" name="MobilePhone" id="MobilePhone" data-brand-color="border:focus" data-form-control="" data-input="" tabindex="0" class="cp-form-simple-control cp-vuetel__input" data-test="phone-number" placeholder="5123 4567" value="'+mobileSession+'">';
-    }
-    inHtml += '</div></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
+    inHtml += '<svg x="0px" y="0px" width="12px" viewBox="3 74 220 191.9" class="cp-form-control__arrow"><path d="M5,98.7l1.2,2.1l93.5,156.5c3.2,5.3,7.9,8.6,13.2,8.6s10-3.4,13.2-8.6l93.4-156.2l1.6-2.6c1.2-2.5,1.9-5.5,1.9-8.7c0-8.7-5.1-15.8-11.4-15.8l0,0H14.4l0,0C8.1,74,3,81.1,3,89.8C3,93.1,3.8,96.2,5,98.7z"></path></svg></div></div>';
+    inHtml += '<div class="cp-grid__item">';
+    inHtml += '<input type="tel" name="MobilePhone0" id="MobilePhone0" value="'+mobileSession+'" class="cp-form-simple-control">';
+    inHtml += '</div><div id="m_warnning"></div><div class="cp-grid__item"><button id="schedule-call-btn" data-brand-color="background" class="cp-btn cp-btn--brand" data-test="schedule-call-btn">Call me now</button></div><div class="cp-grid__item"><p class="cp-processed-calls-text">You are already the 4th person who has ordered a call</p></div></div></div>';
     $('.cp-schedule__inner').html(inHtml);
-
+    $("#MobilePhone0").intlTelInput({
+        separateDialCode: true,
+        initialCountry: "auto",
+        utilsScript: "js/utils.js",
+        geoIpLookup: function(callback) {
+            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
+    });
     $('#month-day').on('change', function (e) {
         var date1 = $(this).find('option:selected').text();
         var now1 = $('#hour').find('option:selected').text();
@@ -958,17 +990,22 @@ function init_schedule_box() {
         }
     });
     $("#schedule-call-btn").click(function(e) {
-        var mobile = $('#callpage[dir=ltr] .cp-vuetel__input').val();
-        if(mobileSession != ''){
-            mobile = mobileSession;
-        }
-        var monthday= $("#month-day option:selected").text();
-        var hour= $("#hour option:selected").text();
-
+        var mobile = $("#MobilePhone0").val();
         if(mobile == ''){
-            alert('Please add your phone number!');
+            $('#m_warnning').html('Please add your phone number!');
             return false;
         }
+        var telInput = $("#MobilePhone0");
+        if ($.trim(mobile)) {
+            if (telInput.intlTelInput("isValidNumber")) {
+                $('#m_warnning').html('Please input invalid phone number!');
+                return false;
+            }
+        }
+
+        var monthday= $("#month-day option:selected").text();
+        var hour= $("#hour option:selected").text();
+       
 //        $('.success-class').html('').hide()
 //        $('.error-class').html('').hide()
         $("#schedule-call-btn").prop('disabled',true);
@@ -984,6 +1021,7 @@ function init_schedule_box() {
                     session = data.session;
                     $('.cp-message__inner').css('display', 'block');
                     $('.cp-schedule__inner').css('display', 'none');
+                    $('#m_warnning').html('');
                     $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
                     $('#cp-message__inner').addClass('cp-segmented-bar__segment--active');
                     init_message_box();
