@@ -878,20 +878,20 @@ function init_message_box() {
         var monthday= $("#month-day option:selected").text();
         var hour= $("#hour option:selected").text();
 
-        var mobile = $("#MobilePhone1").val();
+        var mob = $("#MobilePhone1").val();
 
-        if(mobile == ''){
+        if(mob == ''){
             $('.m_warnning').html('Please add your phone number!');
             return false;
         }
         var telInput = $("#MobilePhone1");
-        if ($.trim(mobile)) {
+        if ($.trim(mob)) {
             if (telInput.intlTelInput("isValidNumber")) {
                 $('.m_warnning').html('Please input Valid phone number!');
                 return false;
             }
         }
-        if (mobile && mobile.length<5) {
+        if ($("#MobilePhone1").length>0 && $("#MobilePhone1").val().length<5) {
             $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
@@ -1015,7 +1015,7 @@ function init_schedule_box() {
                 return false;
             }
         }
-        if (mobile && mobile.length<5) {
+        if ($("#MobilePhone0").length>0 && $("#MobilePhone0").val().length<5) {
             $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
