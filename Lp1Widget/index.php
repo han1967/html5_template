@@ -892,7 +892,7 @@ function init_message_box() {
         //         return false;
         //     }
         // }
-        if ($("#MobilePhone1").length>0 && $("#MobilePhone1").val().length>8) {
+        if ($("#MobilePhone1").length>0 && $("#MobilePhone1").val().length<9) {
             $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
@@ -1020,7 +1020,7 @@ function init_schedule_box() {
         //         return false;
         //     }
         // }
-        if ($("#MobilePhone0").length>0 && $("#MobilePhone0").val().length>8) {
+        if ($("#MobilePhone0").length>0 && $("#MobilePhone0").val().length<9) {
             $('.m_warnning').html('Please input Valid phone number!');
             return false;
         }
