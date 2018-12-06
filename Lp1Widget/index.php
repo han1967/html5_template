@@ -891,7 +891,7 @@ function init_message_box() {
                 return false;
             }
         }
-        if (mobile.length<5) {
+        if (mobile && mobile.length<5) {
             $('.m_warnning').html('Please input invalid phone number!');
             return false;
         }
@@ -1015,7 +1015,7 @@ function init_schedule_box() {
                 return false;
             }
         }
-        if (mobile.length<5) {
+        if (mobile && mobile.length<5) {
             $('.m_warnning').html('Please input invalid phone number!');
             return false;
         }
