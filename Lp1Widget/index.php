@@ -927,7 +927,10 @@ function init_message_box() {
                     $('.cp-message__inner').html(inHtml);
                     close_cp_window();
                 } else {
-                    alert(data.error)
+                    $("#leave-message-btn").prop('disabled',false);
+                    $("#leave-message-btn").text('Submit');
+                    $("#leave-message-btn").removeClass('wait-class');
+                    alert(data.error);
                 }
             }
         });
@@ -1041,13 +1044,19 @@ function init_schedule_box() {
                     $('.cp-message__inner').css('display', 'block');
                     $('.cp-schedule__inner').css('display', 'none');
                     $('#m_warnning').html('');
+                    $("#leave-message-btn").prop('disabled',false);
+                    $("#schedule-call-btn").text('Call me now');
+                    $("#schedule-call-btn").removeClass('wait-class');
                     $('.cp-segmented-bar__segment').removeClass('cp-segmented-bar__segment--active');
                     $('#cp-message__inner').addClass('cp-segmented-bar__segment--active');
                     init_message_box();
                 }else{
-                    alert(data.error)
+                    $('#m_warnning').html('');
+                    $("#leave-message-btn").prop('disabled',false);
+                    $("#schedule-call-btn").text('Call me now');
+                    $("#schedule-call-btn").removeClass('wait-class');
+                    alert(data.error);
                 }
-
             }
         });
 
