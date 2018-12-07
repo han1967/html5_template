@@ -117,7 +117,7 @@
 																		</ul>
 																	</div>
 																	<div class="gform_footer top_label">
-																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery('#gform_2').trigger('submit&quot;,[true]); }">
 																		<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
 																		<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
 																		<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
@@ -298,7 +298,7 @@
 															<div></div>
 															<div><strong>Results:</strong>
 															</div>
-															<div>The patient’s pain evaluation was expressed in the two study groups before the treatment, 1 week and two weeks after the treatment. The differences between the two groups result extremely significant with p&lt;0.0001 for the comparison of VAS value after 1 and 2 weeks.</div>
+															<div>The patient’s pain evaluation was expressed in the two study groups before the treatment, 1 week and two weeks after the treatment. The differences between the two groups result extremely significant with p<0.0001 for the comparison of VAS value after 1 and 2 weeks.</div>
 															<div><strong>Conclusions:</strong>
 															</div>
 															<div>This study, even if it may be considered such a pilot study due to its limits (number of patients, number of data recorded, subjective evaluations), investigated a new way to control the pain in the emporomandibular diseases by a at home self administered laser device. Results are encouraging but they will have to be confirmed by more enlarged studies.</div>

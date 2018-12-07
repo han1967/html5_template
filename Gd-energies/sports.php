@@ -96,8 +96,8 @@
 													<div class="wpb_wrapper">
 														<div class="w-image align_center">
 															<div class="w-image-h">
-																<a href="https://gd-energies.com" title="" target="" rel="">
-																	<img width="214" height="79" src="https://gd-energies.com/wp-content/uploads/2018/06/logo.png" class="attachment-full size-full" alt="">
+																<a href="/" title="" target="" rel="">
+																	<img width="214" height="79" src="img/logo.png" class="attachment-full size-full" alt="">
 																</a>
 															</div>
 														</div>
@@ -187,7 +187,7 @@
 																</style>
 																<div class="breadcrumb-container theme1" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
 																	<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
-																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
+																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="/">Home</a>
 																		</li>
 																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="Sports" href="#">Sports</a><span class="separator">»</span>
 																		</li>
@@ -222,11 +222,10 @@
 															<div id="rev_slider_7_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="margin-top: 0px; margin-bottom: 0px; height: 398px;" data-version="5.4.7.4" data-slideactive="rs-52">
 																<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 701px; height: 100%; max-height: none; left: 0px;">
 																	<!-- SLIDE  -->
-																	<li data-index="rs-46" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/2_2-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
+																	<li data-index="rs-46" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/2_2.jpg" alt="" title="2_2" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/2_2.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/2_2.jpg"></div>
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/2_2.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/2_2.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 1 -->
@@ -266,7 +265,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-46-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
@@ -276,7 +275,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-46-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
@@ -286,18 +285,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-46-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 0.0001; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-54" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/3_1-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																	<li data-index="rs-54" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/3_1-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg" alt="" title="3_1" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/3_1.jpg" alt="" title="3_1" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/3_1.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/3_1.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 8 -->
@@ -337,7 +336,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-54-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -347,7 +346,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-54-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -357,18 +356,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-54-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-53" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_024b_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																	<li data-index="rs-53" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/B-Cure_024b_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_024b_0.jpg" alt="" title="B-Cure_024b_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_024b_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_024b_0.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/B-Cure_024b_0.jpg" alt="" title="B-Cure_024b_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/B-Cure_024b_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/B-Cure_024b_0.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 15 -->
@@ -408,7 +407,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-53-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -418,7 +417,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-53-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -428,18 +427,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-53-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-52" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_136b_light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+																	<li data-index="rs-52" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/B-Cure_136b_light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_136b_light_0.jpg" alt="" title="B-Cure_136b_light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_136b_light_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_136b_light_0.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/B-Cure_136b_light_0.jpg" alt="" title="B-Cure_136b_light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/B-Cure_136b_light_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/B-Cure_136b_light_0.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 22 -->
@@ -479,7 +478,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-52-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
@@ -489,7 +488,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-52-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
@@ -499,18 +498,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																					<div class="tp-caption   tp-resizeme" id="slide-52-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="" style="width: 66.6199px; height: 64.6312px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-51" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/3_1-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																	<li data-index="rs-51" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/3_1-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg" alt="" title="3_1" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/3_1.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/3_1.jpg" alt="" title="3_1" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/3_1.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/3_1.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 29 -->
@@ -550,7 +549,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-51-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -560,7 +559,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-51-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -570,18 +569,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-51-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-56" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_laser_Device_Sport_Right_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																	<li data-index="rs-56" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/B-Cure_laser_Device_Sport_Right_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_laser_Device_Sport_Right_0.jpg" alt="" title="B-Cure_laser_Device_Sport_Right_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_laser_Device_Sport_Right_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_laser_Device_Sport_Right_0.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/B-Cure_laser_Device_Sport_Right_0.jpg" alt="" title="B-Cure_laser_Device_Sport_Right_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/B-Cure_laser_Device_Sport_Right_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/B-Cure_laser_Device_Sport_Right_0.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 36 -->
@@ -621,7 +620,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-56-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -631,7 +630,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-56-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -641,18 +640,18 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-56-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
 																		</div>
 																	</li>
 																	<!-- SLIDE  -->
-																	<li data-index="rs-55" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/Woman_Man_Light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																	<li data-index="rs-55" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/Woman_Man_Light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																		<!-- MAIN IMAGE -->
 																		<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/Woman_Man_Light_0.jpg" alt="" title="Woman_Man_Light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Woman_Man_Light_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/Woman_Man_Light_0.jpg"></div>
+																			<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/Woman_Man_Light_0.jpg" alt="" title="Woman_Man_Light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																			<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/Woman_Man_Light_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/Woman_Man_Light_0.jpg"></div>
 																		</div>
 																		<!-- LAYERS -->
 																		<!-- LAYER NR. 43 -->
@@ -692,7 +691,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-55-layer-17" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['30','30','30','30']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_1_2.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -702,7 +701,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-55-layer-18" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['153','153','153','153']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_4_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -712,7 +711,7 @@
 																			<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																					<div class="tp-caption   tp-resizeme" id="slide-55-layer-19" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['293','293','293','293']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																						<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
+																						<img src="img/icon2_3_0.png" alt="" data-ww="['67','67','67','67']" data-hh="['65','65','65','65']" width="67" height="65" data-no-retina="">
 																					</div>
 																				</div>
 																			</div>
@@ -743,19 +742,19 @@
 															<div class="tp-thumbs  outer-bottom  nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal" style="max-width: 661px; max-height: 130px; overflow: visible; position: relative; background: rgba(255, 204, 0, 0); padding: 20px; left: 0px; transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;">
 																<div class="tp-thumb-mask" style="max-width: 661px; max-height: 130px; overflow: hidden; position: relative;">
 																	<div class="tp-thumbs-inner-wrapper" style="position: relative; width: 1464px; height: 130px; left: -214px;">
-																		<div data-liindex="0" data-liref="rs-46" class="tp-thumb" style="width: 180px; height: 130px; left: 0px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/2_2-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="0" data-liref="rs-46" class="tp-thumb" style="width: 180px; height: 130px; left: 0px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/2_2-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="1" data-liref="rs-54" class="tp-thumb" style="width: 180px; height: 130px; left: 214px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/3_1-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="1" data-liref="rs-54" class="tp-thumb" style="width: 180px; height: 130px; left: 214px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/3_1-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="2" data-liref="rs-53" class="tp-thumb" style="width: 180px; height: 130px; left: 428px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_024b_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="2" data-liref="rs-53" class="tp-thumb" style="width: 180px; height: 130px; left: 428px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/B-Cure_024b_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="3" data-liref="rs-52" class="tp-thumb selected" style="width: 180px; height: 130px; left: 642px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_136b_light_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="3" data-liref="rs-52" class="tp-thumb selected" style="width: 180px; height: 130px; left: 642px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/B-Cure_136b_light_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="4" data-liref="rs-51" class="tp-thumb" style="width: 180px; height: 130px; left: 856px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/3_1-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="4" data-liref="rs-51" class="tp-thumb" style="width: 180px; height: 130px; left: 856px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/3_1-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="5" data-liref="rs-56" class="tp-thumb" style="width: 180px; height: 130px; left: 1070px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/B-Cure_laser_Device_Sport_Right_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="5" data-liref="rs-56" class="tp-thumb" style="width: 180px; height: 130px; left: 1070px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/B-Cure_laser_Device_Sport_Right_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
-																		<div data-liindex="6" data-liref="rs-55" class="tp-thumb" style="width: 180px; height: 130px; left: 1284px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Woman_Man_Light_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																		<div data-liindex="6" data-liref="rs-55" class="tp-thumb" style="width: 180px; height: 130px; left: 1284px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/Woman_Man_Light_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																		</div>
 																	</div>
 																</div>
@@ -782,7 +781,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -805,7 +804,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -828,7 +827,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -851,7 +850,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -874,7 +873,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -897,7 +896,7 @@
 																				<div class="w-grid-item-h">
 																					<div class="w-grid-item-elm usg_post_image_1  post_image">
 																						<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																							<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																							<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																						</a>
 																					</div>
 																					<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -1056,7 +1055,7 @@
 														</a>
 														<div class="w-tabs-section-content">
 															<div class="w-tabs-section-content-h i-cf">
-																<div class="g-cols wpb_row type_default valign_top vc_inner  vc_custom_1529400191412">
+															<div class="g-cols wpb_row type_default valign_top vc_inner  vc_custom_1529400191412">
 																	<div class="vc_col-sm-12 wpb_column vc_column_container">
 																		<div class="vc_column-inner">
 																			<div class="wpb_wrapper">
@@ -1067,362 +1066,351 @@
 																					</div>
 																				</div>
 																				<div class="ult_hotspot_container ult-adjust-bottom-margin ult-hotspot-tooltip-wrapper " style="width:600px;">
-																					<img class="ult_hotspot_image" src="https://gd-energies.com/wp-content/uploads/2018/08/human-body2-en.png" alt="null">
+																					<img class="ult_hotspot_image" src="img/human-body2-en.png" alt="null">
 																					<div class="utl-hotspot-items ult-hotspot-item">
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(17.465136% - 9px);top:-moz-calc(17.465136% - 9px);top:calc(17.465136% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2854" data-ultimate-target="#hotspot-tooltip-2854 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-4241" data-ultimate-target="#hotspot-tooltip-4241 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/2-1.png">
+																												<img class="img-icon" alt="null" src="img/2-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Trigger points&lt;/strong&gt;&lt;br /&gt;
-Treat on the trigger points, 6-8 min., twice daily.</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content">
+																									<strong>Trigger points</strong><br />
+																									Treat on the trigger points, 6-8 min., twice daily.
+																									</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(8.766883% - 9px);top:-moz-calc(8.766883% - 9px);top:calc(8.766883% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-4991" data-ultimate-target="#hotspot-tooltip-4991 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-9467" data-ultimate-target="#hotspot-tooltip-9467 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/3-1.png">
+																												<img class="img-icon" alt="null" src="img/3-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Neck&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. Lengthwise, along the vertebra. b. Treat each side of the neck – lengthwise, under the ear lobe, exactly at the indentation behind the jaw. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. You may also treat two additional points close to the bottom of the neck and toward the shoulders. Treat 2-4 times a day.&lt;br /&gt;
-</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content"><strong>Neck</strong><br />
+																									Guidelines for treatment:<br />
+																									Treat the following locations: a. Lengthwise, along the vertebra. b. Treat each side of the neck – lengthwise, under the ear lobe, exactly at the indentation behind the jaw. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. You may also treat two additional points close to the bottom of the neck and toward the shoulders. Treat 2-4 times a day.<br />
+																									</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(15.539216683580984% - 9px);top:-moz-calc(15.539216683580984% - 9px);top:calc(15.539216683580984% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1787" data-ultimate-target="#hotspot-tooltip-1787 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-8924" data-ultimate-target="#hotspot-tooltip-8924 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/4-1.png">
+																												<img class="img-icon" alt="null" src="img/4-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Shoulder&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. Around the shoulder joint. b. On the upper arm. 6-8 minutes per 4.5 cm2 area. Treat 2-4 times a day.</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content"><strong>Shoulder</strong><br />
+																									Guidelines for treatment:<br />
+																									Treat the following locations: a. Around the shoulder joint. b. On the upper arm. 6-8 minutes per 4.5 cm2 area. Treat 2-4 times a day.
+																									</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(25.694989% - 9px);top:-moz-calc(25.694989% - 9px);top:calc(25.694989% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1572" data-ultimate-target="#hotspot-tooltip-1572 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-8860" data-ultimate-target="#hotspot-tooltip-8860 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/5-1.png">
+																												<img class="img-icon" alt="null" src="img/5-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Upper back&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. Lengthwise, along the spine on every aching link. b. On the right shoulder blade. c. On the left shoulder blade. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content"><strong>Upper back</strong><br />
+																									Guidelines for treatment:<br />
+																									Treat the following locations: a. Lengthwise, along the spine on every aching link. b. On the right shoulder blade. c. On the left shoulder blade. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day
+																									</span>
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(32.77016% - 9px);top:-moz-calc(32.77016% - 9px);top:calc(32.77016% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1821" data-ultimate-target="#hotspot-tooltip-1821 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1749" data-ultimate-target="#hotspot-tooltip-1749 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/six.png">
+																												<img class="img-icon" alt="null" src="img/six.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Lower back&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. Along the spine, lengthwise. b. Find the sensitive or sore points on the buttocks and treat both sides. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Lower back</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. Along the spine, lengthwise. b. Find the sensitive or sore points on the buttocks and treat both sides. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(40.617648% - 9px);top:-moz-calc(40.617648% - 9px);top:calc(40.617648% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1902" data-ultimate-target="#hotspot-tooltip-1902 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-4057" data-ultimate-target="#hotspot-tooltip-4057 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/7-1.png">
+																												<img class="img-icon" alt="null" src="img/7-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Sciatica&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: locate the pressure area on the isciatic nurve and treat along the nurve. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Sciatica</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: locate the pressure area on the isciatic nurve and treat along the nurve. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(49.371463% - 9px);top:-moz-calc(49.371463% - 9px);top:calc(49.371463% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-4508" data-ultimate-target="#hotspot-tooltip-4508 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-8523" data-ultimate-target="#hotspot-tooltip-8523 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/8-1.png">
+																												<img class="img-icon" alt="null" src="img/8-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Finger joints&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the right side of the finger, lengthwise. b. On the left side of the finger, lengthwise. c. Across the dividing line between finger and palm. Treatment time depends on the number of fingers being treated. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Finger joints</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the right side of the finger, lengthwise. b. On the left side of the finger, lengthwise. c. Across the dividing line between finger and palm. Treatment time depends on the number of fingers being treated. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(59.282137% - 9px);top:-moz-calc(59.282137% - 9px);top:calc(59.282137% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2700" data-ultimate-target="#hotspot-tooltip-2700 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-9775" data-ultimate-target="#hotspot-tooltip-9775 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/9-1.png">
+																												<img class="img-icon" alt="null" src="img/9-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Hip joint&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the joint, lengthwise. b. On the joint, widthwise. Follow a straight line from the treated hip toward the knee and treat that area, widthwise, if it is sensitive. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Hip joint</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the joint, lengthwise. b. On the joint, widthwise. Follow a straight line from the treated hip toward the knee and treat that area, widthwise, if it is sensitive. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(67.313726% - 9px);top:-moz-calc(67.313726% - 9px);top:calc(67.313726% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-6679" data-ultimate-target="#hotspot-tooltip-6679 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2500" data-ultimate-target="#hotspot-tooltip-2500 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/10-2.png">
+																												<img class="img-icon" alt="null" src="img/10-2.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Knees&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the back of the knee, along the inner fold. b. On the left side of the knee, lengthwise. c. On the right side of the knee, lengthwise. Three (3) treatment points of 4.5 cm2, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day. You may also treat the front of the knee, under the kneecap.&lt;br /&gt;
-</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Knees</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the back of the knee, along the inner fold. b. On the left side of the knee, lengthwise. c. On the right side of the knee, lengthwise. Three (3) treatment points of 4.5 cm2, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day. You may also treat the front of the knee, under the kneecap.<br />
+																										</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(60.94771740483302% - 9px);top:-moz-calc(60.94771740483302% - 9px);top:calc(60.94771740483302% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1348" data-ultimate-target="#hotspot-tooltip-1348 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-7205" data-ultimate-target="#hotspot-tooltip-7205 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/11.png">
+																												<img class="img-icon" alt="null" src="img/11.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Shin bone&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: Treat along the aching area from both sides of the bone. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Shin bone</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: Treat along the aching area from both sides of the bone. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(80.09803622376685% - 9px);top:-moz-calc(80.09803622376685% - 9px);top:calc(80.09803622376685% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3114" data-ultimate-target="#hotspot-tooltip-3114 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3233" data-ultimate-target="#hotspot-tooltip-3233 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/12-1.png">
+																												<img class="img-icon" alt="null" src="img/12-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Toe joints&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. Widthwise, across the bottom of the toes on the toe pads. b. On the big toe, lengthwise. c. On the small toe, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Toe joints</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. Widthwise, across the bottom of the toes on the toe pads. b. On the big toe, lengthwise. c. On the small toe, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(36.345318563623366% - 9px);top:-moz-calc(36.345318563623366% - 9px);top:calc(36.345318563623366% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-7828" data-ultimate-target="#hotspot-tooltip-7828 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2885" data-ultimate-target="#hotspot-tooltip-2885 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/14-1.png">
+																												<img class="img-icon" alt="null" src="img/14-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Golf elbow&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the inside, widthwise, in the fold of the arm. b. On the right side, lengthwise. c. On the left side, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Golf elbow</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the inside, widthwise, in the fold of the arm. b. On the right side, lengthwise. c. On the left side, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(21.513075% - 9px);top:-moz-calc(21.513075% - 9px);top:calc(21.513075% - 9px);left: -webkit-calc(97% - 9px);left: -moz-calc(97% - 9px);left: calc(97% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-4451" data-ultimate-target="#hotspot-tooltip-4451 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1777" data-ultimate-target="#hotspot-tooltip-1777 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/15-1.png">
+																												<img class="img-icon" alt="null" src="img/15-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Tennis elbow&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the inside, widthwise, in the fold of the arm. b. On the right side, lengthwise. c. On the left side, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Tennis elbow</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the inside, widthwise, in the fold of the arm. b. On the right side, lengthwise. c. On the left side, lengthwise. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(23.27886843213848% - 9px);top:-moz-calc(23.27886843213848% - 9px);top:calc(23.27886843213848% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2934" data-ultimate-target="#hotspot-tooltip-2934 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3717" data-ultimate-target="#hotspot-tooltip-3717 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/16-1.png">
+																												<img class="img-icon" alt="null" src="img/16-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Wrist&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the inside, along the width of the joint – on the crease. b. On the inside, perpendicular to the previous point, lengthwise. c. Treat the length of the thumb, along the pad. d. Along the wrist bone, at the base of the hand, below the thumb. e. Exactly opposite to the previous point, below the “pinky” finger. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Wrist</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the inside, along the width of the joint – on the crease. b. On the inside, perpendicular to the previous point, lengthwise. c. Treat the length of the thumb, along the pad. d. Along the wrist bone, at the base of the hand, below the thumb. e. Exactly opposite to the previous point, below the “pinky” finger. Three (3) treatment points, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(53.01743052364175% - 9px);top:-moz-calc(53.01743052364175% - 9px);top:calc(53.01743052364175% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-6348" data-ultimate-target="#hotspot-tooltip-6348 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3601" data-ultimate-target="#hotspot-tooltip-3601 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/18-1.png">
+																												<img class="img-icon" alt="null" src="img/18-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Patellar tendon&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the back of the knee, along the inner fold. b. On the left side of the knee, lengthwise. c. On the right side of the knee, lengthwise. Three (3) treatment points of 4.5 cm2, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Patellar tendon</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the back of the knee, along the inner fold. b. On the left side of the knee, lengthwise. c. On the right side of the knee, lengthwise. Three (3) treatment points of 4.5 cm2, for a total of 18-24 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(85.213507% - 9px);top:-moz-calc(85.213507% - 9px);top:calc(85.213507% - 9px);left: -webkit-calc(3% - 9px);left: -moz-calc(3% - 9px);left: calc(3% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3172" data-ultimate-target="#hotspot-tooltip-3172 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-9873" data-ultimate-target="#hotspot-tooltip-9873 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/19-1.png">
+																												<img class="img-icon" alt="null" src="img/19-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Achilles tendon&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the top of the heel, lengthwise. b. Above the point above, lengthwise. c. On the right side of the ankle, lengthwise. d. On the left side of the ankle, lengthwise. Four (4) treatment points, 24-32 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Achilles tendon</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the top of the heel, lengthwise. b. Above the point above, lengthwise. c. On the right side of the ankle, lengthwise. d. On the left side of the ankle, lengthwise. Four (4) treatment points, 24-32 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(45.37036870819291% - 9px);top:-moz-calc(45.37036870819291% - 9px);top:calc(45.37036870819291% - 9px);left: -webkit-calc(43% - 9px);left: -moz-calc(43% - 9px);left: calc(43% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-6416" data-ultimate-target="#hotspot-tooltip-6416 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-7562" data-ultimate-target="#hotspot-tooltip-7562 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/20-1.png">
+																												<img class="img-icon" alt="null" src="img/20-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;LCL lateral colateral ligament&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat both sides of the knee, lengtwise, and along the inner fold line of the knee. 6-8 minute for each treatment point, twice a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>LCL lateral colateral ligament</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat both sides of the knee, lengtwise, and along the inner fold line of the knee. 6-8 minute for each treatment point, twice a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(49.284319% - 9px);top:-moz-calc(49.284319% - 9px);top:calc(49.284319% - 9px);left: -webkit-calc(97% - 9px);left: -moz-calc(97% - 9px);left: calc(97% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-6810" data-ultimate-target="#hotspot-tooltip-6810 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-9338" data-ultimate-target="#hotspot-tooltip-9338 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/21-1.png">
+																												<img class="img-icon" alt="null" src="img/21-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Thigh&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-locate the pressure area on the aching area and treat along the thigh. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Thigh</strong><br />
+																										Guidelines for treatment:<br />
+																										locate the pressure area on the aching area and treat along the thigh. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(66.39543% - 9px);top:-moz-calc(66.39543% - 9px);top:calc(66.39543% - 9px);left: -webkit-calc(97% - 9px);left: -moz-calc(97% - 9px);left: calc(97% - 9px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-1454" data-ultimate-target="#hotspot-tooltip-1454 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-7511" data-ultimate-target="#hotspot-tooltip-7511 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="9" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:18px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/07/20-1.png">
+																												<img class="img-icon" alt="null" src="img/20-1.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;MCL medial collateral ligament&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat both sides of the knee, lengtwise, and along the inner fold line of the knee. 6-8 minute for each treatment point, twice a day.&lt;/p&gt;
-&lt;p&gt;</span> 
+																									</div>
+																										<span class="hotspot-tooltip-content"><strong>MCL medial collateral ligament</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat both sides of the knee, lengtwise, and along the inner fold line of the knee. 6-8 minute for each treatment point, twice a day.</p>
+																										<p></span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(71.89542982313368% - 10.5px);top:-moz-calc(71.89542982313368% - 10.5px);top:calc(71.89542982313368% - 10.5px);left: -webkit-calc(43% - 10.5px);left: -moz-calc(43% - 10.5px);left: calc(43% - 10.5px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-9148" data-ultimate-target="#hotspot-tooltip-9148 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-2034" data-ultimate-target="#hotspot-tooltip-2034 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:21px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/08/22.png">
+																												<img class="img-icon" alt="null" src="img/22.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">Sprained ankle&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat around the bruised ankle, 6-8 min., twice a day.</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content">Sprained ankle<br />
+																										Guidelines for treatment:<br />
+																										Treat around the bruised ankle, 6-8 min., twice a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(82.839874% - 10.5px);top:-moz-calc(82.839874% - 10.5px);top:calc(82.839874% - 10.5px);left: -webkit-calc(97% - 10.5px);left: -moz-calc(97% - 10.5px);left: calc(97% - 10.5px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-5040" data-ultimate-target="#hotspot-tooltip-5040 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-6973" data-ultimate-target="#hotspot-tooltip-6973 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:21px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/08/23.png">
+																												<img class="img-icon" alt="null" src="img/23.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Heel (heel spur)&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-Treat the following locations: a. On the bottom of the foot, on the heel. b. On the side of the foot, parallel to the arch. c. On both sides of the heel, widthwise. d. On the back of the heel, lengthwise. Five (5) treatment points, 30-40 minutes during each treatment session. Treat 2-4 times a day.</span> 
+																									</div><span class="hotspot-tooltip-content"><strong>Heel (heel spur)</strong><br />
+																										Guidelines for treatment:<br />
+																										Treat the following locations: a. On the bottom of the foot, on the heel. b. On the side of the foot, parallel to the arch. c. On both sides of the heel, widthwise. d. On the back of the heel, lengthwise. Five (5) treatment points, 30-40 minutes during each treatment session. Treat 2-4 times a day.</span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																						<div class="ult-hotspot-item " style="top:-webkit-calc(7.302833906186172% - 10.5px);top:-moz-calc(7.302833906186172% - 10.5px);top:calc(7.302833906186172% - 10.5px);left: -webkit-calc(43% - 10.5px);left: -moz-calc(43% - 10.5px);left: calc(43% - 10.5px);">
 																							<div style="z-index: 39;position: relative;">
-																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-8858" data-ultimate-target="#hotspot-tooltip-8858 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-hotspot-tooltip ult-tooltipstered" href="#" data-status="show">
+																								<a data-link_style="tootip" data-mycust-id="hotspot-tooltip-3111" data-ultimate-target="#hotspot-tooltip-3111 .ult-tooltipster-content" data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" data-tooltip-content-style="width:300px;padding:20px;" data-tooltip-base-style="background-color:#ffffff;color:#4c4c4c;border-style:solid;border-width:1px;border-radius:3px;" data-bubble-arrow="false" data-trigger="click" data-tooltip-offsety="10.5" class="ult-tooltipstered ult-hotspot-tooltip" href="#" data-status="show">
 																									<div class="ult-just-icon-wrapper  ">
 																										<div class="align-icon" style="text-align:center;">
 																											<div class="aio-icon-img " style="font-size:21px;display:inline-block;">
-																												<img class="img-icon" alt="null" src="https://gd-energies.com/wp-content/uploads/2018/08/24.png">
+																												<img class="img-icon" alt="null" src="img/24.png">
 																											</div>
 																										</div>
-																									</div><span class="hotspot-tooltip-content">&lt;strong&gt;Skin Injuries&lt;/strong&gt;&lt;br /&gt;
-Guidelines for treatment:&lt;br /&gt;
-For a fresh, open wound, treat the entire exposed area, 5-6 minutes per 4.5 cm². Take a five minute break, and then start a new 5-6 minute session. With chronic, hard to heal wounds and diabetic ulcers, treat 6-8 minutes, twice a day.&lt;/p&gt;
-&lt;p&gt;</span> 
+																									</div>
+																									<span class="hotspot-tooltip-content"><strong>Skin Injuries</strong><br />
+																									Guidelines for treatment:<br />
+																									For a fresh, open wound, treat the entire exposed area, 5-6 minutes per 4.5 cm². Take a five minute break, and then start a new 5-6 minute session. With chronic, hard to heal wounds and diabetic ulcers, treat 6-8 minutes, twice a day.</p>
+																									<p></span> 
 																								</a>
 																							</div>
-																							<!-- ICON WRAP -->
 																						</div>
 																					</div>
 																					<div style="color:#000;" data-image="    "></div>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0024)https://gd-energies.com/ -->
 <html class="js csstransitions js csstransitions no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" style="overflow: auto;">
 
 <head>
@@ -10,18 +9,14 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:url" content="https://gd-energies.com/">
 	<meta property="og:site_name" content="B-cure">
 	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
 	<link rel="dns-prefetch" href="https://s.w.org/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="https://gd-energies.com/feed/">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="https://gd-energies.com/comments/feed/">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<meta name="theme-color" content="#f6f6f6">
 	<meta property="og:title" content="Home">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://gd-energies.com/">
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
@@ -532,7 +527,7 @@
 																			</ul>
 																		</div>
 																		<div class="gform_footer top_label">
-																			<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+																			<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery('#gform_2').trigger('submit&quot;,[true]); }">
 																			<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
 																			<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
 																			<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
@@ -607,7 +602,7 @@
 															<div class="wpb_wrapper">
 																<div class="breadcrumb-container theme1" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
 																	<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
-																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
+																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="/">Home</a>
 																		</li>
 																		<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="About Us" href="#">About Us</a><span class="separator">»</span>
 																		</li>

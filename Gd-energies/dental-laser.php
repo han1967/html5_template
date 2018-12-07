@@ -96,7 +96,7 @@
 												<div class="wpb_wrapper">
 													<div class="w-image align_center">
 														<div class="w-image-h">
-															<img width="214" height="79" src="https://gd-energies.com/wp-content/uploads/2018/06/logo.png" class="attachment-full size-full" alt="">
+															<img width="214" height="79" src="img/logo.png" class="attachment-full size-full" alt="">
 														</div>
 													</div>
 												</div>
@@ -185,7 +185,7 @@
 															</style>
 															<div class="breadcrumb-container theme1" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
 																<ul itemtype="http://schema.org/BreadcrumbList" itemscope="">
-																	<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="https://gd-energies.com">Home</a>
+																	<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" title="Home" href="/">Home</a>
 																	</li>
 																	<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span class="separator">»</span><a itemprop="item" title="Dental Laser" href="#">Dental Laser</a><span class="separator">»</span>
 																	</li>
@@ -220,11 +220,11 @@
 														<div id="rev_slider_8_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive rev_redraw_on_blurfocus" style="margin-top: 0px; margin-bottom: 0px; height: 398px;" data-version="5.4.7.4" data-slideactive="rs-62">
 															<ul class="tp-revslider-mainul" style="visibility: visible; display: block; overflow: hidden; width: 701px; height: 100%; max-height: none; left: 0px;">
 																<!-- SLIDE  -->
-																<li data-index="rs-62" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/Key_Image_Dental_Assistant_light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+																<li data-index="rs-62" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/Key_Image_Dental_Assistant_light_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
 																	<!-- MAIN IMAGE -->
 																	<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-																		<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/Key_Image_Dental_Assistant_light_0.jpg" alt="" title="Key_Image_Dental_Assistant_light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																		<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Key_Image_Dental_Assistant_light_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="https://gd-energies.com/wp-content/uploads/2017/01/Key_Image_Dental_Assistant_light_0.jpg"></div>
+																		<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/Key_Image_Dental_Assistant_light_0.jpg" alt="" title="Key_Image_Dental_Assistant_light_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																		<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/Key_Image_Dental_Assistant_light_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="img/Key_Image_Dental_Assistant_light_0.jpg"></div>
 																	</div>
 																	<!-- LAYERS -->
 																	<!-- LAYER NR. 1 -->
@@ -264,7 +264,7 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																				<div class="tp-caption   tp-resizeme" id="slide-62-layer-21" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['27','27','27','27']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon1_2_1.png" alt="" data-ww="['67','67','67','67']" data-hh="['68','68','68','68']" width="67" height="68" data-no-retina="" style="width: 66.6199px; height: 67.6142px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																					<img src="img/icon1_2_1.png" alt="" data-ww="['67','67','67','67']" data-hh="['68','68','68','68']" width="67" height="68" data-no-retina="" style="width: 66.6199px; height: 67.6142px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																				</div>
 																			</div>
 																		</div>
@@ -274,7 +274,7 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																				<div class="tp-caption   tp-resizeme" id="slide-62-layer-22" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['152','152','152','152']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon1_3_3.png" alt="" data-ww="['67','67','67','67']" data-hh="['67','67','67','67']" width="67" height="67" data-no-retina="" style="width: 66.6199px; height: 66.6199px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																					<img src="img/icon1_3_3.png" alt="" data-ww="['67','67','67','67']" data-hh="['67','67','67','67']" width="67" height="67" data-no-retina="" style="width: 66.6199px; height: 66.6199px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																				</div>
 																			</div>
 																		</div>
@@ -284,18 +284,18 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
 																				<div class="tp-caption   tp-resizeme" id="slide-62-layer-23" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['291','291','291','291']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: inherit; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon016_0.png" alt="" data-ww="['69','69','69','69']" data-hh="['68','68','68','68']" width="69" height="68" data-no-retina="" style="width: 68.6085px; height: 67.6142px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
+																					<img src="img/icon016_0.png" alt="" data-ww="['69','69','69','69']" data-hh="['68','68','68','68']" width="69" height="68" data-no-retina="" style="width: 68.6085px; height: 67.6142px; transition: none 0s ease 0s; text-align: inherit; line-height: 0px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 400; font-size: 16px;">
 																				</div>
 																			</div>
 																		</div>
 																	</div>
 																</li>
 																<!-- SLIDE  -->
-																<li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="https://gd-energies.com/wp-content/uploads/2017/01/Before_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
+																<li data-index="rs-64" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="img/Before_0-180x130.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden;">
 																	<!-- MAIN IMAGE -->
 																	<div class="slotholder" style="position:absolute; top:0px; left:0px; z-index:0;width:100%;height:100%;">
-																		<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="https://gd-energies.com/wp-content/uploads/2017/01/Before_0.jpg" alt="" title="Before_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
-																		<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Before_0.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="https://gd-energies.com/wp-content/uploads/2017/01/Before_0.jpg"></div>
+																		<!--Runtime Modification - Img tag is Still Available for SEO Goals in Source - <img src="img/Before_0.jpg" alt="" title="Before_0" width="550" height="400" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg defaultimg" data-no-retina="">-->
+																		<div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url('img/Before_0.jpg'); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0;" src="img/Before_0.jpg"></div>
 																	</div>
 																	<!-- LAYERS -->
 																	<!-- LAYER NR. 8 -->
@@ -335,7 +335,7 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-caption   tp-resizeme" id="slide-64-layer-21" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['27','27','27','27']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; visibility: hidden;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon1_2_1.png" alt="" data-ww="['67','67','67','67']" data-hh="['68','68','68','68']" width="67" height="68" data-no-retina="">
+																					<img src="img/icon1_2_1.png" alt="" data-ww="['67','67','67','67']" data-hh="['68','68','68','68']" width="67" height="68" data-no-retina="">
 																				</div>
 																			</div>
 																		</div>
@@ -345,7 +345,7 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-caption   tp-resizeme" id="slide-64-layer-22" data-x="['left','left','left','left']" data-hoffset="['24','24','24','24']" data-y="['top','top','top','top']" data-voffset="['152','152','152','152']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; visibility: hidden;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon1_3_3.png" alt="" data-ww="['67','67','67','67']" data-hh="['67','67','67','67']" width="67" height="67" data-no-retina="">
+																					<img src="img/icon1_3_3.png" alt="" data-ww="['67','67','67','67']" data-hh="['67','67','67','67']" width="67" height="67" data-no-retina="">
 																				</div>
 																			</div>
 																		</div>
@@ -355,7 +355,7 @@
 																		<div class="tp-loop-wrap" style="position:absolute;display:block;;">
 																			<div class="tp-mask-wrap" style="position:absolute;display:block;;">
 																				<div class="tp-caption   tp-resizeme" id="slide-64-layer-23" data-x="['left','left','left','left']" data-hoffset="['25','25','25','25']" data-y="['top','top','top','top']" data-voffset="['291','291','291','291']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames="[{&quot;delay&quot;:0,&quot;speed&quot;:300,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 11; visibility: hidden;">
-																					<img src="https://gd-energies.com/wp-content/uploads/2017/01/icon016_0.png" alt="" data-ww="['69','69','69','69']" data-hh="['68','68','68','68']" width="69" height="68" data-no-retina="">
+																					<img src="img/icon016_0.png" alt="" data-ww="['69','69','69','69']" data-hh="['68','68','68','68']" width="69" height="68" data-no-retina="">
 																				</div>
 																			</div>
 																		</div>
@@ -386,9 +386,9 @@
 														<div class="tp-thumbs  outer-bottom  nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal" style="max-width: 394px; max-height: 130px; overflow: visible; position: relative; background: rgba(255, 204, 0, 0); padding: 20px; left: 50%; transform: matrix(1, 0, 0, 1, -485, 0); visibility: inherit; opacity: 1;">
 															<div class="tp-thumb-mask" style="max-width: 394px; max-height: 130px; overflow: hidden; position: relative;">
 																<div class="tp-thumbs-inner-wrapper" style="position: relative; width: 394px; height: 130px; left: 0px;">
-																	<div data-liindex="0" data-liref="rs-62" class="tp-thumb selected" style="width: 180px; height: 130px; left: 0px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Key_Image_Dental_Assistant_light_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																	<div data-liindex="0" data-liref="rs-62" class="tp-thumb selected" style="width: 180px; height: 130px; left: 0px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/Key_Image_Dental_Assistant_light_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																	</div>
-																	<div data-liindex="1" data-liref="rs-64" class="tp-thumb" style="width: 180px; height: 130px; left: 214px; top: 0px;"><span class="tp-thumb-image" style="background-image: url(&quot;https://gd-energies.com/wp-content/uploads/2017/01/Before_0-180x130.jpg&quot;);"></span><span class="tp-thumb-title"></span>
+																	<div data-liindex="1" data-liref="rs-64" class="tp-thumb" style="width: 180px; height: 130px; left: 214px; top: 0px;"><span class="tp-thumb-image" style="background-image: url('img/Before_0-180x130.jpg');"></span><span class="tp-thumb-title"></span>
 																	</div>
 																</div>
 															</div>
@@ -545,7 +545,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -568,7 +568,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -591,7 +591,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -614,7 +614,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -637,7 +637,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/the-mechanism-of-pain-reduction-with-b-cure-laser/" rel="bookmark" aria-label="The mechanism of pain reduction with B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/4512_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -660,7 +660,7 @@
 																			<div class="w-grid-item-h">
 																				<div class="w-grid-item-elm usg_post_image_1  post_image">
 																					<a href="https://gd-energies.com/new-trial-shows-dramatic-efficacy-for-b-cure-laser/" rel="bookmark" aria-label="New trial shows dramatic efficacy for B-Cure Laser">
-																						<img width="120" height="120" src="https://gd-energies.com/wp-content/uploads/2018/06/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
+																						<img width="120" height="120" src="img/1218_160x200.jpg" class="attachment-large size-large wp-post-image" alt="">
 																					</a>
 																				</div>
 																				<div class="w-vwrapper usg_vwrapper_1 align_left valign_bottom bg_gradient ">
@@ -838,7 +838,7 @@
 																			</div>
 																			<div class="w-image">
 																				<div class="w-image-h">
-																					<img width="483" height="237" src="https://gd-energies.com/wp-content/uploads/2018/06/IMAGE2.png" class="attachment-full size-full" alt="">
+																					<img width="483" height="237" src="img/IMAGE2.png" class="attachment-full size-full" alt="">
 																				</div>
 																			</div>
 																			<div class="wpb_text_column  res-mar-top">
