@@ -118,7 +118,7 @@
 																		</ul>
 																	</div>
 																	<div class="gform_footer top_label">
-																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery('#gform_2').trigger('submit&quot;,[true]); }">
 																		<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
 																		<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
 																		<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
@@ -262,161 +262,161 @@
                                                 <div class="wpb_wrapper">
                                                     <div class="w-gallery type_default cols_3 with_indents drrns style_simple link_file">
                                                         <div class="w-gallery-list">
-                                                            <a class="w-gallery-item order_1" href="https://gd-energies.com/wp-content/uploads/2018/07/Merkier2.jpg" title="Merkier2">
+                                                            <a class="w-gallery-item order_1" href="img/Merkier2.jpg" title="Merkier2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="577" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Merkier2-577x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="577" height="600" src="img/Merkier2-577x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Merkier2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_2" href="https://gd-energies.com/wp-content/uploads/2018/07/Hagay-Amir.jpg" title="Hagay Amir">
+                                                            <a class="w-gallery-item order_2" href="img/Hagay-Amir.jpg" title="Hagay Amir">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="593" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Hagay-Amir-593x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="593" height="600" src="img/Hagay-Amir-593x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Hagay Amir</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_3" href="https://gd-energies.com/wp-content/uploads/2018/07/Rosen.jpg" title="Rosen">
+                                                            <a class="w-gallery-item order_3" href="img/Rosen.jpg" title="Rosen">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Rosen-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Rosen-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Rosen-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Rosen-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Rosen-600x600.jpg 600w, img/Rosen-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Rosen</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_4" href="https://gd-energies.com/wp-content/uploads/2018/07/Liram2.jpg" title="Liram2">
+                                                            <a class="w-gallery-item order_4" href="img/Liram2.jpg" title="Liram2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="578" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Liram2-578x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="578" height="600" src="img/Liram2-578x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Liram2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_5" href="https://gd-energies.com/wp-content/uploads/2018/07/Norkin.jpg" title="Norkin">
+                                                            <a class="w-gallery-item order_5" href="img/Norkin.jpg" title="Norkin">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Norkin-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Norkin-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Norkin-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Norkin-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Norkin-600x600.jpg 600w, img/Norkin-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Norkin</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_6" href="https://gd-energies.com/wp-content/uploads/2018/07/Wingate1.jpg" title="Wingate1">
+                                                            <a class="w-gallery-item order_6" href="img/Wingate1.jpg" title="Wingate1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="515" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Wingate1-515x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="515" height="600" src="img/Wingate1-515x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Wingate1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_7" href="https://gd-energies.com/wp-content/uploads/2018/07/רייס-1.jpg" title="רייס 1">
+                                                            <a class="w-gallery-item order_7" href="img/רייס-1.jpg" title="רייס 1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/רייס-1-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/רייס-1-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/רייס-1-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/רייס-1-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/רייס-1-600x600.jpg 600w, img/רייס-1-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">רייס 1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_8" href="https://gd-energies.com/wp-content/uploads/2018/07/Liram.jpg" title="Liram">
+                                                            <a class="w-gallery-item order_8" href="img/Liram.jpg" title="Liram">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Liram-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Liram-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Liram-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Liram-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Liram-600x600.jpg 600w, img/Liram-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Liram</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_9" href="https://gd-energies.com/wp-content/uploads/2018/07/Wingate2.jpg" title="Wingate2">
+                                                            <a class="w-gallery-item order_9" href="img/Wingate2.jpg" title="Wingate2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="550" height="569" src="https://gd-energies.com/wp-content/uploads/2018/07/Wingate2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Wingate2.jpg 550w, https://gd-energies.com/wp-content/uploads/2018/07/Wingate2-500x517.jpg 500w" sizes="(max-width: 550px) 100vw, 550px">
+                                                                    <img width="550" height="569" src="img/Wingate2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Wingate2.jpg 550w, img/Wingate2-500x517.jpg 500w" sizes="(max-width: 550px) 100vw, 550px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Wingate2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_10" href="https://gd-energies.com/wp-content/uploads/2018/07/Tiktinski.jpg" title="Tiktinski">
+                                                            <a class="w-gallery-item order_10" href="img/Tiktinski.jpg" title="Tiktinski">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="558" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Tiktinski-558x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="558" height="600" src="img/Tiktinski-558x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Tiktinski</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_11" href="https://gd-energies.com/wp-content/uploads/2018/07/Gretz.jpg" title="Gretz">
+                                                            <a class="w-gallery-item order_11" href="img/Gretz.jpg" title="Gretz">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Gretz-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Gretz-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Gretz-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Gretz-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Gretz-600x600.jpg 600w, img/Gretz-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Gretz</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_12" href="https://gd-energies.com/wp-content/uploads/2018/07/רייס-3.jpg" title="רייס 3">
+                                                            <a class="w-gallery-item order_12" href="img/רייס-3.jpg" title="רייס 3">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/רייס-3-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/רייס-3-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/רייס-3-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/רייס-3-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/רייס-3-600x600.jpg 600w, img/רייס-3-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">רייס 3</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_13" href="https://gd-energies.com/wp-content/uploads/2018/07/Yodeshkin1.jpg" title="Yodeshkin1">
+                                                            <a class="w-gallery-item order_13" href="img/Yodeshkin1.jpg" title="Yodeshkin1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Yodeshkin1-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Yodeshkin1-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Yodeshkin1-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Yodeshkin1-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Yodeshkin1-600x600.jpg 600w, img/Yodeshkin1-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Yodeshkin1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_14" href="https://gd-energies.com/wp-content/uploads/2018/07/Pini-sharon.jpg" title="Pini sharon">
+                                                            <a class="w-gallery-item order_14" href="img/Pini-sharon.jpg" title="Pini sharon">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="524" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Pini-sharon-524x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="524" height="600" src="img/Pini-sharon-524x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Pini sharon</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_15" href="https://gd-energies.com/wp-content/uploads/2018/07/רייס-4.jpg" title="רייס 4">
+                                                            <a class="w-gallery-item order_15" href="img/רייס-4.jpg" title="רייס 4">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/רייס-4-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/רייס-4-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/רייס-4-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/רייס-4-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/רייס-4-600x600.jpg 600w, img/רייס-4-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">רייס 4</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_16" href="https://gd-energies.com/wp-content/uploads/2018/07/Walder.jpg" title="Walder">
+                                                            <a class="w-gallery-item order_16" href="img/Walder.jpg" title="Walder">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="582" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Walder-582x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="582" height="600" src="img/Walder-582x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Walder</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_17" href="https://gd-energies.com/wp-content/uploads/2018/07/Yashar.jpg" title="Yashar">
+                                                            <a class="w-gallery-item order_17" href="img/Yashar.jpg" title="Yashar">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Yashar-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Yashar-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Yashar-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Yashar-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Yashar-600x600.jpg 600w, img/Yashar-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Yashar</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_18" href="https://gd-energies.com/wp-content/uploads/2018/07/Merkier1.jpg" title="Merkier1">
+                                                            <a class="w-gallery-item order_18" href="img/Merkier1.jpg" title="Merkier1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="584" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Merkier1-584x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="584" height="600" src="img/Merkier1-584x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Merkier1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_19" href="https://gd-energies.com/wp-content/uploads/2018/07/רייס-2.jpg" title="רייס 2">
+                                                            <a class="w-gallery-item order_19" href="img/רייס-2.jpg" title="רייס 2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/רייס-2-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/רייס-2-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/רייס-2-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/רייס-2-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/רייס-2-600x600.jpg 600w, img/רייס-2-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">רייס 2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_20" href="https://gd-energies.com/wp-content/uploads/2018/07/Shavshayevitz.jpg" title="Shavshayevitz">
+                                                            <a class="w-gallery-item order_20" href="img/Shavshayevitz.jpg" title="Shavshayevitz">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="532" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Shavshayevitz-532x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="532" height="600" src="img/Shavshayevitz-532x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Shavshayevitz</div>
@@ -426,137 +426,137 @@
                                                     </div>
                                                     <div class="w-gallery type_default cols_3 with_indents drrns style_simple link_file">
                                                         <div class="w-gallery-list">
-                                                            <a class="w-gallery-item order_1" href="https://gd-energies.com/wp-content/uploads/2018/07/Carmel2.jpg" title="Carmel2">
+                                                            <a class="w-gallery-item order_1" href="img/Carmel2.jpg" title="Carmel2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="527" height="594" src="https://gd-energies.com/wp-content/uploads/2018/07/Carmel2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Carmel2.jpg 527w, https://gd-energies.com/wp-content/uploads/2018/07/Carmel2-500x564.jpg 500w" sizes="(max-width: 527px) 100vw, 527px">
+                                                                    <img width="527" height="594" src="img/Carmel2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Carmel2.jpg 527w, img/Carmel2-500x564.jpg 500w" sizes="(max-width: 527px) 100vw, 527px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Carmel2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_2" href="https://gd-energies.com/wp-content/uploads/2018/07/BenZeev.jpg" title="BenZeev">
+                                                            <a class="w-gallery-item order_2" href="img/BenZeev.jpg" title="BenZeev">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="561" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/BenZeev-561x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="561" height="600" src="img/BenZeev-561x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">BenZeev</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_3" href="https://gd-energies.com/wp-content/uploads/2018/07/dvorkin1.jpg" title="dvorkin1">
+                                                            <a class="w-gallery-item order_3" href="img/dvorkin1.jpg" title="dvorkin1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="576" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/dvorkin1-576x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="576" height="600" src="img/dvorkin1-576x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">dvorkin1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_4" href="https://gd-energies.com/wp-content/uploads/2018/07/Calderon.jpg" title="Calderon">
+                                                            <a class="w-gallery-item order_4" href="img/Calderon.jpg" title="Calderon">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Calderon-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Calderon-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Calderon-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Calderon-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Calderon-600x600.jpg 600w, img/Calderon-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Calderon</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_5" href="https://gd-energies.com/wp-content/uploads/2018/07/Amir4.jpg" title="Amir4">
+                                                            <a class="w-gallery-item order_5" href="img/Amir4.jpg" title="Amir4">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="594" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Amir4-594x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="594" height="600" src="img/Amir4-594x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Amir4</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_6" href="https://gd-energies.com/wp-content/uploads/2018/07/Dotan.jpg" title="Dotan">
+                                                            <a class="w-gallery-item order_6" href="img/Dotan.jpg" title="Dotan">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="511" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Dotan-511x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="511" height="600" src="img/Dotan-511x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Dotan</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_7" href="https://gd-energies.com/wp-content/uploads/2018/07/Burstein.jpg" title="Burstein">
+                                                            <a class="w-gallery-item order_7" href="img/Burstein.jpg" title="Burstein">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="514" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Burstein-514x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="514" height="600" src="img/Burstein-514x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Burstein</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_8" href="https://gd-energies.com/wp-content/uploads/2018/07/Dolinski.jpg" title="Dolinski">
+                                                            <a class="w-gallery-item order_8" href="img/Dolinski.jpg" title="Dolinski">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="514" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Dolinski-514x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="514" height="600" src="img/Dolinski-514x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Dolinski</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_9" href="https://gd-energies.com/wp-content/uploads/2018/07/Balan.jpg" title="Balan">
+                                                            <a class="w-gallery-item order_9" href="img/Balan.jpg" title="Balan">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="559" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Balan-559x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="559" height="600" src="img/Balan-559x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Balan</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_10" href="https://gd-energies.com/wp-content/uploads/2018/07/Eisenberg.jpg" title="Eisenberg">
+                                                            <a class="w-gallery-item order_10" href="img/Eisenberg.jpg" title="Eisenberg">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="526" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Eisenberg-526x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="526" height="600" src="img/Eisenberg-526x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Eisenberg</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_11" href="https://gd-energies.com/wp-content/uploads/2018/07/Amir1.jpg" title="Amir1">
+                                                            <a class="w-gallery-item order_11" href="img/Amir1.jpg" title="Amir1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="589" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Amir1-589x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="589" height="600" src="img/Amir1-589x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Amir1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_12" href="https://gd-energies.com/wp-content/uploads/2018/07/Darmon.jpg" title="Darmon">
+                                                            <a class="w-gallery-item order_12" href="img/Darmon.jpg" title="Darmon">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="543" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Darmon-543x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="543" height="600" src="img/Darmon-543x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Darmon</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_13" href="https://gd-energies.com/wp-content/uploads/2018/07/Amir5.jpg" title="Amir5">
+                                                            <a class="w-gallery-item order_13" href="img/Amir5.jpg" title="Amir5">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="590" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Amir5-590x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="590" height="600" src="img/Amir5-590x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Amir5</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_14" href="https://gd-energies.com/wp-content/uploads/2018/07/Amir2.jpg" title="Amir2">
+                                                            <a class="w-gallery-item order_14" href="img/Amir2.jpg" title="Amir2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="600" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Amir2-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/Amir2-600x600.jpg 600w, https://gd-energies.com/wp-content/uploads/2018/07/Amir2-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
+                                                                    <img width="600" height="600" src="img/Amir2-600x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/Amir2-600x600.jpg 600w, img/Amir2-350x350.jpg 350w" sizes="(max-width: 600px) 100vw, 600px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Amir2</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_15" href="https://gd-energies.com/wp-content/uploads/2018/07/Amir3.jpg" title="Amir3">
+                                                            <a class="w-gallery-item order_15" href="img/Amir3.jpg" title="Amir3">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="588" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Amir3-588x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="588" height="600" src="img/Amir3-588x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Amir3</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_16" href="https://gd-energies.com/wp-content/uploads/2018/07/Carmel1.jpg" title="Carmel1">
+                                                            <a class="w-gallery-item order_16" href="img/Carmel1.jpg" title="Carmel1">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="542" height="600" src="https://gd-energies.com/wp-content/uploads/2018/07/Carmel1-542x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
+                                                                    <img width="542" height="600" src="img/Carmel1-542x600.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">Carmel1</div>
                                                                 </div>
                                                             </a>
-                                                            <a class="w-gallery-item order_17" href="https://gd-energies.com/wp-content/uploads/2018/07/dvorkin2.jpg" title="dvorkin2">
+                                                            <a class="w-gallery-item order_17" href="img/dvorkin2.jpg" title="dvorkin2">
                                                                 <div class="w-gallery-item-img">
-                                                                    <img width="546" height="482" src="https://gd-energies.com/wp-content/uploads/2018/07/dvorkin2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="https://gd-energies.com/wp-content/uploads/2018/07/dvorkin2.jpg 546w, https://gd-energies.com/wp-content/uploads/2018/07/dvorkin2-500x441.jpg 500w" sizes="(max-width: 546px) 100vw, 546px">
+                                                                    <img width="546" height="482" src="img/dvorkin2.jpg" class="attachment-us_600_600_crop size-us_600_600_crop" alt="" srcset="img/dvorkin2.jpg 546w, img/dvorkin2-500x441.jpg 500w" sizes="(max-width: 546px) 100vw, 546px">
                                                                 </div>
                                                                 <div class="w-gallery-item-meta">
                                                                     <div class="w-gallery-item-title">dvorkin2</div>

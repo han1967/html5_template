@@ -6,7 +6,7 @@
         <div class="wpb_text_column ">
             <div class="wpb_wrapper">
                 <div class="gf_browser_chrome gform_wrapper slider-form_wrapper" id="gform_wrapper_2">
-                    <form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="https://gd-energies.com/">
+                    <form method="post" enctype="multipart/form-data" id="gform_2" class="slider-form" action="/">
                         <div class="gform_body">
                             <ul id="gform_fields_2" class="gform_fields top_label form_sublabel_below description_below">
                                 <li id="field_2_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
@@ -31,7 +31,7 @@
                             </ul>
                         </div>
                         <div class="gform_footer top_label">
-                            <input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+                            <input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery('#gform_2').trigger('submit&quot;,[true]); }">
                             <input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
                             <input type="hidden" class="gform_hidden" name="gform_submit" value="2">
                             <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">

@@ -118,7 +118,7 @@
 																		</ul>
 																	</div>
 																	<div class="gform_footer top_label">
-																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery(&quot;#gform_2&quot;).trigger(&quot;submit&quot;,[true]); }">
+																		<input type="submit" id="gform_submit_button_2" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_2&quot;]){return false;}  window[&quot;gf_submitting_2&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_2&quot;]){return false;} window[&quot;gf_submitting_2&quot;]=true;  jQuery('#gform_2').trigger('submit&quot;,[true]); }">
 																		<input type="hidden" class="gform_hidden" name="is_submit_2" value="1">
 																		<input type="hidden" class="gform_hidden" name="gform_submit" value="2">
 																		<input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
@@ -267,7 +267,7 @@
 														</div>
 													</div>
 													<div class=" vc_custom_1529907958310 ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/FMBA-summery_1.pdf" target="_blank" rel="noopener">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="pdf/FMBA-summery_1.pdf" target="_blank" rel="noopener">
 															<button type="button" id="ubtn-3906" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c06a0e7dffbd" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-3906" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
 															</button>
 														</a>
@@ -282,7 +282,7 @@
 														</div>
 													</div>
 													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/Sport_0.pdf" target="_blank" rel="noopener">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="pdf/Sport_0.pdf" target="_blank" rel="noopener">
 															<button type="button" id="ubtn-2651" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c06a0e7e065f" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-2651" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
 															</button>
 														</a>
@@ -297,7 +297,7 @@
 														</div>
 													</div>
 													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/achilles1_1.pdf" target="_blank" rel="noopener">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="pdf/achilles1_1.pdf" target="_blank" rel="noopener">
 															<button type="button" id="ubtn-6428" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c06a0e7e0a67" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-6428" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
 															</button>
 														</a>
@@ -312,7 +312,7 @@
 														</div>
 													</div>
 													<div class=" ubtn-ctn-right ">
-														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="https://gd-energies.com/wp-content/uploads/2017/01/Wound-healing.pdf" target="_blank" rel="noopener">
+														<a class="ubtn-link ult-adjust-bottom-margin ubtn-right ubtn-custom " href="pdf/Wound-healing.pdf" target="_blank" rel="noopener">
 															<button type="button" id="ubtn-8977" class="ubtn ult-adjust-bottom-margin ult-responsive ubtn-custom ubtn-no-hover-bg  none  ubtn-right   tooltip-5c06a0e7e0ec5" data-hover="#ffffff" data-border-color="#f78f1e" data-bg="#f78f1e" data-hover-bg="#c67218" data-border-hover="#c67218" data-shadow-hover="" data-shadow-click="none" data-shadow="" data-shd-shadow="" data-ultimate-target="#ubtn-8977" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:16px;&quot;,&quot;line-height&quot;:&quot;desktop:25px;&quot;}" style="font-weight:bold;width:165px;min-height:40px;padding:px px;border-radius:0px;border-width:1px;border-color:#f78f1e;border-style:solid;background: #f78f1e;color: #ffffff;"><span class="ubtn-hover" style="background-color:#c67218"></span><span class="ubtn-data ubtn-text ">Read More</span>
 															</button>
 														</a>

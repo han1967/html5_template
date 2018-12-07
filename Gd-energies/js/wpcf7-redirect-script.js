@@ -54,8 +54,8 @@ function htmlspecialchars_decode( string ) {
 	var map = {
         '&amp;': '&',
         '&#038;': "&",
-        '&lt;': '<',
-        '&gt;': '>',
+        '<': '<',
+        '>': '>',
         '&quot;': '"',
         '&#039;': "'",
         '&#8217;': "’",
