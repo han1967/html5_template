@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="l-section wpb_row height_auto color_footer-bottom footer-bottom" style="padding-top: 15px !important;padding-bottom: 15px !important;">
+	<!-- <section class="l-section wpb_row height_auto color_footer-bottom footer-bottom" style="padding-top: 15px !important;padding-bottom: 15px !important;">
 		<div class="l-section-h i-cf">
 			<div class="g-cols vc_row type_default valign_top">
 				<div class="vc_col-sm-6 wpb_column vc_column_container">
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="l-section wpb_row height_auto pageload-popup" style="padding-top: 0px !important;padding-bottom: 0px !important;">
 		<div class="l-section-h i-cf">
 			<div class="g-cols vc_row type_default valign_top">
