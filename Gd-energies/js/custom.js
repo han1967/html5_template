@@ -1,31 +1,44 @@
 jQuery(document).ready(function(){
 	
-	jQuery(".btn_submit").click(function(){
-		event.preventDefault();
-		var name 			= jQuery("#name").val();
-		var mobile 			= jQuery("#mobile").val();
-		var email 			= jQuery("#email").val();
-		var Leadsourcename 	= 'אתר חברה';
-		var supname 		= 200000; 
-		
-		jQuery.ajax({
-			type: "POST",
-			url : "http://207.232.45.153:35742/Main/gen",
-			data: {
-				name:name,
-				email:email,
-				phonenum:mobile,
-				Leadsourcename:Leadsourcename,
-				supname:supname
-			},
-			success: function(data){
-				jQuery(".wpcf7-form").submit();
-			 }
-		});
+	jQuery("#contact_submit").click(function(event){
+		var form_data=jQuery("#contact").serializeArray();
+		var error_free=true;
+		for (var input in form_data){
+			var element=jQuery("#contact_"+form_data[input]['name']);
+			var valid=element.hasClass("valid");
+			if (!valid){
+				error_free=false;
+				element.removeClass('invalid').addClass('invalid');
+			}
+		}
+		if (!error_free){
+			event.preventDefault(); 
+		}
 	});
+	jQuery('#contact_name').on('input', function() {
+		var input=jQuery(this);
+		var is_name=input.val();
+		if(is_name){input.removeClass("invalid").addClass("valid");}
+		else{input.removeClass("valid").addClass("invalid");}
+	});
+	jQuery('#contact_phone').on('input', function() {
+		var input=jQuery(this);
+		var re = /[0-9-]+/;
+		var is_phone=re.test(input.val());
+		if(is_phone){input.removeClass("invalid").addClass("valid");}
+		else{input.removeClass("valid").addClass("invalid");}
+	});
+	
+	jQuery('#contact_email').on('input', function() {
+		var input=jQuery(this);
+		var re = /^[a-zA-Z0-9.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)/;
+		var is_email=re.test(input.val());
+		if(is_email){input.removeClass("invalid").addClass("valid");}
+		else{input.removeClass("valid").addClass("invalid");}
+	});
+	
 	if (jQuery(window).width() < 700){
 	    jQuery('.slide-popup-close').hide();
-	    console.log('mobile')
 	    var win = jQuery(window);
 	   // if (win.scrollTop()) {
 	    jQuery( window ).scroll(function() {

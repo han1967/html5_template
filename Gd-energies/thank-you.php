@@ -1,5 +1,55 @@
-<?php 
-    $page_title="Contact Us";
+<?php
+    if(!isset($_SESSION)){
+        session_start();
+    }
+    $success = false;
+    $system_message = "";
+    include_once 'include/HttpRequest.php';
+    $http = new HttpRequest();
+
+    $monthDay = !empty($_POST['monthday']) ? $_POST['monthday'] : date('d');
+    $hour = !empty($_POST['hour']) ? $_POST['hour'] : date('H:i');
+    $hourArr = explode(":",$hour);
+    $date = date('Y-m-d '.$hourArr[0].':'.$hourArr[1].':00', strtotime($monthDay));
+
+    $request['name']         = !empty($_POST['name']) ? $_POST['name']:'';
+    $request['surname']      = !empty($_POST['name']) ? $_POST['name']:'';
+    $request['email']        = !empty($_POST['email']) ? $_POST['email']:'';
+    $request['MobilePhone']  = !empty($_POST['phone']) ? $_POST['phone']:'';
+    $request['leadStatusID'] = 24;
+    $request['lastCallID']   = 24;
+    $request['lastCallStatusName'] = 'Call Request';
+    $request['ref']          = !empty($_SESSION['r']) ? $_SESSION['r'] : '';
+    $request['a']            = !empty($_SESSION['a']) ? $_SESSION['a'] : '';
+    $request['t']            = !empty($_SESSION['t']) ? $_SESSION['t'] : '';
+
+    $createUser = $http->sendRequest("https://connectapi.lottonetix.io/api/v1/user/create",$request);
+    $createUser = json_decode($createUser,true);
+
+    if($createUser['status']['type'] == 'success') {
+        $_SESSION['user']['id'] = $createUser['data']['user']['id'];
+        $_SESSION['user']['email'] = !empty($_POST['email']) ? $_POST['email']:'';
+
+        $requestEvent['userID'] = $_SESSION['user']['id'];
+        $requestEvent['eventType'] = 'CalCallEvent';
+        $requestEvent['subject'] = 'Call Now Form';
+        $requestEvent['textEvent'] = 'No message';
+        $requestEvent['dateEvent'] = $date;
+        $requestEvent['ownerID'] = 1;
+        $createEvent = $http->sendRequest("https://connectapi.lottonetix.io/api/v1/functions/call_event",$requestEvent);
+        $createEvent = json_decode($createEvent,true);
+        if($createEvent['status']['type'] == 'success'){
+            $success = true;
+            $system_message = "Thank you";
+        }else{
+            $success = false;
+            $system_message = $createEvent['status']['message'];
+        }
+    }else{
+        $success = false;
+        $system_message = "Message is not sent";
+    }
+    $page_title="Thank you";
 ?>
 <!DOCTYPE html>
 <html class="js csstransitions js csstransitions no-touch" lang="en-US">
@@ -51,15 +101,8 @@
 	  @media (max-width: 767px) { .spacer-5bffe6a6f0f00 { height:25px } }  
 	  @media (max-width: 479px) { .spacer-5bffe6a6f0f00 { height:25px } }
     </style>
-
-		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script> 	<script type="text/javascript" src="js/custom.js"></script>
-	<!--
-	<script type="text/javascript" src="js/custom.js"></script>
-	<script type="text/javascript" src="js/placeholders.jquery.min.js"></script>
-	<script type="text/javascript" src="js/ultimate-params.min.js"></script>
-	<script type="text/javascript" src="js/custom.min.js"></script>
-	<script type="text/javascript" src="js/modernizr-custom.min.js"></script>
-	<script type="text/javascript" src="js/modal-all.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body class="page-template-default page page-id-1111 l-body Impreza_5.2.1 header_hor header_inpos_top btn_hov_none state_default wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
 
@@ -589,306 +632,29 @@
                         <div class="vc_col-sm-12 wpb_column vc_column_container has-fill">
                             <div class="vc_column-inner  vc_custom_1529672320876">
                                 <div class="wpb_wrapper">
-                                    <div class="g-cols wpb_row type_default valign_top vc_inner c-form ">
-                                        <div class="vc_col-sm-12 vc_hidden-sm vc_hidden-xs wpb_column vc_column_container has-fill">
-                                            <div class="vc_column-inner  vc_custom_1536819537066">
+                                    <div class="g-cols wpb_row type_default valign_top vc_inner">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    <h3 style="text-align: left" class="vc_custom_heading">Please leave your contact details, we will get back to you as soon as possible.</h3>
                                                     <div class="wpb_text_column ">
                                                         <div class="wpb_wrapper">
-                                                            <div class="gf_browser_chrome gform_wrapper contact-form_wrapper" id="gform_wrapper_1">
-                                                                <form method="post" enctype="multipart/form-data" id="gform_1" class="contact-form" action="/contact-us/">
-                                                                    <div class="gform_heading">
-                                                                        <h3 class="gform_title">Contact-form</h3>
-                                                                        <span class="gform_description"></span>
-                                                                    </div>
-                                                                    <div class="gform_body">
-                                                                        <ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below">
-                                                                            <li id="field_1_1" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gfield_trigger_change" id="input_1_1">
-                                                                                    <input type="text" name="input_1.3" id="input_1_1_3" value="" aria-label="First name" aria-invalid="false" placeholder="Name">
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_2" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_phone">
-                                                                                    <input name="input_2" id="input_1_2" type="text" value="" class="medium" placeholder="Phone" aria-invalid="false">
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_3" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_email">
-                                                                                    <input name="input_3" id="input_1_3" type="text" value="" class="medium" placeholder="Email" aria-invalid="false">
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_4" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_text">
-                                                                                    <input name="input_4" id="input_1_4" type="text" value="" class="medium" placeholder="Company" aria-invalid="false">
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_5" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_website">
-                                                                                    <input name="input_5" id="input_1_5" type="text" value="" class="medium" placeholder="Website" aria-invalid="false">
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_11" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_textarea">
-                                                                                    <textarea name="input_11" id="input_1_11" class="textarea medium" placeholder="Comments" aria-invalid="false" rows="10" cols="50"></textarea>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_7" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <div class="ginput_container ginput_container_select">
-                                                                                    <select name="input_7" id="input_1_7" class="medium gfield_select" aria-invalid="false">
-                                                                                        <option value="" selected="selected" class="gf_placeholder">Country</option>
-                                                                                        <option value="Afghanistan">Afghanistan</option>
-                                                                                        <option value="Albania">Albania</option>
-                                                                                        <option value="Algeria">Algeria</option>
-                                                                                        <option value="American Samoa">American Samoa</option>
-                                                                                        <option value="Andorra">Andorra</option>
-                                                                                        <option value="Angola">Angola</option>
-                                                                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                                                        <option value="Argentina">Argentina</option>
-                                                                                        <option value="Armenia">Armenia</option>
-                                                                                        <option value="Australia">Australia</option>
-                                                                                        <option value="Austria">Austria</option>
-                                                                                        <option value="Azerbaijan">Azerbaijan</option>
-                                                                                        <option value="Bahamas">Bahamas</option>
-                                                                                        <option value="Bahrain">Bahrain</option>
-                                                                                        <option value="Bangladesh">Bangladesh</option>
-                                                                                        <option value="Barbados">Barbados</option>
-                                                                                        <option value="Belarus">Belarus</option>
-                                                                                        <option value="Belgium">Belgium</option>
-                                                                                        <option value="Belize">Belize</option>
-                                                                                        <option value="Benin">Benin</option>
-                                                                                        <option value="Bermuda">Bermuda</option>
-                                                                                        <option value="Bhutan">Bhutan</option>
-                                                                                        <option value="Bolivia">Bolivia</option>
-                                                                                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                                                                                        <option value="Botswana">Botswana</option>
-                                                                                        <option value="Brazil">Brazil</option>
-                                                                                        <option value="Brunei">Brunei</option>
-                                                                                        <option value="Bulgaria">Bulgaria</option>
-                                                                                        <option value="Burkina Faso">Burkina Faso</option>
-                                                                                        <option value="Burundi">Burundi</option>
-                                                                                        <option value="Cambodia">Cambodia</option>
-                                                                                        <option value="Cameroon">Cameroon</option>
-                                                                                        <option value="Canada">Canada</option>
-                                                                                        <option value="Cape Verde">Cape Verde</option>
-                                                                                        <option value="Cayman Islands">Cayman Islands</option>
-                                                                                        <option value="Central African Republic">Central African Republic</option>
-                                                                                        <option value="Chad">Chad</option>
-                                                                                        <option value="Chile">Chile</option>
-                                                                                        <option value="China">China</option>
-                                                                                        <option value="Colombia">Colombia</option>
-                                                                                        <option value="Comoros">Comoros</option>
-                                                                                        <option value="Congo, Democratic Republic of the">Congo, Democratic Republic of the</option>
-                                                                                        <option value="Congo, Republic of the">Congo, Republic of the</option>
-                                                                                        <option value="Costa Rica">Costa Rica</option>
-                                                                                        <option value="Côte d'Ivoire">Côte d'Ivoire</option>
-                                                                                        <option value="Croatia">Croatia</option>
-                                                                                        <option value="Cuba">Cuba</option>
-                                                                                        <option value="Curaçao">Curaçao</option>
-                                                                                        <option value="Cyprus">Cyprus</option>
-                                                                                        <option value="Czech Republic">Czech Republic</option>
-                                                                                        <option value="Denmark">Denmark</option>
-                                                                                        <option value="Djibouti">Djibouti</option>
-                                                                                        <option value="Dominica">Dominica</option>
-                                                                                        <option value="Dominican Republic">Dominican Republic</option>
-                                                                                        <option value="East Timor">East Timor</option>
-                                                                                        <option value="Ecuador">Ecuador</option>
-                                                                                        <option value="Egypt">Egypt</option>
-                                                                                        <option value="El Salvador">El Salvador</option>
-                                                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                                                                        <option value="Eritrea">Eritrea</option>
-                                                                                        <option value="Estonia">Estonia</option>
-                                                                                        <option value="Ethiopia">Ethiopia</option>
-                                                                                        <option value="Faroe Islands">Faroe Islands</option>
-                                                                                        <option value="Fiji">Fiji</option>
-                                                                                        <option value="Finland">Finland</option>
-                                                                                        <option value="France">France</option>
-                                                                                        <option value="French Polynesia">French Polynesia</option>
-                                                                                        <option value="Gabon">Gabon</option>
-                                                                                        <option value="Gambia">Gambia</option>
-                                                                                        <option value="Georgia">Georgia</option>
-                                                                                        <option value="Germany">Germany</option>
-                                                                                        <option value="Ghana">Ghana</option>
-                                                                                        <option value="Greece">Greece</option>
-                                                                                        <option value="Greenland">Greenland</option>
-                                                                                        <option value="Grenada">Grenada</option>
-                                                                                        <option value="Guam">Guam</option>
-                                                                                        <option value="Guatemala">Guatemala</option>
-                                                                                        <option value="Guinea">Guinea</option>
-                                                                                        <option value="Guinea-Bissau">Guinea-Bissau</option>
-                                                                                        <option value="Guyana">Guyana</option>
-                                                                                        <option value="Haiti">Haiti</option>
-                                                                                        <option value="Honduras">Honduras</option>
-                                                                                        <option value="Hong Kong">Hong Kong</option>
-                                                                                        <option value="Hungary">Hungary</option>
-                                                                                        <option value="Iceland">Iceland</option>
-                                                                                        <option value="India">India</option>
-                                                                                        <option value="Indonesia">Indonesia</option>
-                                                                                        <option value="Iran">Iran</option>
-                                                                                        <option value="Iraq">Iraq</option>
-                                                                                        <option value="Ireland">Ireland</option>
-                                                                                        <option value="Israel">Israel</option>
-                                                                                        <option value="Italy">Italy</option>
-                                                                                        <option value="Jamaica">Jamaica</option>
-                                                                                        <option value="Japan">Japan</option>
-                                                                                        <option value="Jordan">Jordan</option>
-                                                                                        <option value="Kazakhstan">Kazakhstan</option>
-                                                                                        <option value="Kenya">Kenya</option>
-                                                                                        <option value="Kiribati">Kiribati</option>
-                                                                                        <option value="North Korea">North Korea</option>
-                                                                                        <option value="South Korea">South Korea</option>
-                                                                                        <option value="Kosovo">Kosovo</option>
-                                                                                        <option value="Kuwait">Kuwait</option>
-                                                                                        <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                                                                        <option value="Laos">Laos</option>
-                                                                                        <option value="Latvia">Latvia</option>
-                                                                                        <option value="Lebanon">Lebanon</option>
-                                                                                        <option value="Lesotho">Lesotho</option>
-                                                                                        <option value="Liberia">Liberia</option>
-                                                                                        <option value="Libya">Libya</option>
-                                                                                        <option value="Liechtenstein">Liechtenstein</option>
-                                                                                        <option value="Lithuania">Lithuania</option>
-                                                                                        <option value="Luxembourg">Luxembourg</option>
-                                                                                        <option value="Macedonia">Macedonia</option>
-                                                                                        <option value="Madagascar">Madagascar</option>
-                                                                                        <option value="Malawi">Malawi</option>
-                                                                                        <option value="Malaysia">Malaysia</option>
-                                                                                        <option value="Maldives">Maldives</option>
-                                                                                        <option value="Mali">Mali</option>
-                                                                                        <option value="Malta">Malta</option>
-                                                                                        <option value="Marshall Islands">Marshall Islands</option>
-                                                                                        <option value="Mauritania">Mauritania</option>
-                                                                                        <option value="Mauritius">Mauritius</option>
-                                                                                        <option value="Mexico">Mexico</option>
-                                                                                        <option value="Micronesia">Micronesia</option>
-                                                                                        <option value="Moldova">Moldova</option>
-                                                                                        <option value="Monaco">Monaco</option>
-                                                                                        <option value="Mongolia">Mongolia</option>
-                                                                                        <option value="Montenegro">Montenegro</option>
-                                                                                        <option value="Morocco">Morocco</option>
-                                                                                        <option value="Mozambique">Mozambique</option>
-                                                                                        <option value="Myanmar">Myanmar</option>
-                                                                                        <option value="Namibia">Namibia</option>
-                                                                                        <option value="Nauru">Nauru</option>
-                                                                                        <option value="Nepal">Nepal</option>
-                                                                                        <option value="Netherlands">Netherlands</option>
-                                                                                        <option value="New Zealand">New Zealand</option>
-                                                                                        <option value="Nicaragua">Nicaragua</option>
-                                                                                        <option value="Niger">Niger</option>
-                                                                                        <option value="Nigeria">Nigeria</option>
-                                                                                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                                                                                        <option value="Norway">Norway</option>
-                                                                                        <option value="Oman">Oman</option>
-                                                                                        <option value="Pakistan">Pakistan</option>
-                                                                                        <option value="Palau">Palau</option>
-                                                                                        <option value="Palestine, State of">Palestine, State of</option>
-                                                                                        <option value="Panama">Panama</option>
-                                                                                        <option value="Papua New Guinea">Papua New Guinea</option>
-                                                                                        <option value="Paraguay">Paraguay</option>
-                                                                                        <option value="Peru">Peru</option>
-                                                                                        <option value="Philippines">Philippines</option>
-                                                                                        <option value="Poland">Poland</option>
-                                                                                        <option value="Portugal">Portugal</option>
-                                                                                        <option value="Puerto Rico">Puerto Rico</option>
-                                                                                        <option value="Qatar">Qatar</option>
-                                                                                        <option value="Romania">Romania</option>
-                                                                                        <option value="Russia">Russia</option>
-                                                                                        <option value="Rwanda">Rwanda</option>
-                                                                                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
-                                                                                        <option value="Saint Lucia">Saint Lucia</option>
-                                                                                        <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
-                                                                                        <option value="Saint Martin">Saint Martin</option>
-                                                                                        <option value="Samoa">Samoa</option>
-                                                                                        <option value="San Marino">San Marino</option>
-                                                                                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
-                                                                                        <option value="Saudi Arabia">Saudi Arabia</option>
-                                                                                        <option value="Senegal">Senegal</option>
-                                                                                        <option value="Serbia">Serbia</option>
-                                                                                        <option value="Seychelles">Seychelles</option>
-                                                                                        <option value="Sierra Leone">Sierra Leone</option>
-                                                                                        <option value="Singapore">Singapore</option>
-                                                                                        <option value="Sint Maarten">Sint Maarten</option>
-                                                                                        <option value="Slovakia">Slovakia</option>
-                                                                                        <option value="Slovenia">Slovenia</option>
-                                                                                        <option value="Solomon Islands">Solomon Islands</option>
-                                                                                        <option value="Somalia">Somalia</option>
-                                                                                        <option value="South Africa">South Africa</option>
-                                                                                        <option value="Spain">Spain</option>
-                                                                                        <option value="Sri Lanka">Sri Lanka</option>
-                                                                                        <option value="Sudan">Sudan</option>
-                                                                                        <option value="Sudan, South">Sudan, South</option>
-                                                                                        <option value="Suriname">Suriname</option>
-                                                                                        <option value="Swaziland">Swaziland</option>
-                                                                                        <option value="Sweden">Sweden</option>
-                                                                                        <option value="Switzerland">Switzerland</option>
-                                                                                        <option value="Syria">Syria</option>
-                                                                                        <option value="Taiwan">Taiwan</option>
-                                                                                        <option value="Tajikistan">Tajikistan</option>
-                                                                                        <option value="Tanzania">Tanzania</option>
-                                                                                        <option value="Thailand">Thailand</option>
-                                                                                        <option value="Togo">Togo</option>
-                                                                                        <option value="Tonga">Tonga</option>
-                                                                                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                                                                                        <option value="Tunisia">Tunisia</option>
-                                                                                        <option value="Turkey">Turkey</option>
-                                                                                        <option value="Turkmenistan">Turkmenistan</option>
-                                                                                        <option value="Tuvalu">Tuvalu</option>
-                                                                                        <option value="Uganda">Uganda</option>
-                                                                                        <option value="Ukraine">Ukraine</option>
-                                                                                        <option value="United Arab Emirates">United Arab Emirates</option>
-                                                                                        <option value="United Kingdom">United Kingdom</option>
-                                                                                        <option value="United States">United States</option>
-                                                                                        <option value="Uruguay">Uruguay</option>
-                                                                                        <option value="Uzbekistan">Uzbekistan</option>
-                                                                                        <option value="Vanuatu">Vanuatu</option>
-                                                                                        <option value="Vatican City">Vatican City</option>
-                                                                                        <option value="Venezuela">Venezuela</option>
-                                                                                        <option value="Vietnam">Vietnam</option>
-                                                                                        <option value="Virgin Islands, British">Virgin Islands, British</option>
-                                                                                        <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
-                                                                                        <option value="Yemen">Yemen</option>
-                                                                                        <option value="Zambia">Zambia</option>
-                                                                                        <option value="Zimbabwe">Zimbabwe</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_8" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <label class="gfield_label" for="input_1_8"></label>
-                                                                                <div class="ginput_container ginput_container_fileupload">
-                                                                                    <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
-                                                                                    <input name="input_8" id="input_1_8" type="file" class="medium" aria-describedby="extensions_message_1_8" onchange="javascript:gformValidateFileSize( this, 2097152 );"><span id="extensions_message_1_8" class="screen-reader-text"></span>
-                                                                                    <div class="validation_message"></div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_9" class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <label class="gfield_label" for="input_1_9"></label>
-                                                                                <div class="ginput_container ginput_container_fileupload">
-                                                                                    <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
-                                                                                    <input name="input_9" id="input_1_9" type="file" class="medium" aria-describedby="extensions_message_1_9" onchange="javascript:gformValidateFileSize( this, 2097152 );"><span id="extensions_message_1_9" class="screen-reader-text"></span>
-                                                                                    <div class="validation_message"></div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li id="field_1_12" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible">
-                                                                                <input name="input_12" id="input_1_12" type="hidden" class="gform_hidden" aria-invalid="false" value="אתר אנגלית">
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <div class="gform_footer top_label">
-                                                                        <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  window[&quot;gf_submitting_1&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} window[&quot;gf_submitting_1&quot;]=true;  jQuery('#gform_1').trigger('submit&quot;,[true]); }">
-                                                                        <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
-                                                                        <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
-                                                                        <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-                                                                        <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsImZiMTQwOWFhYWY0NDQzZWNjNGMwYzgwMzEyYTVlNjc0Il0=">
-                                                                        <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
-                                                                        <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
-                                                                        <input type="hidden" name="gform_field_values" value="">
-                                                                    </div>
-                                                                </form>
-                                                            </div>
+                                                            <p style="border: 1px solid #be7; padding: 10px;">
+                                                                <img class="alignnone size-full wp-image-2301" style="vertical-align: middle;" src="img/message-24-ok.png" alt="" width="24" height="24"/>
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                <?php echo $system_message; ?>
+                                                            </p>
                                                         </div>
                                                     </div>
-                                                    <div style="height:21px"></div>
+                                                    <p><br></p>
+                                                    <?php if ($success) { ?>
+                                                    <div class="wpb_text_column ">
+                                                        <div class="wpb_wrapper">
+                                                            <h3 style="text-align: center;">Thank You For Your Message!</h3>
+                                                            <h5 style="text-align: center;">We will contact you as soon as possible.</h5>
+                                                            <br><br><br>
+                                                        </div>
+                                                    </div>
+                                                    <?php } ?>
                                                 </div>
                                             </div>
                                         </div>
