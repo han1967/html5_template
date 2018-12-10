@@ -47,7 +47,7 @@
         }
     }else{
         $success = false;
-        $system_message = "Message is not sent";
+        $system_message = "Message is not sent. The same email is already exist!";
     }
     $page_title="Thank you";
 ?>
@@ -639,7 +639,9 @@
                                                     <div class="wpb_text_column ">
                                                         <div class="wpb_wrapper">
                                                             <p style="border: 1px solid #be7; padding: 10px;">
+                                                                <?php if ($success) { ?>
                                                                 <img class="alignnone size-full wp-image-2301" style="vertical-align: middle;" src="img/message-24-ok.png" alt="" width="24" height="24"/>
+                                                                <?php } ?>
                                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 <?php echo $system_message; ?>
                                                             </p>
