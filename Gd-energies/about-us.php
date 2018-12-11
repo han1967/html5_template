@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html class="js csstransitions js csstransitions no-touch" lang="en-US" prefix="og: http://ogp.me/ns#" style="overflow: auto;">
+<?php include "include/header.php"; ?>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Home - B-cure</title>
-	<!-- This site is optimized with the Yoast SEO plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<meta name="robots" content="noindex,follow">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:site_name" content="B-cure">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
-	<link rel="dns-prefetch" href="https://s.w.org/">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-	<meta name="theme-color" content="#f6f6f6">
-	<meta property="og:title" content="Home">
-	<meta property="og:type" content="website">
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
-	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
     <link rel="stylesheet" id="bsf-Defaults-css" href="css/Defaults.css" type="text/css" media="all">
     <link rel="stylesheet" id="base.css" href="css/base.css" type="text/css" media="all">
