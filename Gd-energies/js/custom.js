@@ -25,6 +25,9 @@ jQuery(document).ready(function(){
 		var input=jQuery(this);
 		var re = /[0-9-]+/;
 		var is_phone=re.test(input.val());
+		if (is_phone) {
+			if (input.val().length<9) is_phone=false;
+		}
 		if(is_phone){input.removeClass("invalid").addClass("valid");}
 		else{input.removeClass("valid").addClass("invalid");}
 	});
