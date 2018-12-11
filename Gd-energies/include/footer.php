@@ -1,6 +1,6 @@
 <footer class="l-footer" itemscope="" itemtype="https://schema.org/WPFooter">
 	<section class="l-section wpb_row height_auto with_overlay footer-top">
-		<div class="l-section-overlay" style="background-color: #475564"></div>
+		<div class="l-section-overlay" style="background-color: #f78f1e"></div>
 		<div class="l-section-h i-cf">
 			<div class="g-cols vc_row type_default valign_top">
 				<div class="vc_col-sm-2 wpb_column vc_column_container">
@@ -8,7 +8,7 @@
 						<div class="wpb_wrapper">
 							<div class="w-image align_center">
 								<div class="w-image-h">
-									<img width="168" height="49" src="img/good-energies.png" class="attachment-full size-full" alt="">
+									<img width="168" height="49" src="img/logo_white.png" class="attachment-full size-full" style="margin:10px 0">
 								</div>
 							</div>
 						</div>

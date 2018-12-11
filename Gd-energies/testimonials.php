@@ -1,28 +1,7 @@
 <?php 
     $page_title="Testimonials";
 ?>
-<!DOCTYPE html>
-<html class="js csstransitions js csstransitions no-touch" lang="en-US">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Home - B-cure</title>
-	<!-- This site is optimized with the Yoast SEO plugin v9.1 - https://yoast.com/wordpress/plugins/seo/ -->
-	<meta name="robots" content="noindex,follow">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Home - B-cure">
-	<meta property="og:url" content="">
-	<meta property="og:site_name" content="B-cure">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com.php">
-	<link rel="dns-prefetch" href="https://s.w.org.php">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Feed" href="feed.php">
-	<link rel="alternate" type="application/rss+xml" title="B-cure » Comments Feed" href="comments/feed.php">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-	<meta name="theme-color" content="#f6f6f6">
-	<meta property="og:title" content="Home">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="">
+<?php include "include/header.php"; ?>
 	<link rel="stylesheet" href="css/about.css" type="text/css" media="all">
 	
 	<link rel="stylesheet" id="us-fonts-css" href="css/fonts.css" type="text/css" media="all">
