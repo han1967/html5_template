@@ -9,6 +9,7 @@ jQuery(document).ready(function(){
 			if (!valid){
 				error_free=false;
 				element.removeClass('invalid').addClass('invalid');
+				element.parent().children('.warnning').removeClass('invalid').addClass('invalid');
 			}
 		}
 		if (!error_free){
@@ -18,8 +19,14 @@ jQuery(document).ready(function(){
 	jQuery('#contact_name').on('input', function() {
 		var input=jQuery(this);
 		var is_name=input.val();
-		if(is_name){input.removeClass("invalid").addClass("valid");}
-		else{input.removeClass("valid").addClass("invalid");}
+		if(is_name){
+			input.removeClass("invalid").addClass("valid");
+			input.parent().children('.warnning').removeClass('invalid');			
+		}
+		else{
+			input.removeClass("valid").addClass("invalid");
+			input.parent().children('.warnning').removeClass('invalid').addClass('invalid');
+		}
 	});
 	jQuery('#contact_phone').on('input', function() {
 		var input=jQuery(this);
@@ -28,16 +35,28 @@ jQuery(document).ready(function(){
 		if (is_phone) {
 			if (input.val().length<9) is_phone=false;
 		}
-		if(is_phone){input.removeClass("invalid").addClass("valid");}
-		else{input.removeClass("valid").addClass("invalid");}
+		if(is_phone){
+			input.removeClass("invalid").addClass("valid");
+			input.parent().children('.warnning').removeClass('invalid');
+		}
+		else{
+			input.removeClass("valid").addClass("invalid");
+			input.parent().children('.warnning').removeClass('invalid').addClass('invalid');
+		}
 	});
 	
 	jQuery('#contact_email').on('input', function() {
 		var input=jQuery(this);
 		var re = /^[a-zA-Z0-9.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)/;
 		var is_email=re.test(input.val());
-		if(is_email){input.removeClass("invalid").addClass("valid");}
-		else{input.removeClass("valid").addClass("invalid");}
+		if(is_email){
+			input.removeClass("invalid").addClass("valid");
+			input.parent().children('.warnning').removeClass('invalid');			
+		}
+		else{
+			input.removeClass("valid").addClass("invalid");
+			input.parent().children('.warnning').removeClass('invalid').addClass('invalid');
+		}
 	});
 	
 	if (jQuery(window).width() < 700){

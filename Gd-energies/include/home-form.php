@@ -5,16 +5,19 @@
                 <ul class="gform_fields top_label form_sublabel_below description_below">
                     <li class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
                         <div class="ginput_container ginput_container_email">
+                            <span class="warnning">Please correct the name</span>
                             <input type="text" id="contact_name" name="name" class="medium" placeholder="Name">
                         </div>
                     </li>
                     <li class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
                         <div class="ginput_container ginput_container_email">
+                            <span class="warnning">Please match the requested format. Must be digit and length is 9</span>
                             <input type="tel" id="contact_phone" name="phone" class="medium" placeholder="Phone">
                         </div>
                     </li>
                     <li class="gfield field_sublabel_below field_description_below gfield_visibility_visible">
                         <div class="ginput_container ginput_container_email">
+                            <span class="warnning">Please correct the email format</span>
                             <input type="text" id="contact_email" name="email" class="medium" placeholder="Email">
                         </div>
                     </li>
