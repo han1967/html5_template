@@ -1214,6 +1214,7 @@ button {
 	width: 100% !important
 }
 .slider-form .gform_body ul li .ginput_container {
+	position:relative;
 	float: left !important;
 	width: 100% !important
 }
