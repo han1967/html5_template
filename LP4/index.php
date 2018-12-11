@@ -5,16 +5,12 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>בי-קיור לייזר פרו - בי-קיור לייזר</title>
-	<link rel="canonical" href="http://bcurelaser.co.il/bc/pro/">
-	<meta property="og:locale" content="he_IL">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="בי-קיור לייזר פרו - בי-קיור לייזר">
-	<meta property="og:description" content="טיפול יעיל בפצעים סוכרתיים ובפצעים קשיי ריפוי וכן בכאבים בביה&quot;ח * בקליניקה * בבית טיפול יעיל בפצעים סוכרתיים ובפצעים קשיי ריפוי וכן בכאבים בביה&quot;ח * בקליניקה * בבית להזמנות או לתיאום ביקור הדרכה של אחות מוסמכת, מלאו הפרטים בטופס: *באישור משרד הבריאות *בכפוף לתקנון * המכשיר אינו מחליף טיפול תרופתי ככל שזה מומלץ ע&quot;י רופא. …">
-	<meta property="og:url" content="http://bcurelaser.co.il/bc/pro/">
-	<meta property="og:site_name" content="בי-קיור לייזר">
-	<meta property="og:image" content="http://bcurelaser.co.il/bc/wp-content/uploads/2017/12/device.png">
-	<meta property="og:image:width" content="222">
-	<meta property="og:image:height" content="657">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	<link rel="stylesheet" id="elementor-icons-css" href="css/elementor-icons.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="font-awesome-css" href="css/font-awesome.min.css" type="text/css" media="all">
