@@ -42,7 +42,7 @@ $sel .="</select>";
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proven & efficient Pain Relief | Now on special offer</title>
+    <title>B-Cure Laser</title>
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/callpage-callback.default.css">
@@ -702,9 +702,9 @@ $sel .="</select>";
 				<div class="cp-tooltip__inner cp-button-tooltip__inner"></div>
 			</div>
 			<!---->
-			<div data-test="widget-button" class="cp-widget-button">
+			<div data-test="widget-button" class="cp-widget-button" style="visibility:hidden !important;">
                 <div data-ignore-important-width="" data-ignore-important-height="" data-ignore-important-opacity="" class="cp-widget-button__underlay" style="background-color: rgb(21, 102, 245) !important;"></div>
-				<div data-brand-color="background" class="cp-widget-button__inner">
+				<div data-brand-color="background" class="cp-widget-button__inner" >
 					<svg x="0px" y="0px" viewBox="0 0 100 108.4" class="cp-phone-icon cp-widget-button__icon">
 						<path d="M97.8,84.4l-0.6-1.2c-1.7-4-22.3-10-24.1-10.1l-1.4,0.1c-2.8,0.6-5.9,3.3-12.4,9C52,78.8,41.9,69.7,37.2,64.4 c-5.1-5.8-11.5-15.5-13.8-22.8C30.8,35,33.9,32.2,34.1,29c0.1-1.7-3.4-22.9-7.2-25.1l-1.1-0.7c-2.4-1.5-6-3.8-10-3 c-1,0.2-1.9,0.6-2.8,1.1C10.4,3,3.8,7.5,0.8,13.5C-1,17.2-1.9,51,23.5,79.6c25,28.3,55.9,29.5,60.5,28.5l0.1,0l0.4-0.1 c6.3-2.2,11.6-8.2,13.6-10.7C101.8,92.7,99.2,87.3,97.8,84.4"></path>
 					</svg>

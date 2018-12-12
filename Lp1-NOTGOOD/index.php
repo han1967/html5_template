@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bcure - 2</title>
+    <title>B-Cure Laser</title>
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/main.css">
     <?php include_once "../register_assets.php" ?>
