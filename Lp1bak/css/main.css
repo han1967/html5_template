@@ -15,11 +15,6 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
-.wait-class{
-    cursor: not-allowed !important;
-    background-color: grey !important;
-}
-
 @keyframes a {
     0% {
         transform: rotate(0deg)
@@ -13582,6 +13577,7 @@ body .gform_wrapper.gf_reset_wrapper:focus {
 .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
     font-size: inherit;
     font-family: inherit;
+    padding: 5px 4px;
     letter-spacing: normal
 }
 
@@ -29947,8 +29943,4 @@ img.wp-smiley, img.emoji {
     .custom-embed {
         padding: 20px 25px;
     }
-}
-
-.cp-schedule__select-item {
-    display:none !important;
 }
