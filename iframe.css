@@ -14,6 +14,22 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer;
 }
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #ccc;
+	-webkit-box-shadow: 2px 2px 3px #ccc;
+	box-shadow: 2px 2px 3px #ccc;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+input.rounded:focus {
+	border-color: #339933;
+}
 button, input[type=submit] {
     outline: none;
     border:none;
@@ -21,14 +37,14 @@ button, input[type=submit] {
     background-image: none;
     border-color: #CCC;
     border-style: solid;
-    border-width: 1px;
-    color: #333;
+    border-width: 0px;
+    color: #0056b3;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 0px 0px;
     margin-bottom: 0;
     font-size: 1em;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 0em;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -42,7 +58,7 @@ button, input[type=submit] {
     -webkit-transition: all .5s linear;
     -o-transition: all .5s linear;
     transition: all .5s linear;
-    border-width: 3px;
+    border-width: 0px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -60,8 +76,8 @@ button, input[type=submit] {
     clear: both;
 }
 .custom-cf {
-    background-color: #f18b0b;
-    padding: 20px 28px 0;
+    background-color: transparent;
+    padding: 5px 5px 0;
 }
 .uneditable-input, input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], input[type=text], textarea {
     display: block;
@@ -70,7 +86,7 @@ button, input[type=submit] {
     vertical-align: middle;
     border-color: #CCC;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     background-color: #FFF;
     color: #555;
     font-size: 1em;
@@ -104,8 +120,8 @@ button, input[type=submit] {
     font-size: 1.2em;
 }
 .custom-cf .cf-button-wrap input {
-    background-color: #360;
-    border-color: 1px solid #360;
+    background-color: #0056b3;
+    border-color: 0px solid #0056b3;
     color: #fefefe;
     font-size: 1.6em;
 }
