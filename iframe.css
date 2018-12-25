@@ -78,6 +78,8 @@ button, input[type=submit] {
 .custom-cf {
     background-color: transparent;
     padding: 5px 5px 0;
+    margin: auto;
+    width: 90%;
 }
 .uneditable-input, input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color], input[type=text], textarea {
     display: block;
@@ -167,4 +169,28 @@ button, input[type=submit] {
     border-radius: 4px;
     color: #fff;
     display: none;
+}
+
+.cf-reg-input {
+    float: none !important;
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.cf-reg-input input {
+    height: 50px;
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.cf-submit-btn {
+    background-color: #0099ff;
+    padding: 20px;
+}
+
+.cf-submit-btn span {
+    color: white;
+    font-size: 25px;
+    display: inline-block;
 }
