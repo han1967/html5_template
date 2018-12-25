@@ -186,11 +186,26 @@ button, input[type=submit] {
 
 .cf-submit-btn {
     background-color: #0099ff;
-    padding: 20px;
+    border: none; color: #000000; cursor: pointer; font-weight: bold;
+    height: 65px;
+    width: calc(100% - 60px) !important;
 }
 
 .cf-submit-btn span {
     color: white;
     font-size: 25px;
     display: inline-block;
+    vertical-align: middle;
+}
+
+.cf-chevron {
+    height: 65px;
+    width: 60px;
+    top: -0.5px !important;
+    padding: 10px;
+    float: right;
+    font-size: 40px;
+    background-color: #00AEEF;
+    cursor: pointer;
+    color: white;
 }

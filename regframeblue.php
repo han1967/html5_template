@@ -28,6 +28,7 @@ if($color == 2){
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bcure Iframe</title>
     <link href="iframe.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type='text/javascript'>
   window._tfa = window._tfa || [];
   window._tfa.push({notify: 'event', name: 'page_view', id: 1150032});
@@ -97,7 +98,8 @@ obApi('track', 'PAGE_VIEW');
         <div class="custom-cf style-cf-1 clearfix" style="border:0px; width: 90%;">
             <!--div class="custom-cf-title" style="text-align:left;">One of Our Experts Is Waiting for You</div>
             <p></p-->
-            <h1 style="font-weight: bolder; font-size: 35px;">Now On a special offer - 25% off + free gift</h1>
+
+            <h1 style="font-weight: bolder; font-size: 35px; font-family: Arial, Helvetica, sans-serif;">Now On a special offer - 25% off + free gift</h1>
                 <div class="cf-input-wrap clearfix">
                     <div class="cf-item cf-reg-input">
                         <span class="wpcf7-form-control-wrap name">
@@ -112,10 +114,10 @@ obApi('track', 'PAGE_VIEW');
                     </div>
                 </div>
                 <div >
-                    <button class="cf-submit-btn" type="submit" value="Get 25% OFF" style="border: none; color: #000000; cursor: pointer; font-weight: bold; height: 55px;" >
+                    <button class="cf-submit-btn" type="submit" value="Get 25% OFF" >
                         <span>Yes, I want my 25% disccount & a free gift!</span>
                     </button>
-
+                    <span class="glyphicon glyphicon-chevron-right cf-chevron"></span>
                 </div>
             <p>
             </p>
@@ -125,6 +127,9 @@ obApi('track', 'PAGE_VIEW');
 <script src="LP1/js/jquery-3.3.1.min.js"></script>
 <script>
 $(document).ready(function() {
+    $('.cf-chevron').click(function (e) {
+        $('.cf-submit-btn').click();
+    });
     $(".formCC").submit(function(e) {
         e.preventDefault();
         var form = $(this);
@@ -145,7 +150,7 @@ $(document).ready(function() {
                     parentDiv.append(inhtml);
 					obApi('track', 'Leads New');
 					 _tfa.push({notify: 'event', name: 'lead', id: 1150032});
-					
+
 					 gtag('event', 'Lead', {
   'event_category': 'Registration',
   'event_label': '',
