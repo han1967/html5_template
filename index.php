@@ -78,7 +78,7 @@ obApi('track', 'PAGE_VIEW');
 
 
 </head>
-<body style="background: transparent !important;">
+<body>
 <form class="formCC" autocomplete="off" method="post" action="register_action.php">
     <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
     <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
@@ -110,10 +110,10 @@ obApi('track', 'PAGE_VIEW');
                         <span class="wpcf7-form-control-wrap phone"><input type="text" name="MobilePhone" id="MobilePhone" value="" size="80" maxlength="11" minlength="9" class="rounded wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="MOBILE NUMBER" required></span>
                     </div>
                     <div class="cf-item cf-reg-input">
-                        <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="80" class="rounded wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="VALID EMAIL" required></span>
+                        <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="80" class="rounded wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="EMAIL" required></span>
                     </div>
                 </div>
-                <div style="width: 98%;">
+                <div class="cf-btn-wrapper">
                     <button class="cf-submit-btn" type="submit" value="Get 25% OFF" >
                         <span>Yes, I want my 25% disccount & a free gift!</span>
                     </button>

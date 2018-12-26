@@ -172,22 +172,12 @@ button, input[type=submit] {
     display: none;
 }
 
-.cf-reg-input {
-    //float: none !important;
-    width: 32% !important;
-    margin-bottom: 20px;
-}
-
-.cf-reg-input input {
-    height: 50px;
-    border: 1px solid #D8D8D8 !important;
-    border-radius: 6px;
-    box-shadow: none;
-}
-
 .cf-submit-btn {
     background-color: #0099ff;
-    border: none; color: #000000; cursor: pointer; font-weight: bold;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
     height: 65px;
     width: calc(100% - 60px) !important;
 }
@@ -209,4 +199,44 @@ button, input[type=submit] {
     background-color: #00AEEF;
     cursor: pointer;
     color: white;
+}
+
+.cf-reg-input input {
+    height: 50px;
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.cf-btn-wrapper {
+    width: 98%;
+}
+
+.cf-reg-input span {
+    float: none !important;
+}
+
+@media screen and (min-width: 767px) {
+    .cf-reg-input {
+        width: 32% !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .cf-reg-input {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .cf-btn-wrapper {
+        width: 100% !important;
+    }
+    .cf-submit-btn span {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .cf-submit-btn span {
+        font-size: 17px !important;
+    }
 }
