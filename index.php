@@ -26,10 +26,9 @@ if($color == 2){
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Bcure Iframe</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <title>Bcure </title>
     <link href="iframe.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script type='text/javascript'>
   window._tfa = window._tfa || [];
   window._tfa.push({notify: 'event', name: 'page_view', id: 1150032});
@@ -79,7 +78,7 @@ obApi('track', 'PAGE_VIEW');
 
 
 </head>
-<body>
+<body style="background: transparent !important;">
 <form class="formCC" autocomplete="off" method="post" action="register_action.php">
     <input type="hidden" name="goto" id="goto" value="<?=$paymentPage ?>">
     <input type="hidden" name="fromWhere" id="fromWhere" value="LP">
@@ -96,41 +95,40 @@ obApi('track', 'PAGE_VIEW');
     <input type="hidden" name="m" id="m" value="<?=$m?>">
     <p class="alert"></p>
     <div dir="ltr">
-        <div class="custom-cf style-cf-1 clearfix" style="background:#fff; border:0px;">
+        <div class="custom-cf style-cf-1 clearfix" style="border:0px; width: 90%;">
             <!--div class="custom-cf-title" style="text-align:left;">One of Our Experts Is Waiting for You</div>
             <p></p-->
+
+            <!--h1 style="font-weight: bolder; font-size: 35px; font-family: Arial, Helvetica, sans-serif;">Now On a special offer - 25% off + free gift</h1-->
                 <div class="cf-input-wrap clearfix">
-                    <div class="cf-item">
+                    <div class="cf-item cf-reg-input">
                         <span class="wpcf7-form-control-wrap name">
-                            <input type="text" name="first_name" id="first_name" value="" size="40" class="rounded wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name">
+                            <input type="text" name="first_name" id="first_name" value="" size="80" class="rounded wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="FULL NAME" required>
                         </span>
                     </div>
-                    <div class="cf-item">
-                        <span class="wpcf7-form-control-wrap phone"><input type="text" name="MobilePhone" id="MobilePhone" value="" size="40" maxlength="11" minlength="9" class="rounded wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mobile Number"></span>
+                    <div class="cf-item cf-reg-input">
+                        <span class="wpcf7-form-control-wrap phone"><input type="text" name="MobilePhone" id="MobilePhone" value="" size="80" maxlength="11" minlength="9" class="rounded wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="MOBILE NUMBER" required></span>
                     </div>
-                    <div class="cf-item">
-                        <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="40" class="rounded wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Valid Email"></span>
+                    <div class="cf-item cf-reg-input">
+                        <span class="wpcf7-form-control-wrap email"><input type="email" name="email" id="email" value="" size="80" class="rounded wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="VALID EMAIL" required></span>
                     </div>
                 </div>
-                <div >
-			
-				 <button type="submit" value="Get 25% OFF" style="border: none;background: url('cm.png') no-repeat scroll 0 0 transparent;
-  color: #000000;
-  cursor: pointer;
-  font-weight: bold;
-  height: 55px;
-  padding-bottom: 0px;
-  width: 204px;" ></button>
-                  
+                <div style="width: 98%;">
+                    <button class="cf-submit-btn" type="submit" value="Get 25% OFF" >
+                        <span>Yes, I want my 25% disccount & a free gift!</span>
+                    </button>
+                    <span class="glyphicon glyphicon-chevron-right cf-chevron"></span>
                 </div>
-            <p>
-            </p>
+          
         </div>
     </div>
 </form>
 <script src="LP1/js/jquery-3.3.1.min.js"></script>
 <script>
 $(document).ready(function() {
+    $('.cf-chevron').click(function (e) {
+        $('.cf-submit-btn').click();
+    });
     $(".formCC").submit(function(e) {
         e.preventDefault();
         var form = $(this);
@@ -151,7 +149,7 @@ $(document).ready(function() {
                     parentDiv.append(inhtml);
 					obApi('track', 'Leads New');
 					 _tfa.push({notify: 'event', name: 'lead', id: 1150032});
-					
+
 					 gtag('event', 'Lead', {
   'event_category': 'Registration',
   'event_label': '',
