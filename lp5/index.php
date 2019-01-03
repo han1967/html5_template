@@ -1,6 +1,101 @@
-<!DOCTYPE html>
+<?php
+if(!isset($_SESSION)){
+    session_start();
+}
+//echo date('Y-m-d H:i:s',strtotime('+2 Hours'));
+if(isset($_GET['a'])){
+    $_SESSION['a'] = $_GET['a'];
+}
+if(isset($_GET['r'])){
+    $_SESSION['r'] = $_GET['r'];
+}
+if(isset($_GET['t'])){
+    $_SESSION['t'] = $_GET['t'];
+}
+if(isset($_GET['m'])){
+    $_SESSION['m'] = $_GET['m'];
+}
+else {
+    $_SESSION['m'] = 0;
+}
 
-<html lang="en" class="clickfunnels-com bgCover wf-proximanova-i4-active wf-proximanova-i7-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active wf-proximanova-i3-active wf-proximanova-n3-active elFont_helvectica wf-proximanovasoft-n4-active wf-proximanovasoft-n7-active wf-proximasoft-n4-active wf-proximasoft-i4-active wf-proximasoft-i6-active wf-proximasoft-n6-active wf-proximasoft-i7-active wf-proximasoft-n7-active " style="overflow: initial; background-color: rgb(247, 247, 247);"><script type="text/javascript" src="./bcure-laser-uk_files/df2f56cbfb"></script><script src="./bcure-laser-uk_files/nr-1099.min.js.download"></script><script type="text/javascript" id="www-widgetapi-script" src="./bcure-laser-uk_files/www-widgetapi.js.download" async=""></script><script src="./bcure-laser-uk_files/iframe_api"></script><script type="text/javascript" async="" src="./bcure-laser-uk_files/vendor.js.download"></script><script type="text/javascript" async="" src="./bcure-laser-uk_files/f.txt"></script><script type="text/javascript" async="" src="./bcure-laser-uk_files/analytics.js.download"></script><script src="./bcure-laser-uk_files/316262392168641" async=""></script><script id="facebook-jssdk" src="./bcure-laser-uk_files/sdk.js.download"></script><script async="" src="./bcure-laser-uk_files/keen-tracking-1.0.3.min.js.download"></script><head ><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+$date = strtotime(date('Y/m/d'));
+$sevenPlus = '';
+$dateArr = [];
+$today = date('Y/m/d');
+for ($i=0;$i<= 6;$i++){
+    $sevenPlus = date('Y/m/d',strtotime('+'.$i.' days',strtotime($today)));
+    $sevenPlus = date('d F ', strtotime($sevenPlus));
+    array_push($dateArr,$sevenPlus);
+}
+$sel = "<select data-form-control=\"\" data-brand-color=\"border:focus | &amp;:focus + fill\" class=\"cp-form-control__control cp-form-simple-control cp-form-simple-control--select\" id=\"month-day\">";
+foreach ($dateArr as $value){
+    $sel .= "<option>".$value."</option>";
+}
+$sel .="</select>";
+
+?>
+<!DOCTYPE html>
+<html dir="LTR" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>B-Cure Laser</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/callpage-callback.default.css">
+    <link rel="stylesheet" href="js/tel/build/css/intlTelInput.css">
+    <?php include_once "../register_assets.php" ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120830425-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120830425-1');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '115173512735053');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display: none;"
+  src="https://www.facebook.com/tr?id=115173512735053&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script type="text/javascript">
+    window._mfq = window._mfq || [];
+    (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.async = true;
+        mf.src = "//cdn.mouseflow.com/projects/0f8d1546-8fa7-4299-a65a-e4eecc2ebf32.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+</script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5125541.js"></script>
+<!-- End of HubSpot Embed Code -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta content="utf-8" http-equiv="encoding">
 <meta name="viewport" content="initial-scale=1">
@@ -73,24 +168,25 @@
 </div>
 <div class="row bgCover borderSolid cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin border1px noBorder" id="row--86763" data-trigger="none" data-animate="fade" data-delay="500" data-title="right sidebar row" style="outline: none; border-color: rgba(47, 47, 47, 0.137); padding-top: 20px; padding-bottom: 20px; margin: 0px; background-color: rgb(246, 246, 246); width: auto;">
 <div id="col-left-730-123" class="col-md-8 innerContent col_left ui-resizable" data-col="left" data-trigger="none" data-animate="fade" data-delay="500" data-title="left column" style="outline: none;"><div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin"><div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_image-49284-148" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 30px; outline: none; cursor: pointer;" aria-disabled="false">
-<img src="banner_13.png" class="elIMG ximg" alt="" height="" width="PX"><img src="device.jpg" class="elIMG ximg" alt="" height="" width="PX">
-</div></div></div>
+<img src="banner_13.png" class="elIMG ximg" alt="" height="" width="PX"><img src="device.jpg" class="elIMG ximg" alt="" height="" width="100%">
+</div><div style="direction: LTR;"><b>Helps relieve symptomatic pain AND treat the source of the problem by speeding up the body's natural recovery process!</b></div></div></div>
 <div id="col-right-395-164" class="col-md-4 innerContent col_right ui-resizable" data-col="right" data-trigger="none" data-animate="fade" data-delay="500" data-title="Right column" style="outline: none;"><div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="background-color: rgb(246, 246, 246);">
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-16427-172" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="cursor: pointer; outline: none;" aria-disabled="false">
-<div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize21" style="text-align: center;" data-bold="inherit" contenteditable="false"><b>B-Cure Laser</b></div>
+<div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize21" style="text-align: center;" data-bold="inherit" contenteditable="false"><BR><b>B-Cure Laser</b></div>
 </div>
 <div class="de elImageWrapper de-image-block elMargin0 ui-droppable elAlign_center de-editable" id="tmp_image-70085-174" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false">
 <img src="./bcure-laser-uk_files/5-stars-icons-800x138.png" class="elIMG ximg" alt="" height="20">
 </div>
+
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_paragraph-12458-184" data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 15px; outline: none; cursor: pointer;" aria-disabled="false">
-<div class="ne elHeadline hsSize1 lh5 elMargin0 elBGStyle0 hsTextShadow0" data-bold="inherit" style="text-align: center; font-size: 14px;" data-gramm="false" contenteditable="false">
+<div class="ne elHeadline hsSize1 lh5 elMargin0 elBGStyle0 hsTextShadow0" data-bold="inherit" style="text-align: center; font-size: 15px;" data-gramm="false" contenteditable="false">
 <div style="direction: LTR;">
 <b style="color: inherit;">The next generation of Low Level Laser Therapy is now available in the UK!
 </b><br>
 </div>
 <div style="direction: LTR;"><b style="color: inherit;"><br></b></div>
 <div style="direction: LTR;">
-<b>B-Cure Laser</b>a revolutionary device for pain relief:<br><br>
+<b>B-Cure Laser</b> a revolutionary device for pain relief:<br><br>
 </div>
 <div>
 <div style="direction: LTR;"><span style="color: inherit;">• May help in relieving a variety of conditions such as  Carpal Tunnel Syndrome, Fibromyalgia, Myofascial Pain Syndromes, joint pain, Arthritis, sport injuries and many more.
@@ -100,8 +196,7 @@
 </div>
 
 <div style="direction: LTR;"><br></div>
-<div style="direction: LTR;"><b>Helps relieve symptomatic pain AND treat the source of the problem by speeding up the body's natural recovery process!
-!</b></div>
+
 </div>
 </div>
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_paragraph-81536-184" data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 15px; outline: none; cursor: pointer;" aria-disabled="false">
@@ -110,13 +205,16 @@
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-51298-150" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="cursor: pointer; outline: none; margin-top: 0px;" aria-disabled="false">
 <div class="ne elHeadline hsSize3 lh3 elMargin0 elBGStyle0 hsTextShadow0" style="text-align: center; color: rgb(162, 0, 0);" data-bold="inherit" contenteditable="false"><div style="direction: LTR;"><b></b></div></div>
 </div>
-<div style="background-color: #f18b0b !important; " class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-80668-129" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false" data-elbuttontype="1">
-<span class="" style="color: rgb(255, 255, 255); background-color: #f18b0b; font-size: 27px;">
-<span class="elButtonMain">Get Your discount & a free gift:</span><span style="font-size: 10px;">
-<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/regframe.php?a=na&t=nt&r=" width="100%" height="260px"></iframe>
+<div style="background-color: #f18b0b !important; " class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-80668-129" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="0" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false" data-elbuttontype="1">
+<span class="" style="color: rgb(255, 255, 255); background-color: #f18b0b; font-size: 27px;">  
+<span class="elButtonMain" >Fill in Your Details:</span><span style="font-size: 10px;">
+<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=na&t=nt&r=" width="100%" height="220px"></iframe>
 </span></div>
-<div class="de elImageWrapper de-image-block elAlign_center elMargin0 ui-droppable de-editable" id="tmp_image-82841-146" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false">
-<img src="mbg.png" class="elIMG ximg" alt="" width="" height="60">30 Days Money Back Guarantee
+<div class="de elImageWrapper de-image-block elAlign_left elMargin0 ui-droppable de-editable" id="tmp_image-82841-146" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false">
+<img src="icon_mbg.png" class="elIMG ximg" alt="" width="" height="80" style="font-size: 20px;"><B>30 Days Money Back Guarantee</B>
+</div>
+<div class="de elImageWrapper de-image-block elAlign_left elMargin0 ui-droppable de-editable" id="tmp_image-82841-146" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false">
+<img src="icon_free_shipping.png" class="elIMG ximg" alt="" width="" height="80"  style="font-size: 20px;"><b>FREE Shipping</b>
 </div>
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-69248-134" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="cursor: pointer; outline: none; margin-top: 10px;" aria-disabled="false">
 <div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize1" style="text-align: center;" data-bold="inherit" contenteditable="false"></div>
@@ -200,10 +298,10 @@
 <div class="row bgCover noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" id="row--47423" data-trigger="none" data-animate="fade" data-delay="500" data-title="1 column row" style="padding-top: 20px; padding-bottom: 20px; margin: 0px; outline: none;">
 <div id="col-full-163" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
 <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-53884" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer;" data-element-theme="customized" data-elbuttontype="1" aria-disabled="false">
-<span style="font-size:27px;">Yes, I want to enjoy the 25% off discount & a free gift!
-<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/regframe.php?a=na&t=nt&r=" width="100%" height="260px"></iframe>
+<span style="font-size:27px;background:yellow;">Yes, I want to enjoy the 25% off discount & a free gift!</span>
+<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=na&t=nt&r=" width="100%" height="260px"></iframe>
 
-</span>
+
 </div>
 </div>
 </div>

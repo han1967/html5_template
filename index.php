@@ -115,7 +115,7 @@ obApi('track', 'PAGE_VIEW');
                 </div>
                 <div class="cf-btn-wrapper">
                     <button class="cf-submit-btn" type="submit" value="Get 25% OFF" >
-                        <span>Yes, I want my 25% disccount & a free gift!</span>
+                        <span>Yes, I Want My 25% Discount & a Free Gift!</span>
                     </button>
                     <span class="glyphicon glyphicon-chevron-right cf-chevron"></span>
                 </div>

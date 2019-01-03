@@ -106,7 +106,7 @@ button, input[type=submit] {
     color:#000;
 }
 .custom-cf .cf-input-wrap {
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 .custom-cf.style-cf-1 .cf-item {
     width: 25.5%;
@@ -137,7 +137,7 @@ button, input[type=submit] {
     .custom-cf.style-cf-1 .cf-item, .custom-cf.style-cf-2 .cf-item {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
     .custom-cf .cf-item input {
         font-size: 0.93em;
@@ -145,7 +145,7 @@ button, input[type=submit] {
     .custom-cf.style-cf-1 .cf-item, .custom-cf.style-cf-2 .cf-item {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
     .custom-cf .cf-button-wrap input {
         font-size: 1.4em;
@@ -178,7 +178,7 @@ button, input[type=submit] {
     color: #000000;
     cursor: pointer;
     font-weight: bold;
-    height: 65px;
+    height: 55px;
     width: calc(100% - 60px) !important;
 }
 
@@ -190,10 +190,10 @@ button, input[type=submit] {
 }
 
 .cf-chevron {
-    height: 65px;
+    height: 55px;
     width: 60px;
     top: -0.5px !important;
-    padding: 10px;
+    padding: 6px;
     float: right;
     font-size: 40px;
     background-color: #00AEEF;
