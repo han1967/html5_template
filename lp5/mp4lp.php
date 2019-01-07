@@ -5,13 +5,21 @@ if(!isset($_SESSION)){
 //echo date('Y-m-d H:i:s',strtotime('+2 Hours'));
 if(isset($_GET['a'])){
     $_SESSION['a'] = $_GET['a'];
-}
+} else{
+             $_SESSION['a'] = '';
+        }
 if(isset($_GET['r'])){
     $_SESSION['r'] = $_GET['r'];
-}
+} else{
+             $_SESSION['r'] = '';
+        }
+
 if(isset($_GET['t'])){
     $_SESSION['t'] = $_GET['t'];
-}
+} else{
+             $_SESSION['t'] = '';
+        }
+
 if(isset($_GET['m'])){
     $_SESSION['m'] = $_GET['m'];
 }
@@ -210,7 +218,7 @@ powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target=
 </div><div style="direction: LTR;"><b>Helps relieve symptomatic pain AND treat the source of the problem by speeding up the body's natural recovery process!</b></div></div></div>
 <div id="col-right-395-164" class="col-md-4 innerContent col_right ui-resizable" data-col="right" data-trigger="none" data-animate="fade" data-delay="500" data-title="Right column" style="outline: none;"><div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" style="background-color: rgb(246, 246, 246);">
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_headline1-16427-172" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="cursor: pointer; outline: none;" aria-disabled="false">
-<div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize21" style="text-align: center;" data-bold="inherit" contenteditable="false"><BR><b>B-Cure Laser</b></div>
+<div class="ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize21" style="text-align: center;" data-bold="inherit" contenteditable="false"  style="font-size: 20px;"><BR><b>B-Cure Laser</b></div>
 </div>
 <div class="de elImageWrapper de-image-block elMargin0 ui-droppable elAlign_center de-editable" id="tmp_image-70085-174" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 5px; outline: none; cursor: pointer;" aria-disabled="false">
 <img src="./bcure-laser-uk_files/5-stars-icons-800x138.png" class="elIMG ximg" alt="" height="20">
@@ -219,15 +227,15 @@ powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target=
 <div class="de elHeadlineWrapper ui-droppable de-editable" id="tmp_paragraph-12458-184" data-de-type="headline" data-de-editing="false" data-title="Paragraph" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 15px; outline: none; cursor: pointer;" aria-disabled="false">
 <div class="ne elHeadline hsSize1 lh5 elMargin0 elBGStyle0 hsTextShadow0" data-bold="inherit" style="text-align: center; font-size: 15px;" data-gramm="false" contenteditable="false">
 <div style="direction: LTR;">
-<b style="color: inherit;">The next generation of Low Level Laser Therapy is now available in the UK!
+<b style="color: inherit;font-size: 16px; ">The next generation of Low Level Laser Therapy is now available in the UK!
 </b><br>
 </div>
 <div style="direction: LTR;"><b style="color: inherit;"><br></b></div>
-<div style="direction: LTR;">
+<div style="direction: LTR;font-size: 16px; ">
 <b>B-Cure Laser</b> a revolutionary device for pain relief:<br><br>
 </div>
 <div>
-<div style="direction: LTR;"><span style="color: inherit;">• May help in relieving a variety of conditions such as  Carpal Tunnel Syndrome, Fibromyalgia, Myofascial Pain Syndromes, joint pain, Arthritis, sport injuries and many more.
+<div style="direction: LTR;"><span style="color: inherit;ont-size: 14px;">• May help in relieving a variety of conditions such as  Carpal Tunnel Syndrome, Fibromyalgia, Myofascial Pain Syndromes, joint pain, Arthritis, sport injuries and many more.
 • Easy and safe to use at home.
 • Non-invasive, no known side effects.
 </span></div>
@@ -246,7 +254,7 @@ powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target=
 <div style="background-color: #f18b0b !important; " class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-80668-129" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="0" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false" data-elbuttontype="1">
 <span class="" style="color: rgb(255, 255, 255); background-color: #f18b0b; font-size: 27px;">  
 <span class="elButtonMain" >I want to hear more and get the discount offer:</span><span style="font-size: 10px;">
-<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=na&t=nt&r=" width="100%" height="220px"></iframe>
+<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=<?=$_SESSION['a'];?>&t=<?=$_SESSION['t'];?>" width="100%" height="220px"></iframe>
 </span></div>
 <div class="de elImageWrapper de-image-block elAlign_left elMargin0 ui-droppable de-editable" id="tmp_image-82841-146" data-de-type="img" data-de-editing="false" data-title="image" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: none; cursor: pointer; margin-top: 10px;" aria-disabled="false">
 <img src="icon_mbg.png" class="elIMG ximg" alt="" width="" height="80" style="font-size: 20px;"><B>30 Days Money Back Guarantee</B>
@@ -337,7 +345,7 @@ powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener" target=
 <div id="col-full-163" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="1st column" style="outline: none;">
 <div class="de elBTN elAlign_center elMargin0 ui-droppable de-editable" id="tmp_button-53884" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 0px; outline: none; cursor: pointer;" data-element-theme="customized" data-elbuttontype="1" aria-disabled="false">
 <span style="font-size:27px;background:yellow;">I want to hear more and get the discount offer</span>
-<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=na&t=nt&r=" width="100%" height="260px"></iframe>
+<iframe style="border: none; overflow: hidden; min-height: 260px;" src="https://bcure.bwelltime.com/index.php?a=<?=$_SESSION['a'];?>&t=<?=$_SESSION['t'];?>" width="100%" height="260px"></iframe>
 
 
 </div>
