@@ -1,6 +1,6 @@
 <%
  set Conn= server.CreateObject("ADODB.connection")
-  ConnStr="Provider=SQLOLEDB;Persist Security Info=False;User ID=AdmiralDB;Password=al557575222H;Initial Catalog=Bcure;Data Source=52.56.35.63;"
+  ConnStr="Provider=SQLOLEDB;Persist Security Info=False;User ID=;Password=;Initial Catalog=Bcure;Data Source=;"
   'response.write ConnStr
   Conn.Open ConnStr
 
