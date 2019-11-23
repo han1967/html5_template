@@ -4,7 +4,7 @@ if (isset($_GET['status']) && $_GET['status']==1)
     $status = 'on';
 function CurlSendPostRequest($url,$request)
 {
-    $authentication = base64_encode("LottoBooking:23d83a5270087435bef1657ed5728eff");
+    $authentication = base64_encode("test:13d83a5270087435bef1657ed5728eff");
 
     $ch = curl_init($url);
     $options = array(
@@ -24,8 +24,8 @@ function CurlSendPostRequest($url,$request)
         CURLOPT_SSL_VERIFYPEER => false,        //
         CURLOPT_VERBOSE        => 1,
         CURLOPT_HTTPHEADER     => array(
-            "X-Auth-Email: martin@lottonetix.io",
-            "X-Auth-Key: 7e8944ca583cd7a9ff60e648fa20e47c45229",
+            "X-Auth-Email: test@email.com",
+            "X-Auth-Key: 5e8944ca583cd7a9ff60e648fa20e47c45243",
             "Content-Type: application/json"
         )
 
